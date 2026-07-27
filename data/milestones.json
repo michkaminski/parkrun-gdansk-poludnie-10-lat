@@ -1,0 +1,107 @@
+[
+  {
+    "type": "first_edition",
+    "title": "Pierwsza edycja",
+    "date": "2016-07-30",
+    "editionNumber": 1,
+    "value": 246
+  },
+  {
+    "type": "anniversary",
+    "title": "Rocznica 1",
+    "date": "2017-07-29",
+    "editionNumber": 52,
+    "value": 171
+  },
+  {
+    "type": "anniversary",
+    "title": "Rocznica 2",
+    "date": "2018-07-28",
+    "editionNumber": 106,
+    "value": 84
+  },
+  {
+    "type": "anniversary",
+    "title": "Rocznica 3",
+    "date": "2019-07-27",
+    "editionNumber": 159,
+    "value": 93
+  },
+  {
+    "type": "anniversary",
+    "title": "Rocznica 4",
+    "date": "2020-03-07",
+    "editionNumber": 193,
+    "value": 82
+  },
+  {
+    "type": "anniversary",
+    "title": "Rocznica 5",
+    "date": "2021-07-31",
+    "editionNumber": 201,
+    "value": 81
+  },
+  {
+    "type": "anniversary",
+    "title": "Rocznica 6",
+    "date": "2022-07-30",
+    "editionNumber": 253,
+    "value": 72
+  },
+  {
+    "type": "anniversary",
+    "title": "Rocznica 7",
+    "date": "2023-07-29",
+    "editionNumber": 307,
+    "value": 124
+  },
+  {
+    "type": "anniversary",
+    "title": "Rocznica 8",
+    "date": "2024-07-27",
+    "editionNumber": 361,
+    "value": 102
+  },
+  {
+    "type": "anniversary",
+    "title": "Rocznica 9",
+    "date": "2025-08-02",
+    "editionNumber": 416,
+    "value": 148
+  },
+  {
+    "type": "anniversary",
+    "title": "Rocznica 10",
+    "date": "2026-06-27",
+    "editionNumber": 464,
+    "value": 137
+  },
+  {
+    "type": "record_attendance",
+    "title": "Rekord frekwencji",
+    "date": "2024-12-28",
+    "editionNumber": 384,
+    "value": 328
+  },
+  {
+    "type": "gap",
+    "title": "Przerwa 462 dni",
+    "date": "2021-06-12",
+    "editionNumber": 193,
+    "value": 462
+  },
+  {
+    "type": "gap",
+    "title": "Przerwa 14 dni",
+    "date": "2016-09-10",
+    "editionNumber": 5,
+    "value": 14
+  },
+  {
+    "type": "gap",
+    "title": "Przerwa 14 dni",
+    "date": "2019-01-26",
+    "editionNumber": 132,
+    "value": 14
+  }
+]
