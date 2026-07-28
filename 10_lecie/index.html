@@ -57,7 +57,7 @@
       <div class="section-head">
         <span class="section-kicker">Frekwencja</span>
         <h2>Jak rośliśmy przez 10 lat</h2>
-        <p>Od garstki 246 osób na pierwszej edycji do rekordowych 328 uczestników — ze śladem przerwy pandemicznej.</p>
+        <p>Od 246 osób na pierwszej edycji do rekordowych 328 uczestników — ze śladem przerwy pandemicznej.</p>
       </div>
       <div class="chart-grid">
         <article class="chart-card full-width">
@@ -223,31 +223,17 @@
         <div class="table-card">
           <h3>Najwięcej startów</h3>
           <p class="chart-caption">Top uczestnicy wg liczby startów w historii parkrunu.</p>
-          <div class="split-table-row">
-            <div class="table-scroll">
-              <table class="data-table" id="table-top-runners-a" data-default-sort="starts_count" data-default-dir="desc">
-                <thead><tr>
-                  <th data-key="rank">#</th>
-                  <th data-key="name">Uczestnik</th>
-                  <th data-key="starts_count">Starty</th>
-                  <th data-key="first_start">Pierwszy start</th>
-                  <th data-key="last_start">Ostatni start</th>
-                </tr></thead>
-                <tbody></tbody>
-              </table>
-            </div>
-            <div class="table-scroll">
-              <table class="data-table" id="table-top-runners-b" data-default-sort="starts_count" data-default-dir="desc">
-                <thead><tr>
-                  <th data-key="rank">#</th>
-                  <th data-key="name">Uczestnik</th>
-                  <th data-key="starts_count">Starty</th>
-                  <th data-key="first_start">Pierwszy start</th>
-                  <th data-key="last_start">Ostatni start</th>
-                </tr></thead>
-                <tbody></tbody>
-              </table>
-            </div>
+          <div class="table-scroll">
+            <table class="data-table" id="table-top-runners" data-default-sort="starts_count" data-default-dir="desc">
+              <thead><tr>
+                <th data-key="rank">#</th>
+                <th data-key="name">Uczestnik</th>
+                <th data-key="starts_count">Starty</th>
+                <th data-key="first_start">Pierwszy start</th>
+                <th data-key="last_start">Ostatni start</th>
+              </tr></thead>
+              <tbody></tbody>
+            </table>
           </div>
         </div>
 
@@ -442,6 +428,8 @@
   </section>
 
 </main>
+
+<button type="button" id="back-to-top" class="back-to-top" aria-label="Wróć na górę strony">↑</button>
 
 <div class="modal-overlay" id="modal-overlay" hidden>
   <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">

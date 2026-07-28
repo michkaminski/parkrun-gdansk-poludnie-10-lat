@@ -219,6 +219,43 @@ p { margin: 0; }
   font-weight: 600;
 }
 .site-nav a:hover { color: var(--text-primary); }
+.site-nav a.active {
+  color: var(--brand-teal);
+  box-shadow: 0 2px 0 var(--brand-teal);
+}
+
+/* Zawsze widoczny przycisk powrotu na gore - potrzebny na bardzo dlugiej
+   stronie glownej (kilkanascie ekranow scrolla), zeby nie trzeba bylo
+   przewijac recznie z powrotem do hero/KPI. */
+.back-to-top {
+  position: fixed;
+  right: var(--space-4);
+  bottom: var(--space-4);
+  z-index: 60;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid var(--card-border);
+  background: var(--card-bg);
+  color: var(--text-primary);
+  font-size: 1.15rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--card-shadow);
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(8px);
+  transition: opacity 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+}
+.back-to-top.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+.back-to-top:hover { border-color: var(--brand-gold); }
 
 .theme-toggle {
   appearance: none;
@@ -512,11 +549,24 @@ table.data-table td.rank-cell {
   gap: var(--space-4);
 }
 
-/* Jedna tabela (np. Najwiecej startow) rozbita na dwie kolumny obok siebie */
-.split-table-row {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
-  gap: var(--space-3);
+/* Przycisk "Pokaz wszystkie / Zwin" pod tabelami domyslnie zwinietymi do
+   top 10 (patrz options.collapseAfter w makeSortableTable, main.js) -
+   glowny mechanizm skracania bardzo dlugiej strony glownej. */
+.table-expand-toggle {
+  display: block;
+  margin: var(--space-3) auto 0;
+  padding: 8px 18px;
+  border: 1px solid var(--card-border);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--brand-teal);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.table-expand-toggle:hover {
+  background: var(--card-bg);
+  border-color: var(--brand-teal);
 }
 
 /* -------------------------------- Timeline -------------------------------- */
@@ -651,7 +701,7 @@ tr.is-clickable:hover { background: color-mix(in srgb, var(--brand-teal) 14%, tr
 /* -------------------------------- Responsywnosc -------------------------------- */
 @media (max-width: 640px) {
   .site-nav a:not(.theme-toggle) { display: none; }
-  .chart-grid, .tables-grid-pair, .split-table-row { grid-template-columns: 1fr; }
+  .chart-grid, .tables-grid-pair { grid-template-columns: 1fr; }
   .chart-canvas-wrap { height: 260px; }
   .chart-canvas-wrap.tall { height: 320px; }
 }

@@ -250,14 +250,36 @@
   // -------------------------------------------------------------------
   // Sortowalne tabele
   // -------------------------------------------------------------------
-  function makeSortableTable(tableId, rows, columns) {
+  // options.collapseAfter: gdy podane i rows.length je przekracza, tabela
+  // domyslnie pokazuje tylko pierwsze N (posortowanych) wierszy, z przyciskiem
+  // "Pokaz wszystkie / Zwin" pod tabela. Stan rozwiniecia przetrwa zmiane
+  // sortowania (nie resetuje sie przy kazdym kliknieciu naglowka). Glowny
+  // mechanizm skracania bardzo dlugiej strony glownej (patrz duze tabele
+  // typu top biegacze/wolontariusze, gdzie 40+ wierszy widac dopiero po
+  // kliknieciu).
+  function makeSortableTable(tableId, rows, columns, options) {
     const table = document.getElementById(tableId);
     if (!table) return;
     const tbody = table.querySelector("tbody");
     const ths = table.querySelectorAll("thead th[data-key]");
+    const collapseAfter = options && options.collapseAfter;
 
     let sortKey = table.dataset.defaultSort || null;
     let sortDir = table.dataset.defaultDir || "desc";
+    let expanded = false;
+
+    let toggleBtn = null;
+    if (collapseAfter && rows.length > collapseAfter) {
+      toggleBtn = document.createElement("button");
+      toggleBtn.type = "button";
+      toggleBtn.className = "table-expand-toggle";
+      const scrollWrap = table.closest(".table-scroll") || table;
+      scrollWrap.insertAdjacentElement("afterend", toggleBtn);
+      toggleBtn.addEventListener("click", () => {
+        expanded = !expanded;
+        render();
+      });
+    }
 
     function render() {
       let sorted = rows.slice();
@@ -275,7 +297,9 @@
         });
       }
 
-      tbody.innerHTML = sorted
+      const visible = collapseAfter && !expanded ? sorted.slice(0, collapseAfter) : sorted;
+
+      tbody.innerHTML = visible
         .map((row, i) => {
           const cells = columns
             .map((col) => {
@@ -293,6 +317,11 @@
         th.classList.remove("sorted-asc", "sorted-desc");
         if (th.dataset.key === sortKey) th.classList.add(sortDir === "asc" ? "sorted-asc" : "sorted-desc");
       });
+
+      if (toggleBtn) {
+        toggleBtn.textContent = expanded ? "Zwiń ↑" : `Pokaż wszystkie ${numberFmt.format(rows.length)} →`;
+        toggleBtn.setAttribute("aria-expanded", String(expanded));
+      }
     }
 
     ths.forEach((th) => {
@@ -321,92 +350,19 @@
     render();
   }
 
-  // Jak makeSortableTable, ale dzieli jedna posortowana liste na kilka
-  // tabel obok siebie (np. 1-25 w pierwszej, 26-50 w drugiej) - klikniecie
-  // naglowka w KTORYMKOLWIEK z nich resortuje cala liste i przelicza podzial
-  // od nowa. Numeracja miejsc (#) biegnie ciagle przez wszystkie tabele.
-  function makeSplitSortableTable(tableIds, rows, columns) {
-    const tables = tableIds.map((id) => document.getElementById(id)).filter(Boolean);
-    if (!tables.length) return;
-    const tbodies = tables.map((t) => t.querySelector("tbody"));
-    const allThs = tables.flatMap((t) => Array.from(t.querySelectorAll("thead th[data-key]")));
-
-    let sortKey = tables[0].dataset.defaultSort || null;
-    let sortDir = tables[0].dataset.defaultDir || "desc";
-
-    function render() {
-      let sorted = rows.slice();
-      if (sortKey) {
-        sorted.sort((a, b) => {
-          const av = a[sortKey];
-          const bv = b[sortKey];
-          let cmp;
-          if (typeof av === "number" && typeof bv === "number") {
-            cmp = av - bv;
-          } else {
-            cmp = String(av).localeCompare(String(bv), "pl");
-          }
-          return sortDir === "asc" ? cmp : -cmp;
-        });
-      }
-
-      const perTable = Math.ceil(sorted.length / tables.length);
-      tbodies.forEach((tbody, tableIndex) => {
-        const offset = tableIndex * perTable;
-        const chunk = sorted.slice(offset, offset + perTable);
-        tbody.innerHTML = chunk
-          .map((row, i) => {
-            const cells = columns
-              .map((col) => {
-                if (col.key === "rank") return `<td class="rank-cell">${offset + i + 1}</td>`;
-                const value = col.render ? col.render(row) : row[col.key];
-                const cls = col.key === "name" ? ' class="cell-name"' : "";
-                return `<td${cls}>${value}</td>`;
-              })
-              .join("");
-            return `<tr>${cells}</tr>`;
-          })
-          .join("");
-      });
-
-      allThs.forEach((th) => {
-        th.classList.remove("sorted-asc", "sorted-desc");
-        if (th.dataset.key === sortKey) th.classList.add(sortDir === "asc" ? "sorted-asc" : "sorted-desc");
-      });
-    }
-
-    allThs.forEach((th) => {
-      if (th.dataset.key === "rank") return;
-      if (!th.querySelector(".sort-arrow")) {
-        const arrow = document.createElement("span");
-        arrow.className = "sort-arrow";
-        arrow.textContent = "↕";
-        th.appendChild(arrow);
-      }
-      th.addEventListener("click", () => {
-        const key = th.dataset.key;
-        if (sortKey === key) {
-          sortDir = sortDir === "asc" ? "desc" : "asc";
-        } else {
-          sortKey = key;
-          const sample = rows.find((r) => r[key] !== undefined && r[key] !== null);
-          sortDir = sample && typeof sample[key] === "number" ? "desc" : "asc";
-        }
-        render();
-      });
-    });
-
-    render();
-  }
-
   function renderHallOfFame(data) {
-    makeSplitSortableTable(["table-top-runners-a", "table-top-runners-b"], data.top_runners, [
-      { key: "rank" },
-      { key: "name" },
-      { key: "starts_count" },
-      { key: "first_start", render: (r) => dateFmt(r.first_start) },
-      { key: "last_start", render: (r) => dateFmt(r.last_start) },
-    ]);
+    makeSortableTable(
+      "table-top-runners",
+      data.top_runners,
+      [
+        { key: "rank" },
+        { key: "name" },
+        { key: "starts_count" },
+        { key: "first_start", render: (r) => dateFmt(r.first_start) },
+        { key: "last_start", render: (r) => dateFmt(r.last_start) },
+      ],
+      { collapseAfter: 10 }
+    );
 
     makeSortableTable("table-best-times-women", data.best_times.top_women, [
       { key: "rank" },
@@ -430,53 +386,75 @@
         `<a href="category.html?cat=${encodeURIComponent(r.category)}" target="_blank" rel="noopener">${r.category}</a>`,
     };
 
-    makeSortableTable("table-best-by-category-women", data.best_times.by_category_women, [
-      { key: "rank" },
-      categoryLinkColumn,
-      { key: "name" },
-      { key: "seconds", render: (r) => r.time },
-      { key: "date", render: (r) => dateFmt(r.date) },
-    ]);
+    makeSortableTable(
+      "table-best-by-category-women",
+      data.best_times.by_category_women,
+      [
+        { key: "rank" },
+        categoryLinkColumn,
+        { key: "name" },
+        { key: "seconds", render: (r) => r.time },
+        { key: "date", render: (r) => dateFmt(r.date) },
+      ],
+      { collapseAfter: 10 }
+    );
 
-    makeSortableTable("table-best-by-category-men", data.best_times.by_category_men, [
-      { key: "rank" },
-      categoryLinkColumn,
-      { key: "name" },
-      { key: "seconds", render: (r) => r.time },
-      { key: "date", render: (r) => dateFmt(r.date) },
-    ]);
+    makeSortableTable(
+      "table-best-by-category-men",
+      data.best_times.by_category_men,
+      [
+        { key: "rank" },
+        categoryLinkColumn,
+        { key: "name" },
+        { key: "seconds", render: (r) => r.time },
+        { key: "date", render: (r) => dateFmt(r.date) },
+      ],
+      { collapseAfter: 10 }
+    );
 
-    makeSortableTable("table-age-graded", data.age_graded, [
-      { key: "rank" },
-      { key: "name" },
-      { key: "category" },
-      { key: "seconds", render: (r) => r.time },
-      { key: "coefficient", render: (r) => r.coefficient.toFixed(2) },
-      { key: "date", render: (r) => dateFmt(r.date) },
-    ]);
+    makeSortableTable(
+      "table-age-graded",
+      data.age_graded,
+      [
+        { key: "rank" },
+        { key: "name" },
+        { key: "category" },
+        { key: "seconds", render: (r) => r.time },
+        { key: "coefficient", render: (r) => r.coefficient.toFixed(2) },
+        { key: "date", render: (r) => dateFmt(r.date) },
+      ],
+      { collapseAfter: 10 }
+    );
 
-    makeSortableTable("table-gender-wins-women", data.gender_wins.women, [
-      { key: "rank" },
-      { key: "name" },
-      { key: "wins" },
-    ]);
+    makeSortableTable(
+      "table-gender-wins-women",
+      data.gender_wins.women,
+      [{ key: "rank" }, { key: "name" }, { key: "wins" }],
+      { collapseAfter: 10 }
+    );
 
-    makeSortableTable("table-gender-wins-men", data.gender_wins.men, [
-      { key: "rank" },
-      { key: "name" },
-      { key: "wins" },
-    ]);
+    makeSortableTable(
+      "table-gender-wins-men",
+      data.gender_wins.men,
+      [{ key: "rank" }, { key: "name" }, { key: "wins" }],
+      { collapseAfter: 10 }
+    );
   }
 
   function renderVolunteers(topVolunteers) {
-    makeSortableTable("table-top-volunteers", topVolunteers, [
-      { key: "rank" },
-      { key: "name" },
-      { key: "volunteer_count" },
-      { key: "starts_count" },
-      { key: "first_volunteer_date", render: (r) => dateFmt(r.first_volunteer_date) },
-      { key: "last_volunteer_date", render: (r) => dateFmt(r.last_volunteer_date) },
-    ]);
+    makeSortableTable(
+      "table-top-volunteers",
+      topVolunteers,
+      [
+        { key: "rank" },
+        { key: "name" },
+        { key: "volunteer_count" },
+        { key: "starts_count" },
+        { key: "first_volunteer_date", render: (r) => dateFmt(r.first_volunteer_date) },
+        { key: "last_volunteer_date", render: (r) => dateFmt(r.last_volunteer_date) },
+      ],
+      { collapseAfter: 10 }
+    );
   }
 
   // -------------------------------------------------------------------
@@ -503,6 +481,63 @@
       onThemeChange();
     });
   }
+
+  // -------------------------------------------------------------------
+  // Nawigacja na dlugiej stronie: podswietlanie aktywnej sekcji w menu
+  // (scrollspy) i przycisk powrotu na gore. Niezalezne od danych JSON -
+  // dzialaja nawet gdyby fetch danych sie nie powiodl.
+  // -------------------------------------------------------------------
+  function initScrollSpy() {
+    const navLinks = Array.from(document.querySelectorAll(".site-nav a[href^='#']"));
+    const sections = navLinks
+      .map((link) => document.getElementById(link.getAttribute("href").slice(1)))
+      .filter(Boolean);
+    if (!sections.length) return;
+
+    const linkForSection = new Map(
+      navLinks.map((link) => [link.getAttribute("href").slice(1), link])
+    );
+
+    const setActive = (id) => {
+      navLinks.forEach((link) => link.classList.remove("active"));
+      const link = linkForSection.get(id);
+      if (link) link.classList.add("active");
+    };
+
+    // Cienki, poziomy "pasek wykrywania" w gornej-srodkowej czesci ekranu -
+    // sekcja, ktora go przecina, jest uznawana za aktualnie oglądaną.
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const visible = entries.filter((e) => e.isIntersecting);
+        if (!visible.length) return;
+        const topMost = visible.reduce((a, b) =>
+          a.boundingClientRect.top < b.boundingClientRect.top ? a : b
+        );
+        setActive(topMost.target.id);
+      },
+      { rootMargin: "-45% 0px -50% 0px", threshold: 0 }
+    );
+
+    sections.forEach((section) => observer.observe(section));
+  }
+
+  function initBackToTop() {
+    const btn = document.getElementById("back-to-top");
+    if (!btn) return;
+
+    const updateVisibility = () => {
+      btn.classList.toggle("is-visible", window.scrollY > 600);
+    };
+    window.addEventListener("scroll", updateVisibility, { passive: true });
+    updateVisibility();
+
+    btn.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
+
+  initScrollSpy();
+  initBackToTop();
 
   // -------------------------------------------------------------------
   // Start
