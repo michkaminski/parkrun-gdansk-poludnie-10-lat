@@ -1,0 +1,303 @@
+{
+  "categories": [
+    {
+      "category": "VM40-44",
+      "count": 6550
+    },
+    {
+      "category": "VM35-39",
+      "count": 6247
+    },
+    {
+      "category": "VM45-49",
+      "count": 4814
+    },
+    {
+      "category": "SM30-34",
+      "count": 3366
+    },
+    {
+      "category": "VM50-54",
+      "count": 2630
+    },
+    {
+      "category": "VW40-44",
+      "count": 2583
+    },
+    {
+      "category": "VW35-39",
+      "count": 1930
+    },
+    {
+      "category": "VW45-49",
+      "count": 1870
+    },
+    {
+      "category": "SM25-29",
+      "count": 1511
+    },
+    {
+      "category": "VM55-59",
+      "count": 1378
+    },
+    {
+      "category": "SW30-34",
+      "count": 1172
+    },
+    {
+      "category": "VM60-64",
+      "count": 924
+    },
+    {
+      "category": "VW50-54",
+      "count": 837
+    },
+    {
+      "category": "SW25-29",
+      "count": 831
+    },
+    {
+      "category": "JM11-14",
+      "count": 808
+    },
+    {
+      "category": "VM65-69",
+      "count": 608
+    },
+    {
+      "category": "JW11-14",
+      "count": 564
+    },
+    {
+      "category": "JM10",
+      "count": 534
+    },
+    {
+      "category": "JM15-17",
+      "count": 515
+    },
+    {
+      "category": "SM20-24",
+      "count": 513
+    },
+    {
+      "category": "JW10",
+      "count": 421
+    },
+    {
+      "category": "SW20-24",
+      "count": 285
+    },
+    {
+      "category": "VW65-69",
+      "count": 272
+    },
+    {
+      "category": "VW60-64",
+      "count": 234
+    },
+    {
+      "category": "VW55-59",
+      "count": 219
+    },
+    {
+      "category": "VM70-74",
+      "count": 215
+    },
+    {
+      "category": "VM75-79",
+      "count": 207
+    },
+    {
+      "category": "JW15-17",
+      "count": 199
+    },
+    {
+      "category": "SM18-19",
+      "count": 122
+    },
+    {
+      "category": "VW70-74",
+      "count": 106
+    },
+    {
+      "category": "VM80-84",
+      "count": 50
+    },
+    {
+      "category": "SW18-19",
+      "count": 48
+    },
+    {
+      "category": "VM85-89",
+      "count": 11
+    }
+  ],
+  "age_bands": [
+    {
+      "key": "junior",
+      "label": "Junior (<18)"
+    },
+    {
+      "key": "b18_34",
+      "label": "18-34"
+    },
+    {
+      "key": "b35_49",
+      "label": "35-49"
+    },
+    {
+      "key": "b50_64",
+      "label": "50-64"
+    },
+    {
+      "key": "b65_plus",
+      "label": "65+"
+    }
+  ],
+  "groups_by_year": [
+    {
+      "year": "2016",
+      "junior": 185,
+      "junior_pct": 10.4,
+      "b18_34": 519,
+      "b18_34_pct": 29.2,
+      "b35_49": 920,
+      "b35_49_pct": 51.8,
+      "b50_64": 137,
+      "b50_64_pct": 7.7,
+      "b65_plus": 16,
+      "b65_plus_pct": 0.9
+    },
+    {
+      "year": "2017",
+      "junior": 321,
+      "junior_pct": 9.1,
+      "b18_34": 949,
+      "b18_34_pct": 27.0,
+      "b35_49": 1926,
+      "b35_49_pct": 54.9,
+      "b50_64": 277,
+      "b50_64_pct": 7.9,
+      "b65_plus": 36,
+      "b65_plus_pct": 1.0
+    },
+    {
+      "year": "2018",
+      "junior": 264,
+      "junior_pct": 7.5,
+      "b18_34": 822,
+      "b18_34_pct": 23.3,
+      "b35_49": 2144,
+      "b35_49_pct": 60.7,
+      "b50_64": 235,
+      "b50_64_pct": 6.6,
+      "b65_plus": 70,
+      "b65_plus_pct": 2.0
+    },
+    {
+      "year": "2019",
+      "junior": 330,
+      "junior_pct": 8.0,
+      "b18_34": 944,
+      "b18_34_pct": 23.0,
+      "b35_49": 2420,
+      "b35_49_pct": 59.0,
+      "b50_64": 318,
+      "b50_64_pct": 7.8,
+      "b65_plus": 89,
+      "b65_plus_pct": 2.2
+    },
+    {
+      "year": "2020",
+      "junior": 65,
+      "junior_pct": 6.2,
+      "b18_34": 227,
+      "b18_34_pct": 21.7,
+      "b35_49": 665,
+      "b35_49_pct": 63.6,
+      "b50_64": 76,
+      "b50_64_pct": 7.3,
+      "b65_plus": 12,
+      "b65_plus_pct": 1.1
+    },
+    {
+      "year": "2021",
+      "junior": 137,
+      "junior_pct": 6.9,
+      "b18_34": 282,
+      "b18_34_pct": 14.1,
+      "b35_49": 1265,
+      "b35_49_pct": 63.3,
+      "b50_64": 243,
+      "b50_64_pct": 12.2,
+      "b65_plus": 72,
+      "b65_plus_pct": 3.6
+    },
+    {
+      "year": "2022",
+      "junior": 168,
+      "junior_pct": 4.4,
+      "b18_34": 549,
+      "b18_34_pct": 14.3,
+      "b35_49": 2339,
+      "b35_49_pct": 61.1,
+      "b50_64": 566,
+      "b50_64_pct": 14.8,
+      "b65_plus": 207,
+      "b65_plus_pct": 5.4
+    },
+    {
+      "year": "2023",
+      "junior": 403,
+      "junior_pct": 7.5,
+      "b18_34": 872,
+      "b18_34_pct": 16.3,
+      "b35_49": 2909,
+      "b35_49_pct": 54.5,
+      "b50_64": 931,
+      "b50_64_pct": 17.4,
+      "b65_plus": 223,
+      "b65_plus_pct": 4.2
+    },
+    {
+      "year": "2024",
+      "junior": 429,
+      "junior_pct": 6.9,
+      "b18_34": 975,
+      "b18_34_pct": 15.7,
+      "b35_49": 3379,
+      "b35_49_pct": 54.3,
+      "b50_64": 1157,
+      "b50_64_pct": 18.6,
+      "b65_plus": 286,
+      "b65_plus_pct": 4.6
+    },
+    {
+      "year": "2025",
+      "junior": 460,
+      "junior_pct": 6.6,
+      "b18_34": 1102,
+      "b18_34_pct": 15.9,
+      "b35_49": 3652,
+      "b35_49_pct": 52.8,
+      "b50_64": 1437,
+      "b50_64_pct": 20.8,
+      "b65_plus": 271,
+      "b65_plus_pct": 3.9
+    },
+    {
+      "year": "2026",
+      "junior": 279,
+      "junior_pct": 6.5,
+      "b18_34": 607,
+      "b18_34_pct": 14.1,
+      "b35_49": 2375,
+      "b35_49_pct": 55.3,
+      "b50_64": 845,
+      "b50_64_pct": 19.7,
+      "b65_plus": 187,
+      "b65_plus_pct": 4.4
+    }
+  ]
+}

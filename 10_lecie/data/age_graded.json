@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Andrzej BALICKI",
+    "category": "VM70-74",
+    "time": "20:21",
+    "seconds": 1221,
+    "coefficient": 86.65,
+    "date": "2021-10-30"
+  },
+  {
+    "name": "Henryk URTNOWSKI",
+    "category": "VM80-84",
+    "time": "24:57",
+    "seconds": 1497,
+    "coefficient": 86.37,
+    "date": "2019-07-06"
+  },
+  {
+    "name": "Tomasz MAKARSKI",
+    "category": "VM50-54",
+    "time": "17:07",
+    "seconds": 1027,
+    "coefficient": 86.17,
+    "date": "2026-05-23"
+  },
+  {
+    "name": "Damian DINO",
+    "category": "VM45-49",
+    "time": "16:51",
+    "seconds": 1011,
+    "coefficient": 85.46,
+    "date": "2026-04-11"
+  },
+  {
+    "name": "Zygfryd LIBAN",
+    "category": "VM75-79",
+    "time": "22:38",
+    "seconds": 1358,
+    "coefficient": 85.2,
+    "date": "2020-01-01"
+  },
+  {
+    "name": "Marek GROCHOWSKI",
+    "category": "VM50-54",
+    "time": "18:05",
+    "seconds": 1085,
+    "coefficient": 84.24,
+    "date": "2024-06-01"
+  },
+  {
+    "name": "Piotr PIETRZAK",
+    "category": "VM45-49",
+    "time": "17:20",
+    "seconds": 1040,
+    "coefficient": 83.75,
+    "date": "2016-07-30"
+  },
+  {
+    "name": "Zofia TERLECKA WYDARTY",
+    "category": "VW65-69",
+    "time": "25:23",
+    "seconds": 1523,
+    "coefficient": 83.59,
+    "date": "2023-06-03"
+  },
+  {
+    "name": "Tomasz BAGIŃSKI",
+    "category": "VM45-49",
+    "time": "16:59",
+    "seconds": 1019,
+    "coefficient": 83.51,
+    "date": "2025-11-15"
+  },
+  {
+    "name": "Grażyna WITT",
+    "category": "VW65-69",
+    "time": "26:00",
+    "seconds": 1560,
+    "coefficient": 82.88,
+    "date": "2022-05-14"
+  },
+  {
+    "name": "Eugeniusz ORLIKOWSKI",
+    "category": "VM65-69",
+    "time": "20:51",
+    "seconds": 1251,
+    "coefficient": 82.73,
+    "date": "2018-07-14"
+  },
+  {
+    "name": "Janusz ŻYWICKI",
+    "category": "VM50-54",
+    "time": "18:30",
+    "seconds": 1110,
+    "coefficient": 82.34,
+    "date": "2022-08-06"
+  },
+  {
+    "name": "Jonathan ESCALANTE-PHILLIPS",
+    "category": "SM25-29",
+    "time": "15:45",
+    "seconds": 945,
+    "coefficient": 81.9,
+    "date": "2019-03-02"
+  },
+  {
+    "name": "Ben HAGUE",
+    "category": "SM30-34",
+    "time": "15:56",
+    "seconds": 956,
+    "coefficient": 81.9,
+    "date": "2019-03-23"
+  },
+  {
+    "name": "Wiesław SIKORA",
+    "category": "VM45-49",
+    "time": "17:35",
+    "seconds": 1055,
+    "coefficient": 81.9,
+    "date": "2023-08-05"
+  }
+]

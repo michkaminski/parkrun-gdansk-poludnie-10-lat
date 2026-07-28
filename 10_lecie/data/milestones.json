@@ -1,0 +1,208 @@
+{
+  "timeline": [
+    {
+      "type": "start",
+      "date": "2016-07-30",
+      "title": "Pierwsza edycja",
+      "detail": "246 uczestnikow na starcie historii parkrunu."
+    },
+    {
+      "type": "edition",
+      "date": "2016-07-30",
+      "title": "Edycja #1",
+      "detail": "246 uczestnikow."
+    },
+    {
+      "type": "edition",
+      "date": "2017-07-15",
+      "title": "Edycja #50",
+      "detail": "81 uczestnikow."
+    },
+    {
+      "type": "edition",
+      "date": "2018-06-16",
+      "title": "Edycja #100",
+      "detail": "87 uczestnikow."
+    },
+    {
+      "type": "edition",
+      "date": "2019-05-25",
+      "title": "Edycja #150",
+      "detail": "91 uczestnikow."
+    },
+    {
+      "type": "covid",
+      "date": "2020-03-01",
+      "title": "Przerwa pandemiczna",
+      "detail": "Wyrazny spadek liczby edycji i frekwencji w latach 2020-2021."
+    },
+    {
+      "type": "edition",
+      "date": "2021-07-24",
+      "title": "Edycja #200",
+      "detail": "104 uczestnikow."
+    },
+    {
+      "type": "edition",
+      "date": "2022-07-09",
+      "title": "Edycja #250",
+      "detail": "95 uczestnikow."
+    },
+    {
+      "type": "edition",
+      "date": "2023-06-10",
+      "title": "Edycja #300",
+      "detail": "117 uczestnikow."
+    },
+    {
+      "type": "edition",
+      "date": "2024-05-11",
+      "title": "Edycja #350",
+      "detail": "118 uczestnikow."
+    },
+    {
+      "type": "record",
+      "date": "2024-12-28",
+      "title": "Rekord frekwencji",
+      "detail": "328 osob na starcie - edycja #384."
+    },
+    {
+      "type": "edition",
+      "date": "2025-04-12",
+      "title": "Edycja #400",
+      "detail": "111 uczestnikow."
+    },
+    {
+      "type": "edition",
+      "date": "2026-03-21",
+      "title": "Edycja #450",
+      "detail": "135 uczestnikow."
+    },
+    {
+      "type": "latest",
+      "date": "2026-07-25",
+      "title": "Najnowsza edycja w danych",
+      "detail": "Edycja #468, 162 uczestnikow."
+    },
+    {
+      "type": "anniversary",
+      "date": "2026-07-30",
+      "title": "10. urodziny parkrunu",
+      "detail": "Dokladnie 10 lat od pierwszej edycji parkrun Gdansk Poludnie."
+    }
+  ],
+  "runner_of_year": [
+    {
+      "year": "2016",
+      "name": "Krzysztof KLAWIKOWSKI",
+      "starts_count": 22
+    },
+    {
+      "year": "2017",
+      "name": "Krzysztof KLAWIKOWSKI",
+      "starts_count": 46
+    },
+    {
+      "year": "2018",
+      "name": "Leszek DULKO",
+      "starts_count": 49
+    },
+    {
+      "year": "2019",
+      "name": "Krzysztof KLAWIKOWSKI",
+      "starts_count": 51
+    },
+    {
+      "year": "2020",
+      "name": "Piotr MAKSYMIUK",
+      "starts_count": 11
+    },
+    {
+      "year": "2021",
+      "name": "Wojciech GIERSZEWSKI",
+      "starts_count": 29
+    },
+    {
+      "year": "2022",
+      "name": "Wojciech GIERSZEWSKI",
+      "starts_count": 48
+    },
+    {
+      "year": "2023",
+      "name": "Ila PO",
+      "starts_count": 51
+    },
+    {
+      "year": "2024",
+      "name": "Marcin NOWACZKIEWICZ",
+      "starts_count": 52
+    },
+    {
+      "year": "2025",
+      "name": "Zbigniew KOBUS",
+      "starts_count": 53
+    },
+    {
+      "year": "2026",
+      "name": "Zbigniew KOBUS",
+      "starts_count": 30
+    }
+  ],
+  "volunteer_of_year": [
+    {
+      "year": "2016",
+      "name": "Paweł MARCINKO",
+      "volunteer_count": 20
+    },
+    {
+      "year": "2017",
+      "name": "Paweł MARCINKO",
+      "volunteer_count": 41
+    },
+    {
+      "year": "2018",
+      "name": "Paweł MARCINKO",
+      "volunteer_count": 40
+    },
+    {
+      "year": "2019",
+      "name": "Tobiasz CAŁUCH",
+      "volunteer_count": 31
+    },
+    {
+      "year": "2020",
+      "name": "Leszek SŁUŻEWSKI",
+      "volunteer_count": 9
+    },
+    {
+      "year": "2021",
+      "name": "Krzysztof ŁUDCZAK",
+      "volunteer_count": 27
+    },
+    {
+      "year": "2022",
+      "name": "Stanisław SKWIOT",
+      "volunteer_count": 51
+    },
+    {
+      "year": "2023",
+      "name": "Stanisław SKWIOT",
+      "volunteer_count": 50
+    },
+    {
+      "year": "2024",
+      "name": "Krzysztof ŁUDCZAK",
+      "volunteer_count": 54
+    },
+    {
+      "year": "2025",
+      "name": "Krzysztof ŁUDCZAK",
+      "volunteer_count": 54
+    },
+    {
+      "year": "2026",
+      "name": "Krzysztof ŁUDCZAK",
+      "volunteer_count": 30
+    }
+  ]
+}

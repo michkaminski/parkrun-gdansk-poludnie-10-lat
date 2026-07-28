@@ -1,0 +1,316 @@
+{
+  "women": [
+    {
+      "participant_id": "2965884",
+      "name": "Aleksandra Ewa GRABIAS",
+      "wins": 65
+    },
+    {
+      "participant_id": "2870027",
+      "name": "Natalia PIÓRKOWSKA",
+      "wins": 52
+    },
+    {
+      "participant_id": "2169875",
+      "name": "Magdalena JASZEWSKA",
+      "wins": 41
+    },
+    {
+      "participant_id": "1311674",
+      "name": "Sylwia ŁUDCZAK",
+      "wins": 38
+    },
+    {
+      "participant_id": "2780861",
+      "name": "Ewa KŁOSOWSKA",
+      "wins": 31
+    },
+    {
+      "participant_id": "2445715",
+      "name": "Agnieszka STENCEL",
+      "wins": 22
+    },
+    {
+      "participant_id": "11787164",
+      "name": "Dorota ŻMUDA-TRZEBIATOWSKA",
+      "wins": 19
+    },
+    {
+      "participant_id": "9897252",
+      "name": "Karolina DOBKOWSKA",
+      "wins": 12
+    },
+    {
+      "participant_id": "1135075",
+      "name": "Ewa DĘBIEC",
+      "wins": 11
+    },
+    {
+      "participant_id": "5204009",
+      "name": "Katarzyna ZATORSKA",
+      "wins": 9
+    },
+    {
+      "participant_id": "779338",
+      "name": "Julia WIERGOWSKA",
+      "wins": 7
+    },
+    {
+      "participant_id": "2631551",
+      "name": "Dorota GRZEGORCZYK",
+      "wins": 6
+    },
+    {
+      "participant_id": "459586",
+      "name": "Magdalena Barbara GRZYWACZ",
+      "wins": 5
+    },
+    {
+      "participant_id": "1367445",
+      "name": "Małgorzata IWAN",
+      "wins": 5
+    },
+    {
+      "participant_id": "3274664",
+      "name": "Anna KUCHARSKA",
+      "wins": 5
+    },
+    {
+      "participant_id": "7018952",
+      "name": "Katarzyna Magdalena ŚWITAŁA",
+      "wins": 5
+    },
+    {
+      "participant_id": "2667086",
+      "name": "Agnieszka BARANOWSKA",
+      "wins": 4
+    },
+    {
+      "participant_id": "5236186",
+      "name": "Joanna WILBIK",
+      "wins": 4
+    },
+    {
+      "participant_id": "2056403",
+      "name": "Emilia FALKOWSKA",
+      "wins": 4
+    },
+    {
+      "participant_id": "2234799",
+      "name": "Aleksandra DE VIRION",
+      "wins": 4
+    },
+    {
+      "participant_id": "1065085",
+      "name": "Agnieszka TOMASZEWSKA",
+      "wins": 4
+    },
+    {
+      "participant_id": "4526326",
+      "name": "Anna STĘPIEŃ",
+      "wins": 4
+    },
+    {
+      "participant_id": "7596681",
+      "name": "Justyna DOMŻALSKA",
+      "wins": 4
+    },
+    {
+      "participant_id": "3614964",
+      "name": "Sylwia RYCHARSKA",
+      "wins": 4
+    },
+    {
+      "participant_id": "5325705",
+      "name": "Adriana ŻYROMSKA",
+      "wins": 4
+    },
+    {
+      "participant_id": "887915",
+      "name": "Katarzyna Dorota JANOWIAK",
+      "wins": 3
+    },
+    {
+      "participant_id": "1868728",
+      "name": "Joanna Katarzyna SZTYBOR",
+      "wins": 3
+    },
+    {
+      "participant_id": "4115962",
+      "name": "Magdalena KURSZEWSKA",
+      "wins": 3
+    },
+    {
+      "participant_id": "4134987",
+      "name": "Małgosia USZACKA",
+      "wins": 3
+    },
+    {
+      "participant_id": "3792701",
+      "name": "Ewelina SZAJDZIUK",
+      "wins": 3
+    },
+    {
+      "participant_id": "5054508",
+      "name": "Janina KŁOS",
+      "wins": 3
+    },
+    {
+      "participant_id": "6141757",
+      "name": "Paulina ZALEJASZ",
+      "wins": 3
+    }
+  ],
+  "men": [
+    {
+      "participant_id": "1319999",
+      "name": "Tomasz BAGIŃSKI",
+      "wins": 88
+    },
+    {
+      "participant_id": "3715087",
+      "name": "Damian DINO",
+      "wins": 49
+    },
+    {
+      "participant_id": "973179",
+      "name": "Łukasz STACHOWIAK",
+      "wins": 26
+    },
+    {
+      "participant_id": "571455",
+      "name": "Łukasz POMAGRUK",
+      "wins": 20
+    },
+    {
+      "participant_id": "1099847",
+      "name": "Piotr MAKSYMIUK",
+      "wins": 18
+    },
+    {
+      "participant_id": "1955330",
+      "name": "Łukasz STACHERSKI",
+      "wins": 16
+    },
+    {
+      "participant_id": "386742",
+      "name": "Tomasz Henryk BAGROWSKI",
+      "wins": 15
+    },
+    {
+      "participant_id": "809571",
+      "name": "Dariusz KOKOCIŃSKI",
+      "wins": 14
+    },
+    {
+      "participant_id": "2668539",
+      "name": "Przemek TRZASKA",
+      "wins": 14
+    },
+    {
+      "participant_id": "2388259",
+      "name": "Wojciech PIJANOWSKI",
+      "wins": 12
+    },
+    {
+      "participant_id": "1349319",
+      "name": "Piotr FOBKE",
+      "wins": 10
+    },
+    {
+      "participant_id": "5766958",
+      "name": "Daniel ŻYWICKI",
+      "wins": 8
+    },
+    {
+      "participant_id": "2667072",
+      "name": "Adam BARANOWSKI",
+      "wins": 7
+    },
+    {
+      "participant_id": "411596",
+      "name": "Tomasz MAKARSKI",
+      "wins": 7
+    },
+    {
+      "participant_id": "5610735",
+      "name": "Paweł ZAKOWICZ",
+      "wins": 7
+    },
+    {
+      "participant_id": "5219130",
+      "name": "Krystian LORYCH",
+      "wins": 7
+    },
+    {
+      "participant_id": "785693",
+      "name": "Grzegorz GAJEWSKI",
+      "wins": 6
+    },
+    {
+      "participant_id": "3512988",
+      "name": "Marcin ZYGMUNT",
+      "wins": 5
+    },
+    {
+      "participant_id": "8509471",
+      "name": "Robert BANACH",
+      "wins": 5
+    },
+    {
+      "participant_id": "6322996",
+      "name": "Sebastian WAŚKIEWICZ",
+      "wins": 4
+    },
+    {
+      "participant_id": "556846",
+      "name": "Dominik WOŁOWICZ",
+      "wins": 4
+    },
+    {
+      "participant_id": "4068490",
+      "name": "Mateusz BURNICKI",
+      "wins": 4
+    },
+    {
+      "participant_id": "379806",
+      "name": "Mateusz GAPSKI",
+      "wins": 3
+    },
+    {
+      "participant_id": "2026334",
+      "name": "Michał Janusz SKUZJUS",
+      "wins": 3
+    },
+    {
+      "participant_id": "3266492",
+      "name": "Jakub Adam KLAJNA",
+      "wins": 3
+    },
+    {
+      "participant_id": "6216814",
+      "name": "Wiktor Jan KOZŁOWSKI",
+      "wins": 3
+    },
+    {
+      "participant_id": "2705817",
+      "name": "Łukasz ROMANOWSKI",
+      "wins": 3
+    },
+    {
+      "participant_id": "10171520",
+      "name": "Marcin GOŁĄBEK",
+      "wins": 3
+    },
+    {
+      "participant_id": "10590856",
+      "name": "Szymon HOŁOWIENKO",
+      "wins": 3
+    },
+    {
+      "participant_id": "4901467",
+      "name": "Mateusz SITEK",
+      "wins": 3
+    }
+  ]
+}

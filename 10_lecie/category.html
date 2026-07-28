@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kategoria wiekowa — parkrun Gdańsk Południe</title>
+<meta name="description" content="Szczegóły kategorii wiekowej parkrun Gdańsk Południe: frekwencja w czasie i lista zwycięzców.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🎉%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html">
+      <span class="brand-badge">10</span>
+      <span>parkrun Gdańsk Południe</span>
+    </a>
+    <nav class="site-nav">
+      <a href="index.html">← Strona główna</a>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Przełącz motyw jasny/ciemny">🌙</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-section" id="category-detail">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-kicker">Kategoria wiekowa</span>
+        <h2 id="category-title">—</h2>
+        <p id="category-subtitle"></p>
+      </div>
+
+      <div class="hof-stack" id="category-content">
+        <div class="kpi-grid" id="category-kpi-grid"><!-- wypelniane przez JS --></div>
+
+        <div class="chart-card">
+          <h3>Starty w kategorii na rok</h3>
+          <p class="chart-caption">Liczba startów w tej kategorii wiekowej w poszczególnych latach kalendarzowych.</p>
+          <div class="chart-canvas-wrap"><canvas id="chart-category-year"></canvas></div>
+        </div>
+
+        <div class="chart-card">
+          <h3>Starty w kategorii na miesiąc</h3>
+          <p class="chart-caption">Liczba startów w tej kategorii wiekowej w poszczególnych miesiącach kalendarzowych, od pierwszej edycji parkrunu.</p>
+          <div class="chart-canvas-wrap"><canvas id="chart-category-month"></canvas></div>
+        </div>
+
+        <div class="chart-card">
+          <h3>Rozkład czasów w tej kategorii</h3>
+          <p class="chart-caption">Liczba wyników w koszykach co minutę, na pełnym zakresie czasów w tej kategorii wiekowej.</p>
+          <div class="chart-canvas-wrap"><canvas id="chart-category-time-distribution"></canvas></div>
+        </div>
+
+        <div class="table-card">
+          <h3>TOP 10 najlepszych wyników</h3>
+          <p class="chart-caption">Top 10 najszybszych czasów w tej kategorii wiekowej w historii parkrunu.</p>
+          <div class="table-scroll">
+            <table class="data-table" id="table-category-top-times" data-default-sort="seconds" data-default-dir="asc">
+              <thead><tr>
+                <th data-key="rank">#</th>
+                <th data-key="name">Uczestnik</th>
+                <th data-key="seconds">Czas</th>
+                <th data-key="date">Data</th>
+                <th data-key="edition_number">Edycja</th>
+              </tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="table-card">
+          <h3>TOP 10 największych frekwencji</h3>
+          <p class="chart-caption">Edycje z największą liczbą uczestników w tej kategorii wiekowej. Przy remisie na granicy pokazujemy wszystkie.</p>
+          <div class="table-scroll">
+            <table class="data-table" id="table-category-top-attendance">
+              <thead><tr><th>#</th><th>Edycja</th><th>Data</th><th>Uczestników</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="table-card">
+          <h3>TOP 10 najlepszych współczynników wieku</h3>
+          <p class="chart-caption">Najlepsze wyniki danej osoby w tej kategorii wg współczynnika age-grading.</p>
+          <div class="table-scroll">
+            <table class="data-table" id="table-category-top-age-graded" data-default-sort="coefficient" data-default-dir="desc">
+              <thead><tr>
+                <th data-key="rank">#</th>
+                <th data-key="name">Uczestnik</th>
+                <th data-key="seconds">Czas</th>
+                <th data-key="coefficient">Wsp. %</th>
+                <th data-key="date">Data</th>
+              </tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="table-card">
+          <h3>Zwycięzcy tej kategorii</h3>
+          <p class="chart-caption">Ile razy dana osoba zajęła 1., 2. lub 3. miejsce w tej kategorii wiekowej na edycji (remis na czasie rozstrzyga oficjalna pozycja z wyników parkrun). Pokazane wszystkie osoby z co najmniej jednym takim miejscem.</p>
+          <div class="table-scroll">
+            <table class="data-table" id="table-category-winners" data-default-sort="wins" data-default-dir="desc">
+              <thead><tr>
+                <th data-key="rank">#</th>
+                <th data-key="name">Uczestnik</th>
+                <th data-key="wins">1. miejsce</th>
+                <th data-key="second">2. miejsce</th>
+                <th data-key="third">3. miejsce</th>
+              </tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <p class="chart-caption" id="category-not-found" hidden>
+        <a href="index.html">← Wróć do strony głównej</a>
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p><a href="index.html">← Wróć do strony głównej parkrun Gdańsk Południe</a></p>
+  </div>
+</footer>
+
+<script src="assets/js/vendor/chart.umd.min.js"></script>
+<script src="assets/js/category.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+[
+  {
+    "year": "2016",
+    "editions_count": 22,
+    "total_volunteer_entries": 137,
+    "avg_volunteers_per_edition": 6.2,
+    "avg_volunteers_per_month": 22.8,
+    "unique_volunteers": 56
+  },
+  {
+    "year": "2017",
+    "editions_count": 53,
+    "total_volunteer_entries": 427,
+    "avg_volunteers_per_edition": 8.1,
+    "avg_volunteers_per_month": 35.6,
+    "unique_volunteers": 83
+  },
+  {
+    "year": "2018",
+    "editions_count": 54,
+    "total_volunteer_entries": 482,
+    "avg_volunteers_per_edition": 8.9,
+    "avg_volunteers_per_month": 40.2,
+    "unique_volunteers": 86
+  },
+  {
+    "year": "2019",
+    "editions_count": 53,
+    "total_volunteer_entries": 481,
+    "avg_volunteers_per_edition": 9.1,
+    "avg_volunteers_per_month": 40.1,
+    "unique_volunteers": 80
+  },
+  {
+    "year": "2020",
+    "editions_count": 11,
+    "total_volunteer_entries": 93,
+    "avg_volunteers_per_edition": 8.5,
+    "avg_volunteers_per_month": 31.0,
+    "unique_volunteers": 33
+  },
+  {
+    "year": "2021",
+    "editions_count": 29,
+    "total_volunteer_entries": 363,
+    "avg_volunteers_per_edition": 12.5,
+    "avg_volunteers_per_month": 51.9,
+    "unique_volunteers": 47
+  },
+  {
+    "year": "2022",
+    "editions_count": 54,
+    "total_volunteer_entries": 844,
+    "avg_volunteers_per_edition": 15.6,
+    "avg_volunteers_per_month": 70.3,
+    "unique_volunteers": 95
+  },
+  {
+    "year": "2023",
+    "editions_count": 54,
+    "total_volunteer_entries": 991,
+    "avg_volunteers_per_edition": 18.4,
+    "avg_volunteers_per_month": 82.6,
+    "unique_volunteers": 147
+  },
+  {
+    "year": "2024",
+    "editions_count": 54,
+    "total_volunteer_entries": 1329,
+    "avg_volunteers_per_edition": 24.6,
+    "avg_volunteers_per_month": 110.8,
+    "unique_volunteers": 158
+  },
+  {
+    "year": "2025",
+    "editions_count": 54,
+    "total_volunteer_entries": 1487,
+    "avg_volunteers_per_edition": 27.5,
+    "avg_volunteers_per_month": 123.9,
+    "unique_volunteers": 223
+  },
+  {
+    "year": "2026",
+    "editions_count": 30,
+    "total_volunteer_entries": 916,
+    "avg_volunteers_per_edition": 30.5,
+    "avg_volunteers_per_month": 130.9,
+    "unique_volunteers": 206
+  }
+]

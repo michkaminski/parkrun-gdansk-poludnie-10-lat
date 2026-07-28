@@ -1,0 +1,186 @@
+{
+  "highest": [
+    {
+      "year": "2026",
+      "month": "05",
+      "month_label": "Maj 2026",
+      "editions_count": 5,
+      "total_participants": 826,
+      "avg_participants": 165.2,
+      "rank": 1
+    },
+    {
+      "year": "2023",
+      "month": "09",
+      "month_label": "Wrzesień 2023",
+      "editions_count": 5,
+      "total_participants": 819,
+      "avg_participants": 163.8,
+      "rank": 2
+    },
+    {
+      "year": "2024",
+      "month": "12",
+      "month_label": "Grudzień 2024",
+      "editions_count": 5,
+      "total_participants": 753,
+      "avg_participants": 150.6,
+      "rank": 3
+    },
+    {
+      "year": "2026",
+      "month": "01",
+      "month_label": "Styczeń 2026",
+      "editions_count": 6,
+      "total_participants": 701,
+      "avg_participants": 116.8,
+      "rank": 4
+    },
+    {
+      "year": "2025",
+      "month": "03",
+      "month_label": "Marzec 2025",
+      "editions_count": 5,
+      "total_participants": 677,
+      "avg_participants": 135.4,
+      "rank": 5
+    },
+    {
+      "year": "2025",
+      "month": "11",
+      "month_label": "Listopad 2025",
+      "editions_count": 5,
+      "total_participants": 669,
+      "avg_participants": 133.8,
+      "rank": 6
+    },
+    {
+      "year": "2025",
+      "month": "08",
+      "month_label": "Sierpień 2025",
+      "editions_count": 5,
+      "total_participants": 658,
+      "avg_participants": 131.6,
+      "rank": 7
+    },
+    {
+      "year": "2025",
+      "month": "12",
+      "month_label": "Grudzień 2025",
+      "editions_count": 5,
+      "total_participants": 641,
+      "avg_participants": 128.2,
+      "rank": 8
+    },
+    {
+      "year": "2024",
+      "month": "03",
+      "month_label": "Marzec 2024",
+      "editions_count": 5,
+      "total_participants": 621,
+      "avg_participants": 124.2,
+      "rank": 9
+    },
+    {
+      "year": "2026",
+      "month": "03",
+      "month_label": "Marzec 2026",
+      "editions_count": 4,
+      "total_participants": 620,
+      "avg_participants": 155.0,
+      "rank": 10
+    }
+  ],
+  "lowest": [
+    {
+      "year": "2020",
+      "month": "03",
+      "month_label": "Marzec 2020",
+      "editions_count": 1,
+      "total_participants": 82,
+      "avg_participants": 82.0,
+      "rank": 1
+    },
+    {
+      "year": "2021",
+      "month": "06",
+      "month_label": "Czerwiec 2021",
+      "editions_count": 3,
+      "total_participants": 176,
+      "avg_participants": 58.7,
+      "rank": 2
+    },
+    {
+      "year": "2016",
+      "month": "09",
+      "month_label": "Wrzesień 2016",
+      "editions_count": 3,
+      "total_participants": 196,
+      "avg_participants": 65.3,
+      "rank": 3
+    },
+    {
+      "year": "2017",
+      "month": "06",
+      "month_label": "Czerwiec 2017",
+      "editions_count": 4,
+      "total_participants": 220,
+      "avg_participants": 55.0,
+      "rank": 4
+    },
+    {
+      "year": "2017",
+      "month": "01",
+      "month_label": "Styczeń 2017",
+      "editions_count": 4,
+      "total_participants": 231,
+      "avg_participants": 57.8,
+      "rank": 5
+    },
+    {
+      "year": "2018",
+      "month": "05",
+      "month_label": "Maj 2018",
+      "editions_count": 4,
+      "total_participants": 237,
+      "avg_participants": 59.2,
+      "rank": 6
+    },
+    {
+      "year": "2017",
+      "month": "11",
+      "month_label": "Listopad 2017",
+      "editions_count": 4,
+      "total_participants": 239,
+      "avg_participants": 59.8,
+      "rank": 7
+    },
+    {
+      "year": "2016",
+      "month": "07",
+      "month_label": "Lipiec 2016",
+      "editions_count": 1,
+      "total_participants": 246,
+      "avg_participants": 246.0,
+      "rank": 8
+    },
+    {
+      "year": "2018",
+      "month": "02",
+      "month_label": "Luty 2018",
+      "editions_count": 4,
+      "total_participants": 247,
+      "avg_participants": 61.8,
+      "rank": 9
+    },
+    {
+      "year": "2018",
+      "month": "10",
+      "month_label": "Październik 2018",
+      "editions_count": 4,
+      "total_participants": 250,
+      "avg_participants": 62.5,
+      "rank": 10
+    }
+  ]
+}

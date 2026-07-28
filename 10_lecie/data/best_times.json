@@ -1,0 +1,496 @@
+{
+  "top_overall": [
+    {
+      "name": "Jonathan ESCALANTE-PHILLIPS",
+      "time": "15:45",
+      "seconds": 945,
+      "gender": "M",
+      "date": "2019-03-02",
+      "edition_number": 138
+    },
+    {
+      "name": "Ben HAGUE",
+      "time": "15:56",
+      "seconds": 956,
+      "gender": "M",
+      "date": "2019-03-23",
+      "edition_number": 141
+    },
+    {
+      "name": "Wojciech PIJANOWSKI",
+      "time": "16:21",
+      "seconds": 981,
+      "gender": "M",
+      "date": "2022-05-28",
+      "edition_number": 244
+    },
+    {
+      "name": "Daniel MIKIELSKI",
+      "time": "16:33",
+      "seconds": 993,
+      "gender": "M",
+      "date": "2022-10-15",
+      "edition_number": 264
+    },
+    {
+      "name": "Piotr FOBKE",
+      "time": "16:34",
+      "seconds": 994,
+      "gender": "M",
+      "date": "2018-05-12",
+      "edition_number": 95
+    },
+    {
+      "name": "Wojciech PIJANOWSKI",
+      "time": "16:50",
+      "seconds": 1010,
+      "gender": "M",
+      "date": "2022-04-30",
+      "edition_number": 240
+    },
+    {
+      "name": "Sebastian WAŚKIEWICZ",
+      "time": "16:50",
+      "seconds": 1010,
+      "gender": "M",
+      "date": "2022-10-15",
+      "edition_number": 264
+    },
+    {
+      "name": "Tomasz BAGIŃSKI",
+      "time": "16:50",
+      "seconds": 1010,
+      "gender": "M",
+      "date": "2023-05-20",
+      "edition_number": 297
+    },
+    {
+      "name": "Tomasz Henryk BAGROWSKI",
+      "time": "16:51",
+      "seconds": 1011,
+      "gender": "M",
+      "date": "2020-01-18",
+      "edition_number": 186
+    },
+    {
+      "name": "Damian DINO",
+      "time": "16:51",
+      "seconds": 1011,
+      "gender": "M",
+      "date": "2026-04-11",
+      "edition_number": 453
+    }
+  ],
+  "top_women": [
+    {
+      "name": "Marta ŁOSIN",
+      "time": "18:47",
+      "seconds": 1127,
+      "date": "2023-09-02",
+      "edition_number": 312
+    },
+    {
+      "name": "Małgorzata IWAN",
+      "time": "19:08",
+      "seconds": 1148,
+      "date": "2023-07-08",
+      "edition_number": 304
+    },
+    {
+      "name": "Małgorzata IWAN",
+      "time": "19:20",
+      "seconds": 1160,
+      "date": "2021-08-07",
+      "edition_number": 202
+    },
+    {
+      "name": "Małgorzata IWAN",
+      "time": "19:26",
+      "seconds": 1166,
+      "date": "2022-05-21",
+      "edition_number": 243
+    },
+    {
+      "name": "Elżbieta KUSCHBIK",
+      "time": "19:34",
+      "seconds": 1174,
+      "date": "2016-07-30",
+      "edition_number": 1
+    },
+    {
+      "name": "Małgorzata DRZYCIMSKA",
+      "time": "19:34",
+      "seconds": 1174,
+      "date": "2016-07-30",
+      "edition_number": 1
+    },
+    {
+      "name": "Holly CHIPMAN",
+      "time": "19:38",
+      "seconds": 1178,
+      "date": "2026-01-24",
+      "edition_number": 443
+    },
+    {
+      "name": "Zofia SZLUFIK",
+      "time": "19:56",
+      "seconds": 1196,
+      "date": "2026-02-28",
+      "edition_number": 447
+    },
+    {
+      "name": "Magdalena JASZEWSKA",
+      "time": "20:01",
+      "seconds": 1201,
+      "date": "2025-06-14",
+      "edition_number": 409
+    },
+    {
+      "name": "Małgorzata IWAN",
+      "time": "20:03",
+      "seconds": 1203,
+      "date": "2018-04-28",
+      "edition_number": 93
+    }
+  ],
+  "top_men": [
+    {
+      "name": "Jonathan ESCALANTE-PHILLIPS",
+      "time": "15:45",
+      "seconds": 945,
+      "date": "2019-03-02",
+      "edition_number": 138
+    },
+    {
+      "name": "Ben HAGUE",
+      "time": "15:56",
+      "seconds": 956,
+      "date": "2019-03-23",
+      "edition_number": 141
+    },
+    {
+      "name": "Wojciech PIJANOWSKI",
+      "time": "16:21",
+      "seconds": 981,
+      "date": "2022-05-28",
+      "edition_number": 244
+    },
+    {
+      "name": "Daniel MIKIELSKI",
+      "time": "16:33",
+      "seconds": 993,
+      "date": "2022-10-15",
+      "edition_number": 264
+    },
+    {
+      "name": "Piotr FOBKE",
+      "time": "16:34",
+      "seconds": 994,
+      "date": "2018-05-12",
+      "edition_number": 95
+    },
+    {
+      "name": "Wojciech PIJANOWSKI",
+      "time": "16:50",
+      "seconds": 1010,
+      "date": "2022-04-30",
+      "edition_number": 240
+    },
+    {
+      "name": "Sebastian WAŚKIEWICZ",
+      "time": "16:50",
+      "seconds": 1010,
+      "date": "2022-10-15",
+      "edition_number": 264
+    },
+    {
+      "name": "Tomasz BAGIŃSKI",
+      "time": "16:50",
+      "seconds": 1010,
+      "date": "2023-05-20",
+      "edition_number": 297
+    },
+    {
+      "name": "Tomasz Henryk BAGROWSKI",
+      "time": "16:51",
+      "seconds": 1011,
+      "date": "2020-01-18",
+      "edition_number": 186
+    },
+    {
+      "name": "Damian DINO",
+      "time": "16:51",
+      "seconds": 1011,
+      "date": "2026-04-11",
+      "edition_number": 453
+    }
+  ],
+  "by_category_women": [
+    {
+      "category": "JW10",
+      "name": "Małgorzata FIGEL",
+      "time": "25:27",
+      "seconds": 1527,
+      "gender": "K",
+      "date": "2016-12-24"
+    },
+    {
+      "category": "JW11-14",
+      "name": "Julia WIERGOWSKA",
+      "time": "21:30",
+      "seconds": 1290,
+      "gender": "K",
+      "date": "2016-08-27"
+    },
+    {
+      "category": "JW15-17",
+      "name": "Julia WIERGOWSKA",
+      "time": "20:07",
+      "seconds": 1207,
+      "gender": "K",
+      "date": "2017-12-26"
+    },
+    {
+      "category": "SW18-19",
+      "name": "Oliwia JASZCZUR",
+      "time": "23:19",
+      "seconds": 1399,
+      "gender": "K",
+      "date": "2026-01-24"
+    },
+    {
+      "category": "SW20-24",
+      "name": "Zofia SZLUFIK",
+      "time": "19:56",
+      "seconds": 1196,
+      "gender": "K",
+      "date": "2026-02-28"
+    },
+    {
+      "category": "SW25-29",
+      "name": "Aleksandra Ewa GRABIAS",
+      "time": "20:46",
+      "seconds": 1246,
+      "gender": "K",
+      "date": "2017-04-01"
+    },
+    {
+      "category": "SW30-34",
+      "name": "Holly CHIPMAN",
+      "time": "19:38",
+      "seconds": 1178,
+      "gender": "K",
+      "date": "2026-01-24"
+    },
+    {
+      "category": "VW35-39",
+      "name": "Marta ŁOSIN",
+      "time": "18:47",
+      "seconds": 1127,
+      "gender": "K",
+      "date": "2023-09-02"
+    },
+    {
+      "category": "VW40-44",
+      "name": "Dorota ŻMUDA-TRZEBIATOWSKA",
+      "time": "20:25",
+      "seconds": 1225,
+      "gender": "K",
+      "date": "2026-06-13"
+    },
+    {
+      "category": "VW45-49",
+      "name": "Monika DZIERŻEŃSKA",
+      "time": "21:25",
+      "seconds": 1285,
+      "gender": "K",
+      "date": "2023-11-04"
+    },
+    {
+      "category": "VW50-54",
+      "name": "Monika DZIERŻEŃSKA",
+      "time": "21:51",
+      "seconds": 1311,
+      "gender": "K",
+      "date": "2025-03-22"
+    },
+    {
+      "category": "VW55-59",
+      "name": "Marzenna MALAGOCKA",
+      "time": "24:43",
+      "seconds": 1483,
+      "gender": "K",
+      "date": "2025-12-20"
+    },
+    {
+      "category": "VW60-64",
+      "name": "Zofia TERLECKA WYDARTY",
+      "time": "23:56",
+      "seconds": 1436,
+      "gender": "K",
+      "date": "2017-04-01"
+    },
+    {
+      "category": "VW65-69",
+      "name": "Zofia TERLECKA WYDARTY",
+      "time": "25:07",
+      "seconds": 1507,
+      "gender": "K",
+      "date": "2022-04-16"
+    },
+    {
+      "category": "VW70-74",
+      "name": "Małgorzata POLINCEUSZ",
+      "time": "28:08",
+      "seconds": 1688,
+      "gender": "K",
+      "date": "2024-10-19"
+    }
+  ],
+  "by_category_men": [
+    {
+      "category": "JM10",
+      "name": "Michal KRZYSZTOFIK",
+      "time": "21:18",
+      "seconds": 1278,
+      "gender": "M",
+      "date": "2025-11-08"
+    },
+    {
+      "category": "JM11-14",
+      "name": "Szymon DAWIDOWSKI",
+      "time": "18:34",
+      "seconds": 1114,
+      "gender": "M",
+      "date": "2025-09-13"
+    },
+    {
+      "category": "JM15-17",
+      "name": "Piotr FOBKE",
+      "time": "16:34",
+      "seconds": 994,
+      "gender": "M",
+      "date": "2018-05-12"
+    },
+    {
+      "category": "SM18-19",
+      "name": "Piotr FOBKE",
+      "time": "17:41",
+      "seconds": 1061,
+      "gender": "M",
+      "date": "2020-02-29"
+    },
+    {
+      "category": "SM20-24",
+      "name": "Stefan SZABLEWSKI",
+      "time": "16:57",
+      "seconds": 1017,
+      "gender": "M",
+      "date": "2023-11-18"
+    },
+    {
+      "category": "SM25-29",
+      "name": "Jonathan ESCALANTE-PHILLIPS",
+      "time": "15:45",
+      "seconds": 945,
+      "gender": "M",
+      "date": "2019-03-02"
+    },
+    {
+      "category": "SM30-34",
+      "name": "Ben HAGUE",
+      "time": "15:56",
+      "seconds": 956,
+      "gender": "M",
+      "date": "2019-03-23"
+    },
+    {
+      "category": "VM35-39",
+      "name": "Tomasz Henryk BAGROWSKI",
+      "time": "16:51",
+      "seconds": 1011,
+      "gender": "M",
+      "date": "2020-01-18"
+    },
+    {
+      "category": "VM40-44",
+      "name": "Tomasz BAGIŃSKI",
+      "time": "16:50",
+      "seconds": 1010,
+      "gender": "M",
+      "date": "2023-05-20"
+    },
+    {
+      "category": "VM45-49",
+      "name": "Damian DINO",
+      "time": "16:51",
+      "seconds": 1011,
+      "gender": "M",
+      "date": "2026-04-11"
+    },
+    {
+      "category": "VM50-54",
+      "name": "Tomasz MAKARSKI",
+      "time": "17:07",
+      "seconds": 1027,
+      "gender": "M",
+      "date": "2026-05-23"
+    },
+    {
+      "category": "VM55-59",
+      "name": "Krzysztof TOKARSKI",
+      "time": "19:50",
+      "seconds": 1190,
+      "gender": "M",
+      "date": "2016-10-08"
+    },
+    {
+      "category": "VM60-64",
+      "name": "Wiktor GRUSZKA",
+      "time": "19:39",
+      "seconds": 1179,
+      "gender": "M",
+      "date": "2023-04-29"
+    },
+    {
+      "category": "VM65-69",
+      "name": "Andrzej BALICKI",
+      "time": "19:46",
+      "seconds": 1186,
+      "gender": "M",
+      "date": "2018-09-15"
+    },
+    {
+      "category": "VM70-74",
+      "name": "Andrzej BALICKI",
+      "time": "20:21",
+      "seconds": 1221,
+      "gender": "M",
+      "date": "2021-10-30"
+    },
+    {
+      "category": "VM75-79",
+      "name": "Zygfryd LIBAN",
+      "time": "22:38",
+      "seconds": 1358,
+      "gender": "M",
+      "date": "2020-01-01"
+    },
+    {
+      "category": "VM80-84",
+      "name": "Henryk URTNOWSKI",
+      "time": "24:25",
+      "seconds": 1465,
+      "gender": "M",
+      "date": "2018-10-20"
+    },
+    {
+      "category": "VM85-89",
+      "name": "Henryk URTNOWSKI",
+      "time": "29:03",
+      "seconds": 1743,
+      "gender": "M",
+      "date": "2023-06-03"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "highest": [
+    {
+      "rank": 1,
+      "edition_number": 384,
+      "date": "2024-12-28",
+      "participants_count": 328
+    },
+    {
+      "rank": 2,
+      "edition_number": 312,
+      "date": "2023-09-02",
+      "participants_count": 321
+    },
+    {
+      "rank": 3,
+      "edition_number": 1,
+      "date": "2016-07-30",
+      "participants_count": 246
+    },
+    {
+      "rank": 4,
+      "edition_number": 459,
+      "date": "2026-05-23",
+      "participants_count": 197
+    },
+    {
+      "rank": 5,
+      "edition_number": 448,
+      "date": "2026-03-07",
+      "participants_count": 186
+    },
+    {
+      "rank": 6,
+      "edition_number": 371,
+      "date": "2024-10-05",
+      "participants_count": 185
+    },
+    {
+      "rank": 7,
+      "edition_number": 456,
+      "date": "2026-05-02",
+      "participants_count": 183
+    },
+    {
+      "rank": 8,
+      "edition_number": 415,
+      "date": "2025-07-26",
+      "participants_count": 182
+    },
+    {
+      "rank": 9,
+      "edition_number": 408,
+      "date": "2025-06-07",
+      "participants_count": 173
+    },
+    {
+      "rank": 10,
+      "edition_number": 52,
+      "date": "2017-07-29",
+      "participants_count": 171
+    },
+    {
+      "rank": 10,
+      "edition_number": 422,
+      "date": "2025-09-13",
+      "participants_count": 171
+    },
+    {
+      "rank": 10,
+      "edition_number": 447,
+      "date": "2026-02-28",
+      "participants_count": 171
+    },
+    {
+      "rank": 10,
+      "edition_number": 463,
+      "date": "2026-06-20",
+      "participants_count": 171
+    }
+  ],
+  "lowest": [
+    {
+      "rank": 1,
+      "edition_number": 25,
+      "date": "2017-01-21",
+      "participants_count": 35
+    },
+    {
+      "rank": 1,
+      "edition_number": 67,
+      "date": "2017-11-11",
+      "participants_count": 35
+    },
+    {
+      "rank": 3,
+      "edition_number": 427,
+      "date": "2025-10-18",
+      "participants_count": 39
+    },
+    {
+      "rank": 4,
+      "edition_number": 39,
+      "date": "2017-04-29",
+      "participants_count": 40
+    },
+    {
+      "rank": 4,
+      "edition_number": 237,
+      "date": "2022-04-09",
+      "participants_count": 40
+    },
+    {
+      "rank": 6,
+      "edition_number": 45,
+      "date": "2017-06-10",
+      "participants_count": 41
+    },
+    {
+      "rank": 7,
+      "edition_number": 42,
+      "date": "2017-05-20",
+      "participants_count": 42
+    },
+    {
+      "rank": 7,
+      "edition_number": 57,
+      "date": "2017-09-02",
+      "participants_count": 42
+    },
+    {
+      "rank": 7,
+      "edition_number": 275,
+      "date": "2022-12-26",
+      "participants_count": 42
+    },
+    {
+      "rank": 10,
+      "edition_number": 97,
+      "date": "2018-05-26",
+      "participants_count": 44
+    },
+    {
+      "rank": 10,
+      "edition_number": 230,
+      "date": "2022-02-19",
+      "participants_count": 44
+    }
+  ]
+}

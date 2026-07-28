@@ -1,0 +1,20 @@
+{
+  "total_editions": 468,
+  "total_starts": 42991,
+  "known_participants": 4193,
+  "unknown_rows": 391,
+  "total_clubs": 388,
+  "record_attendance": {
+    "edition_number": 384,
+    "date": "2024-12-28",
+    "count": 328
+  },
+  "total_volunteer_entries": 7550,
+  "unique_volunteers": 571,
+  "avg_volunteers_per_edition": 16.1,
+  "record_volunteers": {
+    "edition_number": 415,
+    "date": "2025-07-26",
+    "count": 56
+  }
+}
