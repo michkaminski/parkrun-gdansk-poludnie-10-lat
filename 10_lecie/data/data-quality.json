@@ -1,0 +1,33 @@
+{
+  "sourceRows": {
+    "editions": 464,
+    "results": 42374
+  },
+  "warnings": [
+    {
+      "code": "empty_club",
+      "count": 31210
+    },
+    {
+      "code": "unknown_participant",
+      "count": 391
+    },
+    {
+      "code": "invalid_or_empty_time",
+      "count": 409
+    },
+    {
+      "code": "unknown_gender",
+      "count": 409
+    },
+    {
+      "code": "empty_age_category",
+      "count": 412
+    },
+    {
+      "code": "invalid_or_empty_age_grading",
+      "count": 414
+    }
+  ],
+  "critical": []
+}

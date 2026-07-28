@@ -1,0 +1,45 @@
+{
+  "locationId": "gdanskpoludnie",
+  "locationName": "Gdańsk Południe",
+  "siteTitle": "10 lat parkrun Gdansk Poludnie",
+  "periodStart": "2016-07-30",
+  "periodEnd": "2026-06-27",
+  "anniversaryDate": "2026-07-30",
+  "daysCovered": 3620,
+  "editionsCount": 464,
+  "totalResults": 42374,
+  "knownUniqueParticipants": 4138,
+  "unknownResults": 391,
+  "womenResults": 11384,
+  "menResults": 30581,
+  "unknownGenderResults": 409,
+  "clubsCount": 384,
+  "averageAttendance": 91.32,
+  "medianAttendance": 82.0,
+  "recordAttendance": 328,
+  "recordAttendanceEdition": {
+    "editionNumber": 384,
+    "date": "2024-12-28"
+  },
+  "minAttendance": 35,
+  "minAttendanceEdition": {
+    "editionNumber": 25,
+    "date": "2017-01-21"
+  },
+  "averageTimeSeconds": 1638.51,
+  "averageTimeLabel": "27:19",
+  "medianTimeSeconds": 1566,
+  "medianTimeLabel": "26:06",
+  "timeUnder": {
+    "20m": 2368,
+    "25m": 17100,
+    "30m": 32116,
+    "40m": 39874,
+    "60m": 41938
+  },
+  "totalDistanceKm": 211870.0,
+  "totalTimeSeconds": 68760171,
+  "totalTimeLabel": "795 dni 20 godz. 2 min.",
+  "earthCircumferences": 5.29,
+  "generatedAt": "2026-07-28T19:08:44"
+}

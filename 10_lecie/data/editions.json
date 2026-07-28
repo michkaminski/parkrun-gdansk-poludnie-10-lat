@@ -1,0 +1,3714 @@
+[
+  {
+    "editionNumber": 1,
+    "date": "2016-07-30",
+    "participants": 246,
+    "women": 64,
+    "men": 173,
+    "unknownGender": 9
+  },
+  {
+    "editionNumber": 2,
+    "date": "2016-08-06",
+    "participants": 70,
+    "women": 15,
+    "men": 54,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 3,
+    "date": "2016-08-13",
+    "participants": 97,
+    "women": 23,
+    "men": 72,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 4,
+    "date": "2016-08-20",
+    "participants": 116,
+    "women": 28,
+    "men": 85,
+    "unknownGender": 3
+  },
+  {
+    "editionNumber": 5,
+    "date": "2016-08-27",
+    "participants": 87,
+    "women": 22,
+    "men": 64,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 6,
+    "date": "2016-09-10",
+    "participants": 56,
+    "women": 13,
+    "men": 43,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 7,
+    "date": "2016-09-17",
+    "participants": 69,
+    "women": 18,
+    "men": 51,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 8,
+    "date": "2016-09-24",
+    "participants": 71,
+    "women": 18,
+    "men": 51,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 9,
+    "date": "2016-10-01",
+    "participants": 91,
+    "women": 25,
+    "men": 66,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 10,
+    "date": "2016-10-08",
+    "participants": 73,
+    "women": 22,
+    "men": 50,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 11,
+    "date": "2016-10-15",
+    "participants": 67,
+    "women": 18,
+    "men": 47,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 12,
+    "date": "2016-10-22",
+    "participants": 64,
+    "women": 17,
+    "men": 47,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 13,
+    "date": "2016-10-29",
+    "participants": 54,
+    "women": 13,
+    "men": 41,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 14,
+    "date": "2016-11-05",
+    "participants": 65,
+    "women": 20,
+    "men": 45,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 15,
+    "date": "2016-11-12",
+    "participants": 75,
+    "women": 22,
+    "men": 51,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 16,
+    "date": "2016-11-19",
+    "participants": 75,
+    "women": 17,
+    "men": 56,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 17,
+    "date": "2016-11-26",
+    "participants": 71,
+    "women": 15,
+    "men": 53,
+    "unknownGender": 3
+  },
+  {
+    "editionNumber": 18,
+    "date": "2016-12-03",
+    "participants": 62,
+    "women": 17,
+    "men": 43,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 19,
+    "date": "2016-12-10",
+    "participants": 58,
+    "women": 15,
+    "men": 42,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 20,
+    "date": "2016-12-17",
+    "participants": 60,
+    "women": 18,
+    "men": 42,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 21,
+    "date": "2016-12-24",
+    "participants": 98,
+    "women": 26,
+    "men": 70,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 22,
+    "date": "2016-12-31",
+    "participants": 85,
+    "women": 21,
+    "men": 64,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 23,
+    "date": "2017-01-07",
+    "participants": 70,
+    "women": 16,
+    "men": 52,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 24,
+    "date": "2017-01-14",
+    "participants": 54,
+    "women": 7,
+    "men": 46,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 25,
+    "date": "2017-01-21",
+    "participants": 35,
+    "women": 6,
+    "men": 29,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 26,
+    "date": "2017-01-28",
+    "participants": 72,
+    "women": 20,
+    "men": 50,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 27,
+    "date": "2017-02-04",
+    "participants": 74,
+    "women": 20,
+    "men": 53,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 28,
+    "date": "2017-02-11",
+    "participants": 69,
+    "women": 17,
+    "men": 49,
+    "unknownGender": 3
+  },
+  {
+    "editionNumber": 29,
+    "date": "2017-02-18",
+    "participants": 56,
+    "women": 10,
+    "men": 46,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 30,
+    "date": "2017-02-25",
+    "participants": 68,
+    "women": 18,
+    "men": 45,
+    "unknownGender": 5
+  },
+  {
+    "editionNumber": 31,
+    "date": "2017-03-04",
+    "participants": 92,
+    "women": 24,
+    "men": 63,
+    "unknownGender": 5
+  },
+  {
+    "editionNumber": 32,
+    "date": "2017-03-11",
+    "participants": 72,
+    "women": 20,
+    "men": 51,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 33,
+    "date": "2017-03-18",
+    "participants": 56,
+    "women": 16,
+    "men": 40,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 34,
+    "date": "2017-03-25",
+    "participants": 77,
+    "women": 19,
+    "men": 58,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 35,
+    "date": "2017-04-01",
+    "participants": 79,
+    "women": 18,
+    "men": 61,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 36,
+    "date": "2017-04-08",
+    "participants": 61,
+    "women": 14,
+    "men": 46,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 37,
+    "date": "2017-04-15",
+    "participants": 65,
+    "women": 11,
+    "men": 54,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 38,
+    "date": "2017-04-22",
+    "participants": 53,
+    "women": 12,
+    "men": 41,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 39,
+    "date": "2017-04-29",
+    "participants": 40,
+    "women": 3,
+    "men": 37,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 40,
+    "date": "2017-05-06",
+    "participants": 65,
+    "women": 16,
+    "men": 46,
+    "unknownGender": 3
+  },
+  {
+    "editionNumber": 41,
+    "date": "2017-05-13",
+    "participants": 70,
+    "women": 16,
+    "men": 54,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 42,
+    "date": "2017-05-20",
+    "participants": 42,
+    "women": 3,
+    "men": 38,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 43,
+    "date": "2017-05-27",
+    "participants": 74,
+    "women": 22,
+    "men": 52,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 44,
+    "date": "2017-06-03",
+    "participants": 49,
+    "women": 11,
+    "men": 38,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 45,
+    "date": "2017-06-10",
+    "participants": 41,
+    "women": 10,
+    "men": 31,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 46,
+    "date": "2017-06-17",
+    "participants": 76,
+    "women": 21,
+    "men": 55,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 47,
+    "date": "2017-06-24",
+    "participants": 54,
+    "women": 10,
+    "men": 44,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 48,
+    "date": "2017-07-01",
+    "participants": 75,
+    "women": 14,
+    "men": 58,
+    "unknownGender": 3
+  },
+  {
+    "editionNumber": 49,
+    "date": "2017-07-08",
+    "participants": 58,
+    "women": 10,
+    "men": 48,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 50,
+    "date": "2017-07-15",
+    "participants": 81,
+    "women": 20,
+    "men": 58,
+    "unknownGender": 3
+  },
+  {
+    "editionNumber": 51,
+    "date": "2017-07-22",
+    "participants": 95,
+    "women": 21,
+    "men": 71,
+    "unknownGender": 3
+  },
+  {
+    "editionNumber": 52,
+    "date": "2017-07-29",
+    "participants": 171,
+    "women": 51,
+    "men": 118,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 53,
+    "date": "2017-08-05",
+    "participants": 71,
+    "women": 18,
+    "men": 52,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 54,
+    "date": "2017-08-12",
+    "participants": 56,
+    "women": 9,
+    "men": 47,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 55,
+    "date": "2017-08-19",
+    "participants": 57,
+    "women": 12,
+    "men": 44,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 56,
+    "date": "2017-08-26",
+    "participants": 82,
+    "women": 16,
+    "men": 66,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 57,
+    "date": "2017-09-02",
+    "participants": 42,
+    "women": 8,
+    "men": 34,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 58,
+    "date": "2017-09-09",
+    "participants": 72,
+    "women": 16,
+    "men": 56,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 59,
+    "date": "2017-09-16",
+    "participants": 53,
+    "women": 16,
+    "men": 37,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 60,
+    "date": "2017-09-23",
+    "participants": 63,
+    "women": 19,
+    "men": 42,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 61,
+    "date": "2017-09-30",
+    "participants": 74,
+    "women": 16,
+    "men": 58,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 62,
+    "date": "2017-10-07",
+    "participants": 84,
+    "women": 28,
+    "men": 55,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 63,
+    "date": "2017-10-14",
+    "participants": 67,
+    "women": 21,
+    "men": 44,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 64,
+    "date": "2017-10-21",
+    "participants": 63,
+    "women": 18,
+    "men": 44,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 65,
+    "date": "2017-10-28",
+    "participants": 60,
+    "women": 14,
+    "men": 45,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 66,
+    "date": "2017-11-04",
+    "participants": 73,
+    "women": 17,
+    "men": 55,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 67,
+    "date": "2017-11-11",
+    "participants": 35,
+    "women": 5,
+    "men": 30,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 68,
+    "date": "2017-11-18",
+    "participants": 72,
+    "women": 17,
+    "men": 55,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 69,
+    "date": "2017-11-25",
+    "participants": 59,
+    "women": 15,
+    "men": 44,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 70,
+    "date": "2017-12-02",
+    "participants": 69,
+    "women": 19,
+    "men": 49,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 71,
+    "date": "2017-12-09",
+    "participants": 75,
+    "women": 20,
+    "men": 54,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 72,
+    "date": "2017-12-16",
+    "participants": 65,
+    "women": 18,
+    "men": 45,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 73,
+    "date": "2017-12-23",
+    "participants": 59,
+    "women": 9,
+    "men": 50,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 74,
+    "date": "2017-12-26",
+    "participants": 83,
+    "women": 25,
+    "men": 55,
+    "unknownGender": 3
+  },
+  {
+    "editionNumber": 75,
+    "date": "2017-12-30",
+    "participants": 84,
+    "women": 22,
+    "men": 62,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 76,
+    "date": "2018-01-01",
+    "participants": 56,
+    "women": 16,
+    "men": 39,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 77,
+    "date": "2018-01-06",
+    "participants": 57,
+    "women": 8,
+    "men": 48,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 78,
+    "date": "2018-01-13",
+    "participants": 75,
+    "women": 16,
+    "men": 58,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 79,
+    "date": "2018-01-20",
+    "participants": 60,
+    "women": 10,
+    "men": 49,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 80,
+    "date": "2018-01-27",
+    "participants": 74,
+    "women": 13,
+    "men": 61,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 81,
+    "date": "2018-02-03",
+    "participants": 66,
+    "women": 14,
+    "men": 51,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 82,
+    "date": "2018-02-10",
+    "participants": 64,
+    "women": 14,
+    "men": 47,
+    "unknownGender": 3
+  },
+  {
+    "editionNumber": 83,
+    "date": "2018-02-17",
+    "participants": 58,
+    "women": 17,
+    "men": 39,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 84,
+    "date": "2018-02-24",
+    "participants": 59,
+    "women": 14,
+    "men": 45,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 85,
+    "date": "2018-03-03",
+    "participants": 51,
+    "women": 12,
+    "men": 39,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 86,
+    "date": "2018-03-10",
+    "participants": 49,
+    "women": 6,
+    "men": 43,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 87,
+    "date": "2018-03-17",
+    "participants": 56,
+    "women": 11,
+    "men": 44,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 88,
+    "date": "2018-03-24",
+    "participants": 51,
+    "women": 16,
+    "men": 35,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 89,
+    "date": "2018-03-31",
+    "participants": 63,
+    "women": 9,
+    "men": 53,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 90,
+    "date": "2018-04-07",
+    "participants": 73,
+    "women": 23,
+    "men": 50,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 91,
+    "date": "2018-04-14",
+    "participants": 70,
+    "women": 13,
+    "men": 56,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 92,
+    "date": "2018-04-21",
+    "participants": 69,
+    "women": 18,
+    "men": 51,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 93,
+    "date": "2018-04-28",
+    "participants": 73,
+    "women": 15,
+    "men": 57,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 94,
+    "date": "2018-05-05",
+    "participants": 64,
+    "women": 15,
+    "men": 49,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 95,
+    "date": "2018-05-12",
+    "participants": 72,
+    "women": 14,
+    "men": 57,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 96,
+    "date": "2018-05-19",
+    "participants": 57,
+    "women": 21,
+    "men": 36,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 97,
+    "date": "2018-05-26",
+    "participants": 44,
+    "women": 13,
+    "men": 30,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 98,
+    "date": "2018-06-02",
+    "participants": 82,
+    "women": 16,
+    "men": 63,
+    "unknownGender": 3
+  },
+  {
+    "editionNumber": 99,
+    "date": "2018-06-09",
+    "participants": 58,
+    "women": 14,
+    "men": 43,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 100,
+    "date": "2018-06-16",
+    "participants": 87,
+    "women": 20,
+    "men": 66,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 101,
+    "date": "2018-06-23",
+    "participants": 50,
+    "women": 13,
+    "men": 36,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 102,
+    "date": "2018-06-30",
+    "participants": 68,
+    "women": 14,
+    "men": 54,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 103,
+    "date": "2018-07-07",
+    "participants": 66,
+    "women": 18,
+    "men": 47,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 104,
+    "date": "2018-07-14",
+    "participants": 62,
+    "women": 17,
+    "men": 45,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 105,
+    "date": "2018-07-21",
+    "participants": 74,
+    "women": 16,
+    "men": 58,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 106,
+    "date": "2018-07-28",
+    "participants": 84,
+    "women": 24,
+    "men": 56,
+    "unknownGender": 4
+  },
+  {
+    "editionNumber": 107,
+    "date": "2018-08-04",
+    "participants": 64,
+    "women": 17,
+    "men": 45,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 108,
+    "date": "2018-08-11",
+    "participants": 83,
+    "women": 23,
+    "men": 60,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 109,
+    "date": "2018-08-18",
+    "participants": 78,
+    "women": 24,
+    "men": 53,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 110,
+    "date": "2018-08-25",
+    "participants": 69,
+    "women": 11,
+    "men": 56,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 111,
+    "date": "2018-09-01",
+    "participants": 79,
+    "women": 19,
+    "men": 59,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 112,
+    "date": "2018-09-08",
+    "participants": 58,
+    "women": 15,
+    "men": 37,
+    "unknownGender": 6
+  },
+  {
+    "editionNumber": 113,
+    "date": "2018-09-15",
+    "participants": 93,
+    "women": 23,
+    "men": 69,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 114,
+    "date": "2018-09-22",
+    "participants": 66,
+    "women": 20,
+    "men": 45,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 115,
+    "date": "2018-09-29",
+    "participants": 72,
+    "women": 14,
+    "men": 52,
+    "unknownGender": 6
+  },
+  {
+    "editionNumber": 116,
+    "date": "2018-10-06",
+    "participants": 72,
+    "women": 11,
+    "men": 60,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 117,
+    "date": "2018-10-13",
+    "participants": 57,
+    "women": 11,
+    "men": 46,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 118,
+    "date": "2018-10-20",
+    "participants": 64,
+    "women": 17,
+    "men": 47,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 119,
+    "date": "2018-10-27",
+    "participants": 57,
+    "women": 14,
+    "men": 41,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 120,
+    "date": "2018-11-03",
+    "participants": 81,
+    "women": 20,
+    "men": 58,
+    "unknownGender": 3
+  },
+  {
+    "editionNumber": 121,
+    "date": "2018-11-10",
+    "participants": 57,
+    "women": 14,
+    "men": 41,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 122,
+    "date": "2018-11-17",
+    "participants": 70,
+    "women": 18,
+    "men": 52,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 123,
+    "date": "2018-11-24",
+    "participants": 79,
+    "women": 25,
+    "men": 54,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 124,
+    "date": "2018-12-01",
+    "participants": 49,
+    "women": 12,
+    "men": 37,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 125,
+    "date": "2018-12-08",
+    "participants": 70,
+    "women": 20,
+    "men": 49,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 126,
+    "date": "2018-12-15",
+    "participants": 65,
+    "women": 21,
+    "men": 42,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 127,
+    "date": "2018-12-22",
+    "participants": 71,
+    "women": 17,
+    "men": 54,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 128,
+    "date": "2018-12-26",
+    "participants": 85,
+    "women": 25,
+    "men": 59,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 129,
+    "date": "2018-12-29",
+    "participants": 65,
+    "women": 17,
+    "men": 46,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 130,
+    "date": "2019-01-01",
+    "participants": 89,
+    "women": 32,
+    "men": 56,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 131,
+    "date": "2019-01-05",
+    "participants": 89,
+    "women": 19,
+    "men": 69,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 132,
+    "date": "2019-01-12",
+    "participants": 108,
+    "women": 29,
+    "men": 77,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 133,
+    "date": "2019-01-26",
+    "participants": 70,
+    "women": 16,
+    "men": 53,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 134,
+    "date": "2019-02-02",
+    "participants": 62,
+    "women": 14,
+    "men": 48,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 135,
+    "date": "2019-02-09",
+    "participants": 70,
+    "women": 16,
+    "men": 53,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 136,
+    "date": "2019-02-16",
+    "participants": 70,
+    "women": 19,
+    "men": 49,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 137,
+    "date": "2019-02-23",
+    "participants": 78,
+    "women": 22,
+    "men": 55,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 138,
+    "date": "2019-03-02",
+    "participants": 102,
+    "women": 29,
+    "men": 73,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 139,
+    "date": "2019-03-09",
+    "participants": 82,
+    "women": 19,
+    "men": 62,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 140,
+    "date": "2019-03-16",
+    "participants": 63,
+    "women": 21,
+    "men": 41,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 141,
+    "date": "2019-03-23",
+    "participants": 112,
+    "women": 31,
+    "men": 78,
+    "unknownGender": 3
+  },
+  {
+    "editionNumber": 142,
+    "date": "2019-03-30",
+    "participants": 96,
+    "women": 26,
+    "men": 65,
+    "unknownGender": 5
+  },
+  {
+    "editionNumber": 143,
+    "date": "2019-04-06",
+    "participants": 86,
+    "women": 29,
+    "men": 57,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 144,
+    "date": "2019-04-13",
+    "participants": 61,
+    "women": 16,
+    "men": 43,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 145,
+    "date": "2019-04-20",
+    "participants": 101,
+    "women": 31,
+    "men": 70,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 146,
+    "date": "2019-04-27",
+    "participants": 91,
+    "women": 27,
+    "men": 63,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 147,
+    "date": "2019-05-04",
+    "participants": 61,
+    "women": 16,
+    "men": 45,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 148,
+    "date": "2019-05-11",
+    "participants": 79,
+    "women": 24,
+    "men": 54,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 149,
+    "date": "2019-05-18",
+    "participants": 69,
+    "women": 16,
+    "men": 51,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 150,
+    "date": "2019-05-25",
+    "participants": 91,
+    "women": 24,
+    "men": 64,
+    "unknownGender": 3
+  },
+  {
+    "editionNumber": 151,
+    "date": "2019-06-01",
+    "participants": 90,
+    "women": 24,
+    "men": 64,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 152,
+    "date": "2019-06-08",
+    "participants": 79,
+    "women": 23,
+    "men": 54,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 153,
+    "date": "2019-06-15",
+    "participants": 47,
+    "women": 10,
+    "men": 37,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 154,
+    "date": "2019-06-22",
+    "participants": 73,
+    "women": 16,
+    "men": 55,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 155,
+    "date": "2019-06-29",
+    "participants": 49,
+    "women": 13,
+    "men": 35,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 156,
+    "date": "2019-07-06",
+    "participants": 82,
+    "women": 19,
+    "men": 61,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 157,
+    "date": "2019-07-13",
+    "participants": 78,
+    "women": 27,
+    "men": 50,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 158,
+    "date": "2019-07-20",
+    "participants": 97,
+    "women": 27,
+    "men": 63,
+    "unknownGender": 7
+  },
+  {
+    "editionNumber": 159,
+    "date": "2019-07-27",
+    "participants": 93,
+    "women": 27,
+    "men": 58,
+    "unknownGender": 8
+  },
+  {
+    "editionNumber": 160,
+    "date": "2019-08-03",
+    "participants": 67,
+    "women": 16,
+    "men": 51,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 161,
+    "date": "2019-08-10",
+    "participants": 73,
+    "women": 20,
+    "men": 52,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 162,
+    "date": "2019-08-17",
+    "participants": 66,
+    "women": 17,
+    "men": 49,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 163,
+    "date": "2019-08-24",
+    "participants": 84,
+    "women": 26,
+    "men": 53,
+    "unknownGender": 5
+  },
+  {
+    "editionNumber": 164,
+    "date": "2019-08-31",
+    "participants": 108,
+    "women": 32,
+    "men": 73,
+    "unknownGender": 3
+  },
+  {
+    "editionNumber": 165,
+    "date": "2019-09-07",
+    "participants": 73,
+    "women": 19,
+    "men": 54,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 166,
+    "date": "2019-09-14",
+    "participants": 45,
+    "women": 12,
+    "men": 33,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 167,
+    "date": "2019-09-21",
+    "participants": 81,
+    "women": 23,
+    "men": 55,
+    "unknownGender": 3
+  },
+  {
+    "editionNumber": 168,
+    "date": "2019-09-28",
+    "participants": 75,
+    "women": 24,
+    "men": 51,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 169,
+    "date": "2019-10-05",
+    "participants": 76,
+    "women": 21,
+    "men": 55,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 170,
+    "date": "2019-10-12",
+    "participants": 63,
+    "women": 19,
+    "men": 44,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 171,
+    "date": "2019-10-19",
+    "participants": 103,
+    "women": 29,
+    "men": 72,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 172,
+    "date": "2019-10-26",
+    "participants": 88,
+    "women": 21,
+    "men": 65,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 173,
+    "date": "2019-11-02",
+    "participants": 90,
+    "women": 22,
+    "men": 66,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 174,
+    "date": "2019-11-09",
+    "participants": 90,
+    "women": 25,
+    "men": 64,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 175,
+    "date": "2019-11-16",
+    "participants": 66,
+    "women": 17,
+    "men": 49,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 176,
+    "date": "2019-11-23",
+    "participants": 79,
+    "women": 17,
+    "men": 62,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 177,
+    "date": "2019-11-30",
+    "participants": 96,
+    "women": 28,
+    "men": 65,
+    "unknownGender": 3
+  },
+  {
+    "editionNumber": 178,
+    "date": "2019-12-07",
+    "participants": 68,
+    "women": 17,
+    "men": 51,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 179,
+    "date": "2019-12-14",
+    "participants": 56,
+    "women": 16,
+    "men": 40,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 180,
+    "date": "2019-12-21",
+    "participants": 91,
+    "women": 25,
+    "men": 62,
+    "unknownGender": 4
+  },
+  {
+    "editionNumber": 181,
+    "date": "2019-12-26",
+    "participants": 63,
+    "women": 20,
+    "men": 43,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 182,
+    "date": "2019-12-28",
+    "participants": 61,
+    "women": 17,
+    "men": 44,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 183,
+    "date": "2020-01-01",
+    "participants": 108,
+    "women": 39,
+    "men": 66,
+    "unknownGender": 3
+  },
+  {
+    "editionNumber": 184,
+    "date": "2020-01-04",
+    "participants": 104,
+    "women": 32,
+    "men": 71,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 185,
+    "date": "2020-01-11",
+    "participants": 91,
+    "women": 28,
+    "men": 63,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 186,
+    "date": "2020-01-18",
+    "participants": 108,
+    "women": 33,
+    "men": 75,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 187,
+    "date": "2020-01-25",
+    "participants": 94,
+    "women": 23,
+    "men": 68,
+    "unknownGender": 3
+  },
+  {
+    "editionNumber": 188,
+    "date": "2020-02-01",
+    "participants": 95,
+    "women": 28,
+    "men": 66,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 189,
+    "date": "2020-02-08",
+    "participants": 105,
+    "women": 27,
+    "men": 77,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 190,
+    "date": "2020-02-15",
+    "participants": 104,
+    "women": 26,
+    "men": 76,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 191,
+    "date": "2020-02-22",
+    "participants": 102,
+    "women": 22,
+    "men": 78,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 192,
+    "date": "2020-02-29",
+    "participants": 69,
+    "women": 16,
+    "men": 53,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 193,
+    "date": "2020-03-07",
+    "participants": 82,
+    "women": 22,
+    "men": 56,
+    "unknownGender": 4
+  },
+  {
+    "editionNumber": 194,
+    "date": "2021-06-12",
+    "participants": 70,
+    "women": 21,
+    "men": 48,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 195,
+    "date": "2021-06-19",
+    "participants": 47,
+    "women": 13,
+    "men": 33,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 196,
+    "date": "2021-06-26",
+    "participants": 59,
+    "women": 11,
+    "men": 47,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 197,
+    "date": "2021-07-03",
+    "participants": 78,
+    "women": 25,
+    "men": 52,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 198,
+    "date": "2021-07-10",
+    "participants": 59,
+    "women": 10,
+    "men": 48,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 199,
+    "date": "2021-07-17",
+    "participants": 77,
+    "women": 18,
+    "men": 57,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 200,
+    "date": "2021-07-24",
+    "participants": 104,
+    "women": 28,
+    "men": 76,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 201,
+    "date": "2021-07-31",
+    "participants": 81,
+    "women": 21,
+    "men": 59,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 202,
+    "date": "2021-08-07",
+    "participants": 77,
+    "women": 21,
+    "men": 54,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 203,
+    "date": "2021-08-14",
+    "participants": 62,
+    "women": 12,
+    "men": 50,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 204,
+    "date": "2021-08-21",
+    "participants": 61,
+    "women": 20,
+    "men": 41,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 205,
+    "date": "2021-08-28",
+    "participants": 75,
+    "women": 20,
+    "men": 55,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 206,
+    "date": "2021-09-04",
+    "participants": 69,
+    "women": 19,
+    "men": 50,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 207,
+    "date": "2021-09-11",
+    "participants": 72,
+    "women": 18,
+    "men": 53,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 208,
+    "date": "2021-09-18",
+    "participants": 64,
+    "women": 17,
+    "men": 47,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 209,
+    "date": "2021-09-25",
+    "participants": 62,
+    "women": 17,
+    "men": 45,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 210,
+    "date": "2021-10-02",
+    "participants": 71,
+    "women": 19,
+    "men": 51,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 211,
+    "date": "2021-10-09",
+    "participants": 68,
+    "women": 17,
+    "men": 51,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 212,
+    "date": "2021-10-16",
+    "participants": 59,
+    "women": 15,
+    "men": 43,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 213,
+    "date": "2021-10-23",
+    "participants": 74,
+    "women": 24,
+    "men": 50,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 214,
+    "date": "2021-10-30",
+    "participants": 72,
+    "women": 17,
+    "men": 55,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 215,
+    "date": "2021-11-06",
+    "participants": 74,
+    "women": 21,
+    "men": 53,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 216,
+    "date": "2021-11-13",
+    "participants": 71,
+    "women": 20,
+    "men": 50,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 217,
+    "date": "2021-11-20",
+    "participants": 72,
+    "women": 21,
+    "men": 51,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 218,
+    "date": "2021-11-27",
+    "participants": 80,
+    "women": 25,
+    "men": 55,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 219,
+    "date": "2021-12-04",
+    "participants": 69,
+    "women": 17,
+    "men": 52,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 220,
+    "date": "2021-12-11",
+    "participants": 58,
+    "women": 10,
+    "men": 48,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 221,
+    "date": "2021-12-18",
+    "participants": 66,
+    "women": 16,
+    "men": 48,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 222,
+    "date": "2021-12-26",
+    "participants": 64,
+    "women": 16,
+    "men": 48,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 223,
+    "date": "2022-01-01",
+    "participants": 57,
+    "women": 14,
+    "men": 43,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 224,
+    "date": "2022-01-08",
+    "participants": 83,
+    "women": 21,
+    "men": 61,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 225,
+    "date": "2022-01-15",
+    "participants": 75,
+    "women": 16,
+    "men": 59,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 226,
+    "date": "2022-01-22",
+    "participants": 65,
+    "women": 16,
+    "men": 49,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 227,
+    "date": "2022-01-29",
+    "participants": 74,
+    "women": 18,
+    "men": 56,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 228,
+    "date": "2022-02-05",
+    "participants": 68,
+    "women": 19,
+    "men": 49,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 229,
+    "date": "2022-02-12",
+    "participants": 70,
+    "women": 18,
+    "men": 52,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 230,
+    "date": "2022-02-19",
+    "participants": 44,
+    "women": 10,
+    "men": 34,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 231,
+    "date": "2022-02-26",
+    "participants": 71,
+    "women": 20,
+    "men": 51,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 232,
+    "date": "2022-03-05",
+    "participants": 65,
+    "women": 14,
+    "men": 51,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 233,
+    "date": "2022-03-12",
+    "participants": 75,
+    "women": 20,
+    "men": 55,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 234,
+    "date": "2022-03-19",
+    "participants": 81,
+    "women": 21,
+    "men": 59,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 235,
+    "date": "2022-03-26",
+    "participants": 69,
+    "women": 16,
+    "men": 53,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 236,
+    "date": "2022-04-02",
+    "participants": 62,
+    "women": 16,
+    "men": 46,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 237,
+    "date": "2022-04-09",
+    "participants": 40,
+    "women": 10,
+    "men": 30,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 238,
+    "date": "2022-04-16",
+    "participants": 90,
+    "women": 22,
+    "men": 68,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 239,
+    "date": "2022-04-23",
+    "participants": 65,
+    "women": 11,
+    "men": 52,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 240,
+    "date": "2022-04-30",
+    "participants": 75,
+    "women": 22,
+    "men": 53,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 241,
+    "date": "2022-05-07",
+    "participants": 85,
+    "women": 23,
+    "men": 59,
+    "unknownGender": 3
+  },
+  {
+    "editionNumber": 242,
+    "date": "2022-05-14",
+    "participants": 85,
+    "women": 21,
+    "men": 64,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 243,
+    "date": "2022-05-21",
+    "participants": 57,
+    "women": 17,
+    "men": 40,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 244,
+    "date": "2022-05-28",
+    "participants": 88,
+    "women": 24,
+    "men": 63,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 245,
+    "date": "2022-06-04",
+    "participants": 69,
+    "women": 22,
+    "men": 47,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 246,
+    "date": "2022-06-11",
+    "participants": 75,
+    "women": 16,
+    "men": 59,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 247,
+    "date": "2022-06-18",
+    "participants": 78,
+    "women": 20,
+    "men": 58,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 248,
+    "date": "2022-06-25",
+    "participants": 74,
+    "women": 20,
+    "men": 54,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 249,
+    "date": "2022-07-02",
+    "participants": 46,
+    "women": 9,
+    "men": 37,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 250,
+    "date": "2022-07-09",
+    "participants": 95,
+    "women": 30,
+    "men": 65,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 251,
+    "date": "2022-07-16",
+    "participants": 73,
+    "women": 17,
+    "men": 56,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 252,
+    "date": "2022-07-23",
+    "participants": 58,
+    "women": 17,
+    "men": 40,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 253,
+    "date": "2022-07-30",
+    "participants": 72,
+    "women": 15,
+    "men": 57,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 254,
+    "date": "2022-08-06",
+    "participants": 74,
+    "women": 16,
+    "men": 58,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 255,
+    "date": "2022-08-13",
+    "participants": 82,
+    "women": 14,
+    "men": 66,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 256,
+    "date": "2022-08-20",
+    "participants": 69,
+    "women": 19,
+    "men": 50,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 257,
+    "date": "2022-08-27",
+    "participants": 87,
+    "women": 24,
+    "men": 63,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 258,
+    "date": "2022-09-03",
+    "participants": 87,
+    "women": 26,
+    "men": 60,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 259,
+    "date": "2022-09-10",
+    "participants": 82,
+    "women": 21,
+    "men": 61,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 260,
+    "date": "2022-09-17",
+    "participants": 79,
+    "women": 22,
+    "men": 56,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 261,
+    "date": "2022-09-24",
+    "participants": 87,
+    "women": 21,
+    "men": 66,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 262,
+    "date": "2022-10-01",
+    "participants": 64,
+    "women": 16,
+    "men": 48,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 263,
+    "date": "2022-10-08",
+    "participants": 88,
+    "women": 20,
+    "men": 68,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 264,
+    "date": "2022-10-15",
+    "participants": 72,
+    "women": 17,
+    "men": 55,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 265,
+    "date": "2022-10-22",
+    "participants": 72,
+    "women": 22,
+    "men": 49,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 266,
+    "date": "2022-10-29",
+    "participants": 69,
+    "women": 15,
+    "men": 54,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 267,
+    "date": "2022-11-05",
+    "participants": 67,
+    "women": 15,
+    "men": 52,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 268,
+    "date": "2022-11-12",
+    "participants": 73,
+    "women": 18,
+    "men": 55,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 269,
+    "date": "2022-11-19",
+    "participants": 79,
+    "women": 25,
+    "men": 54,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 270,
+    "date": "2022-11-26",
+    "participants": 70,
+    "women": 19,
+    "men": 51,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 271,
+    "date": "2022-12-03",
+    "participants": 58,
+    "women": 18,
+    "men": 39,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 272,
+    "date": "2022-12-10",
+    "participants": 60,
+    "women": 18,
+    "men": 42,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 273,
+    "date": "2022-12-17",
+    "participants": 50,
+    "women": 11,
+    "men": 39,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 274,
+    "date": "2022-12-24",
+    "participants": 63,
+    "women": 15,
+    "men": 48,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 275,
+    "date": "2022-12-26",
+    "participants": 42,
+    "women": 12,
+    "men": 30,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 276,
+    "date": "2022-12-31",
+    "participants": 88,
+    "women": 23,
+    "men": 63,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 277,
+    "date": "2023-01-01",
+    "participants": 68,
+    "women": 18,
+    "men": 50,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 278,
+    "date": "2023-01-07",
+    "participants": 79,
+    "women": 22,
+    "men": 57,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 279,
+    "date": "2023-01-14",
+    "participants": 73,
+    "women": 20,
+    "men": 53,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 280,
+    "date": "2023-01-21",
+    "participants": 83,
+    "women": 18,
+    "men": 64,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 281,
+    "date": "2023-01-28",
+    "participants": 63,
+    "women": 21,
+    "men": 42,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 282,
+    "date": "2023-02-04",
+    "participants": 90,
+    "women": 25,
+    "men": 64,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 283,
+    "date": "2023-02-11",
+    "participants": 89,
+    "women": 26,
+    "men": 63,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 284,
+    "date": "2023-02-18",
+    "participants": 61,
+    "women": 18,
+    "men": 43,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 285,
+    "date": "2023-02-25",
+    "participants": 78,
+    "women": 24,
+    "men": 54,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 286,
+    "date": "2023-03-04",
+    "participants": 88,
+    "women": 20,
+    "men": 66,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 287,
+    "date": "2023-03-11",
+    "participants": 68,
+    "women": 16,
+    "men": 52,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 288,
+    "date": "2023-03-18",
+    "participants": 82,
+    "women": 19,
+    "men": 63,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 289,
+    "date": "2023-03-25",
+    "participants": 104,
+    "women": 26,
+    "men": 76,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 290,
+    "date": "2023-04-01",
+    "participants": 77,
+    "women": 16,
+    "men": 60,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 291,
+    "date": "2023-04-08",
+    "participants": 104,
+    "women": 28,
+    "men": 76,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 292,
+    "date": "2023-04-15",
+    "participants": 88,
+    "women": 26,
+    "men": 62,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 293,
+    "date": "2023-04-22",
+    "participants": 72,
+    "women": 13,
+    "men": 56,
+    "unknownGender": 3
+  },
+  {
+    "editionNumber": 294,
+    "date": "2023-04-29",
+    "participants": 94,
+    "women": 23,
+    "men": 69,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 295,
+    "date": "2023-05-06",
+    "participants": 98,
+    "women": 26,
+    "men": 71,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 296,
+    "date": "2023-05-13",
+    "participants": 95,
+    "women": 20,
+    "men": 74,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 297,
+    "date": "2023-05-20",
+    "participants": 101,
+    "women": 24,
+    "men": 77,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 298,
+    "date": "2023-05-27",
+    "participants": 82,
+    "women": 18,
+    "men": 64,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 299,
+    "date": "2023-06-03",
+    "participants": 103,
+    "women": 22,
+    "men": 81,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 300,
+    "date": "2023-06-10",
+    "participants": 117,
+    "women": 23,
+    "men": 94,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 301,
+    "date": "2023-06-17",
+    "participants": 102,
+    "women": 23,
+    "men": 77,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 302,
+    "date": "2023-06-24",
+    "participants": 97,
+    "women": 16,
+    "men": 79,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 303,
+    "date": "2023-07-01",
+    "participants": 92,
+    "women": 18,
+    "men": 74,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 304,
+    "date": "2023-07-08",
+    "participants": 98,
+    "women": 21,
+    "men": 76,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 305,
+    "date": "2023-07-15",
+    "participants": 113,
+    "women": 28,
+    "men": 85,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 306,
+    "date": "2023-07-22",
+    "participants": 121,
+    "women": 28,
+    "men": 93,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 307,
+    "date": "2023-07-29",
+    "participants": 124,
+    "women": 32,
+    "men": 92,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 308,
+    "date": "2023-08-05",
+    "participants": 124,
+    "women": 29,
+    "men": 95,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 309,
+    "date": "2023-08-12",
+    "participants": 113,
+    "women": 23,
+    "men": 88,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 310,
+    "date": "2023-08-19",
+    "participants": 107,
+    "women": 19,
+    "men": 88,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 311,
+    "date": "2023-08-26",
+    "participants": 87,
+    "women": 17,
+    "men": 70,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 312,
+    "date": "2023-09-02",
+    "participants": 321,
+    "women": 119,
+    "men": 201,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 313,
+    "date": "2023-09-09",
+    "participants": 127,
+    "women": 29,
+    "men": 98,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 314,
+    "date": "2023-09-16",
+    "participants": 117,
+    "women": 37,
+    "men": 80,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 315,
+    "date": "2023-09-23",
+    "participants": 119,
+    "women": 30,
+    "men": 88,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 316,
+    "date": "2023-09-30",
+    "participants": 135,
+    "women": 40,
+    "men": 95,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 317,
+    "date": "2023-10-07",
+    "participants": 65,
+    "women": 17,
+    "men": 48,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 318,
+    "date": "2023-10-14",
+    "participants": 103,
+    "women": 27,
+    "men": 76,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 319,
+    "date": "2023-10-21",
+    "participants": 50,
+    "women": 12,
+    "men": 38,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 320,
+    "date": "2023-10-28",
+    "participants": 113,
+    "women": 35,
+    "men": 77,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 321,
+    "date": "2023-11-04",
+    "participants": 87,
+    "women": 25,
+    "men": 62,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 322,
+    "date": "2023-11-11",
+    "participants": 92,
+    "women": 28,
+    "men": 63,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 323,
+    "date": "2023-11-18",
+    "participants": 115,
+    "women": 33,
+    "men": 81,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 324,
+    "date": "2023-11-25",
+    "participants": 100,
+    "women": 32,
+    "men": 68,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 325,
+    "date": "2023-12-02",
+    "participants": 80,
+    "women": 21,
+    "men": 59,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 326,
+    "date": "2023-12-09",
+    "participants": 108,
+    "women": 31,
+    "men": 76,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 327,
+    "date": "2023-12-16",
+    "participants": 87,
+    "women": 24,
+    "men": 63,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 328,
+    "date": "2023-12-23",
+    "participants": 96,
+    "women": 23,
+    "men": 73,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 329,
+    "date": "2023-12-26",
+    "participants": 113,
+    "women": 38,
+    "men": 75,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 330,
+    "date": "2023-12-30",
+    "participants": 104,
+    "women": 29,
+    "men": 74,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 331,
+    "date": "2024-01-01",
+    "participants": 116,
+    "women": 38,
+    "men": 77,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 332,
+    "date": "2024-01-06",
+    "participants": 109,
+    "women": 31,
+    "men": 78,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 333,
+    "date": "2024-01-13",
+    "participants": 105,
+    "women": 31,
+    "men": 74,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 334,
+    "date": "2024-01-20",
+    "participants": 87,
+    "women": 23,
+    "men": 64,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 335,
+    "date": "2024-01-27",
+    "participants": 103,
+    "women": 30,
+    "men": 73,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 336,
+    "date": "2024-02-03",
+    "participants": 91,
+    "women": 20,
+    "men": 71,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 337,
+    "date": "2024-02-10",
+    "participants": 89,
+    "women": 28,
+    "men": 60,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 338,
+    "date": "2024-02-17",
+    "participants": 124,
+    "women": 38,
+    "men": 86,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 339,
+    "date": "2024-02-24",
+    "participants": 74,
+    "women": 19,
+    "men": 55,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 340,
+    "date": "2024-03-02",
+    "participants": 141,
+    "women": 40,
+    "men": 97,
+    "unknownGender": 4
+  },
+  {
+    "editionNumber": 341,
+    "date": "2024-03-09",
+    "participants": 124,
+    "women": 39,
+    "men": 83,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 342,
+    "date": "2024-03-16",
+    "participants": 126,
+    "women": 39,
+    "men": 87,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 343,
+    "date": "2024-03-23",
+    "participants": 100,
+    "women": 33,
+    "men": 67,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 344,
+    "date": "2024-03-30",
+    "participants": 130,
+    "women": 33,
+    "men": 97,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 345,
+    "date": "2024-04-06",
+    "participants": 125,
+    "women": 44,
+    "men": 81,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 346,
+    "date": "2024-04-13",
+    "participants": 104,
+    "women": 33,
+    "men": 71,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 347,
+    "date": "2024-04-20",
+    "participants": 110,
+    "women": 28,
+    "men": 82,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 348,
+    "date": "2024-04-27",
+    "participants": 118,
+    "women": 29,
+    "men": 87,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 349,
+    "date": "2024-05-04",
+    "participants": 92,
+    "women": 25,
+    "men": 65,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 350,
+    "date": "2024-05-11",
+    "participants": 118,
+    "women": 36,
+    "men": 80,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 351,
+    "date": "2024-05-18",
+    "participants": 106,
+    "women": 31,
+    "men": 74,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 352,
+    "date": "2024-05-25",
+    "participants": 113,
+    "women": 30,
+    "men": 81,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 353,
+    "date": "2024-06-01",
+    "participants": 115,
+    "women": 30,
+    "men": 84,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 354,
+    "date": "2024-06-08",
+    "participants": 97,
+    "women": 23,
+    "men": 73,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 355,
+    "date": "2024-06-15",
+    "participants": 119,
+    "women": 29,
+    "men": 90,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 356,
+    "date": "2024-06-22",
+    "participants": 111,
+    "women": 25,
+    "men": 85,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 357,
+    "date": "2024-06-29",
+    "participants": 100,
+    "women": 23,
+    "men": 74,
+    "unknownGender": 3
+  },
+  {
+    "editionNumber": 358,
+    "date": "2024-07-06",
+    "participants": 114,
+    "women": 28,
+    "men": 82,
+    "unknownGender": 4
+  },
+  {
+    "editionNumber": 359,
+    "date": "2024-07-13",
+    "participants": 93,
+    "women": 30,
+    "men": 63,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 360,
+    "date": "2024-07-20",
+    "participants": 90,
+    "women": 27,
+    "men": 63,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 361,
+    "date": "2024-07-27",
+    "participants": 102,
+    "women": 34,
+    "men": 67,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 362,
+    "date": "2024-08-03",
+    "participants": 128,
+    "women": 42,
+    "men": 85,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 363,
+    "date": "2024-08-10",
+    "participants": 112,
+    "women": 30,
+    "men": 81,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 364,
+    "date": "2024-08-17",
+    "participants": 97,
+    "women": 29,
+    "men": 68,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 365,
+    "date": "2024-08-24",
+    "participants": 125,
+    "women": 40,
+    "men": 84,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 366,
+    "date": "2024-08-31",
+    "participants": 123,
+    "women": 31,
+    "men": 91,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 367,
+    "date": "2024-09-07",
+    "participants": 119,
+    "women": 35,
+    "men": 82,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 368,
+    "date": "2024-09-14",
+    "participants": 94,
+    "women": 27,
+    "men": 67,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 369,
+    "date": "2024-09-21",
+    "participants": 118,
+    "women": 29,
+    "men": 87,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 370,
+    "date": "2024-09-28",
+    "participants": 108,
+    "women": 28,
+    "men": 78,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 371,
+    "date": "2024-10-05",
+    "participants": 185,
+    "women": 58,
+    "men": 126,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 372,
+    "date": "2024-10-12",
+    "participants": 116,
+    "women": 33,
+    "men": 82,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 373,
+    "date": "2024-10-19",
+    "participants": 141,
+    "women": 40,
+    "men": 101,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 374,
+    "date": "2024-10-26",
+    "participants": 134,
+    "women": 45,
+    "men": 88,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 375,
+    "date": "2024-11-02",
+    "participants": 116,
+    "women": 41,
+    "men": 74,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 376,
+    "date": "2024-11-09",
+    "participants": 117,
+    "women": 34,
+    "men": 83,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 377,
+    "date": "2024-11-16",
+    "participants": 134,
+    "women": 42,
+    "men": 91,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 378,
+    "date": "2024-11-23",
+    "participants": 100,
+    "women": 28,
+    "men": 71,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 379,
+    "date": "2024-11-30",
+    "participants": 107,
+    "women": 31,
+    "men": 76,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 380,
+    "date": "2024-12-07",
+    "participants": 82,
+    "women": 18,
+    "men": 64,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 381,
+    "date": "2024-12-14",
+    "participants": 89,
+    "women": 22,
+    "men": 67,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 382,
+    "date": "2024-12-21",
+    "participants": 116,
+    "women": 27,
+    "men": 88,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 383,
+    "date": "2024-12-26",
+    "participants": 138,
+    "women": 46,
+    "men": 91,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 384,
+    "date": "2024-12-28",
+    "participants": 328,
+    "women": 115,
+    "men": 213,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 385,
+    "date": "2025-01-01",
+    "participants": 106,
+    "women": 31,
+    "men": 75,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 386,
+    "date": "2025-01-04",
+    "participants": 130,
+    "women": 39,
+    "men": 89,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 387,
+    "date": "2025-01-11",
+    "participants": 93,
+    "women": 29,
+    "men": 64,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 388,
+    "date": "2025-01-18",
+    "participants": 144,
+    "women": 50,
+    "men": 94,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 389,
+    "date": "2025-01-25",
+    "participants": 124,
+    "women": 37,
+    "men": 86,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 390,
+    "date": "2025-02-01",
+    "participants": 129,
+    "women": 44,
+    "men": 85,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 391,
+    "date": "2025-02-08",
+    "participants": 126,
+    "women": 37,
+    "men": 89,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 392,
+    "date": "2025-02-15",
+    "participants": 117,
+    "women": 36,
+    "men": 80,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 393,
+    "date": "2025-02-22",
+    "participants": 128,
+    "women": 40,
+    "men": 88,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 394,
+    "date": "2025-03-01",
+    "participants": 111,
+    "women": 32,
+    "men": 79,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 395,
+    "date": "2025-03-08",
+    "participants": 135,
+    "women": 46,
+    "men": 89,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 396,
+    "date": "2025-03-15",
+    "participants": 138,
+    "women": 39,
+    "men": 99,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 397,
+    "date": "2025-03-22",
+    "participants": 142,
+    "women": 40,
+    "men": 102,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 398,
+    "date": "2025-03-29",
+    "participants": 151,
+    "women": 51,
+    "men": 98,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 399,
+    "date": "2025-04-05",
+    "participants": 111,
+    "women": 27,
+    "men": 84,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 400,
+    "date": "2025-04-12",
+    "participants": 111,
+    "women": 32,
+    "men": 79,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 401,
+    "date": "2025-04-19",
+    "participants": 158,
+    "women": 51,
+    "men": 106,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 402,
+    "date": "2025-04-26",
+    "participants": 123,
+    "women": 34,
+    "men": 88,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 403,
+    "date": "2025-05-03",
+    "participants": 129,
+    "women": 35,
+    "men": 93,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 404,
+    "date": "2025-05-10",
+    "participants": 139,
+    "women": 34,
+    "men": 105,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 405,
+    "date": "2025-05-17",
+    "participants": 93,
+    "women": 22,
+    "men": 71,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 406,
+    "date": "2025-05-24",
+    "participants": 130,
+    "women": 30,
+    "men": 99,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 407,
+    "date": "2025-05-31",
+    "participants": 117,
+    "women": 36,
+    "men": 81,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 408,
+    "date": "2025-06-07",
+    "participants": 173,
+    "women": 53,
+    "men": 118,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 409,
+    "date": "2025-06-14",
+    "participants": 123,
+    "women": 37,
+    "men": 86,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 410,
+    "date": "2025-06-21",
+    "participants": 120,
+    "women": 36,
+    "men": 84,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 411,
+    "date": "2025-06-28",
+    "participants": 101,
+    "women": 19,
+    "men": 82,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 412,
+    "date": "2025-07-05",
+    "participants": 134,
+    "women": 41,
+    "men": 93,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 413,
+    "date": "2025-07-12",
+    "participants": 125,
+    "women": 37,
+    "men": 88,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 414,
+    "date": "2025-07-19",
+    "participants": 97,
+    "women": 25,
+    "men": 71,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 415,
+    "date": "2025-07-26",
+    "participants": 182,
+    "women": 45,
+    "men": 136,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 416,
+    "date": "2025-08-02",
+    "participants": 148,
+    "women": 40,
+    "men": 107,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 417,
+    "date": "2025-08-09",
+    "participants": 114,
+    "women": 30,
+    "men": 81,
+    "unknownGender": 3
+  },
+  {
+    "editionNumber": 418,
+    "date": "2025-08-16",
+    "participants": 114,
+    "women": 36,
+    "men": 78,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 419,
+    "date": "2025-08-23",
+    "participants": 129,
+    "women": 37,
+    "men": 92,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 420,
+    "date": "2025-08-30",
+    "participants": 153,
+    "women": 45,
+    "men": 107,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 421,
+    "date": "2025-09-06",
+    "participants": 148,
+    "women": 42,
+    "men": 105,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 422,
+    "date": "2025-09-13",
+    "participants": 171,
+    "women": 37,
+    "men": 133,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 423,
+    "date": "2025-09-20",
+    "participants": 134,
+    "women": 33,
+    "men": 101,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 424,
+    "date": "2025-09-27",
+    "participants": 135,
+    "women": 41,
+    "men": 94,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 425,
+    "date": "2025-10-04",
+    "participants": 162,
+    "women": 46,
+    "men": 115,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 426,
+    "date": "2025-10-11",
+    "participants": 126,
+    "women": 31,
+    "men": 95,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 427,
+    "date": "2025-10-18",
+    "participants": 39,
+    "women": 10,
+    "men": 29,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 428,
+    "date": "2025-10-25",
+    "participants": 127,
+    "women": 34,
+    "men": 93,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 429,
+    "date": "2025-11-01",
+    "participants": 138,
+    "women": 40,
+    "men": 97,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 430,
+    "date": "2025-11-08",
+    "participants": 129,
+    "women": 32,
+    "men": 95,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 431,
+    "date": "2025-11-15",
+    "participants": 148,
+    "women": 44,
+    "men": 104,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 432,
+    "date": "2025-11-22",
+    "participants": 141,
+    "women": 43,
+    "men": 97,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 433,
+    "date": "2025-11-29",
+    "participants": 113,
+    "women": 27,
+    "men": 86,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 434,
+    "date": "2025-12-06",
+    "participants": 126,
+    "women": 38,
+    "men": 88,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 435,
+    "date": "2025-12-13",
+    "participants": 141,
+    "women": 39,
+    "men": 102,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 436,
+    "date": "2025-12-20",
+    "participants": 106,
+    "women": 27,
+    "men": 78,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 437,
+    "date": "2025-12-26",
+    "participants": 125,
+    "women": 33,
+    "men": 92,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 438,
+    "date": "2025-12-27",
+    "participants": 143,
+    "women": 38,
+    "men": 105,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 439,
+    "date": "2026-01-01",
+    "participants": 118,
+    "women": 37,
+    "men": 81,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 440,
+    "date": "2026-01-03",
+    "participants": 141,
+    "women": 34,
+    "men": 105,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 441,
+    "date": "2026-01-10",
+    "participants": 126,
+    "women": 41,
+    "men": 85,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 442,
+    "date": "2026-01-17",
+    "participants": 84,
+    "women": 27,
+    "men": 57,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 443,
+    "date": "2026-01-24",
+    "participants": 124,
+    "women": 45,
+    "men": 79,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 444,
+    "date": "2026-01-31",
+    "participants": 108,
+    "women": 32,
+    "men": 64,
+    "unknownGender": 12
+  },
+  {
+    "editionNumber": 445,
+    "date": "2026-02-14",
+    "participants": 102,
+    "women": 26,
+    "men": 76,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 446,
+    "date": "2026-02-21",
+    "participants": 109,
+    "women": 33,
+    "men": 76,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 447,
+    "date": "2026-02-28",
+    "participants": 171,
+    "women": 56,
+    "men": 115,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 448,
+    "date": "2026-03-07",
+    "participants": 186,
+    "women": 56,
+    "men": 129,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 449,
+    "date": "2026-03-14",
+    "participants": 152,
+    "women": 37,
+    "men": 115,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 450,
+    "date": "2026-03-21",
+    "participants": 135,
+    "women": 39,
+    "men": 95,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 451,
+    "date": "2026-03-28",
+    "participants": 147,
+    "women": 45,
+    "men": 102,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 452,
+    "date": "2026-04-04",
+    "participants": 123,
+    "women": 31,
+    "men": 90,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 453,
+    "date": "2026-04-11",
+    "participants": 146,
+    "women": 41,
+    "men": 105,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 454,
+    "date": "2026-04-18",
+    "participants": 152,
+    "women": 42,
+    "men": 109,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 455,
+    "date": "2026-04-25",
+    "participants": 162,
+    "women": 49,
+    "men": 112,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 456,
+    "date": "2026-05-02",
+    "participants": 183,
+    "women": 53,
+    "men": 128,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 457,
+    "date": "2026-05-09",
+    "participants": 131,
+    "women": 38,
+    "men": 93,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 458,
+    "date": "2026-05-16",
+    "participants": 160,
+    "women": 41,
+    "men": 118,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 459,
+    "date": "2026-05-23",
+    "participants": 197,
+    "women": 55,
+    "men": 140,
+    "unknownGender": 2
+  },
+  {
+    "editionNumber": 460,
+    "date": "2026-05-30",
+    "participants": 155,
+    "women": 42,
+    "men": 113,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 461,
+    "date": "2026-06-06",
+    "participants": 159,
+    "women": 41,
+    "men": 117,
+    "unknownGender": 1
+  },
+  {
+    "editionNumber": 462,
+    "date": "2026-06-13",
+    "participants": 134,
+    "women": 36,
+    "men": 98,
+    "unknownGender": 0
+  },
+  {
+    "editionNumber": 463,
+    "date": "2026-06-20",
+    "participants": 171,
+    "women": 48,
+    "men": 118,
+    "unknownGender": 5
+  },
+  {
+    "editionNumber": 464,
+    "date": "2026-06-27",
+    "participants": 137,
+    "women": 36,
+    "men": 100,
+    "unknownGender": 1
+  }
+]
