@@ -94,114 +94,169 @@
   "runner_of_year": [
     {
       "year": "2016",
-      "name": "Krzysztof KLAWIKOWSKI",
+      "names": [
+        "Krzysztof KLAWIKOWSKI"
+      ],
       "starts_count": 22
     },
     {
       "year": "2017",
-      "name": "Krzysztof KLAWIKOWSKI",
+      "names": [
+        "Dorota GRZEGORCZYK",
+        "Krzysztof KLAWIKOWSKI"
+      ],
       "starts_count": 46
     },
     {
       "year": "2018",
-      "name": "Leszek DULKO",
+      "names": [
+        "Leszek DULKO"
+      ],
       "starts_count": 49
     },
     {
       "year": "2019",
-      "name": "Krzysztof KLAWIKOWSKI",
+      "names": [
+        "Krzysztof KLAWIKOWSKI"
+      ],
       "starts_count": 51
     },
     {
       "year": "2020",
-      "name": "Piotr MAKSYMIUK",
+      "names": [
+        "Krystian STENCEL",
+        "Krzysztof KLAWIKOWSKI",
+        "Krzysztof ŁUDCZAK",
+        "Leszek CUDNOWSKI",
+        "Piotr MAKSYMIUK",
+        "Wojciech GIERSZEWSKI"
+      ],
       "starts_count": 11
     },
     {
       "year": "2021",
-      "name": "Wojciech GIERSZEWSKI",
+      "names": [
+        "Wojciech GIERSZEWSKI"
+      ],
       "starts_count": 29
     },
     {
       "year": "2022",
-      "name": "Wojciech GIERSZEWSKI",
+      "names": [
+        "Krzysztof ŁUDCZAK",
+        "Wojciech GIERSZEWSKI"
+      ],
       "starts_count": 48
     },
     {
       "year": "2023",
-      "name": "Ila PO",
+      "names": [
+        "Ila PO"
+      ],
       "starts_count": 51
     },
     {
       "year": "2024",
-      "name": "Marcin NOWACZKIEWICZ",
+      "names": [
+        "Marcin NOWACZKIEWICZ"
+      ],
       "starts_count": 52
     },
     {
       "year": "2025",
-      "name": "Zbigniew KOBUS",
+      "names": [
+        "Zbigniew KOBUS"
+      ],
       "starts_count": 53
     },
     {
       "year": "2026",
-      "name": "Zbigniew KOBUS",
+      "names": [
+        "Zbigniew KOBUS"
+      ],
       "starts_count": 30
     }
   ],
   "volunteer_of_year": [
     {
       "year": "2016",
-      "name": "Paweł MARCINKO",
+      "names": [
+        "Paweł MARCINKO"
+      ],
       "volunteer_count": 20
     },
     {
       "year": "2017",
-      "name": "Paweł MARCINKO",
+      "names": [
+        "Paweł MARCINKO"
+      ],
       "volunteer_count": 41
     },
     {
       "year": "2018",
-      "name": "Paweł MARCINKO",
+      "names": [
+        "Paweł MARCINKO"
+      ],
       "volunteer_count": 40
     },
     {
       "year": "2019",
-      "name": "Tobiasz CAŁUCH",
+      "names": [
+        "Tobiasz CAŁUCH"
+      ],
       "volunteer_count": 31
     },
     {
       "year": "2020",
-      "name": "Leszek SŁUŻEWSKI",
+      "names": [
+        "Leszek SŁUŻEWSKI"
+      ],
       "volunteer_count": 9
     },
     {
       "year": "2021",
-      "name": "Krzysztof ŁUDCZAK",
+      "names": [
+        "Krzysztof ŁUDCZAK",
+        "Sylwia ŁUDCZAK"
+      ],
       "volunteer_count": 27
     },
     {
       "year": "2022",
-      "name": "Stanisław SKWIOT",
+      "names": [
+        "Stanisław SKWIOT",
+        "Sylwia ŁUDCZAK"
+      ],
       "volunteer_count": 51
     },
     {
       "year": "2023",
-      "name": "Stanisław SKWIOT",
+      "names": [
+        "Stanisław SKWIOT"
+      ],
       "volunteer_count": 50
     },
     {
       "year": "2024",
-      "name": "Krzysztof ŁUDCZAK",
+      "names": [
+        "Krzysztof ŁUDCZAK"
+      ],
       "volunteer_count": 54
     },
     {
       "year": "2025",
-      "name": "Krzysztof ŁUDCZAK",
+      "names": [
+        "Krzysztof ŁUDCZAK",
+        "Stanisław SKWIOT"
+      ],
       "volunteer_count": 54
     },
     {
       "year": "2026",
-      "name": "Krzysztof ŁUDCZAK",
+      "names": [
+        "Krzysztof ŁUDCZAK",
+        "Stanisław SKWIOT"
+      ],
       "volunteer_count": 30
     }
   ]

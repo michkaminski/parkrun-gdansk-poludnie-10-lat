@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Frekwencja — parkrun Gdańsk Południe</title>
+<meta name="description" content="Frekwencja parkrun Gdańsk Południe: wykresy na edycję i miesiąc, rekordy, rok po roku — 10 lat danych.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🎉%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html">
+      <span class="brand-badge">10</span>
+      <span>parkrun Gdańsk Południe</span>
+    </a>
+    <nav class="site-nav">
+      <a href="frekwencja.html">Frekwencja</a>
+      <a href="demografia.html">Demografia</a>
+      <a href="oswiecie.html">Oś czasu</a>
+      <a href="hall-of-fame.html">Hall of Fame</a>
+      <a href="wolontariusze.html">Wolontariusze</a>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Przełącz motyw jasny/ciemny">🌙</button>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="page-section" id="frekwencja">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-kicker">Frekwencja</span>
+        <h2>Jak rośliśmy przez 10 lat</h2>
+        <p>Od 246 osób na pierwszej edycji do rekordowych 328 uczestników — ze śladem przerwy pandemicznej.</p>
+      </div>
+      <div class="chart-grid">
+        <article class="chart-card full-width">
+          <h3>Frekwencja na edycję — 2016–2026</h3>
+          <p class="chart-caption">Liczba uczestników na każdej edycji, średnia krocząca z 12 edycji oraz skumulowana średnia od początku parkrunu.</p>
+          <div class="chart-canvas-wrap tall"><canvas id="chart-attendance"></canvas></div>
+          <p class="chart-footnote">Adnotacje: przerwa pandemiczna (2020–2021) i rekord frekwencji.</p>
+        </article>
+        <article class="chart-card full-width">
+          <h3>Frekwencja na miesiąc — 2016–2026</h3>
+          <p class="chart-caption">Łączna liczba uczestników w danym miesiącu (suma z wszystkich edycji), średnia krocząca z 12 miesięcy oraz skumulowana średnia od początku parkrunu.</p>
+          <div class="chart-canvas-wrap tall"><canvas id="chart-attendance-monthly"></canvas></div>
+          <p class="chart-footnote">Adnotacje: przerwa pandemiczna (2020–2021) i rekordowy miesiąc. Miesiące bez ani jednej edycji są pomijane.</p>
+        </article>
+        <article class="chart-card">
+          <h3>Rok po roku</h3>
+          <p class="chart-caption">Średnia i mediana frekwencji na edycję w danym roku kalendarzowym.</p>
+          <div class="chart-canvas-wrap"><canvas id="chart-yearly"></canvas></div>
+          <p class="chart-footnote">Rozjazd średniej i mediany pokazuje lata, w których pojedyncze duże edycje zawyżały średnią.</p>
+        </article>
+        <article class="chart-card">
+          <h3>Suma uczestników na rok</h3>
+          <p class="chart-caption">Łączna liczba startów w danym roku kalendarzowym — suma z wszystkich edycji.</p>
+          <div class="chart-canvas-wrap"><canvas id="chart-yearly-total"></canvas></div>
+        </article>
+        <article class="table-card">
+          <h3>Najczęstsze frekwencje</h3>
+          <p class="chart-caption">Które dokładnie liczby uczestników powtarzały się najczęściej na przestrzeni 10 lat. Przy remisie pokazujemy wszystkie wartości ze wspólnym miejscem. Kliknij wiersz, żeby zobaczyć konkretne edycje.</p>
+          <div class="table-scroll">
+            <table class="data-table" id="table-frequent-attendance">
+              <thead><tr><th>#</th><th>Uczestników</th><th>Ile razy</th><th></th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </article>
+        <article class="table-card">
+          <h3>TOP 10 najwyższa frekwencja</h3>
+          <p class="chart-caption">Edycje z największą liczbą uczestników w historii parkrunu. Przy remisie pokazujemy wszystkie edycje ze wspólnym miejscem.</p>
+          <div class="table-scroll">
+            <table class="data-table" id="table-attendance-highest">
+              <thead><tr><th>#</th><th>Edycja</th><th>Data</th><th>Uczestników</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </article>
+        <article class="table-card">
+          <h3>TOP 10 najniższa frekwencja</h3>
+          <p class="chart-caption">Edycje z najmniejszą liczbą uczestników w historii parkrunu. Przy remisie pokazujemy wszystkie edycje ze wspólnym miejscem.</p>
+          <div class="table-scroll">
+            <table class="data-table" id="table-attendance-lowest">
+              <thead><tr><th>#</th><th>Edycja</th><th>Data</th><th>Uczestników</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </article>
+        <article class="table-card">
+          <h3>TOP 10 najliczniejsze miesiące</h3>
+          <p class="chart-caption">Miesiące kalendarzowe z największą łączną liczbą uczestników (suma ze wszystkich edycji w danym miesiącu).</p>
+          <div class="table-scroll">
+            <table class="data-table" id="table-monthly-highest">
+              <thead><tr><th>#</th><th>Miesiąc</th><th>Edycji</th><th>Uczestników łącznie</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </article>
+        <article class="table-card">
+          <h3>TOP 10 najmniej liczne miesiące</h3>
+          <p class="chart-caption">Miesiące kalendarzowe z najmniejszą łączną liczbą uczestników. Miesiące bez ani jednej edycji (np. przerwa pandemiczna) nie są uwzględnione.</p>
+          <div class="table-scroll">
+            <table class="data-table" id="table-monthly-lowest">
+              <thead><tr><th>#</th><th>Miesiąc</th><th>Edycji</th><th>Uczestników łącznie</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<button type="button" id="back-to-top" class="back-to-top" aria-label="Wróć na górę strony">↑</button>
+
+<div class="modal-overlay" id="modal-overlay" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <button class="modal-close" id="modal-close" type="button" aria-label="Zamknij">✕</button>
+    <h3 id="modal-title"></h3>
+    <p class="chart-caption" id="modal-subtitle"></p>
+    <div class="table-scroll">
+      <table class="data-table" id="modal-table">
+        <thead><tr><th>Edycja</th><th>Data</th></tr></thead>
+        <tbody id="modal-table-body"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>Dane pochodzą z publicznych wyników parkrun.pl, zebranych i zagregowanych lokalnie.</p>
+  </div>
+</footer>
+
+<script src="assets/js/vendor/chart.umd.min.js"></script>
+<script src="assets/js/vendor/chartjs-plugin-annotation.min.js"></script>
+<script src="assets/js/charts.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

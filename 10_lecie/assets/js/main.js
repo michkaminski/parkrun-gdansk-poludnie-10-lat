@@ -1,6 +1,9 @@
 /*
  * Ladowanie danych JSON, wypelnianie KPI/tabel/osi czasu i obsluga motywu.
- * Cala strona jest statyczna - jedyna "logika" to fetch + render w przegladarce.
+ * Wersja dla wielostronicowej wersji serwisu (doc_subweb): kazda strona laduje
+ * ten sam komplet danych i to samo renderowanie, ale kazda funkcja renderujaca
+ * jest bezpieczna do wywolania na stronie, ktora nie ma jej elementow -
+ * po prostu nic wtedy nie robi.
  */
 
 (function () {
@@ -54,6 +57,9 @@
   // KPI + hero
   // -------------------------------------------------------------------
   function renderKpis(kpis) {
+    const grid = document.getElementById("kpi-grid");
+    if (!grid) return;
+
     const avgPerEdition = kpis.total_editions ? Math.round((kpis.total_starts / kpis.total_editions) * 10) / 10 : 0;
 
     const tiles = [
@@ -69,7 +75,6 @@
       { label: "Średnia na edycję", value: avgPerEdition, sub: "uczestników na starcie", isFloat: true },
     ];
 
-    const grid = document.getElementById("kpi-grid");
     grid.innerHTML = tiles
       .map(
         (t) => `
@@ -83,6 +88,9 @@
   }
 
   function renderVolunteerKpis(kpis) {
+    const grid = document.getElementById("volunteer-kpi-grid");
+    if (!grid) return;
+
     const tiles = [
       { label: "Wpisów wolontariackich", value: kpis.total_volunteer_entries, sub: "od 30.07.2016" },
       { label: "Unikalnych wolontariuszy", value: kpis.unique_volunteers, sub: "z unikalnym profilem parkrun" },
@@ -94,7 +102,6 @@
       },
     ];
 
-    const grid = document.getElementById("volunteer-kpi-grid");
     grid.innerHTML = tiles
       .map(
         (t) => `
@@ -118,6 +125,8 @@
 
   function renderTimeline(milestones) {
     const list = document.getElementById("timeline-list");
+    if (!list) return;
+
     list.innerHTML = milestones.timeline
       .map((m) => {
         const cls = MILESTONE_CLASS[m.type] || "";
@@ -131,18 +140,20 @@
       .join("");
 
     const tbody = document.querySelector("#table-runner-of-year tbody");
-    tbody.innerHTML = milestones.runner_of_year
-      .slice()
-      .reverse()
-      .map((r) => `<tr><td>${r.year}</td><td class="cell-name">${r.name}</td><td>${r.starts_count}</td></tr>`)
-      .join("");
+    if (tbody) {
+      tbody.innerHTML = milestones.runner_of_year
+        .slice()
+        .reverse()
+        .map((r) => `<tr><td>${r.year}</td><td class="cell-name">${r.names.join(", ")}</td><td>${r.starts_count}</td></tr>`)
+        .join("");
+    }
 
     const volunteerTbody = document.querySelector("#table-volunteer-of-year tbody");
     if (volunteerTbody) {
       volunteerTbody.innerHTML = milestones.volunteer_of_year
         .slice()
         .reverse()
-        .map((r) => `<tr><td>${r.year}</td><td class="cell-name">${r.name}</td><td>${r.volunteer_count}</td></tr>`)
+        .map((r) => `<tr><td>${r.year}</td><td class="cell-name">${r.names.join(", ")}</td><td>${r.volunteer_count}</td></tr>`)
         .join("");
     }
   }
@@ -238,6 +249,7 @@
 
   function initModal() {
     const overlay = document.getElementById("modal-overlay");
+    if (!overlay) return;
     document.getElementById("modal-close").addEventListener("click", closeModal);
     overlay.addEventListener("click", (e) => {
       if (e.target === overlay) closeModal();
@@ -483,42 +495,16 @@
   }
 
   // -------------------------------------------------------------------
-  // Nawigacja na dlugiej stronie: podswietlanie aktywnej sekcji w menu
-  // (scrollspy) i przycisk powrotu na gore. Niezalezne od danych JSON -
-  // dzialaja nawet gdyby fetch danych sie nie powiodl.
+  // Nawigacja: kazda sekcja to teraz osobna podstrona, wiec zamiast
+  // scrollspy po prostu podswietlamy link, ktorego href odpowiada
+  // aktualnemu plikowi.
   // -------------------------------------------------------------------
-  function initScrollSpy() {
-    const navLinks = Array.from(document.querySelectorAll(".site-nav a[href^='#']"));
-    const sections = navLinks
-      .map((link) => document.getElementById(link.getAttribute("href").slice(1)))
-      .filter(Boolean);
-    if (!sections.length) return;
-
-    const linkForSection = new Map(
-      navLinks.map((link) => [link.getAttribute("href").slice(1), link])
-    );
-
-    const setActive = (id) => {
-      navLinks.forEach((link) => link.classList.remove("active"));
-      const link = linkForSection.get(id);
-      if (link) link.classList.add("active");
-    };
-
-    // Cienki, poziomy "pasek wykrywania" w gornej-srodkowej czesci ekranu -
-    // sekcja, ktora go przecina, jest uznawana za aktualnie oglądaną.
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const visible = entries.filter((e) => e.isIntersecting);
-        if (!visible.length) return;
-        const topMost = visible.reduce((a, b) =>
-          a.boundingClientRect.top < b.boundingClientRect.top ? a : b
-        );
-        setActive(topMost.target.id);
-      },
-      { rootMargin: "-45% 0px -50% 0px", threshold: 0 }
-    );
-
-    sections.forEach((section) => observer.observe(section));
+  function initStaticNavHighlight() {
+    const here = location.pathname.split("/").pop() || "index.html";
+    document.querySelectorAll(".site-nav a[href]").forEach((link) => {
+      const href = link.getAttribute("href").split("?")[0];
+      if (href === here) link.classList.add("active");
+    });
   }
 
   function initBackToTop() {
@@ -536,7 +522,7 @@
     });
   }
 
-  initScrollSpy();
+  initStaticNavHighlight();
   initBackToTop();
 
   // -------------------------------------------------------------------
@@ -563,7 +549,7 @@
         "afterbegin",
         `<div class="container" style="padding-top:24px;color:#c0392b;">
           Nie udało się wczytać danych (${err.message}). Jeśli otwierasz plik lokalnie z dysku,
-          uruchom prosty serwer HTTP (np. <code>python -m http.server</code>) w folderze docs/.
+          uruchom prosty serwer HTTP (np. <code>python -m http.server</code>) w folderze doc_subweb/.
         </div>`
       );
     });

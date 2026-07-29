@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Demografia — parkrun Gdańsk Południe</title>
+<meta name="description" content="Demografia parkrun Gdańsk Południe: podział płci i struktura wiekowa na przestrzeni 10 lat.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🎉%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html">
+      <span class="brand-badge">10</span>
+      <span>parkrun Gdańsk Południe</span>
+    </a>
+    <nav class="site-nav">
+      <a href="frekwencja.html">Frekwencja</a>
+      <a href="demografia.html">Demografia</a>
+      <a href="oswiecie.html">Oś czasu</a>
+      <a href="hall-of-fame.html">Hall of Fame</a>
+      <a href="wolontariusze.html">Wolontariusze</a>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Przełącz motyw jasny/ciemny">🌙</button>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="page-section" id="demografia">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-kicker">Demografia i kategorie wiekowe</span>
+        <h2>Kto biega w Gdańsku Południe</h2>
+        <p>Podział płci, struktura wiekowa i to, jak dojrzewa nasza społeczność przez dekadę.</p>
+      </div>
+      <div class="chart-grid">
+        <article class="chart-card">
+          <h3>Podział płci — wszystkie starty</h3>
+          <p class="chart-caption">Udział kobiet, mężczyzn i wyników bez określonej płci wśród 42 991 startów.</p>
+          <div id="gender-stacked-bar"></div>
+        </article>
+        <article class="chart-card">
+          <h3>Udział kobiet i mężczyzn w czasie</h3>
+          <p class="chart-caption">Procentowy udział kobiet i mężczyzn wśród startów w poszczególnych latach.</p>
+          <div class="chart-canvas-wrap short"><canvas id="chart-gender-trend"></canvas></div>
+        </article>
+        <article class="chart-card full-width">
+          <h3>Jak dojrzewa nasza społeczność</h3>
+          <p class="chart-caption">Udział grup wiekowych Junior (&lt;18) / 18–34 / 35–49 / 50–64 / 65+ w startach rok po roku.</p>
+          <label class="chart-toggle"><input type="checkbox" class="age-labels-toggle"> Pokaż liczby na słupkach</label>
+          <div class="chart-canvas-wrap"><canvas id="chart-age-groups"></canvas></div>
+        </article>
+        <article class="chart-card full-width">
+          <h3>Jak dojrzewa nasza społeczność — udział procentowy</h3>
+          <p class="chart-caption">Ten sam podział grup wiekowych, ale jako procent startów w danym roku (0–100%) — łatwiej zobaczyć zmianę struktury niezależnie od wzrostu liczby uczestników.</p>
+          <label class="chart-toggle"><input type="checkbox" class="age-labels-toggle"> Pokaż liczby na słupkach</label>
+          <div class="chart-canvas-wrap"><canvas id="chart-age-groups-pct"></canvas></div>
+        </article>
+        <article class="chart-card full-width">
+          <h3>Rozkład kategorii wiekowych</h3>
+          <p class="chart-caption">Wszystkie kategorie wiekowe wg liczby startów w całej historii parkrunu.</p>
+          <div class="chart-canvas-wrap xtall"><canvas id="chart-age-categories"></canvas></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<button type="button" id="back-to-top" class="back-to-top" aria-label="Wróć na górę strony">↑</button>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>Dane pochodzą z publicznych wyników parkrun.pl, zebranych i zagregowanych lokalnie.</p>
+  </div>
+</footer>
+
+<script src="assets/js/vendor/chart.umd.min.js"></script>
+<script src="assets/js/vendor/chartjs-plugin-annotation.min.js"></script>
+<script src="assets/js/charts.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
