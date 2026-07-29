@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-07-29",
+  "locations": [
+    {
+      "id": "gdanskpoludnie",
+      "name": "Gdańsk Południe",
+      "years": [
+        {
+          "year": 2026,
+          "months": [
+            {
+              "month": 7,
+              "label": "Lipiec 2026",
+              "editions_count": 4,
+              "total_participants": 617
+            },
+            {
+              "month": 6,
+              "label": "Czerwiec 2026",
+              "editions_count": 4,
+              "total_participants": 601
+            },
+            {
+              "month": 5,
+              "label": "Maj 2026",
+              "editions_count": 5,
+              "total_participants": 826
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title id="page-title">Frekwencja — raport miesiąca</title>
+<meta name="description" content="Edycje tego miesiąca i porównanie z poprzednimi latami.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%85%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../../../assets/css/style.css">
+</head>
+<body data-page="frekwencja" data-section-label="Frekwencja" class="page-wide">
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html">
+      <span class="brand-badge">📅</span>
+      <span id="brand-label">parkrun</span>
+    </a>
+    <nav class="site-nav">
+      <a href="frekwencja.html">Frekwencja</a>
+      <a href="demografia.html">Demografia</a>
+      <a href="hall-of-fame.html">Hall of Fame</a>
+      <a href="wolontariusze.html">Wolontariusze</a>
+      <a href="rekordy.html">Rekordy</a>
+      <a href="historia.html">Historia</a>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Przełącz motyw jasny/ciemny">🌙</button>
+    </nav>
+  </div>
+</header>
+
+<div class="month-banner">
+  <div class="container">
+    <span id="month-banner-label">Statystyki — …</span>
+  </div>
+</div>
+
+<main id="top">
+  <section class="page-section" id="editions">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-kicker" id="location-kicker">Frekwencja</span>
+        <h2>Edycje w miesiącu</h2>
+        <p>Każda edycja tego miesiąca z osobna.</p>
+      </div>
+      <div class="table-scroll">
+        <table class="data-table" id="table-editions" data-default-sort="edition_number" data-default-dir="asc">
+          <thead><tr>
+            <th data-key="edition_number">Nr edycji</th>
+            <th data-key="date">Data</th>
+            <th data-key="participants_count">Ilość osób</th>
+            <th data-key="men_count">Ilość M</th>
+            <th data-key="women_count">Ilość K</th>
+            <th data-key="avg_time_m">Śr czas M</th>
+            <th data-key="avg_time_f">Śr czas K</th>
+            <th data-key="best_time_m">Najlepszy M</th>
+            <th data-key="best_time_f">Najlepszy K</th>
+            <th data-key="median_time">Mediana</th>
+            <th data-key="best_age_coefficient">Wsp. wieku</th>
+            <th data-key="volunteers_count">Wolontariusze</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section" id="year-over-year">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-kicker">Ten miesiąc, rok po roku</span>
+        <h2>Porównanie z poprzednimi latami</h2>
+        <p>Ten sam miesiąc kalendarzowy w każdym roku historii tej lokalizacji.</p>
+      </div>
+      <div class="table-scroll">
+        <table class="data-table" id="table-year-over-year" data-default-sort="year" data-default-dir="desc">
+          <thead><tr>
+            <th data-key="year">Rok</th>
+            <th data-key="editions_count">Edycje</th>
+            <th data-key="total_participants">Ilość osób</th>
+            <th data-key="avg_participants">Śr. ilość osób</th>
+            <th data-key="avg_time">Śr. czas</th>
+            <th data-key="median_time">Mediana</th>
+            <th data-key="best_woman_display">Najlepsza kobieta</th>
+            <th data-key="best_man_display">Najlepszy mężczyzna</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <div class="chart-grid">
+        <div class="chart-card">
+          <h3>Frekwencja tego miesiąca na przestrzeni lat</h3>
+          <div class="chart-canvas-wrap"><canvas id="chart-yoy-total"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <h3>Średnia frekwencja na edycję</h3>
+          <div class="chart-canvas-wrap"><canvas id="chart-yoy-avg"></canvas></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>Dane pochodzą z publicznych wyników parkrun.pl, zebranych i zagregowanych lokalnie.</p>
+  </div>
+</footer>
+
+<script src="../../../assets/js/vendor/chart.umd.min.js"></script>
+<script src="../../../assets/js/vendor/chartjs-plugin-annotation.min.js"></script>
+<script src="../../../assets/js/month-report.js"></script>
+</body>
+</html>

@@ -71,7 +71,6 @@
         value: kpis.record_attendance.count,
         sub: `edycja #${kpis.record_attendance.edition_number} · ${dateFmt(kpis.record_attendance.date)}`,
       },
-      { label: "Klubów na starcie", value: kpis.total_clubs, sub: "zgłoszonych choć raz" },
       { label: "Średnia na edycję", value: avgPerEdition, sub: "uczestników na starcie", isFloat: true },
     ];
 

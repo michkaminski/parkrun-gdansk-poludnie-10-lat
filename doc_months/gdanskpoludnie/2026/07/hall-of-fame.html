@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title id="page-title">Hall of Fame — raport miesiąca</title>
+<meta name="description" content="Rankingi biegaczy tego miesiąca: komplet edycji, top w roku, top w historii, age-grading.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%85%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../../../assets/css/style.css">
+</head>
+<body data-page="hall-of-fame" data-section-label="Hall of Fame" class="page-wide">
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html">
+      <span class="brand-badge">📅</span>
+      <span id="brand-label">parkrun</span>
+    </a>
+    <nav class="site-nav">
+      <a href="frekwencja.html">Frekwencja</a>
+      <a href="demografia.html">Demografia</a>
+      <a href="hall-of-fame.html">Hall of Fame</a>
+      <a href="wolontariusze.html">Wolontariusze</a>
+      <a href="rekordy.html">Rekordy</a>
+      <a href="historia.html">Historia</a>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Przełącz motyw jasny/ciemny">🌙</button>
+    </nav>
+  </div>
+</header>
+
+<div class="month-banner">
+  <div class="container">
+    <span id="month-banner-label">Statystyki — …</span>
+  </div>
+</div>
+
+<main id="top">
+  <section class="page-section" id="rankings-runners">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-kicker">Biegacze</span>
+        <h2>Frekwencja i wierność</h2>
+      </div>
+      <div class="tables-grid-pair">
+        <div class="table-card">
+          <h3>Komplet edycji w tym miesiącu</h3>
+          <p class="chart-caption">Start na każdej edycji tego miesiąca.</p>
+          <div class="table-scroll">
+            <table class="data-table" id="table-perfect-runners" data-default-sort="name" data-default-dir="asc">
+              <thead><tr><th data-key="name">Uczestnik</th><th data-key="editions_count">Edycje</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+        <div class="table-card">
+          <h3>Najwięcej edycji w tym roku</h3>
+          <div class="table-scroll">
+            <table class="data-table" id="table-top-runners-ytd" data-default-sort="editions_count" data-default-dir="desc">
+              <thead><tr><th data-key="rank">Msc</th><th data-key="name">Uczestnik</th><th data-key="editions_count">Edycje</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+        <div class="table-card full-width">
+          <h3>Najwięcej edycji w historii</h3>
+          <div class="table-scroll">
+            <table class="data-table" id="table-top-runners-all" data-default-sort="editions_count" data-default-dir="desc">
+              <thead><tr><th data-key="rank">Msc</th><th data-key="name">Uczestnik</th><th data-key="editions_count">Edycje</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section" id="age-graded">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-kicker">Age-grading</span>
+        <h2>Klasyfikacja wg współczynnika wieku</h2>
+        <p>Dla każdego uczestnika brany jest jego najlepszy wynik w tym miesiącu.</p>
+      </div>
+      <div class="table-card">
+        <div class="table-scroll">
+          <table class="data-table" id="table-age-graded" data-default-sort="coefficient" data-default-dir="desc">
+            <thead><tr>
+              <th data-key="rank">Msc</th>
+              <th data-key="name">Uczestnik</th>
+              <th data-key="category">Kat. wiekowa</th>
+              <th data-key="time">Czas</th>
+              <th data-key="coefficient">Wsp. wieku</th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>Dane pochodzą z publicznych wyników parkrun.pl, zebranych i zagregowanych lokalnie.</p>
+  </div>
+</footer>
+
+<script src="../../../assets/js/vendor/chart.umd.min.js"></script>
+<script src="../../../assets/js/vendor/chartjs-plugin-annotation.min.js"></script>
+<script src="../../../assets/js/month-report.js"></script>
+</body>
+</html>
