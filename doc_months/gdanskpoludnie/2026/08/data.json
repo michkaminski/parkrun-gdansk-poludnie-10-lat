@@ -1,0 +1,6736 @@
+{
+  "meta": {
+    "location_id": "gdanskpoludnie",
+    "location_name": "Gdańsk Południe",
+    "year": 2026,
+    "month": 8,
+    "month_label": "Sierpień 2026",
+    "generated_at": "2026-09-02"
+  },
+  "editions": [
+    {
+      "edition_number": 469,
+      "date": "2026-08-01",
+      "participants_count": 262,
+      "women_count": 90,
+      "men_count": 171,
+      "avg_time_m": "27:06",
+      "avg_time_f": "34:05",
+      "best_time_m": "17:48",
+      "best_time_f": "20:35",
+      "median_time": "28:13",
+      "best_age_coefficient": 81.46,
+      "volunteers_count": 66
+    },
+    {
+      "edition_number": 470,
+      "date": "2026-08-08",
+      "participants_count": 192,
+      "women_count": 59,
+      "men_count": 131,
+      "avg_time_m": "27:05",
+      "avg_time_f": "35:49",
+      "best_time_m": "17:05",
+      "best_time_f": "22:00",
+      "median_time": "27:49",
+      "best_age_coefficient": 82.79,
+      "volunteers_count": 26
+    },
+    {
+      "edition_number": 471,
+      "date": "2026-08-15",
+      "participants_count": 154,
+      "women_count": 49,
+      "men_count": 105,
+      "avg_time_m": "27:10",
+      "avg_time_f": "33:32",
+      "best_time_m": "17:21",
+      "best_time_f": "23:31",
+      "median_time": "27:58",
+      "best_age_coefficient": 79.11,
+      "volunteers_count": 28
+    },
+    {
+      "edition_number": 472,
+      "date": "2026-08-22",
+      "participants_count": 55,
+      "women_count": 16,
+      "men_count": 39,
+      "avg_time_m": "25:43",
+      "avg_time_f": "31:16",
+      "best_time_m": "17:41",
+      "best_time_f": "24:43",
+      "median_time": "26:40",
+      "best_age_coefficient": 75.66,
+      "volunteers_count": 16
+    },
+    {
+      "edition_number": 473,
+      "date": "2026-08-29",
+      "participants_count": 61,
+      "women_count": 17,
+      "men_count": 43,
+      "avg_time_m": "25:59",
+      "avg_time_f": "29:50",
+      "best_time_m": "17:18",
+      "best_time_f": "20:42",
+      "median_time": "25:24",
+      "best_age_coefficient": 78.05,
+      "volunteers_count": 15
+    }
+  ],
+  "month_summary": {
+    "editions_count": 5,
+    "total_participants": 724,
+    "women_count": 231,
+    "men_count": 489,
+    "avg_participants": 144.8,
+    "avg_time_m": "26:54",
+    "avg_time_f": "33:54",
+    "best_time_m": "17:05",
+    "best_time_f": "20:35",
+    "median_time": "27:42",
+    "best_age_coefficient": 82.79,
+    "volunteers_count": 151
+  },
+  "year_over_year": [
+    {
+      "year": 2026,
+      "editions_count": 5,
+      "total_participants": 724,
+      "avg_participants": 144.8,
+      "avg_time": "29:09",
+      "median_time": "27:42",
+      "best_woman": {
+        "name": "Olha KAZYMYROWA",
+        "time": "20:35"
+      },
+      "best_man": {
+        "name": "Tomasz SZCZYKUTOWICZ",
+        "time": "17:05"
+      }
+    },
+    {
+      "year": 2025,
+      "editions_count": 5,
+      "total_participants": 658,
+      "avg_participants": 131.6,
+      "avg_time": "28:17",
+      "median_time": "26:50",
+      "best_woman": {
+        "name": "Karolina DOBKOWSKA",
+        "time": "22:07"
+      },
+      "best_man": {
+        "name": "Damian DINO",
+        "time": "17:16"
+      }
+    },
+    {
+      "year": 2024,
+      "editions_count": 5,
+      "total_participants": 585,
+      "avg_participants": 117.0,
+      "avg_time": "28:03",
+      "median_time": "26:34",
+      "best_woman": {
+        "name": "Magdalena JASZEWSKA",
+        "time": "20:49"
+      },
+      "best_man": {
+        "name": "Tomasz BAGIŃSKI",
+        "time": "17:24"
+      }
+    },
+    {
+      "year": 2023,
+      "editions_count": 4,
+      "total_participants": 431,
+      "avg_participants": 107.8,
+      "avg_time": "26:58",
+      "median_time": "25:26",
+      "best_woman": {
+        "name": "Julia WIERGOWSKA",
+        "time": "20:37"
+      },
+      "best_man": {
+        "name": "Tomasz BAGIŃSKI",
+        "time": "17:07"
+      }
+    },
+    {
+      "year": 2022,
+      "editions_count": 4,
+      "total_participants": 312,
+      "avg_participants": 78.0,
+      "avg_time": "26:59",
+      "median_time": "26:07",
+      "best_woman": {
+        "name": "Aleksandra Ewa GRABIAS",
+        "time": "22:38"
+      },
+      "best_man": {
+        "name": "Jakub KISIELIŃSKI",
+        "time": "17:52"
+      }
+    },
+    {
+      "year": 2021,
+      "editions_count": 4,
+      "total_participants": 275,
+      "avg_participants": 68.8,
+      "avg_time": "26:32",
+      "median_time": "25:27",
+      "best_woman": {
+        "name": "Małgorzata IWAN",
+        "time": "19:20"
+      },
+      "best_man": {
+        "name": "Łukasz STACHERSKI",
+        "time": "17:44"
+      }
+    },
+    {
+      "year": 2019,
+      "editions_count": 5,
+      "total_participants": 398,
+      "avg_participants": 79.6,
+      "avg_time": "26:49",
+      "median_time": "25:32",
+      "best_woman": {
+        "name": "Katarzyna ZATORSKA",
+        "time": "21:24"
+      },
+      "best_man": {
+        "name": "Tomasz BAGIŃSKI",
+        "time": "17:30"
+      }
+    },
+    {
+      "year": 2018,
+      "editions_count": 4,
+      "total_participants": 294,
+      "avg_participants": 73.5,
+      "avg_time": "27:07",
+      "median_time": "25:58",
+      "best_woman": {
+        "name": "Natalia PIÓRKOWSKA",
+        "time": "22:22"
+      },
+      "best_man": {
+        "name": "Tomasz Henryk BAGROWSKI",
+        "time": "17:07"
+      }
+    },
+    {
+      "year": 2017,
+      "editions_count": 4,
+      "total_participants": 266,
+      "avg_participants": 66.5,
+      "avg_time": "25:22",
+      "median_time": "24:51",
+      "best_woman": {
+        "name": "Natalia PIÓRKOWSKA",
+        "time": "22:56"
+      },
+      "best_man": {
+        "name": "Piotr FOBKE",
+        "time": "17:33"
+      }
+    },
+    {
+      "year": 2016,
+      "editions_count": 4,
+      "total_participants": 370,
+      "avg_participants": 92.5,
+      "avg_time": "25:27",
+      "median_time": "24:43",
+      "best_woman": {
+        "name": "Julia WIERGOWSKA",
+        "time": "21:30"
+      },
+      "best_man": {
+        "name": "Łukasz STACHOWIAK",
+        "time": "17:05"
+      }
+    }
+  ],
+  "age_categories_this_year": {
+    "women": [
+      {
+        "category": "VW45-49",
+        "count": 39,
+        "avg_time": "32:31",
+        "best_time": "23:20",
+        "best_name": "Lidia KULESZA"
+      },
+      {
+        "category": "VW35-39",
+        "count": 38,
+        "avg_time": "33:46",
+        "best_time": "22:11",
+        "best_name": "Paulina ZALEJASZ"
+      },
+      {
+        "category": "VW40-44",
+        "count": 37,
+        "avg_time": "33:54",
+        "best_time": "20:42",
+        "best_name": "Dorota ŻMUDA-TRZEBIATOWSKA"
+      },
+      {
+        "category": "SW25-29",
+        "count": 25,
+        "avg_time": "31:08",
+        "best_time": "22:00",
+        "best_name": "Karolina DOBKOWSKA"
+      },
+      {
+        "category": "VW50-54",
+        "count": 24,
+        "avg_time": "29:17",
+        "best_time": "20:35",
+        "best_name": "Olha KAZYMYROWA"
+      },
+      {
+        "category": "SW30-34",
+        "count": 16,
+        "avg_time": "31:27",
+        "best_time": "26:17",
+        "best_name": "Kirsty CUTHBERTSON"
+      },
+      {
+        "category": "VW55-59",
+        "count": 14,
+        "avg_time": "37:00",
+        "best_time": "26:18",
+        "best_name": "Marzena GRABOWSKA"
+      },
+      {
+        "category": "JW10",
+        "count": 8,
+        "avg_time": "51:32",
+        "best_time": "37:51",
+        "best_name": "Kornelia SZALIK"
+      },
+      {
+        "category": "JW11-14",
+        "count": 8,
+        "avg_time": "36:45",
+        "best_time": "29:44",
+        "best_name": "Aleksandra KRZYSZTOFIK"
+      },
+      {
+        "category": "VW60-64",
+        "count": 8,
+        "avg_time": "37:17",
+        "best_time": "25:49",
+        "best_name": "Aleksandra ŚNIEG"
+      },
+      {
+        "category": "VW65-69",
+        "count": 6,
+        "avg_time": "44:49",
+        "best_time": "30:09",
+        "best_name": "Grażyna CZEKAJ"
+      },
+      {
+        "category": "VW70-74",
+        "count": 5,
+        "avg_time": "31:45",
+        "best_time": "29:19",
+        "best_name": "Małgorzata POLINCEUSZ"
+      },
+      {
+        "category": "SW20-24",
+        "count": 3,
+        "avg_time": "30:39",
+        "best_time": "23:46",
+        "best_name": "Maja LASKOWSKA"
+      }
+    ],
+    "men": [
+      {
+        "category": "VM35-39",
+        "count": 94,
+        "avg_time": "25:38",
+        "best_time": "17:05",
+        "best_name": "Tomasz SZCZYKUTOWICZ"
+      },
+      {
+        "category": "VM40-44",
+        "count": 83,
+        "avg_time": "25:50",
+        "best_time": "18:36",
+        "best_name": "Paweł KOŁC"
+      },
+      {
+        "category": "VM45-49",
+        "count": 80,
+        "avg_time": "25:17",
+        "best_time": "17:32",
+        "best_name": "Damian DINO"
+      },
+      {
+        "category": "VM50-54",
+        "count": 57,
+        "avg_time": "27:31",
+        "best_time": "19:31",
+        "best_name": "Wojciech GIERSZEWSKI"
+      },
+      {
+        "category": "SM30-34",
+        "count": 37,
+        "avg_time": "24:54",
+        "best_time": "18:08",
+        "best_name": "Adam BRZOSKOWSKI"
+      },
+      {
+        "category": "VM55-59",
+        "count": 27,
+        "avg_time": "29:00",
+        "best_time": "24:40",
+        "best_name": "Jacek KĘDZIERSKI"
+      },
+      {
+        "category": "JM10",
+        "count": 18,
+        "avg_time": "35:15",
+        "best_time": "22:25",
+        "best_name": "Michal KRZYSZTOFIK"
+      },
+      {
+        "category": "SM25-29",
+        "count": 16,
+        "avg_time": "26:05",
+        "best_time": "19:04",
+        "best_name": "Łukasz PELOWSKI"
+      },
+      {
+        "category": "VM60-64",
+        "count": 16,
+        "avg_time": "29:02",
+        "best_time": "26:22",
+        "best_name": "Mirosław KAMOLA"
+      },
+      {
+        "category": "VM65-69",
+        "count": 13,
+        "avg_time": "33:14",
+        "best_time": "25:58",
+        "best_name": "Henryk RATKOWSKI"
+      },
+      {
+        "category": "SM20-24",
+        "count": 10,
+        "avg_time": "27:14",
+        "best_time": "19:32",
+        "best_name": "Szymon LEWANDOWSKI"
+      },
+      {
+        "category": "JM15-17",
+        "count": 9,
+        "avg_time": "23:50",
+        "best_time": "20:04",
+        "best_name": "Krzysztof SITA"
+      },
+      {
+        "category": "VM70-74",
+        "count": 9,
+        "avg_time": "32:08",
+        "best_time": "24:23",
+        "best_name": "Zdzisław SZCZĘCH"
+      },
+      {
+        "category": "JM11-14",
+        "count": 8,
+        "avg_time": "27:52",
+        "best_time": "20:30",
+        "best_name": "Szymon DAWIDOWSKI"
+      },
+      {
+        "category": "VM75-79",
+        "count": 7,
+        "avg_time": "34:23",
+        "best_time": "27:24",
+        "best_name": "Andrzej KIK"
+      },
+      {
+        "category": "SM18-19",
+        "count": 5,
+        "avg_time": "23:42",
+        "best_time": "19:54",
+        "best_name": "Krzysztof SITA"
+      }
+    ]
+  },
+  "age_categories_all_years": {
+    "women": [
+      {
+        "category": "VW40-44",
+        "count": 245,
+        "avg_time": "32:33",
+        "best_time": "20:42",
+        "best_name": "Dorota ŻMUDA-TRZEBIATOWSKA"
+      },
+      {
+        "category": "VW35-39",
+        "count": 191,
+        "avg_time": "30:49",
+        "best_time": "19:20",
+        "best_name": "Małgorzata IWAN"
+      },
+      {
+        "category": "VW45-49",
+        "count": 163,
+        "avg_time": "31:33",
+        "best_time": "23:05",
+        "best_name": "Anna STĘPIEŃ"
+      },
+      {
+        "category": "SW30-34",
+        "count": 122,
+        "avg_time": "29:26",
+        "best_time": "20:49",
+        "best_name": "Magdalena JASZEWSKA"
+      },
+      {
+        "category": "SW25-29",
+        "count": 104,
+        "avg_time": "29:55",
+        "best_time": "21:49",
+        "best_name": "Agnieszka BARANOWSKA"
+      },
+      {
+        "category": "VW50-54",
+        "count": 86,
+        "avg_time": "30:44",
+        "best_time": "20:35",
+        "best_name": "Olha KAZYMYROWA"
+      },
+      {
+        "category": "JW11-14",
+        "count": 50,
+        "avg_time": "35:23",
+        "best_time": "21:30",
+        "best_name": "Julia WIERGOWSKA"
+      },
+      {
+        "category": "JW10",
+        "count": 45,
+        "avg_time": "43:24",
+        "best_time": "28:16",
+        "best_name": "Julia SKWIOT"
+      },
+      {
+        "category": "VW55-59",
+        "count": 31,
+        "avg_time": "34:00",
+        "best_time": "25:51",
+        "best_name": "Aleksandra ŚNIEG"
+      },
+      {
+        "category": "SW20-24",
+        "count": 29,
+        "avg_time": "31:43",
+        "best_time": "20:37",
+        "best_name": "Julia WIERGOWSKA"
+      },
+      {
+        "category": "VW60-64",
+        "count": 27,
+        "avg_time": "35:04",
+        "best_time": "24:16",
+        "best_name": "Aleksandra ŚNIEG"
+      },
+      {
+        "category": "VW65-69",
+        "count": 22,
+        "avg_time": "33:16",
+        "best_time": "25:33",
+        "best_name": "Zofia TERLECKA WYDARTY"
+      },
+      {
+        "category": "JW15-17",
+        "count": 18,
+        "avg_time": "34:31",
+        "best_time": "22:34",
+        "best_name": "Emilia FALKOWSKA"
+      },
+      {
+        "category": "VW70-74",
+        "count": 13,
+        "avg_time": "32:19",
+        "best_time": "28:42",
+        "best_name": "Małgorzata POLINCEUSZ"
+      },
+      {
+        "category": "SW18-19",
+        "count": 8,
+        "avg_time": "38:33",
+        "best_time": "29:22",
+        "best_name": "Dominika SZLASZYŃSKA"
+      }
+    ],
+    "men": [
+      {
+        "category": "VM40-44",
+        "count": 647,
+        "avg_time": "25:05",
+        "best_time": "17:07",
+        "best_name": "Tomasz BAGIŃSKI"
+      },
+      {
+        "category": "VM35-39",
+        "count": 629,
+        "avg_time": "24:33",
+        "best_time": "17:05",
+        "best_name": "Tomasz SZCZYKUTOWICZ"
+      },
+      {
+        "category": "VM45-49",
+        "count": 450,
+        "avg_time": "25:17",
+        "best_time": "17:16",
+        "best_name": "Damian DINO"
+      },
+      {
+        "category": "SM30-34",
+        "count": 333,
+        "avg_time": "24:04",
+        "best_time": "17:38",
+        "best_name": "Adam BARANOWSKI"
+      },
+      {
+        "category": "VM50-54",
+        "count": 284,
+        "avg_time": "26:33",
+        "best_time": "18:30",
+        "best_name": "Janusz ŻYWICKI"
+      },
+      {
+        "category": "SM25-29",
+        "count": 154,
+        "avg_time": "23:31",
+        "best_time": "17:05",
+        "best_name": "Łukasz STACHOWIAK"
+      },
+      {
+        "category": "VM55-59",
+        "count": 132,
+        "avg_time": "27:57",
+        "best_time": "20:22",
+        "best_name": "Krzysztof TOKARSKI"
+      },
+      {
+        "category": "VM60-64",
+        "count": 101,
+        "avg_time": "28:46",
+        "best_time": "19:57",
+        "best_name": "Wiktor GRUSZKA"
+      },
+      {
+        "category": "JM11-14",
+        "count": 74,
+        "avg_time": "28:34",
+        "best_time": "18:55",
+        "best_name": "Szymon DAWIDOWSKI"
+      },
+      {
+        "category": "VM65-69",
+        "count": 73,
+        "avg_time": "29:07",
+        "best_time": "23:17",
+        "best_name": "Andrzej BORN"
+      },
+      {
+        "category": "JM15-17",
+        "count": 59,
+        "avg_time": "26:26",
+        "best_time": "17:22",
+        "best_name": "Michał JAŃCZAK"
+      },
+      {
+        "category": "SM20-24",
+        "count": 55,
+        "avg_time": "25:49",
+        "best_time": "17:52",
+        "best_name": "Jakub KISIELIŃSKI"
+      },
+      {
+        "category": "JM10",
+        "count": 50,
+        "avg_time": "33:18",
+        "best_time": "22:25",
+        "best_name": "Michal KRZYSZTOFIK"
+      },
+      {
+        "category": "VM75-79",
+        "count": 27,
+        "avg_time": "28:58",
+        "best_time": "24:03",
+        "best_name": "Henryk URTNOWSKI"
+      },
+      {
+        "category": "VM70-74",
+        "count": 24,
+        "avg_time": "33:18",
+        "best_time": "23:16",
+        "best_name": "Zdzisław SZCZĘCH"
+      },
+      {
+        "category": "SM18-19",
+        "count": 16,
+        "avg_time": "33:24",
+        "best_time": "19:54",
+        "best_name": "Krzysztof SITA"
+      },
+      {
+        "category": "VM80-84",
+        "count": 7,
+        "avg_time": "28:30",
+        "best_time": "24:42",
+        "best_name": "Henryk URTNOWSKI"
+      },
+      {
+        "category": "VM85-89",
+        "count": 1,
+        "avg_time": "31:47",
+        "best_time": "31:47",
+        "best_name": "Henryk URTNOWSKI"
+      }
+    ]
+  },
+  "perfect_attendance_runners": [
+    {
+      "name": "Adam AMBROZIAK",
+      "editions_count": 5
+    },
+    {
+      "name": "Adam POLINCEUSZ",
+      "editions_count": 5
+    },
+    {
+      "name": "Agnieszka WITKOWSKA",
+      "editions_count": 5
+    },
+    {
+      "name": "Gniewomir MILLER",
+      "editions_count": 5
+    },
+    {
+      "name": "Krzysztof SITA",
+      "editions_count": 5
+    },
+    {
+      "name": "Marcin NOWACZKIEWICZ",
+      "editions_count": 5
+    },
+    {
+      "name": "Robert OLSZYNKA",
+      "editions_count": 5
+    },
+    {
+      "name": "Roman WALDOWSKI",
+      "editions_count": 5
+    },
+    {
+      "name": "Tomasz SZCZYKUTOWICZ",
+      "editions_count": 5
+    },
+    {
+      "name": "Zbigniew KOBUS",
+      "editions_count": 5
+    },
+    {
+      "name": "Łukasz SZAJDZIUK",
+      "editions_count": 5
+    }
+  ],
+  "top_runners_year_to_date": [
+    {
+      "name": "Zbigniew KOBUS",
+      "editions_count": 35,
+      "rank": 1
+    },
+    {
+      "name": "Łukasz SZAJDZIUK",
+      "editions_count": 34,
+      "rank": 2
+    },
+    {
+      "name": "Roman WALDOWSKI",
+      "editions_count": 32,
+      "rank": 3
+    },
+    {
+      "name": "Agnieszka WITKOWSKA",
+      "editions_count": 32,
+      "rank": 3
+    },
+    {
+      "name": "Gniewomir MILLER",
+      "editions_count": 31,
+      "rank": 5
+    },
+    {
+      "name": "Krzysztof KLAWIKOWSKI",
+      "editions_count": 31,
+      "rank": 5
+    },
+    {
+      "name": "Paweł KARABIN",
+      "editions_count": 31,
+      "rank": 5
+    },
+    {
+      "name": "Robert OLSZYNKA",
+      "editions_count": 29,
+      "rank": 8
+    },
+    {
+      "name": "Ila PO",
+      "editions_count": 29,
+      "rank": 8
+    },
+    {
+      "name": "Dariusz JANOWICZ",
+      "editions_count": 28,
+      "rank": 10
+    },
+    {
+      "name": "Wojciech GIERSZEWSKI",
+      "editions_count": 28,
+      "rank": 10
+    },
+    {
+      "name": "Artur BOBERSKI",
+      "editions_count": 28,
+      "rank": 10
+    },
+    {
+      "name": "Tomasz LICBARSKI",
+      "editions_count": 28,
+      "rank": 10
+    },
+    {
+      "name": "Zdzisław KOPEĆ",
+      "editions_count": 27,
+      "rank": 14
+    },
+    {
+      "name": "Ewelina SZAJDZIUK",
+      "editions_count": 27,
+      "rank": 14
+    },
+    {
+      "name": "Nieznan(a)y",
+      "editions_count": 27,
+      "rank": 14
+    },
+    {
+      "name": "Adam BRZOSKOWSKI",
+      "editions_count": 26,
+      "rank": 17
+    },
+    {
+      "name": "Adam AMBROZIAK",
+      "editions_count": 26,
+      "rank": 17
+    },
+    {
+      "name": "Justyna FILAS",
+      "editions_count": 26,
+      "rank": 17
+    },
+    {
+      "name": "Andrzej KANIA",
+      "editions_count": 26,
+      "rank": 17
+    },
+    {
+      "name": "Krzysztof ŁUDCZAK",
+      "editions_count": 25,
+      "rank": 21
+    },
+    {
+      "name": "Piotr Krzysztof SZAJDZIUK",
+      "editions_count": 25,
+      "rank": 21
+    },
+    {
+      "name": "Sylwia AMBROZIAK",
+      "editions_count": 25,
+      "rank": 21
+    },
+    {
+      "name": "Damian PIWOROWICZ",
+      "editions_count": 25,
+      "rank": 21
+    },
+    {
+      "name": "Adam ALAMA",
+      "editions_count": 25,
+      "rank": 21
+    },
+    {
+      "name": "Zbigniew MAŁKOWSKI",
+      "editions_count": 25,
+      "rank": 21
+    },
+    {
+      "name": "Grażyna CZEKAJ",
+      "editions_count": 25,
+      "rank": 21
+    },
+    {
+      "name": "Maciej BRZYWCY",
+      "editions_count": 24,
+      "rank": 28
+    },
+    {
+      "name": "Marcin NOWACZKIEWICZ",
+      "editions_count": 24,
+      "rank": 28
+    },
+    {
+      "name": "Kamil MERONK",
+      "editions_count": 24,
+      "rank": 28
+    },
+    {
+      "name": "Paweł POTRYKUS",
+      "editions_count": 24,
+      "rank": 28
+    },
+    {
+      "name": "Tomasz HINC",
+      "editions_count": 24,
+      "rank": 28
+    },
+    {
+      "name": "Izabela JAKRZEWSKA",
+      "editions_count": 24,
+      "rank": 28
+    },
+    {
+      "name": "Zbigniew KOŁTUNIAK",
+      "editions_count": 23,
+      "rank": 34
+    },
+    {
+      "name": "Tomasz LISOWSKI",
+      "editions_count": 23,
+      "rank": 34
+    },
+    {
+      "name": "Dariusz HAJDUK",
+      "editions_count": 23,
+      "rank": 34
+    },
+    {
+      "name": "Dariusz PAWŁOWSKI",
+      "editions_count": 23,
+      "rank": 34
+    },
+    {
+      "name": "Kamila Magdalena KLIMASZEWSKA",
+      "editions_count": 23,
+      "rank": 34
+    },
+    {
+      "name": "Sylwia ŁUDCZAK",
+      "editions_count": 23,
+      "rank": 34
+    },
+    {
+      "name": "Joanna SAWCZUK",
+      "editions_count": 23,
+      "rank": 34
+    },
+    {
+      "name": "Sandra ZYGIEL",
+      "editions_count": 23,
+      "rank": 34
+    },
+    {
+      "name": "Kamil ŻMUDZIŃSKI",
+      "editions_count": 23,
+      "rank": 34
+    },
+    {
+      "name": "Małgorzata POLINCEUSZ",
+      "editions_count": 23,
+      "rank": 34
+    },
+    {
+      "name": "Andrzej KIK",
+      "editions_count": 23,
+      "rank": 34
+    },
+    {
+      "name": "Liwia LESZCZYŃSKA",
+      "editions_count": 22,
+      "rank": 45
+    },
+    {
+      "name": "Daniel ŻYWICKI",
+      "editions_count": 22,
+      "rank": 45
+    },
+    {
+      "name": "Paweł WALENCKI",
+      "editions_count": 22,
+      "rank": 45
+    },
+    {
+      "name": "Leszek DULKO",
+      "editions_count": 22,
+      "rank": 45
+    },
+    {
+      "name": "Dorota ŻMUDA-TRZEBIATOWSKA",
+      "editions_count": 22,
+      "rank": 45
+    },
+    {
+      "name": "Anna PAWŁOWSKA",
+      "editions_count": 22,
+      "rank": 45
+    },
+    {
+      "name": "Szymon DYMARSKI",
+      "editions_count": 22,
+      "rank": 45
+    },
+    {
+      "name": "Dawid KUREK",
+      "editions_count": 22,
+      "rank": 45
+    }
+  ],
+  "top_runners_all_time": [
+    {
+      "name": "Krzysztof KLAWIKOWSKI",
+      "editions_count": 416,
+      "rank": 1
+    },
+    {
+      "name": "Wojciech GIERSZEWSKI",
+      "editions_count": 381,
+      "rank": 2
+    },
+    {
+      "name": "Zdzisław KOPEĆ",
+      "editions_count": 366,
+      "rank": 3
+    },
+    {
+      "name": "Krzysztof ŁUDCZAK",
+      "editions_count": 362,
+      "rank": 4
+    },
+    {
+      "name": "Sylwia ŁUDCZAK",
+      "editions_count": 326,
+      "rank": 5
+    },
+    {
+      "name": "Leszek CUDNOWSKI",
+      "editions_count": 316,
+      "rank": 6
+    },
+    {
+      "name": "Adam AMBROZIAK",
+      "editions_count": 312,
+      "rank": 7
+    },
+    {
+      "name": "Piotr MAKSYMIUK",
+      "editions_count": 304,
+      "rank": 8
+    },
+    {
+      "name": "Dorota GRZEGORCZYK",
+      "editions_count": 297,
+      "rank": 9
+    },
+    {
+      "name": "Stanisław SKWIOT",
+      "editions_count": 293,
+      "rank": 10
+    },
+    {
+      "name": "Krzysztof ROCZYŃSKI",
+      "editions_count": 282,
+      "rank": 11
+    },
+    {
+      "name": "Kamil ŻMUDZIŃSKI",
+      "editions_count": 277,
+      "rank": 12
+    },
+    {
+      "name": "Krystian STENCEL",
+      "editions_count": 276,
+      "rank": 13
+    },
+    {
+      "name": "Aleksandra DE VIRION",
+      "editions_count": 269,
+      "rank": 14
+    },
+    {
+      "name": "Tomasz ROJEK",
+      "editions_count": 265,
+      "rank": 15
+    },
+    {
+      "name": "Sylwia AMBROZIAK",
+      "editions_count": 256,
+      "rank": 16
+    },
+    {
+      "name": "Joanna SAWCZUK",
+      "editions_count": 244,
+      "rank": 17
+    },
+    {
+      "name": "Dorota CHMIELOWIEC",
+      "editions_count": 243,
+      "rank": 18
+    },
+    {
+      "name": "Ila PO",
+      "editions_count": 237,
+      "rank": 19
+    },
+    {
+      "name": "Maciej POGORZELSKI",
+      "editions_count": 235,
+      "rank": 20
+    },
+    {
+      "name": "Zbigniew MAŁKOWSKI",
+      "editions_count": 231,
+      "rank": 21
+    },
+    {
+      "name": "Artur BOBERSKI",
+      "editions_count": 231,
+      "rank": 21
+    },
+    {
+      "name": "Leszek WORONOWICZ",
+      "editions_count": 224,
+      "rank": 23
+    },
+    {
+      "name": "Adam ANGIELCZYK",
+      "editions_count": 224,
+      "rank": 23
+    },
+    {
+      "name": "Krzysztof SZUTOWICZ",
+      "editions_count": 213,
+      "rank": 25
+    },
+    {
+      "name": "Damian DINO",
+      "editions_count": 211,
+      "rank": 26
+    },
+    {
+      "name": "Dariusz POTĘGA",
+      "editions_count": 209,
+      "rank": 27
+    },
+    {
+      "name": "Leszek DULKO",
+      "editions_count": 209,
+      "rank": 27
+    },
+    {
+      "name": "Justyna FILAS",
+      "editions_count": 206,
+      "rank": 29
+    },
+    {
+      "name": "Aleksander SKONKA",
+      "editions_count": 203,
+      "rank": 30
+    },
+    {
+      "name": "Jacek WIELIŃSKI",
+      "editions_count": 198,
+      "rank": 31
+    },
+    {
+      "name": "Daniel ŻYWICKI",
+      "editions_count": 195,
+      "rank": 32
+    },
+    {
+      "name": "Patryk ROZPĘDOWSKI",
+      "editions_count": 190,
+      "rank": 33
+    },
+    {
+      "name": "Sebastian BRZEZIŃSKI",
+      "editions_count": 186,
+      "rank": 34
+    },
+    {
+      "name": "Zbigniew KOBUS",
+      "editions_count": 184,
+      "rank": 35
+    },
+    {
+      "name": "Dariusz HAJDUK",
+      "editions_count": 182,
+      "rank": 36
+    },
+    {
+      "name": "Adam GRZYSTEK",
+      "editions_count": 181,
+      "rank": 37
+    },
+    {
+      "name": "Michał WIŚNIEWSKI",
+      "editions_count": 178,
+      "rank": 38
+    },
+    {
+      "name": "Sebastian KIERZNIKIEWICZ",
+      "editions_count": 173,
+      "rank": 39
+    },
+    {
+      "name": "Grażyna CZEKAJ",
+      "editions_count": 173,
+      "rank": 39
+    },
+    {
+      "name": "Ewa BEJROWSKA",
+      "editions_count": 172,
+      "rank": 41
+    },
+    {
+      "name": "Andrzej KIK",
+      "editions_count": 169,
+      "rank": 42
+    },
+    {
+      "name": "Tomasz LISOWSKI",
+      "editions_count": 168,
+      "rank": 43
+    },
+    {
+      "name": "Krzysztof Teofor GAJEWSKI",
+      "editions_count": 168,
+      "rank": 43
+    },
+    {
+      "name": "Roman WALDOWSKI",
+      "editions_count": 166,
+      "rank": 45
+    },
+    {
+      "name": "Edyta TARAPATA-SKWIOT",
+      "editions_count": 164,
+      "rank": 46
+    },
+    {
+      "name": "Paweł POTRYKUS",
+      "editions_count": 164,
+      "rank": 46
+    },
+    {
+      "name": "Natalia PIÓRKOWSKA",
+      "editions_count": 158,
+      "rank": 48
+    },
+    {
+      "name": "Grzegorz KOSZNICKI",
+      "editions_count": 157,
+      "rank": 49
+    },
+    {
+      "name": "Mateusz BURNICKI",
+      "editions_count": 157,
+      "rank": 49
+    }
+  ],
+  "perfect_attendance_volunteers": [
+    {
+      "name": "Krzysztof ŁUDCZAK",
+      "editions_count": 5
+    },
+    {
+      "name": "Robert OLSZYNKA",
+      "editions_count": 5
+    },
+    {
+      "name": "Stanisław SKWIOT",
+      "editions_count": 5
+    },
+    {
+      "name": "Sylwia ŁUDCZAK",
+      "editions_count": 5
+    },
+    {
+      "name": "Weronika ŻUCHOWSKA",
+      "editions_count": 5
+    }
+  ],
+  "top_volunteers_year_to_date": [
+    {
+      "name": "Krzysztof ŁUDCZAK",
+      "editions_count": 35,
+      "rank": 1
+    },
+    {
+      "name": "Stanisław SKWIOT",
+      "editions_count": 35,
+      "rank": 1
+    },
+    {
+      "name": "Sylwia ŁUDCZAK",
+      "editions_count": 34,
+      "rank": 3
+    },
+    {
+      "name": "Krzysztof KLAWIKOWSKI",
+      "editions_count": 30,
+      "rank": 4
+    },
+    {
+      "name": "Weronika ŻUCHOWSKA",
+      "editions_count": 30,
+      "rank": 4
+    },
+    {
+      "name": "Ewelina SZAJDZIUK",
+      "editions_count": 26,
+      "rank": 6
+    },
+    {
+      "name": "Piotr Krzysztof SZAJDZIUK",
+      "editions_count": 26,
+      "rank": 6
+    },
+    {
+      "name": "Małgorzata HINC",
+      "editions_count": 25,
+      "rank": 8
+    },
+    {
+      "name": "Leszek SŁUŻEWSKI",
+      "editions_count": 24,
+      "rank": 9
+    },
+    {
+      "name": "Dominik PITUŁA",
+      "editions_count": 23,
+      "rank": 10
+    },
+    {
+      "name": "Liwia LESZCZYŃSKA",
+      "editions_count": 22,
+      "rank": 11
+    },
+    {
+      "name": "Joanna SAWCZUK",
+      "editions_count": 22,
+      "rank": 11
+    },
+    {
+      "name": "Justyna FILAS",
+      "editions_count": 21,
+      "rank": 13
+    },
+    {
+      "name": "Mariola GOLAŃSKA",
+      "editions_count": 21,
+      "rank": 13
+    },
+    {
+      "name": "Izabela JAKRZEWSKA",
+      "editions_count": 20,
+      "rank": 15
+    },
+    {
+      "name": "Paulina ŻUCHOWSKA",
+      "editions_count": 20,
+      "rank": 15
+    },
+    {
+      "name": "Tomasz HINC",
+      "editions_count": 18,
+      "rank": 17
+    },
+    {
+      "name": "Kamila Magdalena KLIMASZEWSKA",
+      "editions_count": 17,
+      "rank": 18
+    },
+    {
+      "name": "Zosia SZUTOWICZ",
+      "editions_count": 16,
+      "rank": 19
+    },
+    {
+      "name": "Sławomir PYŻ",
+      "editions_count": 15,
+      "rank": 20
+    },
+    {
+      "name": "Ewelina DYMARSKA",
+      "editions_count": 14,
+      "rank": 21
+    },
+    {
+      "name": "Przemysław TORŁOP",
+      "editions_count": 14,
+      "rank": 21
+    },
+    {
+      "name": "Szymon DYMARSKI",
+      "editions_count": 14,
+      "rank": 21
+    },
+    {
+      "name": "Robert OLSZYNKA",
+      "editions_count": 14,
+      "rank": 21
+    },
+    {
+      "name": "Agnieszka STECZEŃ",
+      "editions_count": 13,
+      "rank": 25
+    },
+    {
+      "name": "Roman WALDOWSKI",
+      "editions_count": 12,
+      "rank": 26
+    },
+    {
+      "name": "Wojciech GIERSZEWSKI",
+      "editions_count": 12,
+      "rank": 26
+    },
+    {
+      "name": "Andrzej GOLAŃSKI",
+      "editions_count": 11,
+      "rank": 28
+    },
+    {
+      "name": "Adam ALAMA",
+      "editions_count": 11,
+      "rank": 28
+    },
+    {
+      "name": "Konstancja KASZKUR",
+      "editions_count": 11,
+      "rank": 28
+    },
+    {
+      "name": "Leszek CUDNOWSKI",
+      "editions_count": 10,
+      "rank": 31
+    },
+    {
+      "name": "Dominik WOŁOWICZ",
+      "editions_count": 10,
+      "rank": 31
+    },
+    {
+      "name": "Renata JABŁONOWSKA",
+      "editions_count": 10,
+      "rank": 31
+    },
+    {
+      "name": "Ila PO",
+      "editions_count": 9,
+      "rank": 34
+    },
+    {
+      "name": "Sławomir WASILEWSKI",
+      "editions_count": 9,
+      "rank": 34
+    },
+    {
+      "name": "Daniel KMERA",
+      "editions_count": 9,
+      "rank": 34
+    },
+    {
+      "name": "Małgorzata TORŁOP",
+      "editions_count": 8,
+      "rank": 37
+    },
+    {
+      "name": "Rajmund STECZEŃ",
+      "editions_count": 8,
+      "rank": 37
+    },
+    {
+      "name": "Zdzisław KOPEĆ",
+      "editions_count": 8,
+      "rank": 37
+    },
+    {
+      "name": "Kinga LISOWSKA",
+      "editions_count": 7,
+      "rank": 40
+    },
+    {
+      "name": "Zbigniew KOBUS",
+      "editions_count": 7,
+      "rank": 40
+    },
+    {
+      "name": "Łukasz DYMARSKI",
+      "editions_count": 7,
+      "rank": 40
+    },
+    {
+      "name": "Katarzyna BEDNARZ",
+      "editions_count": 7,
+      "rank": 40
+    },
+    {
+      "name": "Łukasz WASILEWSKI",
+      "editions_count": 6,
+      "rank": 44
+    },
+    {
+      "name": "Kateryna KUMOVA",
+      "editions_count": 6,
+      "rank": 44
+    },
+    {
+      "name": "Alicja NYCEK",
+      "editions_count": 6,
+      "rank": 44
+    },
+    {
+      "name": "Artur JABŁONOWSKI",
+      "editions_count": 6,
+      "rank": 44
+    },
+    {
+      "name": "Nina MANKIEWICZ",
+      "editions_count": 6,
+      "rank": 44
+    },
+    {
+      "name": "Edyta TARAPATA-SKWIOT",
+      "editions_count": 5,
+      "rank": 49
+    },
+    {
+      "name": "Krzysztof ROCZYŃSKI",
+      "editions_count": 5,
+      "rank": 49
+    },
+    {
+      "name": "Piotr JAKRZEWSKI",
+      "editions_count": 5,
+      "rank": 49
+    },
+    {
+      "name": "Tomasz LISOWSKI",
+      "editions_count": 5,
+      "rank": 49
+    },
+    {
+      "name": "Maciej BEDNARZ",
+      "editions_count": 5,
+      "rank": 49
+    },
+    {
+      "name": "Aleksandra ŚNIEG",
+      "editions_count": 5,
+      "rank": 49
+    },
+    {
+      "name": "Paweł POTRYKUS",
+      "editions_count": 5,
+      "rank": 49
+    },
+    {
+      "name": "Wojciech TORŁOP",
+      "editions_count": 5,
+      "rank": 49
+    },
+    {
+      "name": "Krystian STENCEL",
+      "editions_count": 5,
+      "rank": 49
+    },
+    {
+      "name": "Krzysztof Teofor GAJEWSKI",
+      "editions_count": 5,
+      "rank": 49
+    },
+    {
+      "name": "Tymoteusz SZAJDZIUK",
+      "editions_count": 5,
+      "rank": 49
+    },
+    {
+      "name": "Henryk Piotr WITT",
+      "editions_count": 5,
+      "rank": 49
+    },
+    {
+      "name": "Norbert WILKUS",
+      "editions_count": 5,
+      "rank": 49
+    },
+    {
+      "name": "Malwina TOMCZAK",
+      "editions_count": 5,
+      "rank": 49
+    }
+  ],
+  "top_volunteers_all_time": [
+    {
+      "name": "Krzysztof ŁUDCZAK",
+      "editions_count": 315,
+      "rank": 1
+    },
+    {
+      "name": "Stanisław SKWIOT",
+      "editions_count": 301,
+      "rank": 2
+    },
+    {
+      "name": "Sylwia ŁUDCZAK",
+      "editions_count": 259,
+      "rank": 3
+    },
+    {
+      "name": "Paulina ŻUCHOWSKA",
+      "editions_count": 225,
+      "rank": 4
+    },
+    {
+      "name": "Joanna SAWCZUK",
+      "editions_count": 222,
+      "rank": 5
+    },
+    {
+      "name": "Leszek CUDNOWSKI",
+      "editions_count": 219,
+      "rank": 6
+    },
+    {
+      "name": "Leszek SŁUŻEWSKI",
+      "editions_count": 214,
+      "rank": 7
+    },
+    {
+      "name": "Krzysztof KLAWIKOWSKI",
+      "editions_count": 198,
+      "rank": 8
+    },
+    {
+      "name": "Zosia SZUTOWICZ",
+      "editions_count": 156,
+      "rank": 9
+    },
+    {
+      "name": "Paweł MARCINKO",
+      "editions_count": 140,
+      "rank": 10
+    },
+    {
+      "name": "Agnieszka STECZEŃ",
+      "editions_count": 131,
+      "rank": 11
+    },
+    {
+      "name": "Wojciech GIERSZEWSKI",
+      "editions_count": 121,
+      "rank": 12
+    },
+    {
+      "name": "Edyta TARAPATA-SKWIOT",
+      "editions_count": 120,
+      "rank": 13
+    },
+    {
+      "name": "Tobiasz CAŁUCH",
+      "editions_count": 114,
+      "rank": 14
+    },
+    {
+      "name": "Justyna FILAS",
+      "editions_count": 105,
+      "rank": 15
+    },
+    {
+      "name": "Piotr Krzysztof SZAJDZIUK",
+      "editions_count": 101,
+      "rank": 16
+    },
+    {
+      "name": "Julia SKWIOT",
+      "editions_count": 99,
+      "rank": 17
+    },
+    {
+      "name": "Dominik PITUŁA",
+      "editions_count": 98,
+      "rank": 18
+    },
+    {
+      "name": "Ewelina SZAJDZIUK",
+      "editions_count": 98,
+      "rank": 18
+    },
+    {
+      "name": "Krzysztof ROCZYŃSKI",
+      "editions_count": 96,
+      "rank": 20
+    },
+    {
+      "name": "Weronika ŻUCHOWSKA",
+      "editions_count": 94,
+      "rank": 21
+    },
+    {
+      "name": "Kamila Magdalena KLIMASZEWSKA",
+      "editions_count": 87,
+      "rank": 22
+    },
+    {
+      "name": "Liwia LESZCZYŃSKA",
+      "editions_count": 86,
+      "rank": 23
+    },
+    {
+      "name": "Małgorzata HINC",
+      "editions_count": 83,
+      "rank": 24
+    },
+    {
+      "name": "Bartosz ŁUDCZAK",
+      "editions_count": 79,
+      "rank": 25
+    },
+    {
+      "name": "Kacper TARAPATA",
+      "editions_count": 70,
+      "rank": 26
+    },
+    {
+      "name": "Zdzisław KOPEĆ",
+      "editions_count": 69,
+      "rank": 27
+    },
+    {
+      "name": "Izabela JAKRZEWSKA",
+      "editions_count": 69,
+      "rank": 27
+    },
+    {
+      "name": "Weronika Julia POMAGRUK",
+      "editions_count": 67,
+      "rank": 29
+    },
+    {
+      "name": "Rajmund STECZEŃ",
+      "editions_count": 64,
+      "rank": 30
+    },
+    {
+      "name": "Milena SZAJDZIUK",
+      "editions_count": 63,
+      "rank": 31
+    },
+    {
+      "name": "Łukasz WASILEWSKI",
+      "editions_count": 59,
+      "rank": 32
+    },
+    {
+      "name": "Tomasz KASZKUR",
+      "editions_count": 58,
+      "rank": 33
+    },
+    {
+      "name": "Adam ANGIELCZYK",
+      "editions_count": 55,
+      "rank": 34
+    },
+    {
+      "name": "Tomasz HINC",
+      "editions_count": 54,
+      "rank": 35
+    },
+    {
+      "name": "Krzysztof POSYNIAK",
+      "editions_count": 52,
+      "rank": 36
+    },
+    {
+      "name": "Maciej POSYNIAK",
+      "editions_count": 52,
+      "rank": 36
+    },
+    {
+      "name": "Adam AMBROZIAK",
+      "editions_count": 48,
+      "rank": 38
+    },
+    {
+      "name": "Dominik WOŁOWICZ",
+      "editions_count": 48,
+      "rank": 38
+    },
+    {
+      "name": "Piotr MAKSYMIUK",
+      "editions_count": 47,
+      "rank": 40
+    },
+    {
+      "name": "Zofia STECZEŃ",
+      "editions_count": 45,
+      "rank": 41
+    },
+    {
+      "name": "Ila PO",
+      "editions_count": 45,
+      "rank": 41
+    },
+    {
+      "name": "Zbigniew WITKOWSKI",
+      "editions_count": 44,
+      "rank": 43
+    },
+    {
+      "name": "Aleksander SKONKA",
+      "editions_count": 43,
+      "rank": 44
+    },
+    {
+      "name": "Witold KLIMASZEWSKI",
+      "editions_count": 43,
+      "rank": 44
+    },
+    {
+      "name": "Kamil ŻMUDZIŃSKI",
+      "editions_count": 42,
+      "rank": 46
+    },
+    {
+      "name": "Natalia PIÓRKOWSKA",
+      "editions_count": 41,
+      "rank": 47
+    },
+    {
+      "name": "Aleksandra DE VIRION",
+      "editions_count": 39,
+      "rank": 48
+    },
+    {
+      "name": "Konstancja KASZKUR",
+      "editions_count": 38,
+      "rank": 49
+    },
+    {
+      "name": "Paweł POTRYKUS",
+      "editions_count": 38,
+      "rank": 49
+    }
+  ],
+  "year_summary": {
+    "editions_count": 35,
+    "total_participants": 5054,
+    "women_count": 1479,
+    "men_count": 3534,
+    "avg_participants": 144.4,
+    "avg_time_m": "27:08",
+    "avg_time_f": "32:40",
+    "best_time_m": "16:51",
+    "best_time_f": "19:38",
+    "median_time": "27:26",
+    "best_age_coefficient": 86.17,
+    "volunteers_count": 1067
+  },
+  "age_graded_ranking": [
+    {
+      "rank": 1,
+      "name": "Damian DINO",
+      "category": "VM45-49",
+      "time": "17:32",
+      "seconds": 1052,
+      "coefficient": 82.79
+    },
+    {
+      "rank": 2,
+      "name": "Olha KAZYMYROWA",
+      "category": "VW50-54",
+      "time": "20:35",
+      "seconds": 1235,
+      "coefficient": 81.46
+    },
+    {
+      "rank": 3,
+      "name": "Bartłomiej FRĄCKOWIAK",
+      "category": "VM45-49",
+      "time": "18:08",
+      "seconds": 1088,
+      "coefficient": 79.41
+    },
+    {
+      "rank": 4,
+      "name": "Małgorzata POLINCEUSZ",
+      "category": "VW70-74",
+      "time": "29:19",
+      "seconds": 1759,
+      "coefficient": 78.51
+    },
+    {
+      "rank": 5,
+      "name": "Tomasz SZCZYKUTOWICZ",
+      "category": "VM35-39",
+      "time": "17:05",
+      "seconds": 1025,
+      "coefficient": 78.15
+    },
+    {
+      "rank": 6,
+      "name": "Wojciech GIERSZEWSKI",
+      "category": "VM50-54",
+      "time": "19:31",
+      "seconds": 1171,
+      "coefficient": 78.05
+    },
+    {
+      "rank": 7,
+      "name": "Aleksandra ŚNIEG",
+      "category": "VW60-64",
+      "time": "25:49",
+      "seconds": 1549,
+      "coefficient": 77.34
+    },
+    {
+      "rank": 8,
+      "name": "Zdzisław SZCZĘCH",
+      "category": "VM70-74",
+      "time": "24:23",
+      "seconds": 1463,
+      "coefficient": 76.42
+    },
+    {
+      "rank": 9,
+      "name": "Dorota ŻMUDA-TRZEBIATOWSKA",
+      "category": "VW40-44",
+      "time": "20:42",
+      "seconds": 1242,
+      "coefficient": 75.44
+    },
+    {
+      "rank": 10,
+      "name": "Krystian STENCEL",
+      "category": "VM45-49",
+      "time": "18:50",
+      "seconds": 1130,
+      "coefficient": 75.31
+    },
+    {
+      "rank": 11,
+      "name": "Andrzej KIK",
+      "category": "VM75-79",
+      "time": "27:24",
+      "seconds": 1644,
+      "coefficient": 74.94
+    },
+    {
+      "rank": 12,
+      "name": "Michał SIOMAK",
+      "category": "VM45-49",
+      "time": "19:33",
+      "seconds": 1173,
+      "coefficient": 74.85
+    },
+    {
+      "rank": 13,
+      "name": "Adam ALAMA",
+      "category": "VM45-49",
+      "time": "19:19",
+      "seconds": 1159,
+      "coefficient": 74.55
+    },
+    {
+      "rank": 14,
+      "name": "Paweł KOŁC",
+      "category": "VM40-44",
+      "time": "18:36",
+      "seconds": 1116,
+      "coefficient": 74.46
+    },
+    {
+      "rank": 15,
+      "name": "Jan BŁACHUT",
+      "category": "JM11-14",
+      "time": "20:36",
+      "seconds": 1236,
+      "coefficient": 74.27
+    },
+    {
+      "rank": 16,
+      "name": "Marcin ZYGMUNT",
+      "category": "VM45-49",
+      "time": "19:17",
+      "seconds": 1157,
+      "coefficient": 73.55
+    },
+    {
+      "rank": 17,
+      "name": "Artur FANKIDEJSKI",
+      "category": "VM45-49",
+      "time": "19:46",
+      "seconds": 1186,
+      "coefficient": 73.44
+    },
+    {
+      "rank": 18,
+      "name": "Maksim KAVALEUSKI",
+      "category": "VM35-39",
+      "time": "18:05",
+      "seconds": 1085,
+      "coefficient": 73.36
+    },
+    {
+      "rank": 19,
+      "name": "Michal KRZYSZTOFIK",
+      "category": "JM10",
+      "time": "22:25",
+      "seconds": 1345,
+      "coefficient": 72.94
+    },
+    {
+      "rank": 20,
+      "name": "Paweł ZAKOWICZ",
+      "category": "VM35-39",
+      "time": "18:40",
+      "seconds": 1120,
+      "coefficient": 72.59
+    },
+    {
+      "rank": 21,
+      "name": "Sylwia ŁUDCZAK",
+      "category": "VW50-54",
+      "time": "24:06",
+      "seconds": 1446,
+      "coefficient": 72.27
+    },
+    {
+      "rank": 22,
+      "name": "Dariusz WYRWA",
+      "category": "VM40-44",
+      "time": "18:58",
+      "seconds": 1138,
+      "coefficient": 71.97
+    },
+    {
+      "rank": 23,
+      "name": "Karol Daniel DRAGAN",
+      "category": "VM50-54",
+      "time": "20:45",
+      "seconds": 1245,
+      "coefficient": 71.65
+    },
+    {
+      "rank": 24,
+      "name": "Tomasz KOZAK",
+      "category": "VM35-39",
+      "time": "18:58",
+      "seconds": 1138,
+      "coefficient": 71.44
+    },
+    {
+      "rank": 25,
+      "name": "Tomasz HINC",
+      "category": "VM45-49",
+      "time": "20:21",
+      "seconds": 1221,
+      "coefficient": 71.33
+    },
+    {
+      "rank": 26,
+      "name": "Adam BRZOSKOWSKI",
+      "category": "SM30-34",
+      "time": "18:08",
+      "seconds": 1088,
+      "coefficient": 71.32
+    },
+    {
+      "rank": 27,
+      "name": "Iwona KULPACZYŃSKA",
+      "category": "VW50-54",
+      "time": "23:31",
+      "seconds": 1411,
+      "coefficient": 71.3
+    },
+    {
+      "rank": 28,
+      "name": "Patryk HASEK",
+      "category": "SM30-34",
+      "time": "18:18",
+      "seconds": 1098,
+      "coefficient": 71.04
+    },
+    {
+      "rank": 29,
+      "name": "Grażyna CZEKAJ",
+      "category": "VW65-69",
+      "time": "30:09",
+      "seconds": 1809,
+      "coefficient": 70.37
+    },
+    {
+      "rank": 30,
+      "name": "Łukasz STACHOWIAK",
+      "category": "VM35-39",
+      "time": "19:13",
+      "seconds": 1153,
+      "coefficient": 69.99
+    },
+    {
+      "rank": 31,
+      "name": "Łukasz SZAJDZIUK",
+      "category": "VM35-39",
+      "time": "19:33",
+      "seconds": 1173,
+      "coefficient": 69.31
+    },
+    {
+      "rank": 32,
+      "name": "Bartosz PUCHALSKI",
+      "category": "VM40-44",
+      "time": "19:43",
+      "seconds": 1183,
+      "coefficient": 69.23
+    },
+    {
+      "rank": 33,
+      "name": "Szymon DAWIDOWSKI",
+      "category": "JM11-14",
+      "time": "20:30",
+      "seconds": 1230,
+      "coefficient": 69.19
+    },
+    {
+      "rank": 34,
+      "name": "Piotr Krzysztof SZAJDZIUK",
+      "category": "VM50-54",
+      "time": "21:35",
+      "seconds": 1295,
+      "coefficient": 68.88
+    },
+    {
+      "rank": 35,
+      "name": "Marzena GRABOWSKA",
+      "category": "VW55-59",
+      "time": "26:18",
+      "seconds": 1578,
+      "coefficient": 68.82
+    },
+    {
+      "rank": 36,
+      "name": "Lidia KULESZA",
+      "category": "VW45-49",
+      "time": "23:20",
+      "seconds": 1400,
+      "coefficient": 68.71
+    },
+    {
+      "rank": 37,
+      "name": "Piotr MAKSYMIUK",
+      "category": "VM40-44",
+      "time": "20:30",
+      "seconds": 1230,
+      "coefficient": 68.62
+    },
+    {
+      "rank": 38,
+      "name": "Aleksandra DE VIRION",
+      "category": "VW50-54",
+      "time": "25:42",
+      "seconds": 1542,
+      "coefficient": 68.61
+    },
+    {
+      "rank": 39,
+      "name": "Yury KALASOUSKI",
+      "category": "VM40-44",
+      "time": "20:31",
+      "seconds": 1231,
+      "coefficient": 68.56
+    },
+    {
+      "rank": 40,
+      "name": "Paweł JAZIKOWSKI",
+      "category": "VM50-54",
+      "time": "22:22",
+      "seconds": 1342,
+      "coefficient": 68.11
+    },
+    {
+      "rank": 41,
+      "name": "Andrzej PILSKI",
+      "category": "VM75-79",
+      "time": "28:55",
+      "seconds": 1735,
+      "coefficient": 68.01
+    },
+    {
+      "rank": 42,
+      "name": "Paulina ZALEJASZ",
+      "category": "VW35-39",
+      "time": "22:11",
+      "seconds": 1331,
+      "coefficient": 67.84
+    },
+    {
+      "rank": 43,
+      "name": "Łukasz PELOWSKI",
+      "category": "SM25-29",
+      "time": "19:04",
+      "seconds": 1144,
+      "coefficient": 67.66
+    },
+    {
+      "rank": 44,
+      "name": "Zbigniew KOŁTUNIAK",
+      "category": "VM40-44",
+      "time": "20:42",
+      "seconds": 1242,
+      "coefficient": 67.47
+    },
+    {
+      "rank": 45,
+      "name": "Patryk OSTASZEWSKI",
+      "category": "SM25-29",
+      "time": "19:08",
+      "seconds": 1148,
+      "coefficient": 67.42
+    },
+    {
+      "rank": 46,
+      "name": "Krzysztof SITA",
+      "category": "JM15-17",
+      "time": "20:04",
+      "seconds": 1204,
+      "coefficient": 67.28
+    },
+    {
+      "rank": 47,
+      "name": "Karolina DOBKOWSKA",
+      "category": "SW25-29",
+      "time": "22:00",
+      "seconds": 1320,
+      "coefficient": 67.27
+    },
+    {
+      "rank": 48,
+      "name": "Karol ŻMUDA-TRZEBIATOWSKI",
+      "category": "JM15-17",
+      "time": "20:07",
+      "seconds": 1207,
+      "coefficient": 67.11
+    },
+    {
+      "rank": 49,
+      "name": "Justyna DOMŻALSKA",
+      "category": "VW40-44",
+      "time": "23:17",
+      "seconds": 1397,
+      "coefficient": 67.07
+    },
+    {
+      "rank": 50,
+      "name": "Kornel BREŃKACZ",
+      "category": "SM30-34",
+      "time": "19:23",
+      "seconds": 1163,
+      "coefficient": 66.9
+    },
+    {
+      "rank": 51,
+      "name": "Tomasz HILDEBRAND",
+      "category": "VM40-44",
+      "time": "20:43",
+      "seconds": 1243,
+      "coefficient": 66.85
+    },
+    {
+      "rank": 52,
+      "name": "Aleksandra Ewa GRABIAS",
+      "category": "VW35-39",
+      "time": "22:39",
+      "seconds": 1359,
+      "coefficient": 66.81
+    },
+    {
+      "rank": 53,
+      "name": "Mateusz KUBISZEWSKI",
+      "category": "SM30-34",
+      "time": "19:25",
+      "seconds": 1165,
+      "coefficient": 66.78
+    },
+    {
+      "rank": 54,
+      "name": "Szymon LEWANDOWSKI",
+      "category": "SM20-24",
+      "time": "19:32",
+      "seconds": 1172,
+      "coefficient": 66.72
+    },
+    {
+      "rank": 55,
+      "name": "Artur ŻURAŃSKI",
+      "category": "VM50-54",
+      "time": "22:40",
+      "seconds": 1360,
+      "coefficient": 66.69
+    },
+    {
+      "rank": 56,
+      "name": "Aliaksandr PARKHOMAU",
+      "category": "VM40-44",
+      "time": "20:31",
+      "seconds": 1231,
+      "coefficient": 66.53
+    },
+    {
+      "rank": 57,
+      "name": "Kamil SZABŁOWSKI",
+      "category": "VM35-39",
+      "time": "19:57",
+      "seconds": 1197,
+      "coefficient": 66.5
+    },
+    {
+      "rank": 58,
+      "name": "Damian PIWOROWICZ",
+      "category": "VM40-44",
+      "time": "20:52",
+      "seconds": 1252,
+      "coefficient": 66.37
+    },
+    {
+      "rank": 59,
+      "name": "Krzysztof Teofor GAJEWSKI",
+      "category": "VM45-49",
+      "time": "22:00",
+      "seconds": 1320,
+      "coefficient": 65.98
+    },
+    {
+      "rank": 60,
+      "name": "Roman WALDOWSKI",
+      "category": "VM35-39",
+      "time": "20:33",
+      "seconds": 1233,
+      "coefficient": 65.94
+    },
+    {
+      "rank": 61,
+      "name": "Patryk KAGANIUK",
+      "category": "VM50-54",
+      "time": "22:23",
+      "seconds": 1343,
+      "coefficient": 65.9
+    },
+    {
+      "rank": 62,
+      "name": "Radosław LASKOWSKI",
+      "category": "VM50-54",
+      "time": "22:34",
+      "seconds": 1354,
+      "coefficient": 65.88
+    },
+    {
+      "rank": 63,
+      "name": "Robert OLSZYNKA",
+      "category": "VM35-39",
+      "time": "20:17",
+      "seconds": 1217,
+      "coefficient": 65.82
+    },
+    {
+      "rank": 64,
+      "name": "Magdalena KOCHALSKA",
+      "category": "SW25-29",
+      "time": "22:31",
+      "seconds": 1351,
+      "coefficient": 65.73
+    },
+    {
+      "rank": 65,
+      "name": "Ihor OBOLEVYCH",
+      "category": "JM10",
+      "time": "25:56",
+      "seconds": 1556,
+      "coefficient": 65.62
+    },
+    {
+      "rank": 66,
+      "name": "Bartosz SZALIK",
+      "category": "JM10",
+      "time": "27:12",
+      "seconds": 1632,
+      "coefficient": 65.44
+    },
+    {
+      "rank": 67,
+      "name": "Krzysztof KRZYSKO",
+      "category": "VM40-44",
+      "time": "21:30",
+      "seconds": 1290,
+      "coefficient": 65.43
+    },
+    {
+      "rank": 68,
+      "name": "Henryk RATKOWSKI",
+      "category": "VM65-69",
+      "time": "25:58",
+      "seconds": 1558,
+      "coefficient": 65.21
+    },
+    {
+      "rank": 69,
+      "name": "Ewelina SZAJDZIUK",
+      "category": "VW45-49",
+      "time": "24:51",
+      "seconds": 1491,
+      "coefficient": 65.19
+    },
+    {
+      "rank": 70,
+      "name": "Rafał KASYNA",
+      "category": "VM50-54",
+      "time": "22:50",
+      "seconds": 1370,
+      "coefficient": 65.11
+    },
+    {
+      "rank": 70,
+      "name": "Maciej NYCEK",
+      "category": "VM45-49",
+      "time": "21:47",
+      "seconds": 1307,
+      "coefficient": 65.11
+    },
+    {
+      "rank": 72,
+      "name": "Krzysztof ŁUDCZAK",
+      "category": "VM50-54",
+      "time": "22:48",
+      "seconds": 1368,
+      "coefficient": 64.69
+    },
+    {
+      "rank": 73,
+      "name": "Kamil WALESIENIUK",
+      "category": "VM35-39",
+      "time": "20:31",
+      "seconds": 1231,
+      "coefficient": 64.66
+    },
+    {
+      "rank": 74,
+      "name": "Paweł RÓŻYCKI",
+      "category": "VM40-44",
+      "time": "21:28",
+      "seconds": 1288,
+      "coefficient": 64.52
+    },
+    {
+      "rank": 75,
+      "name": "Artur RORZKOWSKI",
+      "category": "VM45-49",
+      "time": "22:31",
+      "seconds": 1351,
+      "coefficient": 64.47
+    },
+    {
+      "rank": 76,
+      "name": "Sebastian ŻUCHOWSKI",
+      "category": "VM45-49",
+      "time": "22:42",
+      "seconds": 1362,
+      "coefficient": 64.46
+    },
+    {
+      "rank": 77,
+      "name": "Dariusz HAJDUK",
+      "category": "VM50-54",
+      "time": "23:06",
+      "seconds": 1386,
+      "coefficient": 64.36
+    },
+    {
+      "rank": 78,
+      "name": "Marcin NOWACZKIEWICZ",
+      "category": "VM35-39",
+      "time": "20:54",
+      "seconds": 1254,
+      "coefficient": 64.35
+    },
+    {
+      "rank": 79,
+      "name": "Natalia PIÓRKOWSKA",
+      "category": "VW35-39",
+      "time": "23:33",
+      "seconds": 1413,
+      "coefficient": 64.26
+    },
+    {
+      "rank": 80,
+      "name": "Krzysztof RYCHTER",
+      "category": "VM45-49",
+      "time": "22:26",
+      "seconds": 1346,
+      "coefficient": 64.19
+    },
+    {
+      "rank": 81,
+      "name": "Maciej BEDNARZ",
+      "category": "VM50-54",
+      "time": "23:10",
+      "seconds": 1390,
+      "coefficient": 64.17
+    },
+    {
+      "rank": 82,
+      "name": "Michał KAMIŃSKI",
+      "category": "VM45-49",
+      "time": "22:18",
+      "seconds": 1338,
+      "coefficient": 64.05
+    },
+    {
+      "rank": 83,
+      "name": "Karolina RAMULT",
+      "category": "VW35-39",
+      "time": "23:46",
+      "seconds": 1426,
+      "coefficient": 63.96
+    },
+    {
+      "rank": 84,
+      "name": "Jacek KĘDZIERSKI",
+      "category": "VM55-59",
+      "time": "24:40",
+      "seconds": 1480,
+      "coefficient": 63.92
+    },
+    {
+      "rank": 85,
+      "name": "Joanna SZUBARCZYK",
+      "category": "VW45-49",
+      "time": "25:58",
+      "seconds": 1558,
+      "coefficient": 63.8
+    },
+    {
+      "rank": 86,
+      "name": "Grzegorz KOSZNICKI",
+      "category": "VM45-49",
+      "time": "22:25",
+      "seconds": 1345,
+      "coefficient": 63.72
+    },
+    {
+      "rank": 87,
+      "name": "Paweł CHMIELOWSKI",
+      "category": "VM35-39",
+      "time": "20:49",
+      "seconds": 1249,
+      "coefficient": 63.33
+    },
+    {
+      "rank": 88,
+      "name": "Sebastian BRZEZIŃSKI",
+      "category": "VM45-49",
+      "time": "23:00",
+      "seconds": 1380,
+      "coefficient": 63.12
+    },
+    {
+      "rank": 89,
+      "name": "Marcin BOGUSZ",
+      "category": "VM35-39",
+      "time": "21:32",
+      "seconds": 1292,
+      "coefficient": 62.93
+    },
+    {
+      "rank": 90,
+      "name": "Pawel WOJNICZ",
+      "category": "VM45-49",
+      "time": "22:36",
+      "seconds": 1356,
+      "coefficient": 62.76
+    },
+    {
+      "rank": 91,
+      "name": "Przemek LAURYN",
+      "category": "SM30-34",
+      "time": "20:58",
+      "seconds": 1258,
+      "coefficient": 62.56
+    },
+    {
+      "rank": 92,
+      "name": "Edmund JASTRZEMBSKI",
+      "category": "VM50-54",
+      "time": "24:10",
+      "seconds": 1450,
+      "coefficient": 62.55
+    },
+    {
+      "rank": 93,
+      "name": "Mirosław KAMOLA",
+      "category": "VM60-64",
+      "time": "26:22",
+      "seconds": 1582,
+      "coefficient": 62.45
+    },
+    {
+      "rank": 94,
+      "name": "Krzysztof SZUTOWICZ",
+      "category": "VM40-44",
+      "time": "22:14",
+      "seconds": 1334,
+      "coefficient": 62.29
+    },
+    {
+      "rank": 95,
+      "name": "Maja LASKOWSKA",
+      "category": "SW20-24",
+      "time": "23:46",
+      "seconds": 1426,
+      "coefficient": 62.27
+    },
+    {
+      "rank": 96,
+      "name": "Jakub GÓRSKI",
+      "category": "VM45-49",
+      "time": "22:50",
+      "seconds": 1370,
+      "coefficient": 62.12
+    },
+    {
+      "rank": 97,
+      "name": "Tomasz CHOJNOWSKI",
+      "category": "VM40-44",
+      "time": "22:42",
+      "seconds": 1362,
+      "coefficient": 61.97
+    },
+    {
+      "rank": 98,
+      "name": "Krzysztof KOŁTAN",
+      "category": "VM50-54",
+      "time": "23:50",
+      "seconds": 1430,
+      "coefficient": 61.89
+    },
+    {
+      "rank": 99,
+      "name": "Jan ZIMA",
+      "category": "VM60-64",
+      "time": "26:24",
+      "seconds": 1584,
+      "coefficient": 61.81
+    },
+    {
+      "rank": 100,
+      "name": "Michał KOWALSKI",
+      "category": "VM50-54",
+      "time": "24:17",
+      "seconds": 1457,
+      "coefficient": 61.7
+    },
+    {
+      "rank": 101,
+      "name": "Tomasz LICBARSKI",
+      "category": "VM35-39",
+      "time": "21:31",
+      "seconds": 1291,
+      "coefficient": 61.66
+    },
+    {
+      "rank": 102,
+      "name": "Tomasz WAŁĘSA",
+      "category": "VM45-49",
+      "time": "23:33",
+      "seconds": 1413,
+      "coefficient": 61.64
+    },
+    {
+      "rank": 103,
+      "name": "Krzysztof KLAWIKOWSKI",
+      "category": "VM40-44",
+      "time": "22:54",
+      "seconds": 1374,
+      "coefficient": 61.43
+    },
+    {
+      "rank": 104,
+      "name": "Aleksandr OBOLEVYCH",
+      "category": "JM11-14",
+      "time": "23:47",
+      "seconds": 1427,
+      "coefficient": 60.97
+    },
+    {
+      "rank": 105,
+      "name": "Mariola PEDYNKOWSKA",
+      "category": "VW55-59",
+      "time": "29:20",
+      "seconds": 1760,
+      "coefficient": 60.91
+    },
+    {
+      "rank": 106,
+      "name": "Wojciech ŻYROMSKI",
+      "category": "SM20-24",
+      "time": "21:25",
+      "seconds": 1285,
+      "coefficient": 60.86
+    },
+    {
+      "rank": 107,
+      "name": "Gniewomir MILLER",
+      "category": "VM35-39",
+      "time": "21:40",
+      "seconds": 1300,
+      "coefficient": 60.85
+    },
+    {
+      "rank": 108,
+      "name": "Krzysztof ROCZYŃSKI",
+      "category": "VM55-59",
+      "time": "26:09",
+      "seconds": 1569,
+      "coefficient": 60.8
+    },
+    {
+      "rank": 109,
+      "name": "Aleksandra BUTLEWSKA",
+      "category": "SW25-29",
+      "time": "24:25",
+      "seconds": 1465,
+      "coefficient": 60.61
+    },
+    {
+      "rank": 110,
+      "name": "Dominik PITUŁA",
+      "category": "SM25-29",
+      "time": "21:18",
+      "seconds": 1278,
+      "coefficient": 60.56
+    },
+    {
+      "rank": 111,
+      "name": "Barbara ŁUKASZEWICZ",
+      "category": "VW55-59",
+      "time": "29:31",
+      "seconds": 1771,
+      "coefficient": 60.53
+    },
+    {
+      "rank": 112,
+      "name": "Michał PARACKI",
+      "category": "VM40-44",
+      "time": "23:15",
+      "seconds": 1395,
+      "coefficient": 60.5
+    },
+    {
+      "rank": 113,
+      "name": "Marcin KRZYSZTOFIK",
+      "category": "VM40-44",
+      "time": "22:46",
+      "seconds": 1366,
+      "coefficient": 60.4
+    },
+    {
+      "rank": 114,
+      "name": "Yevgen OBOLEVYCH",
+      "category": "VM40-44",
+      "time": "22:47",
+      "seconds": 1367,
+      "coefficient": 60.35
+    },
+    {
+      "rank": 115,
+      "name": "Gosia RYBACKA",
+      "category": "VW35-39",
+      "time": "25:12",
+      "seconds": 1512,
+      "coefficient": 60.32
+    },
+    {
+      "rank": 116,
+      "name": "Wojciech BLEW",
+      "category": "VM60-64",
+      "time": "27:21",
+      "seconds": 1641,
+      "coefficient": 60.21
+    },
+    {
+      "rank": 117,
+      "name": "Sylwia RYCHARSKA",
+      "category": "VW35-39",
+      "time": "25:04",
+      "seconds": 1504,
+      "coefficient": 60.04
+    },
+    {
+      "rank": 118,
+      "name": "Katarzyna KOBYLIŃSKA",
+      "category": "VW45-49",
+      "time": "26:28",
+      "seconds": 1588,
+      "coefficient": 60.01
+    },
+    {
+      "rank": 119,
+      "name": "Krzysztof ORŁOWSKI",
+      "category": "SM25-29",
+      "time": "21:31",
+      "seconds": 1291,
+      "coefficient": 59.95
+    },
+    {
+      "rank": 120,
+      "name": "Oskar Franciszek ŁAWRYNIUK",
+      "category": "SM25-29",
+      "time": "21:34",
+      "seconds": 1294,
+      "coefficient": 59.81
+    },
+    {
+      "rank": 121,
+      "name": "Monika STERNIK",
+      "category": "VW45-49",
+      "time": "27:08",
+      "seconds": 1628,
+      "coefficient": 59.71
+    },
+    {
+      "rank": 122,
+      "name": "Wojciech JAWOROWSKI",
+      "category": "VM60-64",
+      "time": "27:36",
+      "seconds": 1656,
+      "coefficient": 59.66
+    },
+    {
+      "rank": 123,
+      "name": "Krzysztof ŁAPUĆ",
+      "category": "VM40-44",
+      "time": "23:36",
+      "seconds": 1416,
+      "coefficient": 59.6
+    },
+    {
+      "rank": 124,
+      "name": "Krzysztof KOLIŃSKI",
+      "category": "VM45-49",
+      "time": "23:48",
+      "seconds": 1428,
+      "coefficient": 59.59
+    },
+    {
+      "rank": 125,
+      "name": "Dariusz JANOWICZ",
+      "category": "VM40-44",
+      "time": "23:15",
+      "seconds": 1395,
+      "coefficient": 59.57
+    },
+    {
+      "rank": 126,
+      "name": "Rafał JASTRZĘBSKI",
+      "category": "SM30-34",
+      "time": "21:50",
+      "seconds": 1310,
+      "coefficient": 59.54
+    },
+    {
+      "rank": 127,
+      "name": "Elżbieta PAŃCZYK",
+      "category": "VW70-74",
+      "time": "38:40",
+      "seconds": 2320,
+      "coefficient": 59.53
+    },
+    {
+      "rank": 128,
+      "name": "Ela GAWIN",
+      "category": "VW40-44",
+      "time": "26:26",
+      "seconds": 1586,
+      "coefficient": 59.52
+    },
+    {
+      "rank": 129,
+      "name": "Paulina KUCZYNSKA-RATAJ",
+      "category": "VW50-54",
+      "time": "28:31",
+      "seconds": 1711,
+      "coefficient": 59.5
+    },
+    {
+      "rank": 130,
+      "name": "Mateusz LASZUK-LESZCZYŃSKI",
+      "category": "VM45-49",
+      "time": "24:24",
+      "seconds": 1464,
+      "coefficient": 59.49
+    },
+    {
+      "rank": 131,
+      "name": "Aleksandr KAZYMYROW",
+      "category": "VM40-44",
+      "time": "23:39",
+      "seconds": 1419,
+      "coefficient": 59.48
+    },
+    {
+      "rank": 131,
+      "name": "Marcin KARCZEWSKI",
+      "category": "VM40-44",
+      "time": "22:57",
+      "seconds": 1377,
+      "coefficient": 59.48
+    },
+    {
+      "rank": 133,
+      "name": "Mariusz DĄBROWSKI",
+      "category": "VM50-54",
+      "time": "25:13",
+      "seconds": 1513,
+      "coefficient": 59.42
+    },
+    {
+      "rank": 134,
+      "name": "Joanna SAWCZUK",
+      "category": "VW55-59",
+      "time": "30:05",
+      "seconds": 1805,
+      "coefficient": 59.39
+    },
+    {
+      "rank": 135,
+      "name": "Mateusz BURNICKI",
+      "category": "VM35-39",
+      "time": "22:21",
+      "seconds": 1341,
+      "coefficient": 59.36
+    },
+    {
+      "rank": 136,
+      "name": "Tomasz ROJEK",
+      "category": "VM55-59",
+      "time": "26:21",
+      "seconds": 1581,
+      "coefficient": 59.33
+    },
+    {
+      "rank": 137,
+      "name": "Mateusz KMERA",
+      "category": "SM18-19",
+      "time": "22:31",
+      "seconds": 1351,
+      "coefficient": 59.22
+    },
+    {
+      "rank": 138,
+      "name": "Adam WRÓBLEWSKI",
+      "category": "VM55-59",
+      "time": "26:25",
+      "seconds": 1585,
+      "coefficient": 59.18
+    },
+    {
+      "rank": 139,
+      "name": "Dariusz PAWŁOWSKI",
+      "category": "VM55-59",
+      "time": "26:40",
+      "seconds": 1600,
+      "coefficient": 59.13
+    },
+    {
+      "rank": 140,
+      "name": "Michał STOLAREK",
+      "category": "JM11-14",
+      "time": "25:09",
+      "seconds": 1509,
+      "coefficient": 59.11
+    },
+    {
+      "rank": 141,
+      "name": "Michał PĘŚKO",
+      "category": "VM45-49",
+      "time": "24:47",
+      "seconds": 1487,
+      "coefficient": 59.05
+    },
+    {
+      "rank": 142,
+      "name": "Małgorzata ŻURAŃSKA",
+      "category": "VW45-49",
+      "time": "28:05",
+      "seconds": 1685,
+      "coefficient": 58.99
+    },
+    {
+      "rank": 143,
+      "name": "Damian KOCHAŃSKI",
+      "category": "VM35-39",
+      "time": "22:22",
+      "seconds": 1342,
+      "coefficient": 58.94
+    },
+    {
+      "rank": 144,
+      "name": "Lucyna SZYSZKA",
+      "category": "VW40-44",
+      "time": "26:42",
+      "seconds": 1602,
+      "coefficient": 58.93
+    },
+    {
+      "rank": 145,
+      "name": "Jakub MACIEJEWSKI",
+      "category": "VM35-39",
+      "time": "22:52",
+      "seconds": 1372,
+      "coefficient": 58.82
+    },
+    {
+      "rank": 146,
+      "name": "Adam POLINCEUSZ",
+      "category": "VM70-74",
+      "time": "31:13",
+      "seconds": 1873,
+      "coefficient": 58.78
+    },
+    {
+      "rank": 147,
+      "name": "Katarzyna ŻELASKOWSKA",
+      "category": "VW55-59",
+      "time": "30:49",
+      "seconds": 1849,
+      "coefficient": 58.73
+    },
+    {
+      "rank": 148,
+      "name": "Zbigniew MAŁKOWSKI",
+      "category": "VM65-69",
+      "time": "28:35",
+      "seconds": 1715,
+      "coefficient": 58.66
+    },
+    {
+      "rank": 149,
+      "name": "Zdzisław KOPEĆ",
+      "category": "VM60-64",
+      "time": "28:05",
+      "seconds": 1685,
+      "coefficient": 58.64
+    },
+    {
+      "rank": 150,
+      "name": "Mateusz RIEGEL",
+      "category": "VM35-39",
+      "time": "23:08",
+      "seconds": 1388,
+      "coefficient": 58.57
+    },
+    {
+      "rank": 151,
+      "name": "Kamil ŻMUDZIŃSKI",
+      "category": "VM45-49",
+      "time": "24:16",
+      "seconds": 1456,
+      "coefficient": 58.45
+    },
+    {
+      "rank": 152,
+      "name": "Agnieszka WITKOWSKA",
+      "category": "VW45-49",
+      "time": "27:26",
+      "seconds": 1646,
+      "coefficient": 58.44
+    },
+    {
+      "rank": 153,
+      "name": "Ila PO",
+      "category": "VW35-39",
+      "time": "26:02",
+      "seconds": 1562,
+      "coefficient": 58.39
+    },
+    {
+      "rank": 154,
+      "name": "Paweł JANKOWSKI",
+      "category": "SM30-34",
+      "time": "22:19",
+      "seconds": 1339,
+      "coefficient": 58.25
+    },
+    {
+      "rank": 155,
+      "name": "Izabela JAKRZEWSKA",
+      "category": "VW50-54",
+      "time": "30:17",
+      "seconds": 1817,
+      "coefficient": 58.23
+    },
+    {
+      "rank": 156,
+      "name": "Przemysław TORŁOP",
+      "category": "VM60-64",
+      "time": "27:35",
+      "seconds": 1655,
+      "coefficient": 58.13
+    },
+    {
+      "rank": 157,
+      "name": "Monika GUZOWSKA",
+      "category": "SW20-24",
+      "time": "25:28",
+      "seconds": 1528,
+      "coefficient": 58.12
+    },
+    {
+      "rank": 158,
+      "name": "Daniel JASIŃSKI",
+      "category": "VM40-44",
+      "time": "24:14",
+      "seconds": 1454,
+      "coefficient": 58.05
+    },
+    {
+      "rank": 159,
+      "name": "Milena GŁADKA",
+      "category": "VW45-49",
+      "time": "27:42",
+      "seconds": 1662,
+      "coefficient": 57.88
+    },
+    {
+      "rank": 160,
+      "name": "Ryszard LENKIEWICZ",
+      "category": "VM65-69",
+      "time": "30:10",
+      "seconds": 1810,
+      "coefficient": 57.79
+    },
+    {
+      "rank": 161,
+      "name": "Maciek KANIA",
+      "category": "JM15-17",
+      "time": "23:45",
+      "seconds": 1425,
+      "coefficient": 57.68
+    },
+    {
+      "rank": 162,
+      "name": "Barbara ADAMKOWSKA",
+      "category": "VW50-54",
+      "time": "29:05",
+      "seconds": 1745,
+      "coefficient": 57.65
+    },
+    {
+      "rank": 163,
+      "name": "Martin Nygaard ÅSNES",
+      "category": "JM15-17",
+      "time": "23:46",
+      "seconds": 1426,
+      "coefficient": 57.64
+    },
+    {
+      "rank": 164,
+      "name": "Marcin SKIRŁO",
+      "category": "SM30-34",
+      "time": "22:30",
+      "seconds": 1350,
+      "coefficient": 57.63
+    },
+    {
+      "rank": 165,
+      "name": "Paweł WALENCKI",
+      "category": "VM40-44",
+      "time": "24:30",
+      "seconds": 1470,
+      "coefficient": 57.41
+    },
+    {
+      "rank": 166,
+      "name": "Dawid KUREK",
+      "category": "SM30-34",
+      "time": "22:36",
+      "seconds": 1356,
+      "coefficient": 57.37
+    },
+    {
+      "rank": 166,
+      "name": "Andrzej Tomasz FRANKIEWICZ",
+      "category": "VM50-54",
+      "time": "26:21",
+      "seconds": 1581,
+      "coefficient": 57.37
+    },
+    {
+      "rank": 168,
+      "name": "Stefan FRĄCKIEWICZ",
+      "category": "VM65-69",
+      "time": "29:48",
+      "seconds": 1788,
+      "coefficient": 57.33
+    },
+    {
+      "rank": 169,
+      "name": "Mariusz GORZOCH",
+      "category": "VM45-49",
+      "time": "25:32",
+      "seconds": 1532,
+      "coefficient": 57.31
+    },
+    {
+      "rank": 169,
+      "name": "Tomasz Henryk BAGROWSKI",
+      "category": "VM45-49",
+      "time": "24:45",
+      "seconds": 1485,
+      "coefficient": 57.31
+    },
+    {
+      "rank": 171,
+      "name": "Kasia SZUTOWICZ",
+      "category": "VW35-39",
+      "time": "26:26",
+      "seconds": 1586,
+      "coefficient": 57.25
+    },
+    {
+      "rank": 172,
+      "name": "Zbigniew WITKOWSKI",
+      "category": "VM70-74",
+      "time": "32:07",
+      "seconds": 1927,
+      "coefficient": 57.14
+    },
+    {
+      "rank": 173,
+      "name": "Artur KRZYSZTOFIK",
+      "category": "JM10",
+      "time": "29:47",
+      "seconds": 1787,
+      "coefficient": 57.13
+    },
+    {
+      "rank": 174,
+      "name": "Piotr BUBA",
+      "category": "VM50-54",
+      "time": "26:28",
+      "seconds": 1588,
+      "coefficient": 57.12
+    },
+    {
+      "rank": 175,
+      "name": "Wojciech KOLBUSZ",
+      "category": "VM40-44",
+      "time": "24:22",
+      "seconds": 1462,
+      "coefficient": 56.84
+    },
+    {
+      "rank": 176,
+      "name": "Andrzej STERNIK",
+      "category": "VM50-54",
+      "time": "26:01",
+      "seconds": 1561,
+      "coefficient": 56.69
+    },
+    {
+      "rank": 177,
+      "name": "Jakub SZCZEGIECKI",
+      "category": "SM25-29",
+      "time": "22:48",
+      "seconds": 1368,
+      "coefficient": 56.58
+    },
+    {
+      "rank": 178,
+      "name": "Andrzej KANIA",
+      "category": "VM40-44",
+      "time": "24:52",
+      "seconds": 1492,
+      "coefficient": 56.57
+    },
+    {
+      "rank": 178,
+      "name": "Dariusz DAWIDOWSKI",
+      "category": "VM45-49",
+      "time": "25:15",
+      "seconds": 1515,
+      "coefficient": 56.57
+    },
+    {
+      "rank": 180,
+      "name": "Kirsty CUTHBERTSON",
+      "category": "SW30-34",
+      "time": "26:17",
+      "seconds": 1577,
+      "coefficient": 56.56
+    },
+    {
+      "rank": 181,
+      "name": "Jarosław CERBA",
+      "category": "VM50-54",
+      "time": "26:49",
+      "seconds": 1609,
+      "coefficient": 56.37
+    },
+    {
+      "rank": 182,
+      "name": "Ilona KULIKOWSKA",
+      "category": "VW55-59",
+      "time": "32:43",
+      "seconds": 1963,
+      "coefficient": 56.09
+    },
+    {
+      "rank": 183,
+      "name": "Marcin ORCIUCH",
+      "category": "VM40-44",
+      "time": "24:32",
+      "seconds": 1472,
+      "coefficient": 56.05
+    },
+    {
+      "rank": 184,
+      "name": "Aleksandra KRZYSZTOFIK",
+      "category": "JW11-14",
+      "time": "29:44",
+      "seconds": 1784,
+      "coefficient": 55.94
+    },
+    {
+      "rank": 184,
+      "name": "Piotr KUCHTA",
+      "category": "VM35-39",
+      "time": "23:52",
+      "seconds": 1432,
+      "coefficient": 55.94
+    },
+    {
+      "rank": 184,
+      "name": "Krzysztof WILEŃSKI",
+      "category": "VM35-39",
+      "time": "23:52",
+      "seconds": 1432,
+      "coefficient": 55.94
+    },
+    {
+      "rank": 187,
+      "name": "Michał PACHNIA",
+      "category": "VM35-39",
+      "time": "24:07",
+      "seconds": 1447,
+      "coefficient": 55.77
+    },
+    {
+      "rank": 188,
+      "name": "Piotr JAKRZEWSKI",
+      "category": "VM55-59",
+      "time": "28:04",
+      "seconds": 1684,
+      "coefficient": 55.7
+    },
+    {
+      "rank": 189,
+      "name": "Damian NIEDBAŁA",
+      "category": "VM35-39",
+      "time": "24:03",
+      "seconds": 1443,
+      "coefficient": 55.51
+    },
+    {
+      "rank": 190,
+      "name": "Marek MARSZAŁKOWSKI",
+      "category": "VM65-69",
+      "time": "30:49",
+      "seconds": 1849,
+      "coefficient": 55.44
+    },
+    {
+      "rank": 190,
+      "name": "Szymon DYMARSKI",
+      "category": "JM10",
+      "time": "28:28",
+      "seconds": 1708,
+      "coefficient": 55.44
+    },
+    {
+      "rank": 192,
+      "name": "Agnieszka ARENDT",
+      "category": "VW50-54",
+      "time": "30:17",
+      "seconds": 1817,
+      "coefficient": 55.37
+    },
+    {
+      "rank": 193,
+      "name": "Maciej ŁOSZAK",
+      "category": "VM40-44",
+      "time": "25:01",
+      "seconds": 1501,
+      "coefficient": 55.36
+    },
+    {
+      "rank": 194,
+      "name": "Sebastian KIERZNIKIEWICZ",
+      "category": "VM40-44",
+      "time": "25:28",
+      "seconds": 1528,
+      "coefficient": 55.24
+    },
+    {
+      "rank": 195,
+      "name": "Zuzanna KOWALSKA",
+      "category": "VW45-49",
+      "time": "30:00",
+      "seconds": 1800,
+      "coefficient": 55.22
+    },
+    {
+      "rank": 196,
+      "name": "Aleksandra DĄBKOWSKA",
+      "category": "VW45-49",
+      "time": "28:47",
+      "seconds": 1727,
+      "coefficient": 55.18
+    },
+    {
+      "rank": 197,
+      "name": "Żaneta Anna FRANKIEWICZ",
+      "category": "VW50-54",
+      "time": "30:47",
+      "seconds": 1847,
+      "coefficient": 55.12
+    },
+    {
+      "rank": 198,
+      "name": "Andrzej GOLAŃSKI",
+      "category": "VM65-69",
+      "time": "31:01",
+      "seconds": 1861,
+      "coefficient": 55.08
+    },
+    {
+      "rank": 199,
+      "name": "Paweł TOMCZYSZYN",
+      "category": "VM45-49",
+      "time": "26:11",
+      "seconds": 1571,
+      "coefficient": 55.0
+    },
+    {
+      "rank": 200,
+      "name": "Aleksandra REZETKA",
+      "category": "SW25-29",
+      "time": "26:57",
+      "seconds": 1617,
+      "coefficient": 54.92
+    },
+    {
+      "rank": 201,
+      "name": "Łukasz PODGÓRSKI",
+      "category": "VM40-44",
+      "time": "24:52",
+      "seconds": 1492,
+      "coefficient": 54.89
+    },
+    {
+      "rank": 202,
+      "name": "Artur DĘBICKI",
+      "category": "VM55-59",
+      "time": "28:45",
+      "seconds": 1725,
+      "coefficient": 54.84
+    },
+    {
+      "rank": 203,
+      "name": "Maciej BRZYWCY",
+      "category": "SM30-34",
+      "time": "23:39",
+      "seconds": 1419,
+      "coefficient": 54.83
+    },
+    {
+      "rank": 204,
+      "name": "Maciej DOBRYŃCZUK",
+      "category": "VM35-39",
+      "time": "24:33",
+      "seconds": 1473,
+      "coefficient": 54.79
+    },
+    {
+      "rank": 205,
+      "name": "Sebastian ZWIEWKA",
+      "category": "SM30-34",
+      "time": "23:45",
+      "seconds": 1425,
+      "coefficient": 54.74
+    },
+    {
+      "rank": 206,
+      "name": "Marta MARTEWICZ",
+      "category": "SW30-34",
+      "time": "27:08",
+      "seconds": 1628,
+      "coefficient": 54.61
+    },
+    {
+      "rank": 207,
+      "name": "Aleksandra KUBICKA",
+      "category": "VW40-44",
+      "time": "28:43",
+      "seconds": 1723,
+      "coefficient": 54.38
+    },
+    {
+      "rank": 208,
+      "name": "Krzysztof DERENCZ",
+      "category": "VM40-44",
+      "time": "25:57",
+      "seconds": 1557,
+      "coefficient": 54.21
+    },
+    {
+      "rank": 209,
+      "name": "Dzmitry CHAMIAREUSKI",
+      "category": "SM30-34",
+      "time": "23:56",
+      "seconds": 1436,
+      "coefficient": 54.18
+    },
+    {
+      "rank": 210,
+      "name": "Krzysztof WOŹNIAK",
+      "category": "VM50-54",
+      "time": "27:55",
+      "seconds": 1675,
+      "coefficient": 54.15
+    },
+    {
+      "rank": 211,
+      "name": "Paweł POTRYKUS",
+      "category": "VM40-44",
+      "time": "25:13",
+      "seconds": 1513,
+      "coefficient": 54.13
+    },
+    {
+      "rank": 211,
+      "name": "Michał PIOTROWSKI",
+      "category": "VM40-44",
+      "time": "25:24",
+      "seconds": 1524,
+      "coefficient": 54.13
+    },
+    {
+      "rank": 213,
+      "name": "Paweł BUCZEK",
+      "category": "VM35-39",
+      "time": "25:04",
+      "seconds": 1504,
+      "coefficient": 54.06
+    },
+    {
+      "rank": 214,
+      "name": "Patrycja Anna PRZYBYŁEK",
+      "category": "VW35-39",
+      "time": "28:09",
+      "seconds": 1689,
+      "coefficient": 54.0
+    },
+    {
+      "rank": 215,
+      "name": "Artur BOBERSKI",
+      "category": "VM50-54",
+      "time": "27:46",
+      "seconds": 1666,
+      "coefficient": 53.96
+    },
+    {
+      "rank": 216,
+      "name": "Monika WASKOW",
+      "category": "VW45-49",
+      "time": "29:45",
+      "seconds": 1785,
+      "coefficient": 53.89
+    },
+    {
+      "rank": 217,
+      "name": "Sylwia AMBROZIAK",
+      "category": "VW45-49",
+      "time": "29:29",
+      "seconds": 1769,
+      "coefficient": 53.87
+    },
+    {
+      "rank": 217,
+      "name": "Kevin KUREK",
+      "category": "JM11-14",
+      "time": "26:55",
+      "seconds": 1615,
+      "coefficient": 53.87
+    },
+    {
+      "rank": 219,
+      "name": "Robert SAJDAK",
+      "category": "VM50-54",
+      "time": "28:17",
+      "seconds": 1697,
+      "coefficient": 53.86
+    },
+    {
+      "rank": 220,
+      "name": "Karina WORONOWICZ",
+      "category": "SW25-29",
+      "time": "27:29",
+      "seconds": 1649,
+      "coefficient": 53.85
+    },
+    {
+      "rank": 220,
+      "name": "Rafał PAWŁOWSKI",
+      "category": "VM40-44",
+      "time": "25:21",
+      "seconds": 1521,
+      "coefficient": 53.85
+    },
+    {
+      "rank": 222,
+      "name": "Maciej ŁAWRYNIUK",
+      "category": "VM60-64",
+      "time": "30:07",
+      "seconds": 1807,
+      "coefficient": 53.74
+    },
+    {
+      "rank": 223,
+      "name": "Tomasz HECHLIŃSKI",
+      "category": "VM55-59",
+      "time": "29:06",
+      "seconds": 1746,
+      "coefficient": 53.72
+    },
+    {
+      "rank": 224,
+      "name": "Jakub NALEPA",
+      "category": "SM25-29",
+      "time": "24:03",
+      "seconds": 1443,
+      "coefficient": 53.64
+    },
+    {
+      "rank": 225,
+      "name": "Tomasz MANKIEWICZ",
+      "category": "VM45-49",
+      "time": "26:27",
+      "seconds": 1587,
+      "coefficient": 53.62
+    },
+    {
+      "rank": 226,
+      "name": "Artur DASZKIEWICZ",
+      "category": "VM50-54",
+      "time": "28:13",
+      "seconds": 1693,
+      "coefficient": 53.57
+    },
+    {
+      "rank": 227,
+      "name": "Adam AMBROZIAK",
+      "category": "VM45-49",
+      "time": "26:40",
+      "seconds": 1600,
+      "coefficient": 53.56
+    },
+    {
+      "rank": 228,
+      "name": "Małgorzata SZOPA",
+      "category": "VW50-54",
+      "time": "31:20",
+      "seconds": 1880,
+      "coefficient": 53.51
+    },
+    {
+      "rank": 229,
+      "name": "Tomasz MAMET",
+      "category": "VM50-54",
+      "time": "28:18",
+      "seconds": 1698,
+      "coefficient": 53.42
+    },
+    {
+      "rank": 229,
+      "name": "Stanisław SKWIOT",
+      "category": "VM55-59",
+      "time": "29:01",
+      "seconds": 1741,
+      "coefficient": 53.42
+    },
+    {
+      "rank": 231,
+      "name": "Łukasz SIATKOWSKI",
+      "category": "VM40-44",
+      "time": "26:12",
+      "seconds": 1572,
+      "coefficient": 53.31
+    },
+    {
+      "rank": 231,
+      "name": "Bogdan MODZELEWSKI",
+      "category": "VM50-54",
+      "time": "27:40",
+      "seconds": 1660,
+      "coefficient": 53.31
+    },
+    {
+      "rank": 233,
+      "name": "Jakub DOBRZYŃSKI",
+      "category": "VM35-39",
+      "time": "24:47",
+      "seconds": 1487,
+      "coefficient": 53.19
+    },
+    {
+      "rank": 234,
+      "name": "Vladyslav OBOLEVYCH",
+      "category": "JM10",
+      "time": "29:41",
+      "seconds": 1781,
+      "coefficient": 53.17
+    },
+    {
+      "rank": 235,
+      "name": "Bartosz GRYNDER",
+      "category": "VM50-54",
+      "time": "28:31",
+      "seconds": 1711,
+      "coefficient": 53.01
+    },
+    {
+      "rank": 236,
+      "name": "Michał STADLEWSKI",
+      "category": "VM35-39",
+      "time": "25:12",
+      "seconds": 1512,
+      "coefficient": 52.98
+    },
+    {
+      "rank": 237,
+      "name": "Magdalena JURKIEWICZ",
+      "category": "VW40-44",
+      "time": "29:34",
+      "seconds": 1774,
+      "coefficient": 52.82
+    },
+    {
+      "rank": 238,
+      "name": "Małgorzata GIERSZEWSKA",
+      "category": "VW60-64",
+      "time": "36:19",
+      "seconds": 2179,
+      "coefficient": 52.68
+    },
+    {
+      "rank": 239,
+      "name": "Michał SZYSZKA",
+      "category": "VM40-44",
+      "time": "26:43",
+      "seconds": 1603,
+      "coefficient": 52.65
+    },
+    {
+      "rank": 240,
+      "name": "Arkadiusz LIPSKI",
+      "category": "SM30-34",
+      "time": "24:43",
+      "seconds": 1483,
+      "coefficient": 52.6
+    },
+    {
+      "rank": 241,
+      "name": "Karolina WALCZAK-SKWIOT",
+      "category": "VW40-44",
+      "time": "29:06",
+      "seconds": 1746,
+      "coefficient": 52.58
+    },
+    {
+      "rank": 242,
+      "name": "Sławomir WASILEWSKI",
+      "category": "VM45-49",
+      "time": "27:50",
+      "seconds": 1670,
+      "coefficient": 52.57
+    },
+    {
+      "rank": 243,
+      "name": "Wacław DZIEWULSKI",
+      "category": "VM40-44",
+      "time": "26:00",
+      "seconds": 1560,
+      "coefficient": 52.5
+    },
+    {
+      "rank": 244,
+      "name": "Tomasz LISOWSKI",
+      "category": "VM45-49",
+      "time": "27:13",
+      "seconds": 1633,
+      "coefficient": 52.48
+    },
+    {
+      "rank": 245,
+      "name": "Marek KAMIŃSKI",
+      "category": "SM18-19",
+      "time": "25:25",
+      "seconds": 1525,
+      "coefficient": 52.46
+    },
+    {
+      "rank": 246,
+      "name": "Monika SŁOWIKOWSKA",
+      "category": "VW50-54",
+      "time": "32:48",
+      "seconds": 1968,
+      "coefficient": 52.39
+    },
+    {
+      "rank": 247,
+      "name": "Krzysztof DĄBROWSKI",
+      "category": "SM20-24",
+      "time": "24:38",
+      "seconds": 1478,
+      "coefficient": 52.37
+    },
+    {
+      "rank": 247,
+      "name": "Monika SKOTARCZAK",
+      "category": "VW40-44",
+      "time": "29:13",
+      "seconds": 1753,
+      "coefficient": 52.37
+    },
+    {
+      "rank": 249,
+      "name": "Rafal KMERA",
+      "category": "VM45-49",
+      "time": "27:59",
+      "seconds": 1679,
+      "coefficient": 52.29
+    },
+    {
+      "rank": 250,
+      "name": "Ewa BISEWSKA",
+      "category": "VW55-59",
+      "time": "35:06",
+      "seconds": 2106,
+      "coefficient": 52.28
+    },
+    {
+      "rank": 251,
+      "name": "Marcin SZWARC",
+      "category": "VM40-44",
+      "time": "26:19",
+      "seconds": 1579,
+      "coefficient": 52.25
+    },
+    {
+      "rank": 252,
+      "name": "Dorota STOLAREK",
+      "category": "VW45-49",
+      "time": "30:42",
+      "seconds": 1842,
+      "coefficient": 52.23
+    },
+    {
+      "rank": 253,
+      "name": "Szymon NOWAK",
+      "category": "VM35-39",
+      "time": "25:27",
+      "seconds": 1527,
+      "coefficient": 52.13
+    },
+    {
+      "rank": 254,
+      "name": "Małgorzata TETZLAFF",
+      "category": "SW25-29",
+      "time": "28:28",
+      "seconds": 1708,
+      "coefficient": 51.99
+    },
+    {
+      "rank": 254,
+      "name": "Łukasz GŁADKI",
+      "category": "VM45-49",
+      "time": "27:42",
+      "seconds": 1662,
+      "coefficient": 51.99
+    },
+    {
+      "rank": 254,
+      "name": "Sławomir WRZAŁKOWSKI",
+      "category": "VM65-69",
+      "time": "32:15",
+      "seconds": 1935,
+      "coefficient": 51.99
+    },
+    {
+      "rank": 257,
+      "name": "Rafał KUJAWSKI",
+      "category": "SM30-34",
+      "time": "25:08",
+      "seconds": 1508,
+      "coefficient": 51.92
+    },
+    {
+      "rank": 258,
+      "name": "Konrad RYCHARSKI",
+      "category": "VM40-44",
+      "time": "26:41",
+      "seconds": 1601,
+      "coefficient": 51.91
+    },
+    {
+      "rank": 259,
+      "name": "Krzysztof PUSZKO",
+      "category": "VM50-54",
+      "time": "28:28",
+      "seconds": 1708,
+      "coefficient": 51.81
+    },
+    {
+      "rank": 260,
+      "name": "Sandra ZYGIEL",
+      "category": "SW30-34",
+      "time": "28:41",
+      "seconds": 1721,
+      "coefficient": 51.6
+    },
+    {
+      "rank": 261,
+      "name": "Piotr SOSNOWSKI",
+      "category": "VM40-44",
+      "time": "26:39",
+      "seconds": 1599,
+      "coefficient": 51.59
+    },
+    {
+      "rank": 262,
+      "name": "Grzegorz JAŻDŻYK",
+      "category": "VM40-44",
+      "time": "27:01",
+      "seconds": 1621,
+      "coefficient": 51.26
+    },
+    {
+      "rank": 263,
+      "name": "Karolina MROCZKO",
+      "category": "SW25-29",
+      "time": "28:57",
+      "seconds": 1737,
+      "coefficient": 51.12
+    },
+    {
+      "rank": 264,
+      "name": "Małgorzata TORŁOP",
+      "category": "VW60-64",
+      "time": "39:47",
+      "seconds": 2387,
+      "coefficient": 50.94
+    },
+    {
+      "rank": 265,
+      "name": "Radoslaw BLACHUT",
+      "category": "VM45-49",
+      "time": "28:31",
+      "seconds": 1711,
+      "coefficient": 50.91
+    },
+    {
+      "rank": 266,
+      "name": "Gerard Józef PAŃCZYK",
+      "category": "VM70-74",
+      "time": "35:35",
+      "seconds": 2135,
+      "coefficient": 50.82
+    },
+    {
+      "rank": 267,
+      "name": "Maksymilian KONIECZNY",
+      "category": "JM10",
+      "time": "33:30",
+      "seconds": 2010,
+      "coefficient": 50.8
+    },
+    {
+      "rank": 268,
+      "name": "Artur PAWSKI",
+      "category": "VM50-54",
+      "time": "29:18",
+      "seconds": 1758,
+      "coefficient": 50.74
+    },
+    {
+      "rank": 269,
+      "name": "Liwia LESZCZYŃSKA",
+      "category": "SW25-29",
+      "time": "29:11",
+      "seconds": 1751,
+      "coefficient": 50.71
+    },
+    {
+      "rank": 269,
+      "name": "Hollie GWYNNE",
+      "category": "SW30-34",
+      "time": "29:23",
+      "seconds": 1763,
+      "coefficient": 50.71
+    },
+    {
+      "rank": 269,
+      "name": "Angelika SZAFRAN",
+      "category": "VW35-39",
+      "time": "29:29",
+      "seconds": 1769,
+      "coefficient": 50.71
+    },
+    {
+      "rank": 272,
+      "name": "Sławomir PYŻ",
+      "category": "VM40-44",
+      "time": "27:48",
+      "seconds": 1668,
+      "coefficient": 50.6
+    },
+    {
+      "rank": 273,
+      "name": "Katarzyna STRZELCZYK",
+      "category": "SW25-29",
+      "time": "29:19",
+      "seconds": 1759,
+      "coefficient": 50.48
+    },
+    {
+      "rank": 274,
+      "name": "Agnieszka HOŁYSZEWSKA",
+      "category": "VW50-54",
+      "time": "34:59",
+      "seconds": 2099,
+      "coefficient": 50.4
+    },
+    {
+      "rank": 275,
+      "name": "Dariusz SZUMAN",
+      "category": "VM45-49",
+      "time": "28:10",
+      "seconds": 1690,
+      "coefficient": 50.36
+    },
+    {
+      "rank": 276,
+      "name": "Mateusz REDECKI",
+      "category": "SM25-29",
+      "time": "25:39",
+      "seconds": 1539,
+      "coefficient": 50.29
+    },
+    {
+      "rank": 277,
+      "name": "Lena SASHNOWA",
+      "category": "VW40-44",
+      "time": "30:51",
+      "seconds": 1851,
+      "coefficient": 50.24
+    },
+    {
+      "rank": 278,
+      "name": "Katarzyna NIEDŹWIECKA",
+      "category": "VW35-39",
+      "time": "30:17",
+      "seconds": 1817,
+      "coefficient": 50.19
+    },
+    {
+      "rank": 278,
+      "name": "Fabian CLAJOT",
+      "category": "SM30-34",
+      "time": "26:00",
+      "seconds": 1560,
+      "coefficient": 50.19
+    },
+    {
+      "rank": 280,
+      "name": "Miłosz FRANKIEWICZ",
+      "category": "SM18-19",
+      "time": "26:21",
+      "seconds": 1581,
+      "coefficient": 50.03
+    },
+    {
+      "rank": 280,
+      "name": "Magdalena TOTOŃ",
+      "category": "VW35-39",
+      "time": "29:59",
+      "seconds": 1799,
+      "coefficient": 50.03
+    },
+    {
+      "rank": 282,
+      "name": "Marek SZOPA",
+      "category": "VM50-54",
+      "time": "30:14",
+      "seconds": 1814,
+      "coefficient": 50.0
+    },
+    {
+      "rank": 283,
+      "name": "Barbara SALKOWSKA",
+      "category": "VW50-54",
+      "time": "33:35",
+      "seconds": 2015,
+      "coefficient": 49.93
+    },
+    {
+      "rank": 284,
+      "name": "Mateusz MIŚ",
+      "category": "SM30-34",
+      "time": "25:59",
+      "seconds": 1559,
+      "coefficient": 49.9
+    },
+    {
+      "rank": 285,
+      "name": "Monika MATYSZCZAK",
+      "category": "SW30-34",
+      "time": "29:48",
+      "seconds": 1788,
+      "coefficient": 49.89
+    },
+    {
+      "rank": 286,
+      "name": "Iga MANKIEWICZ",
+      "category": "JW11-14",
+      "time": "31:36",
+      "seconds": 1896,
+      "coefficient": 49.74
+    },
+    {
+      "rank": 287,
+      "name": "Marta BRODACKA",
+      "category": "VW35-39",
+      "time": "30:34",
+      "seconds": 1834,
+      "coefficient": 49.73
+    },
+    {
+      "rank": 288,
+      "name": "Leszek WORONOWICZ",
+      "category": "VM60-64",
+      "time": "33:08",
+      "seconds": 1988,
+      "coefficient": 49.7
+    },
+    {
+      "rank": 289,
+      "name": "Mariusz BITTEL",
+      "category": "VM40-44",
+      "time": "28:21",
+      "seconds": 1701,
+      "coefficient": 49.62
+    },
+    {
+      "rank": 290,
+      "name": "Kornelia SZALIK",
+      "category": "JW10",
+      "time": "37:51",
+      "seconds": 2271,
+      "coefficient": 49.58
+    },
+    {
+      "rank": 291,
+      "name": "Jacek JAKUBOWSKI",
+      "category": "VM40-44",
+      "time": "28:13",
+      "seconds": 1693,
+      "coefficient": 49.5
+    },
+    {
+      "rank": 292,
+      "name": "Joanna PRUŚ",
+      "category": "VW40-44",
+      "time": "31:20",
+      "seconds": 1880,
+      "coefficient": 49.47
+    },
+    {
+      "rank": 293,
+      "name": "Magda SZALIK",
+      "category": "SW30-34",
+      "time": "30:06",
+      "seconds": 1806,
+      "coefficient": 49.39
+    },
+    {
+      "rank": 294,
+      "name": "Joanna KAGANIUK",
+      "category": "VW45-49",
+      "time": "32:29",
+      "seconds": 1949,
+      "coefficient": 49.36
+    },
+    {
+      "rank": 295,
+      "name": "Magdalena SAJDAKOWSKA",
+      "category": "VW45-49",
+      "time": "32:52",
+      "seconds": 1972,
+      "coefficient": 49.29
+    },
+    {
+      "rank": 296,
+      "name": "Wojciech SZOSTAK",
+      "category": "VM35-39",
+      "time": "27:25",
+      "seconds": 1645,
+      "coefficient": 49.06
+    },
+    {
+      "rank": 297,
+      "name": "Kamil SZALIK",
+      "category": "VM35-39",
+      "time": "27:15",
+      "seconds": 1635,
+      "coefficient": 48.99
+    },
+    {
+      "rank": 298,
+      "name": "Piotr WILCZYŃSKI",
+      "category": "VM35-39",
+      "time": "27:40",
+      "seconds": 1660,
+      "coefficient": 48.98
+    },
+    {
+      "rank": 299,
+      "name": "Agata ZYGADLO",
+      "category": "VW50-54",
+      "time": "36:09",
+      "seconds": 2169,
+      "coefficient": 48.78
+    },
+    {
+      "rank": 300,
+      "name": "Krzysztof BIGUS",
+      "category": "SM30-34",
+      "time": "26:37",
+      "seconds": 1597,
+      "coefficient": 48.72
+    },
+    {
+      "rank": 301,
+      "name": "Magdalena SZUTOWICZ",
+      "category": "VW40-44",
+      "time": "31:51",
+      "seconds": 1911,
+      "coefficient": 48.67
+    },
+    {
+      "rank": 302,
+      "name": "Dariusz POTĘGA",
+      "category": "VM45-49",
+      "time": "29:11",
+      "seconds": 1751,
+      "coefficient": 48.6
+    },
+    {
+      "rank": 303,
+      "name": "Michał BAKUŁA",
+      "category": "SM30-34",
+      "time": "27:02",
+      "seconds": 1622,
+      "coefficient": 48.52
+    },
+    {
+      "rank": 304,
+      "name": "Dawid GRZYSTEK",
+      "category": "JM10",
+      "time": "36:47",
+      "seconds": 2207,
+      "coefficient": 48.39
+    },
+    {
+      "rank": 305,
+      "name": "Karol TROJAN",
+      "category": "VM40-44",
+      "time": "28:56",
+      "seconds": 1736,
+      "coefficient": 48.27
+    },
+    {
+      "rank": 306,
+      "name": "Zbigniew KOBUS",
+      "category": "VM55-59",
+      "time": "31:53",
+      "seconds": 1913,
+      "coefficient": 48.2
+    },
+    {
+      "rank": 307,
+      "name": "Karolina JAZDZYK",
+      "category": "VW40-44",
+      "time": "31:56",
+      "seconds": 1916,
+      "coefficient": 48.17
+    },
+    {
+      "rank": 308,
+      "name": "Damian KMERA",
+      "category": "SM30-34",
+      "time": "27:14",
+      "seconds": 1634,
+      "coefficient": 48.16
+    },
+    {
+      "rank": 308,
+      "name": "Emilia NISIEWICZ",
+      "category": "VW40-44",
+      "time": "31:46",
+      "seconds": 1906,
+      "coefficient": 48.16
+    },
+    {
+      "rank": 310,
+      "name": "Mateusz BOROWSKI",
+      "category": "VM35-39",
+      "time": "27:46",
+      "seconds": 1666,
+      "coefficient": 48.08
+    },
+    {
+      "rank": 310,
+      "name": "Magdalena KRZYSTEK",
+      "category": "VW40-44",
+      "time": "32:29",
+      "seconds": 1949,
+      "coefficient": 48.08
+    },
+    {
+      "rank": 312,
+      "name": "Łukasz DYMARSKI",
+      "category": "VM40-44",
+      "time": "28:28",
+      "seconds": 1708,
+      "coefficient": 47.95
+    },
+    {
+      "rank": 313,
+      "name": "Artur JABŁONOWSKI",
+      "category": "VM50-54",
+      "time": "31:04",
+      "seconds": 1864,
+      "coefficient": 47.85
+    },
+    {
+      "rank": 313,
+      "name": "Kornelia SOBINA-PRZYŁUSKA",
+      "category": "SW30-34",
+      "time": "30:58",
+      "seconds": 1858,
+      "coefficient": 47.85
+    },
+    {
+      "rank": 315,
+      "name": "Wacław CHMIELOWSKI",
+      "category": "VM65-69",
+      "time": "35:43",
+      "seconds": 2143,
+      "coefficient": 47.83
+    },
+    {
+      "rank": 315,
+      "name": "Magdalena LATUSEK",
+      "category": "SW30-34",
+      "time": "31:05",
+      "seconds": 1865,
+      "coefficient": 47.83
+    },
+    {
+      "rank": 317,
+      "name": "Adam ANGIELCZYK",
+      "category": "VM35-39",
+      "time": "27:55",
+      "seconds": 1675,
+      "coefficient": 47.82
+    },
+    {
+      "rank": 318,
+      "name": "Jan MICKIEWICZ",
+      "category": "VM65-69",
+      "time": "35:50",
+      "seconds": 2150,
+      "coefficient": 47.67
+    },
+    {
+      "rank": 319,
+      "name": "Maciej MAKARSKI",
+      "category": "VM35-39",
+      "time": "27:56",
+      "seconds": 1676,
+      "coefficient": 47.49
+    },
+    {
+      "rank": 320,
+      "name": "Alicja PIOTROWSKA",
+      "category": "JW11-14",
+      "time": "33:38",
+      "seconds": 2018,
+      "coefficient": 47.47
+    },
+    {
+      "rank": 321,
+      "name": "Daniel KMERA",
+      "category": "VM35-39",
+      "time": "28:22",
+      "seconds": 1702,
+      "coefficient": 47.41
+    },
+    {
+      "rank": 322,
+      "name": "Natalia JASIŃSKA",
+      "category": "JW11-14",
+      "time": "33:50",
+      "seconds": 2030,
+      "coefficient": 47.19
+    },
+    {
+      "rank": 323,
+      "name": "Katarzyna KANIA",
+      "category": "VW40-44",
+      "time": "33:22",
+      "seconds": 2002,
+      "coefficient": 47.15
+    },
+    {
+      "rank": 324,
+      "name": "Kamil MERONK",
+      "category": "VM35-39",
+      "time": "28:32",
+      "seconds": 1712,
+      "coefficient": 47.14
+    },
+    {
+      "rank": 325,
+      "name": "Dominika SZLAGA",
+      "category": "SW25-29",
+      "time": "31:25",
+      "seconds": 1885,
+      "coefficient": 47.11
+    },
+    {
+      "rank": 326,
+      "name": "Karol WARUSZEWSKI",
+      "category": "VM45-49",
+      "time": "31:04",
+      "seconds": 1864,
+      "coefficient": 47.1
+    },
+    {
+      "rank": 327,
+      "name": "Luke WOODS",
+      "category": "VM35-39",
+      "time": "28:40",
+      "seconds": 1720,
+      "coefficient": 46.92
+    },
+    {
+      "rank": 328,
+      "name": "Bartosz KOWALCZYK",
+      "category": "VM35-39",
+      "time": "28:59",
+      "seconds": 1739,
+      "coefficient": 46.75
+    },
+    {
+      "rank": 329,
+      "name": "Małgorzata ADAMOWICZ",
+      "category": "SW25-29",
+      "time": "31:41",
+      "seconds": 1901,
+      "coefficient": 46.71
+    },
+    {
+      "rank": 330,
+      "name": "Daniel ŻYWICKI",
+      "category": "VM35-39",
+      "time": "29:04",
+      "seconds": 1744,
+      "coefficient": 46.62
+    },
+    {
+      "rank": 331,
+      "name": "Paweł KARABIN",
+      "category": "VM50-54",
+      "time": "31:43",
+      "seconds": 1903,
+      "coefficient": 46.51
+    },
+    {
+      "rank": 332,
+      "name": "Ania GRZYWACZ-PIOTROWSKA",
+      "category": "VW40-44",
+      "time": "33:38",
+      "seconds": 2018,
+      "coefficient": 46.43
+    },
+    {
+      "rank": 332,
+      "name": "Franciszek WILEŃSKI",
+      "category": "JM10",
+      "time": "38:20",
+      "seconds": 2300,
+      "coefficient": 46.43
+    },
+    {
+      "rank": 334,
+      "name": "Lucyna WARUSZEWSKA",
+      "category": "VW45-49",
+      "time": "35:43",
+      "seconds": 2143,
+      "coefficient": 46.38
+    },
+    {
+      "rank": 335,
+      "name": "Maciej KOZAK",
+      "category": "VM40-44",
+      "time": "30:15",
+      "seconds": 1815,
+      "coefficient": 46.17
+    },
+    {
+      "rank": 336,
+      "name": "Krzysztof GLIŃSKI",
+      "category": "VM45-49",
+      "time": "30:46",
+      "seconds": 1846,
+      "coefficient": 46.1
+    },
+    {
+      "rank": 337,
+      "name": "Adam STRZELCZYK",
+      "category": "VM40-44",
+      "time": "30:24",
+      "seconds": 1824,
+      "coefficient": 45.94
+    },
+    {
+      "rank": 338,
+      "name": "Piotr LIZAK",
+      "category": "SM30-34",
+      "time": "28:29",
+      "seconds": 1709,
+      "coefficient": 45.82
+    },
+    {
+      "rank": 339,
+      "name": "Mateusz Paweł WIRKUS",
+      "category": "SM30-34",
+      "time": "28:39",
+      "seconds": 1719,
+      "coefficient": 45.78
+    },
+    {
+      "rank": 340,
+      "name": "Krystyna KONIECZNA",
+      "category": "VW35-39",
+      "time": "32:51",
+      "seconds": 1971,
+      "coefficient": 45.66
+    },
+    {
+      "rank": 340,
+      "name": "Aleksandra ZACHARY",
+      "category": "VW45-49",
+      "time": "35:07",
+      "seconds": 2107,
+      "coefficient": 45.66
+    },
+    {
+      "rank": 342,
+      "name": "Justyna FILAS",
+      "category": "VW45-49",
+      "time": "35:10",
+      "seconds": 2110,
+      "coefficient": 45.59
+    },
+    {
+      "rank": 343,
+      "name": "Barbara MAKARSKA",
+      "category": "VW35-39",
+      "time": "33:04",
+      "seconds": 1984,
+      "coefficient": 45.51
+    },
+    {
+      "rank": 344,
+      "name": "Konrad KOWALEWSKI",
+      "category": "VM40-44",
+      "time": "30:00",
+      "seconds": 1800,
+      "coefficient": 45.5
+    },
+    {
+      "rank": 345,
+      "name": "Ewelina WOLLSCHLAEGER",
+      "category": "VW40-44",
+      "time": "34:41",
+      "seconds": 2081,
+      "coefficient": 45.36
+    },
+    {
+      "rank": 346,
+      "name": "Piotr MAŃKOWSKI",
+      "category": "VM45-49",
+      "time": "32:23",
+      "seconds": 1943,
+      "coefficient": 45.19
+    },
+    {
+      "rank": 347,
+      "name": "Magdalena ROGALSKA",
+      "category": "VW40-44",
+      "time": "34:08",
+      "seconds": 2048,
+      "coefficient": 45.07
+    },
+    {
+      "rank": 348,
+      "name": "Robert SOBOCKI",
+      "category": "VM55-59",
+      "time": "35:00",
+      "seconds": 2100,
+      "coefficient": 45.05
+    },
+    {
+      "rank": 349,
+      "name": "Karina YARKOVA",
+      "category": "VW35-39",
+      "time": "33:14",
+      "seconds": 1994,
+      "coefficient": 44.98
+    },
+    {
+      "rank": 350,
+      "name": "Franciszek MAŃKOWSKI",
+      "category": "JM11-14",
+      "time": "32:18",
+      "seconds": 1938,
+      "coefficient": 44.89
+    },
+    {
+      "rank": 351,
+      "name": "Paweł Mikołaj SOBOCIŃSKI",
+      "category": "SM30-34",
+      "time": "29:00",
+      "seconds": 1740,
+      "coefficient": 44.83
+    },
+    {
+      "rank": 352,
+      "name": "Natalia Ł",
+      "category": "VW35-39",
+      "time": "33:23",
+      "seconds": 2003,
+      "coefficient": 44.78
+    },
+    {
+      "rank": 353,
+      "name": "Anna DETTLAFF",
+      "category": "VW35-39",
+      "time": "33:42",
+      "seconds": 2022,
+      "coefficient": 44.66
+    },
+    {
+      "rank": 354,
+      "name": "Piotr SZCZODROWSKI",
+      "category": "VM40-44",
+      "time": "31:19",
+      "seconds": 1879,
+      "coefficient": 44.6
+    },
+    {
+      "rank": 355,
+      "name": "Rafał KROEMER",
+      "category": "VM45-49",
+      "time": "32:49",
+      "seconds": 1969,
+      "coefficient": 44.59
+    },
+    {
+      "rank": 356,
+      "name": "Mikołaj WASIUK",
+      "category": "JM10",
+      "time": "38:17",
+      "seconds": 2297,
+      "coefficient": 44.45
+    },
+    {
+      "rank": 357,
+      "name": "Krzysztof KUR",
+      "category": "SM30-34",
+      "time": "29:27",
+      "seconds": 1767,
+      "coefficient": 44.31
+    },
+    {
+      "rank": 358,
+      "name": "Aleksandra TRZCIŃSKA",
+      "category": "SW30-34",
+      "time": "33:35",
+      "seconds": 2015,
+      "coefficient": 44.27
+    },
+    {
+      "rank": 359,
+      "name": "Henryk Piotr WITT",
+      "category": "VM75-79",
+      "time": "43:34",
+      "seconds": 2614,
+      "coefficient": 44.26
+    },
+    {
+      "rank": 360,
+      "name": "Adrian TEKLIŃSKI",
+      "category": "VM35-39",
+      "time": "29:59",
+      "seconds": 1799,
+      "coefficient": 44.25
+    },
+    {
+      "rank": 361,
+      "name": "Joanna HINC",
+      "category": "VW40-44",
+      "time": "35:41",
+      "seconds": 2141,
+      "coefficient": 43.76
+    },
+    {
+      "rank": 362,
+      "name": "Maciej JABŁONOWSKI",
+      "category": "SM20-24",
+      "time": "29:33",
+      "seconds": 1773,
+      "coefficient": 43.65
+    },
+    {
+      "rank": 363,
+      "name": "Piotr KOSIATY",
+      "category": "VM50-54",
+      "time": "34:56",
+      "seconds": 2096,
+      "coefficient": 43.61
+    },
+    {
+      "rank": 364,
+      "name": "Bartosz MASZCZYK",
+      "category": "SM25-29",
+      "time": "29:38",
+      "seconds": 1778,
+      "coefficient": 43.59
+    },
+    {
+      "rank": 365,
+      "name": "Anna KOSMACZEWSKA-LEMAŃSKA",
+      "category": "VW35-39",
+      "time": "34:31",
+      "seconds": 2071,
+      "coefficient": 43.46
+    },
+    {
+      "rank": 366,
+      "name": "Filip PATUŁA",
+      "category": "SM20-24",
+      "time": "29:42",
+      "seconds": 1782,
+      "coefficient": 43.43
+    },
+    {
+      "rank": 367,
+      "name": "Maciej KUBIAK",
+      "category": "VM35-39",
+      "time": "30:22",
+      "seconds": 1822,
+      "coefficient": 43.41
+    },
+    {
+      "rank": 368,
+      "name": "Piotr MARSZAŁKOWSKI",
+      "category": "VM35-39",
+      "time": "30:50",
+      "seconds": 1850,
+      "coefficient": 43.3
+    },
+    {
+      "rank": 369,
+      "name": "Anna SZULC",
+      "category": "VW45-49",
+      "time": "37:36",
+      "seconds": 2256,
+      "coefficient": 43.09
+    },
+    {
+      "rank": 370,
+      "name": "Tomasz ODZIEMCZYK",
+      "category": "VM35-39",
+      "time": "31:27",
+      "seconds": 1887,
+      "coefficient": 43.08
+    },
+    {
+      "rank": 371,
+      "name": "Ewelina DYMARSKA",
+      "category": "VW35-39",
+      "time": "35:11",
+      "seconds": 2111,
+      "coefficient": 42.78
+    },
+    {
+      "rank": 372,
+      "name": "Anastazja SMAGLIŃSKA",
+      "category": "JW10",
+      "time": "48:04",
+      "seconds": 2884,
+      "coefficient": 42.48
+    },
+    {
+      "rank": 373,
+      "name": "Maja SOBOCKA",
+      "category": "SW25-29",
+      "time": "34:59",
+      "seconds": 2099,
+      "coefficient": 42.31
+    },
+    {
+      "rank": 374,
+      "name": "Dominika RIEGEL",
+      "category": "VW35-39",
+      "time": "35:36",
+      "seconds": 2136,
+      "coefficient": 42.13
+    },
+    {
+      "rank": 375,
+      "name": "Julia ŁUDCZAK",
+      "category": "SW25-29",
+      "time": "35:10",
+      "seconds": 2110,
+      "coefficient": 42.09
+    },
+    {
+      "rank": 375,
+      "name": "Ewa BEJROWSKA",
+      "category": "VW40-44",
+      "time": "36:33",
+      "seconds": 2193,
+      "coefficient": 42.09
+    },
+    {
+      "rank": 377,
+      "name": "Paulina ŻMUDZIŃSKA",
+      "category": "JW11-14",
+      "time": "37:45",
+      "seconds": 2265,
+      "coefficient": 41.63
+    },
+    {
+      "rank": 378,
+      "name": "Piotr BITTEL",
+      "category": "JM10",
+      "time": "39:34",
+      "seconds": 2374,
+      "coefficient": 41.32
+    },
+    {
+      "rank": 379,
+      "name": "Aleksander DEJNAROWICZ",
+      "category": "JM10",
+      "time": "39:41",
+      "seconds": 2381,
+      "coefficient": 41.2
+    },
+    {
+      "rank": 380,
+      "name": "Katarzyna BEDNARZ",
+      "category": "VW45-49",
+      "time": "38:35",
+      "seconds": 2315,
+      "coefficient": 41.17
+    },
+    {
+      "rank": 381,
+      "name": "Agnieszka STEFAN",
+      "category": "VW35-39",
+      "time": "36:47",
+      "seconds": 2207,
+      "coefficient": 41.14
+    },
+    {
+      "rank": 382,
+      "name": "Dominik JUREK",
+      "category": "SM25-29",
+      "time": "31:40",
+      "seconds": 1900,
+      "coefficient": 40.79
+    },
+    {
+      "rank": 383,
+      "name": "Ewelina DOBRZYŃSKA",
+      "category": "SW30-34",
+      "time": "36:20",
+      "seconds": 2180,
+      "coefficient": 40.78
+    },
+    {
+      "rank": 384,
+      "name": "Dominik KONKOL",
+      "category": "SM25-29",
+      "time": "31:41",
+      "seconds": 1901,
+      "coefficient": 40.72
+    },
+    {
+      "rank": 385,
+      "name": "Mariola GOLAŃSKA",
+      "category": "VW65-69",
+      "time": "50:52",
+      "seconds": 3052,
+      "coefficient": 40.47
+    },
+    {
+      "rank": 386,
+      "name": "Piotr KŁOSOWSKI",
+      "category": "JM10",
+      "time": "42:42",
+      "seconds": 2562,
+      "coefficient": 39.85
+    },
+    {
+      "rank": 387,
+      "name": "Filip KANIA",
+      "category": "JM10",
+      "time": "41:08",
+      "seconds": 2468,
+      "coefficient": 39.75
+    },
+    {
+      "rank": 388,
+      "name": "Patrycja PIOTROWSKA",
+      "category": "JW11-14",
+      "time": "41:53",
+      "seconds": 2513,
+      "coefficient": 39.71
+    },
+    {
+      "rank": 389,
+      "name": "Mariusz PIÓRKOWSKI",
+      "category": "VM40-44",
+      "time": "35:28",
+      "seconds": 2128,
+      "coefficient": 39.66
+    },
+    {
+      "rank": 390,
+      "name": "Rafał KONIECZNY",
+      "category": "VM35-39",
+      "time": "33:30",
+      "seconds": 2010,
+      "coefficient": 39.6
+    },
+    {
+      "rank": 391,
+      "name": "Mateusz KULEWICZ",
+      "category": "VM35-39",
+      "time": "33:55",
+      "seconds": 2035,
+      "coefficient": 38.87
+    },
+    {
+      "rank": 392,
+      "name": "Danuta WRZAŁKOWSKA",
+      "category": "VW60-64",
+      "time": "51:30",
+      "seconds": 3090,
+      "coefficient": 38.77
+    },
+    {
+      "rank": 393,
+      "name": "Kamila Magdalena KLIMASZEWSKA",
+      "category": "VW40-44",
+      "time": "40:25",
+      "seconds": 2425,
+      "coefficient": 38.64
+    },
+    {
+      "rank": 394,
+      "name": "Szymon PRUS",
+      "category": "VM40-44",
+      "time": "35:46",
+      "seconds": 2146,
+      "coefficient": 38.44
+    },
+    {
+      "rank": 395,
+      "name": "Tatiana KAGANIUK",
+      "category": "VW45-49",
+      "time": "43:12",
+      "seconds": 2592,
+      "coefficient": 37.5
+    },
+    {
+      "rank": 396,
+      "name": "Paweł KOSIATY",
+      "category": "SM25-29",
+      "time": "34:31",
+      "seconds": 2071,
+      "coefficient": 37.37
+    },
+    {
+      "rank": 397,
+      "name": "Norbert WILKUS",
+      "category": "VM50-54",
+      "time": "39:32",
+      "seconds": 2372,
+      "coefficient": 37.31
+    },
+    {
+      "rank": 398,
+      "name": "Joanna PIECZONKA",
+      "category": "VW55-59",
+      "time": "48:35",
+      "seconds": 2915,
+      "coefficient": 37.26
+    },
+    {
+      "rank": 399,
+      "name": "Morten Nygaard ÅSNES",
+      "category": "VM50-54",
+      "time": "40:39",
+      "seconds": 2439,
+      "coefficient": 37.19
+    },
+    {
+      "rank": 400,
+      "name": "Małgorzata POGORZELSKA",
+      "category": "VW55-59",
+      "time": "49:26",
+      "seconds": 2966,
+      "coefficient": 37.12
+    },
+    {
+      "rank": 401,
+      "name": "Dagmara BEGER",
+      "category": "VW55-59",
+      "time": "48:10",
+      "seconds": 2890,
+      "coefficient": 37.09
+    },
+    {
+      "rank": 402,
+      "name": "Ewa ADAMCZYK",
+      "category": "VW35-39",
+      "time": "40:57",
+      "seconds": 2457,
+      "coefficient": 36.75
+    },
+    {
+      "rank": 403,
+      "name": "Ewa KŁOSOWSKA",
+      "category": "VW40-44",
+      "time": "42:43",
+      "seconds": 2563,
+      "coefficient": 36.56
+    },
+    {
+      "rank": 404,
+      "name": "Adam GRZYSTEK",
+      "category": "VM35-39",
+      "time": "36:49",
+      "seconds": 2209,
+      "coefficient": 36.26
+    },
+    {
+      "rank": 405,
+      "name": "Stanisław RÓŻYCKI",
+      "category": "JM10",
+      "time": "43:48",
+      "seconds": 2628,
+      "coefficient": 36.04
+    },
+    {
+      "rank": 406,
+      "name": "Sebastian SZPERLAK",
+      "category": "JM11-14",
+      "time": "40:19",
+      "seconds": 2419,
+      "coefficient": 35.97
+    },
+    {
+      "rank": 407,
+      "name": "Agnieszka DATTA",
+      "category": "VW40-44",
+      "time": "44:06",
+      "seconds": 2646,
+      "coefficient": 35.68
+    },
+    {
+      "rank": 408,
+      "name": "Hanna PAWŁOWSKA",
+      "category": "JW10",
+      "time": "55:53",
+      "seconds": 3353,
+      "coefficient": 34.95
+    },
+    {
+      "rank": 409,
+      "name": "Edyta TARAPATA-SKWIOT",
+      "category": "VW45-49",
+      "time": "47:14",
+      "seconds": 2834,
+      "coefficient": 34.65
+    },
+    {
+      "rank": 410,
+      "name": "Kornelia Anna FRANKIEWICZ",
+      "category": "SW20-24",
+      "time": "42:44",
+      "seconds": 2564,
+      "coefficient": 34.63
+    },
+    {
+      "rank": 411,
+      "name": "Damian KUREK",
+      "category": "JM15-17",
+      "time": "39:01",
+      "seconds": 2341,
+      "coefficient": 34.6
+    },
+    {
+      "rank": 412,
+      "name": "Wioletta ŻMUDZIŃSKA",
+      "category": "VW40-44",
+      "time": "45:17",
+      "seconds": 2717,
+      "coefficient": 34.49
+    },
+    {
+      "rank": 413,
+      "name": "Krystian FEDCZAK",
+      "category": "VM35-39",
+      "time": "38:51",
+      "seconds": 2331,
+      "coefficient": 34.36
+    },
+    {
+      "rank": 414,
+      "name": "Anna KOŁTAN",
+      "category": "VW45-49",
+      "time": "47:20",
+      "seconds": 2840,
+      "coefficient": 34.23
+    },
+    {
+      "rank": 415,
+      "name": "Kornelia DOBRZYŃSKA",
+      "category": "JW10",
+      "time": "55:08",
+      "seconds": 3308,
+      "coefficient": 34.04
+    },
+    {
+      "rank": 416,
+      "name": "Anna GRENDA-JASTRZEMBSKA",
+      "category": "VW45-49",
+      "time": "48:48",
+      "seconds": 2928,
+      "coefficient": 33.95
+    },
+    {
+      "rank": 417,
+      "name": "Julia PAWŁOWSKA",
+      "category": "JW10",
+      "time": "51:56",
+      "seconds": 3116,
+      "coefficient": 33.79
+    },
+    {
+      "rank": 418,
+      "name": "Renata JABŁONOWSKA",
+      "category": "VW45-49",
+      "time": "48:33",
+      "seconds": 2913,
+      "coefficient": 33.71
+    },
+    {
+      "rank": 419,
+      "name": "Agnieszka SAJDAK",
+      "category": "VW45-49",
+      "time": "47:40",
+      "seconds": 2860,
+      "coefficient": 33.64
+    },
+    {
+      "rank": 420,
+      "name": "Pola SZCZEBLEWSKA",
+      "category": "JW10",
+      "time": "52:18",
+      "seconds": 3138,
+      "coefficient": 33.56
+    },
+    {
+      "rank": 421,
+      "name": "Andrzej DATTA",
+      "category": "VM50-54",
+      "time": "44:08",
+      "seconds": 2648,
+      "coefficient": 33.42
+    },
+    {
+      "rank": 422,
+      "name": "Barbara DOBRZYŃSKA",
+      "category": "JW10",
+      "time": "55:09",
+      "seconds": 3309,
+      "coefficient": 32.85
+    },
+    {
+      "rank": 423,
+      "name": "Anna SZCZEBLEWSKA",
+      "category": "JW11-14",
+      "time": "51:29",
+      "seconds": 3089,
+      "coefficient": 31.63
+    },
+    {
+      "rank": 424,
+      "name": "Joanna TARATUTA",
+      "category": "SW25-29",
+      "time": "47:23",
+      "seconds": 2843,
+      "coefficient": 31.23
+    },
+    {
+      "rank": 425,
+      "name": "Zuzanna PAWŁOWSKA",
+      "category": "JW10",
+      "time": "55:57",
+      "seconds": 3357,
+      "coefficient": 30.5
+    },
+    {
+      "rank": 426,
+      "name": "Maciej POGORZELSKI",
+      "category": "VM50-54",
+      "time": "49:27",
+      "seconds": 2967,
+      "coefficient": 30.3
+    },
+    {
+      "rank": 427,
+      "name": "Karol FINGAJSKI",
+      "category": "SM20-24",
+      "time": "42:48",
+      "seconds": 2568,
+      "coefficient": 30.14
+    },
+    {
+      "rank": 428,
+      "name": "Adrian SMAGLIŃSKI",
+      "category": "VM35-39",
+      "time": "48:06",
+      "seconds": 2886,
+      "coefficient": 27.41
+    },
+    {
+      "rank": 429,
+      "name": "Natalia PAWŁOWSKA",
+      "category": "VW35-39",
+      "time": "55:59",
+      "seconds": 3359,
+      "coefficient": 27.15
+    },
+    {
+      "rank": 430,
+      "name": "Ewa FEDCZAK",
+      "category": "VW35-39",
+      "time": "55:29",
+      "seconds": 3329,
+      "coefficient": 26.95
+    }
+  ],
+  "records": {
+    "overall": {
+      "label": "Cała historia",
+      "attendance": {
+        "label": "Rekord frekwencji",
+        "broken": false,
+        "tied": false,
+        "current": {
+          "value": 262,
+          "date": "2026-08-01",
+          "edition_number": 469
+        },
+        "previous": {
+          "value": 328,
+          "date": "2024-12-28",
+          "edition_number": 384
+        }
+      },
+      "time_m": {
+        "label": "Rekord najlepszego czasu (mężczyźni)",
+        "broken": false,
+        "tied": false,
+        "current": {
+          "value_seconds": 1025,
+          "value": "17:05",
+          "name": "Tomasz SZCZYKUTOWICZ",
+          "date": "2026-08-08"
+        },
+        "previous": {
+          "value_seconds": 945,
+          "value": "15:45",
+          "name": "Jonathan ESCALANTE-PHILLIPS",
+          "date": "2019-03-02"
+        }
+      },
+      "time_f": {
+        "label": "Rekord najlepszego czasu (kobiety)",
+        "broken": false,
+        "tied": false,
+        "current": {
+          "value_seconds": 1235,
+          "value": "20:35",
+          "name": "Olha KAZYMYROWA",
+          "date": "2026-08-01"
+        },
+        "previous": {
+          "value_seconds": 1127,
+          "value": "18:47",
+          "name": "Marta ŁOSIN",
+          "date": "2023-09-02"
+        }
+      },
+      "age_coefficient": {
+        "label": "Rekord współczynnika wieku",
+        "broken": false,
+        "tied": false,
+        "current": {
+          "value": 82.79,
+          "name": "Damian DINO",
+          "category": "VM45-49",
+          "date": "2026-08-08"
+        },
+        "previous": {
+          "value": 86.65,
+          "name": "Andrzej BALICKI",
+          "category": "VM70-74",
+          "date": "2021-10-30"
+        }
+      }
+    },
+    "year": {
+      "label": "Rok 2026",
+      "attendance": {
+        "label": "Rekord frekwencji",
+        "broken": true,
+        "tied": false,
+        "current": {
+          "value": 262,
+          "date": "2026-08-01",
+          "edition_number": 469
+        },
+        "previous": {
+          "value": 197,
+          "date": "2026-05-23",
+          "edition_number": 459
+        }
+      },
+      "time_m": {
+        "label": "Rekord najlepszego czasu (mężczyźni)",
+        "broken": false,
+        "tied": false,
+        "current": {
+          "value_seconds": 1025,
+          "value": "17:05",
+          "name": "Tomasz SZCZYKUTOWICZ",
+          "date": "2026-08-08"
+        },
+        "previous": {
+          "value_seconds": 1011,
+          "value": "16:51",
+          "name": "Damian DINO",
+          "date": "2026-04-11"
+        }
+      },
+      "time_f": {
+        "label": "Rekord najlepszego czasu (kobiety)",
+        "broken": false,
+        "tied": false,
+        "current": {
+          "value_seconds": 1235,
+          "value": "20:35",
+          "name": "Olha KAZYMYROWA",
+          "date": "2026-08-01"
+        },
+        "previous": {
+          "value_seconds": 1178,
+          "value": "19:38",
+          "name": "Holly CHIPMAN",
+          "date": "2026-01-24"
+        }
+      },
+      "age_coefficient": {
+        "label": "Rekord współczynnika wieku",
+        "broken": false,
+        "tied": false,
+        "current": {
+          "value": 82.79,
+          "name": "Damian DINO",
+          "category": "VM45-49",
+          "date": "2026-08-08"
+        },
+        "previous": {
+          "value": 86.17,
+          "name": "Tomasz MAKARSKI",
+          "category": "VM50-54",
+          "date": "2026-05-23"
+        }
+      }
+    },
+    "same_month_all_years": {
+      "label": "Ten miesiąc, wszystkie lata",
+      "attendance": {
+        "label": "Rekord frekwencji",
+        "broken": true,
+        "tied": false,
+        "current": {
+          "value": 262,
+          "date": "2026-08-01",
+          "edition_number": 469
+        },
+        "previous": {
+          "value": 153,
+          "date": "2025-08-30",
+          "edition_number": 420
+        }
+      },
+      "time_m": {
+        "label": "Rekord najlepszego czasu (mężczyźni)",
+        "broken": false,
+        "tied": true,
+        "current": {
+          "value_seconds": 1025,
+          "value": "17:05",
+          "name": "Tomasz SZCZYKUTOWICZ",
+          "date": "2026-08-08"
+        },
+        "previous": {
+          "value_seconds": 1025,
+          "value": "17:05",
+          "name": "Łukasz STACHOWIAK",
+          "date": "2016-08-06"
+        }
+      },
+      "time_f": {
+        "label": "Rekord najlepszego czasu (kobiety)",
+        "broken": false,
+        "tied": false,
+        "current": {
+          "value_seconds": 1235,
+          "value": "20:35",
+          "name": "Olha KAZYMYROWA",
+          "date": "2026-08-01"
+        },
+        "previous": {
+          "value_seconds": 1160,
+          "value": "19:20",
+          "name": "Małgorzata IWAN",
+          "date": "2021-08-07"
+        }
+      },
+      "age_coefficient": {
+        "label": "Rekord współczynnika wieku",
+        "broken": false,
+        "tied": false,
+        "current": {
+          "value": 82.79,
+          "name": "Damian DINO",
+          "category": "VM45-49",
+          "date": "2026-08-08"
+        },
+        "previous": {
+          "value": 85.38,
+          "name": "Henryk URTNOWSKI",
+          "category": "VM75-79",
+          "date": "2017-08-12"
+        }
+      }
+    },
+    "category_records_overall": [
+      {
+        "label": "VW50-54",
+        "broken": true,
+        "tied": false,
+        "current": {
+          "value_seconds": 1235,
+          "value": "20:35",
+          "name": "Olha KAZYMYROWA",
+          "date": "2026-08-01"
+        },
+        "previous": {
+          "value_seconds": 1311,
+          "value": "21:51",
+          "name": "Monika DZIERŻEŃSKA",
+          "date": "2025-03-22"
+        }
+      }
+    ],
+    "category_records_year": [
+      {
+        "label": "JM10",
+        "broken": true,
+        "tied": false,
+        "current": {
+          "value_seconds": 1345,
+          "value": "22:25",
+          "name": "Michal KRZYSZTOFIK",
+          "date": "2026-08-01"
+        },
+        "previous": {
+          "value_seconds": 1477,
+          "value": "24:37",
+          "name": "Igor SIMIONKOWSKI",
+          "date": "2026-07-25"
+        }
+      },
+      {
+        "label": "SM18-19",
+        "broken": true,
+        "tied": false,
+        "current": {
+          "value_seconds": 1194,
+          "value": "19:54",
+          "name": "Krzysztof SITA",
+          "date": "2026-08-29"
+        },
+        "previous": {
+          "value_seconds": 1302,
+          "value": "21:42",
+          "name": "Wojciech ŻYROMSKI",
+          "date": "2026-05-23"
+        }
+      },
+      {
+        "label": "VW50-54",
+        "broken": true,
+        "tied": false,
+        "current": {
+          "value_seconds": 1235,
+          "value": "20:35",
+          "name": "Olha KAZYMYROWA",
+          "date": "2026-08-01"
+        },
+        "previous": {
+          "value_seconds": 1323,
+          "value": "22:03",
+          "name": "Maibritt KRISTOFFERSEN",
+          "date": "2026-07-18"
+        }
+      },
+      {
+        "label": "VW55-59",
+        "broken": true,
+        "tied": false,
+        "current": {
+          "value_seconds": 1578,
+          "value": "26:18",
+          "name": "Marzena GRABOWSKA",
+          "date": "2026-08-01"
+        },
+        "previous": {
+          "value_seconds": 1632,
+          "value": "27:12",
+          "name": "Marzena GRABOWSKA",
+          "date": "2026-07-04"
+        }
+      },
+      {
+        "label": "VW60-64",
+        "broken": true,
+        "tied": false,
+        "current": {
+          "value_seconds": 1549,
+          "value": "25:49",
+          "name": "Aleksandra ŚNIEG",
+          "date": "2026-08-15"
+        },
+        "previous": {
+          "value_seconds": 1558,
+          "value": "25:58",
+          "name": "Aleksandra ŚNIEG",
+          "date": "2026-03-07"
+        }
+      },
+      {
+        "label": "VW65-69",
+        "broken": true,
+        "tied": false,
+        "current": {
+          "value_seconds": 1809,
+          "value": "30:09",
+          "name": "Grażyna CZEKAJ",
+          "date": "2026-08-29"
+        },
+        "previous": {
+          "value_seconds": 1819,
+          "value": "30:19",
+          "name": "Grażyna CZEKAJ",
+          "date": "2026-07-18"
+        }
+      }
+    ],
+    "category_records_same_month_all_years": [
+      {
+        "label": "JM10",
+        "broken": true,
+        "tied": false,
+        "current": {
+          "value_seconds": 1345,
+          "value": "22:25",
+          "name": "Michal KRZYSZTOFIK",
+          "date": "2026-08-01"
+        },
+        "previous": {
+          "value_seconds": 1386,
+          "value": "23:06",
+          "name": "Teodor TOMCZAK",
+          "date": "2025-08-02"
+        }
+      },
+      {
+        "label": "SM18-19",
+        "broken": true,
+        "tied": false,
+        "current": {
+          "value_seconds": 1194,
+          "value": "19:54",
+          "name": "Krzysztof SITA",
+          "date": "2026-08-29"
+        },
+        "previous": {
+          "value_seconds": 1306,
+          "value": "21:46",
+          "name": "Kacper WESOŁOWSKI",
+          "date": "2025-08-30"
+        }
+      },
+      {
+        "label": "VM35-39",
+        "broken": true,
+        "tied": false,
+        "current": {
+          "value_seconds": 1025,
+          "value": "17:05",
+          "name": "Tomasz SZCZYKUTOWICZ",
+          "date": "2026-08-08"
+        },
+        "previous": {
+          "value_seconds": 1027,
+          "value": "17:07",
+          "name": "Tomasz Henryk BAGROWSKI",
+          "date": "2018-08-11"
+        }
+      },
+      {
+        "label": "VW40-44",
+        "broken": true,
+        "tied": false,
+        "current": {
+          "value_seconds": 1242,
+          "value": "20:42",
+          "name": "Dorota ŻMUDA-TRZEBIATOWSKA",
+          "date": "2026-08-29"
+        },
+        "previous": {
+          "value_seconds": 1358,
+          "value": "22:38",
+          "name": "Ewa DĘBIEC",
+          "date": "2024-08-24"
+        }
+      },
+      {
+        "label": "VW50-54",
+        "broken": true,
+        "tied": false,
+        "current": {
+          "value_seconds": 1235,
+          "value": "20:35",
+          "name": "Olha KAZYMYROWA",
+          "date": "2026-08-01"
+        },
+        "previous": {
+          "value_seconds": 1375,
+          "value": "22:55",
+          "name": "Sylwia ŁUDCZAK",
+          "date": "2024-08-17"
+        }
+      }
+    ]
+  },
+  "location_context": {
+    "location_id": "gdanskpoludnie",
+    "location_name": "Gdańsk Południe",
+    "total_editions": 473,
+    "total_starts": 43715,
+    "first_edition_date": "2016-07-30",
+    "last_edition_date": "2026-08-29",
+    "avg_participants_per_edition": 92.4,
+    "avg_time_m": "25:44",
+    "avg_time_f": "31:39",
+    "best_time_m": "15:45",
+    "best_time_f": "18:47",
+    "median_time": "26:08",
+    "best_age_coefficient": 86.65,
+    "age_categories": {
+      "women": [
+        {
+          "category": "VW40-44",
+          "count": 2620,
+          "avg_time": "31:33",
+          "best_time": "20:25",
+          "best_name": "Dorota ŻMUDA-TRZEBIATOWSKA"
+        },
+        {
+          "category": "VW35-39",
+          "count": 1968,
+          "avg_time": "30:01",
+          "best_time": "18:47",
+          "best_name": "Marta ŁOSIN"
+        },
+        {
+          "category": "VW45-49",
+          "count": 1909,
+          "avg_time": "31:22",
+          "best_time": "21:25",
+          "best_name": "Monika DZIERŻEŃSKA"
+        },
+        {
+          "category": "SW30-34",
+          "count": 1188,
+          "avg_time": "29:34",
+          "best_time": "19:38",
+          "best_name": "Holly CHIPMAN"
+        },
+        {
+          "category": "VW50-54",
+          "count": 861,
+          "avg_time": "31:16",
+          "best_time": "20:35",
+          "best_name": "Olha KAZYMYROWA"
+        },
+        {
+          "category": "SW25-29",
+          "count": 856,
+          "avg_time": "29:42",
+          "best_time": "20:46",
+          "best_name": "Aleksandra Ewa GRABIAS, Magdalena JASZEWSKA"
+        },
+        {
+          "category": "JW11-14",
+          "count": 572,
+          "avg_time": "36:04",
+          "best_time": "21:30",
+          "best_name": "Julia WIERGOWSKA"
+        },
+        {
+          "category": "JW10",
+          "count": 429,
+          "avg_time": "38:08",
+          "best_time": "25:27",
+          "best_name": "Małgorzata FIGEL"
+        },
+        {
+          "category": "SW20-24",
+          "count": 288,
+          "avg_time": "32:45",
+          "best_time": "19:56",
+          "best_name": "Zofia SZLUFIK"
+        },
+        {
+          "category": "VW65-69",
+          "count": 278,
+          "avg_time": "31:39",
+          "best_time": "25:07",
+          "best_name": "Zofia TERLECKA WYDARTY"
+        },
+        {
+          "category": "VW60-64",
+          "count": 242,
+          "avg_time": "34:06",
+          "best_time": "23:56",
+          "best_name": "Zofia TERLECKA WYDARTY"
+        },
+        {
+          "category": "VW55-59",
+          "count": 233,
+          "avg_time": "35:04",
+          "best_time": "24:43",
+          "best_name": "Marzenna MALAGOCKA"
+        },
+        {
+          "category": "JW15-17",
+          "count": 199,
+          "avg_time": "38:28",
+          "best_time": "20:07",
+          "best_name": "Julia WIERGOWSKA"
+        },
+        {
+          "category": "VW70-74",
+          "count": 111,
+          "avg_time": "31:43",
+          "best_time": "28:08",
+          "best_name": "Małgorzata POLINCEUSZ"
+        },
+        {
+          "category": "SW18-19",
+          "count": 48,
+          "avg_time": "36:26",
+          "best_time": "23:19",
+          "best_name": "Oliwia JASZCZUR"
+        }
+      ],
+      "men": [
+        {
+          "category": "VM40-44",
+          "count": 6633,
+          "avg_time": "24:52",
+          "best_time": "16:50",
+          "best_name": "Tomasz BAGIŃSKI"
+        },
+        {
+          "category": "VM35-39",
+          "count": 6341,
+          "avg_time": "24:43",
+          "best_time": "16:51",
+          "best_name": "Tomasz Henryk BAGROWSKI"
+        },
+        {
+          "category": "VM45-49",
+          "count": 4894,
+          "avg_time": "25:48",
+          "best_time": "16:51",
+          "best_name": "Damian DINO"
+        },
+        {
+          "category": "SM30-34",
+          "count": 3403,
+          "avg_time": "24:07",
+          "best_time": "15:56",
+          "best_name": "Ben HAGUE"
+        },
+        {
+          "category": "VM50-54",
+          "count": 2687,
+          "avg_time": "26:45",
+          "best_time": "17:07",
+          "best_name": "Tomasz MAKARSKI"
+        },
+        {
+          "category": "SM25-29",
+          "count": 1527,
+          "avg_time": "23:23",
+          "best_time": "15:45",
+          "best_name": "Jonathan ESCALANTE-PHILLIPS"
+        },
+        {
+          "category": "VM55-59",
+          "count": 1405,
+          "avg_time": "28:27",
+          "best_time": "19:50",
+          "best_name": "Krzysztof TOKARSKI"
+        },
+        {
+          "category": "VM60-64",
+          "count": 940,
+          "avg_time": "29:15",
+          "best_time": "19:39",
+          "best_name": "Wiktor GRUSZKA"
+        },
+        {
+          "category": "JM11-14",
+          "count": 816,
+          "avg_time": "28:30",
+          "best_time": "18:34",
+          "best_name": "Szymon DAWIDOWSKI"
+        },
+        {
+          "category": "VM65-69",
+          "count": 621,
+          "avg_time": "29:11",
+          "best_time": "19:46",
+          "best_name": "Andrzej BALICKI"
+        },
+        {
+          "category": "JM10",
+          "count": 552,
+          "avg_time": "32:28",
+          "best_time": "21:18",
+          "best_name": "Michal KRZYSZTOFIK"
+        },
+        {
+          "category": "JM15-17",
+          "count": 524,
+          "avg_time": "26:37",
+          "best_time": "16:34",
+          "best_name": "Piotr FOBKE"
+        },
+        {
+          "category": "SM20-24",
+          "count": 523,
+          "avg_time": "25:07",
+          "best_time": "16:57",
+          "best_name": "Stefan SZABLEWSKI"
+        },
+        {
+          "category": "VM70-74",
+          "count": 224,
+          "avg_time": "33:20",
+          "best_time": "20:21",
+          "best_name": "Andrzej BALICKI"
+        },
+        {
+          "category": "VM75-79",
+          "count": 214,
+          "avg_time": "29:03",
+          "best_time": "22:38",
+          "best_name": "Zygfryd LIBAN"
+        },
+        {
+          "category": "SM18-19",
+          "count": 127,
+          "avg_time": "28:55",
+          "best_time": "17:41",
+          "best_name": "Piotr FOBKE"
+        },
+        {
+          "category": "VM80-84",
+          "count": 50,
+          "avg_time": "27:53",
+          "best_time": "24:25",
+          "best_name": "Henryk URTNOWSKI"
+        },
+        {
+          "category": "VM85-89",
+          "count": 11,
+          "avg_time": "31:55",
+          "best_time": "29:03",
+          "best_name": "Henryk URTNOWSKI"
+        }
+      ]
+    },
+    "generated_at": "2026-09-02"
+  },
+  "monthly_cumulative": [
+    {
+      "year": 2016,
+      "month": 7,
+      "month_label": "Lipiec 2016",
+      "total_participants": 246,
+      "cumulative_avg": 246.0
+    },
+    {
+      "year": 2016,
+      "month": 8,
+      "month_label": "Sierpień 2016",
+      "total_participants": 370,
+      "cumulative_avg": 308.0
+    },
+    {
+      "year": 2016,
+      "month": 9,
+      "month_label": "Wrzesień 2016",
+      "total_participants": 196,
+      "cumulative_avg": 270.7
+    },
+    {
+      "year": 2016,
+      "month": 10,
+      "month_label": "Październik 2016",
+      "total_participants": 349,
+      "cumulative_avg": 290.2
+    },
+    {
+      "year": 2016,
+      "month": 11,
+      "month_label": "Listopad 2016",
+      "total_participants": 286,
+      "cumulative_avg": 289.4
+    },
+    {
+      "year": 2016,
+      "month": 12,
+      "month_label": "Grudzień 2016",
+      "total_participants": 363,
+      "cumulative_avg": 301.7
+    },
+    {
+      "year": 2017,
+      "month": 1,
+      "month_label": "Styczeń 2017",
+      "total_participants": 231,
+      "cumulative_avg": 291.6
+    },
+    {
+      "year": 2017,
+      "month": 2,
+      "month_label": "Luty 2017",
+      "total_participants": 267,
+      "cumulative_avg": 288.5
+    },
+    {
+      "year": 2017,
+      "month": 3,
+      "month_label": "Marzec 2017",
+      "total_participants": 297,
+      "cumulative_avg": 289.4
+    },
+    {
+      "year": 2017,
+      "month": 4,
+      "month_label": "Kwiecień 2017",
+      "total_participants": 298,
+      "cumulative_avg": 290.3
+    },
+    {
+      "year": 2017,
+      "month": 5,
+      "month_label": "Maj 2017",
+      "total_participants": 251,
+      "cumulative_avg": 286.7
+    },
+    {
+      "year": 2017,
+      "month": 6,
+      "month_label": "Czerwiec 2017",
+      "total_participants": 220,
+      "cumulative_avg": 281.2
+    },
+    {
+      "year": 2017,
+      "month": 7,
+      "month_label": "Lipiec 2017",
+      "total_participants": 480,
+      "cumulative_avg": 296.5
+    },
+    {
+      "year": 2017,
+      "month": 8,
+      "month_label": "Sierpień 2017",
+      "total_participants": 266,
+      "cumulative_avg": 294.3
+    },
+    {
+      "year": 2017,
+      "month": 9,
+      "month_label": "Wrzesień 2017",
+      "total_participants": 304,
+      "cumulative_avg": 294.9
+    },
+    {
+      "year": 2017,
+      "month": 10,
+      "month_label": "Październik 2017",
+      "total_participants": 274,
+      "cumulative_avg": 293.6
+    },
+    {
+      "year": 2017,
+      "month": 11,
+      "month_label": "Listopad 2017",
+      "total_participants": 239,
+      "cumulative_avg": 290.4
+    },
+    {
+      "year": 2017,
+      "month": 12,
+      "month_label": "Grudzień 2017",
+      "total_participants": 435,
+      "cumulative_avg": 298.4
+    },
+    {
+      "year": 2018,
+      "month": 1,
+      "month_label": "Styczeń 2018",
+      "total_participants": 322,
+      "cumulative_avg": 299.7
+    },
+    {
+      "year": 2018,
+      "month": 2,
+      "month_label": "Luty 2018",
+      "total_participants": 247,
+      "cumulative_avg": 297.1
+    },
+    {
+      "year": 2018,
+      "month": 3,
+      "month_label": "Marzec 2018",
+      "total_participants": 270,
+      "cumulative_avg": 295.8
+    },
+    {
+      "year": 2018,
+      "month": 4,
+      "month_label": "Kwiecień 2018",
+      "total_participants": 285,
+      "cumulative_avg": 295.3
+    },
+    {
+      "year": 2018,
+      "month": 5,
+      "month_label": "Maj 2018",
+      "total_participants": 237,
+      "cumulative_avg": 292.7
+    },
+    {
+      "year": 2018,
+      "month": 6,
+      "month_label": "Czerwiec 2018",
+      "total_participants": 345,
+      "cumulative_avg": 294.9
+    },
+    {
+      "year": 2018,
+      "month": 7,
+      "month_label": "Lipiec 2018",
+      "total_participants": 286,
+      "cumulative_avg": 294.6
+    },
+    {
+      "year": 2018,
+      "month": 8,
+      "month_label": "Sierpień 2018",
+      "total_participants": 294,
+      "cumulative_avg": 294.5
+    },
+    {
+      "year": 2018,
+      "month": 9,
+      "month_label": "Wrzesień 2018",
+      "total_participants": 368,
+      "cumulative_avg": 297.3
+    },
+    {
+      "year": 2018,
+      "month": 10,
+      "month_label": "Październik 2018",
+      "total_participants": 250,
+      "cumulative_avg": 295.6
+    },
+    {
+      "year": 2018,
+      "month": 11,
+      "month_label": "Listopad 2018",
+      "total_participants": 287,
+      "cumulative_avg": 295.3
+    },
+    {
+      "year": 2018,
+      "month": 12,
+      "month_label": "Grudzień 2018",
+      "total_participants": 405,
+      "cumulative_avg": 298.9
+    },
+    {
+      "year": 2019,
+      "month": 1,
+      "month_label": "Styczeń 2019",
+      "total_participants": 356,
+      "cumulative_avg": 300.8
+    },
+    {
+      "year": 2019,
+      "month": 2,
+      "month_label": "Luty 2019",
+      "total_participants": 280,
+      "cumulative_avg": 300.1
+    },
+    {
+      "year": 2019,
+      "month": 3,
+      "month_label": "Marzec 2019",
+      "total_participants": 455,
+      "cumulative_avg": 304.8
+    },
+    {
+      "year": 2019,
+      "month": 4,
+      "month_label": "Kwiecień 2019",
+      "total_participants": 339,
+      "cumulative_avg": 305.8
+    },
+    {
+      "year": 2019,
+      "month": 5,
+      "month_label": "Maj 2019",
+      "total_participants": 300,
+      "cumulative_avg": 305.7
+    },
+    {
+      "year": 2019,
+      "month": 6,
+      "month_label": "Czerwiec 2019",
+      "total_participants": 338,
+      "cumulative_avg": 306.6
+    },
+    {
+      "year": 2019,
+      "month": 7,
+      "month_label": "Lipiec 2019",
+      "total_participants": 350,
+      "cumulative_avg": 307.7
+    },
+    {
+      "year": 2019,
+      "month": 8,
+      "month_label": "Sierpień 2019",
+      "total_participants": 398,
+      "cumulative_avg": 310.1
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "month_label": "Wrzesień 2019",
+      "total_participants": 274,
+      "cumulative_avg": 309.2
+    },
+    {
+      "year": 2019,
+      "month": 10,
+      "month_label": "Październik 2019",
+      "total_participants": 330,
+      "cumulative_avg": 309.7
+    },
+    {
+      "year": 2019,
+      "month": 11,
+      "month_label": "Listopad 2019",
+      "total_participants": 421,
+      "cumulative_avg": 312.4
+    },
+    {
+      "year": 2019,
+      "month": 12,
+      "month_label": "Grudzień 2019",
+      "total_participants": 339,
+      "cumulative_avg": 313.0
+    },
+    {
+      "year": 2020,
+      "month": 1,
+      "month_label": "Styczeń 2020",
+      "total_participants": 505,
+      "cumulative_avg": 317.5
+    },
+    {
+      "year": 2020,
+      "month": 2,
+      "month_label": "Luty 2020",
+      "total_participants": 475,
+      "cumulative_avg": 321.1
+    },
+    {
+      "year": 2020,
+      "month": 3,
+      "month_label": "Marzec 2020",
+      "total_participants": 82,
+      "cumulative_avg": 315.8
+    },
+    {
+      "year": 2021,
+      "month": 6,
+      "month_label": "Czerwiec 2021",
+      "total_participants": 176,
+      "cumulative_avg": 312.7
+    },
+    {
+      "year": 2021,
+      "month": 7,
+      "month_label": "Lipiec 2021",
+      "total_participants": 399,
+      "cumulative_avg": 314.6
+    },
+    {
+      "year": 2021,
+      "month": 8,
+      "month_label": "Sierpień 2021",
+      "total_participants": 275,
+      "cumulative_avg": 313.8
+    },
+    {
+      "year": 2021,
+      "month": 9,
+      "month_label": "Wrzesień 2021",
+      "total_participants": 267,
+      "cumulative_avg": 312.8
+    },
+    {
+      "year": 2021,
+      "month": 10,
+      "month_label": "Październik 2021",
+      "total_participants": 344,
+      "cumulative_avg": 313.4
+    },
+    {
+      "year": 2021,
+      "month": 11,
+      "month_label": "Listopad 2021",
+      "total_participants": 297,
+      "cumulative_avg": 313.1
+    },
+    {
+      "year": 2021,
+      "month": 12,
+      "month_label": "Grudzień 2021",
+      "total_participants": 257,
+      "cumulative_avg": 312.0
+    },
+    {
+      "year": 2022,
+      "month": 1,
+      "month_label": "Styczeń 2022",
+      "total_participants": 354,
+      "cumulative_avg": 312.8
+    },
+    {
+      "year": 2022,
+      "month": 2,
+      "month_label": "Luty 2022",
+      "total_participants": 253,
+      "cumulative_avg": 311.7
+    },
+    {
+      "year": 2022,
+      "month": 3,
+      "month_label": "Marzec 2022",
+      "total_participants": 290,
+      "cumulative_avg": 311.3
+    },
+    {
+      "year": 2022,
+      "month": 4,
+      "month_label": "Kwiecień 2022",
+      "total_participants": 332,
+      "cumulative_avg": 311.7
+    },
+    {
+      "year": 2022,
+      "month": 5,
+      "month_label": "Maj 2022",
+      "total_participants": 315,
+      "cumulative_avg": 311.7
+    },
+    {
+      "year": 2022,
+      "month": 6,
+      "month_label": "Czerwiec 2022",
+      "total_participants": 296,
+      "cumulative_avg": 311.5
+    },
+    {
+      "year": 2022,
+      "month": 7,
+      "month_label": "Lipiec 2022",
+      "total_participants": 344,
+      "cumulative_avg": 312.0
+    },
+    {
+      "year": 2022,
+      "month": 8,
+      "month_label": "Sierpień 2022",
+      "total_participants": 312,
+      "cumulative_avg": 312.0
+    },
+    {
+      "year": 2022,
+      "month": 9,
+      "month_label": "Wrzesień 2022",
+      "total_participants": 335,
+      "cumulative_avg": 312.4
+    },
+    {
+      "year": 2022,
+      "month": 10,
+      "month_label": "Październik 2022",
+      "total_participants": 365,
+      "cumulative_avg": 313.2
+    },
+    {
+      "year": 2022,
+      "month": 11,
+      "month_label": "Listopad 2022",
+      "total_participants": 289,
+      "cumulative_avg": 312.9
+    },
+    {
+      "year": 2022,
+      "month": 12,
+      "month_label": "Grudzień 2022",
+      "total_participants": 361,
+      "cumulative_avg": 313.6
+    },
+    {
+      "year": 2023,
+      "month": 1,
+      "month_label": "Styczeń 2023",
+      "total_participants": 366,
+      "cumulative_avg": 314.4
+    },
+    {
+      "year": 2023,
+      "month": 2,
+      "month_label": "Luty 2023",
+      "total_participants": 318,
+      "cumulative_avg": 314.5
+    },
+    {
+      "year": 2023,
+      "month": 3,
+      "month_label": "Marzec 2023",
+      "total_participants": 342,
+      "cumulative_avg": 314.9
+    },
+    {
+      "year": 2023,
+      "month": 4,
+      "month_label": "Kwiecień 2023",
+      "total_participants": 435,
+      "cumulative_avg": 316.6
+    },
+    {
+      "year": 2023,
+      "month": 5,
+      "month_label": "Maj 2023",
+      "total_participants": 376,
+      "cumulative_avg": 317.5
+    },
+    {
+      "year": 2023,
+      "month": 6,
+      "month_label": "Czerwiec 2023",
+      "total_participants": 419,
+      "cumulative_avg": 319.0
+    },
+    {
+      "year": 2023,
+      "month": 7,
+      "month_label": "Lipiec 2023",
+      "total_participants": 548,
+      "cumulative_avg": 322.2
+    },
+    {
+      "year": 2023,
+      "month": 8,
+      "month_label": "Sierpień 2023",
+      "total_participants": 431,
+      "cumulative_avg": 323.7
+    },
+    {
+      "year": 2023,
+      "month": 9,
+      "month_label": "Wrzesień 2023",
+      "total_participants": 819,
+      "cumulative_avg": 330.5
+    },
+    {
+      "year": 2023,
+      "month": 10,
+      "month_label": "Październik 2023",
+      "total_participants": 331,
+      "cumulative_avg": 330.5
+    },
+    {
+      "year": 2023,
+      "month": 11,
+      "month_label": "Listopad 2023",
+      "total_participants": 394,
+      "cumulative_avg": 331.3
+    },
+    {
+      "year": 2023,
+      "month": 12,
+      "month_label": "Grudzień 2023",
+      "total_participants": 588,
+      "cumulative_avg": 334.7
+    },
+    {
+      "year": 2024,
+      "month": 1,
+      "month_label": "Styczeń 2024",
+      "total_participants": 520,
+      "cumulative_avg": 337.1
+    },
+    {
+      "year": 2024,
+      "month": 2,
+      "month_label": "Luty 2024",
+      "total_participants": 378,
+      "cumulative_avg": 337.6
+    },
+    {
+      "year": 2024,
+      "month": 3,
+      "month_label": "Marzec 2024",
+      "total_participants": 621,
+      "cumulative_avg": 341.2
+    },
+    {
+      "year": 2024,
+      "month": 4,
+      "month_label": "Kwiecień 2024",
+      "total_participants": 457,
+      "cumulative_avg": 342.7
+    },
+    {
+      "year": 2024,
+      "month": 5,
+      "month_label": "Maj 2024",
+      "total_participants": 429,
+      "cumulative_avg": 343.7
+    },
+    {
+      "year": 2024,
+      "month": 6,
+      "month_label": "Czerwiec 2024",
+      "total_participants": 542,
+      "cumulative_avg": 346.2
+    },
+    {
+      "year": 2024,
+      "month": 7,
+      "month_label": "Lipiec 2024",
+      "total_participants": 399,
+      "cumulative_avg": 346.8
+    },
+    {
+      "year": 2024,
+      "month": 8,
+      "month_label": "Sierpień 2024",
+      "total_participants": 585,
+      "cumulative_avg": 349.6
+    },
+    {
+      "year": 2024,
+      "month": 9,
+      "month_label": "Wrzesień 2024",
+      "total_participants": 439,
+      "cumulative_avg": 350.7
+    },
+    {
+      "year": 2024,
+      "month": 10,
+      "month_label": "Październik 2024",
+      "total_participants": 576,
+      "cumulative_avg": 353.3
+    },
+    {
+      "year": 2024,
+      "month": 11,
+      "month_label": "Listopad 2024",
+      "total_participants": 574,
+      "cumulative_avg": 355.8
+    },
+    {
+      "year": 2024,
+      "month": 12,
+      "month_label": "Grudzień 2024",
+      "total_participants": 753,
+      "cumulative_avg": 360.4
+    },
+    {
+      "year": 2025,
+      "month": 1,
+      "month_label": "Styczeń 2025",
+      "total_participants": 597,
+      "cumulative_avg": 363.0
+    },
+    {
+      "year": 2025,
+      "month": 2,
+      "month_label": "Luty 2025",
+      "total_participants": 500,
+      "cumulative_avg": 364.5
+    },
+    {
+      "year": 2025,
+      "month": 3,
+      "month_label": "Marzec 2025",
+      "total_participants": 677,
+      "cumulative_avg": 368.0
+    },
+    {
+      "year": 2025,
+      "month": 4,
+      "month_label": "Kwiecień 2025",
+      "total_participants": 503,
+      "cumulative_avg": 369.4
+    },
+    {
+      "year": 2025,
+      "month": 5,
+      "month_label": "Maj 2025",
+      "total_participants": 608,
+      "cumulative_avg": 372.0
+    },
+    {
+      "year": 2025,
+      "month": 6,
+      "month_label": "Czerwiec 2025",
+      "total_participants": 517,
+      "cumulative_avg": 373.5
+    },
+    {
+      "year": 2025,
+      "month": 7,
+      "month_label": "Lipiec 2025",
+      "total_participants": 538,
+      "cumulative_avg": 375.3
+    },
+    {
+      "year": 2025,
+      "month": 8,
+      "month_label": "Sierpień 2025",
+      "total_participants": 658,
+      "cumulative_avg": 378.2
+    },
+    {
+      "year": 2025,
+      "month": 9,
+      "month_label": "Wrzesień 2025",
+      "total_participants": 588,
+      "cumulative_avg": 380.4
+    },
+    {
+      "year": 2025,
+      "month": 10,
+      "month_label": "Październik 2025",
+      "total_participants": 454,
+      "cumulative_avg": 381.1
+    },
+    {
+      "year": 2025,
+      "month": 11,
+      "month_label": "Listopad 2025",
+      "total_participants": 669,
+      "cumulative_avg": 384.0
+    },
+    {
+      "year": 2025,
+      "month": 12,
+      "month_label": "Grudzień 2025",
+      "total_participants": 641,
+      "cumulative_avg": 386.6
+    },
+    {
+      "year": 2026,
+      "month": 1,
+      "month_label": "Styczeń 2026",
+      "total_participants": 701,
+      "cumulative_avg": 389.7
+    },
+    {
+      "year": 2026,
+      "month": 2,
+      "month_label": "Luty 2026",
+      "total_participants": 382,
+      "cumulative_avg": 389.6
+    },
+    {
+      "year": 2026,
+      "month": 3,
+      "month_label": "Marzec 2026",
+      "total_participants": 620,
+      "cumulative_avg": 391.9
+    },
+    {
+      "year": 2026,
+      "month": 4,
+      "month_label": "Kwiecień 2026",
+      "total_participants": 583,
+      "cumulative_avg": 393.7
+    },
+    {
+      "year": 2026,
+      "month": 5,
+      "month_label": "Maj 2026",
+      "total_participants": 826,
+      "cumulative_avg": 397.8
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "month_label": "Czerwiec 2026",
+      "total_participants": 601,
+      "cumulative_avg": 399.8
+    },
+    {
+      "year": 2026,
+      "month": 7,
+      "month_label": "Lipiec 2026",
+      "total_participants": 617,
+      "cumulative_avg": 401.8
+    },
+    {
+      "year": 2026,
+      "month": 8,
+      "month_label": "Sierpień 2026",
+      "total_participants": 724,
+      "cumulative_avg": 404.8
+    }
+  ]
+}

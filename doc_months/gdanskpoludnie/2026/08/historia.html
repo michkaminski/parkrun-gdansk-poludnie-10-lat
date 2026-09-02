@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title id="page-title">Historia — raport miesiąca</title>
+<meta name="description" content="Kontekst lokalizacji: rok do tego miesiąca, średnia krocząca, statystyki all-time.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%85%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../../../assets/css/style.css">
+</head>
+<body data-page="historia" data-section-label="Historia">
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html">
+      <span class="brand-badge">📅</span>
+      <span id="brand-label">parkrun</span>
+    </a>
+    <nav class="site-nav">
+      <a href="frekwencja.html">Frekwencja</a>
+      <a href="demografia.html">Demografia</a>
+      <a href="hall-of-fame.html">Hall of Fame</a>
+      <a href="wolontariusze.html">Wolontariusze</a>
+      <a href="rekordy.html">Rekordy</a>
+      <a href="historia.html">Historia</a>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Przełącz motyw jasny/ciemny">🌙</button>
+    </nav>
+  </div>
+</header>
+
+<div class="month-banner">
+  <div class="container">
+    <span id="month-banner-label">Statystyki — …</span>
+  </div>
+</div>
+
+<main id="top">
+  <section class="page-section" id="year-summary">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-kicker">Rok do tego miesiąca</span>
+        <h2 id="year-summary-title">Statystyki w roku</h2>
+      </div>
+      <div class="kpi-grid" id="year-summary-kpi-grid"></div>
+    </div>
+  </section>
+
+  <section class="page-section" id="cumulative">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-kicker">Cała historia lokalizacji</span>
+        <h2>Średnia krocząca frekwencji miesięcznej</h2>
+        <p>Skumulowana średnia miesięczna od pierwszej edycji do tego miesiąca (punkt tego miesiąca podświetlony).</p>
+      </div>
+      <div class="chart-card">
+        <div class="chart-canvas-wrap tall"><canvas id="chart-cumulative"></canvas></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section" id="location-context">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-kicker">Kontekst lokalizacji</span>
+        <h2 id="location-context-title">Cała historia</h2>
+      </div>
+      <p class="context-strip" id="location-context-strip"></p>
+
+      <div class="tables-grid-pair" style="margin-top: var(--space-4);">
+        <div class="table-card">
+          <h3>Kategorie wiekowe all-time — kobiety</h3>
+          <div class="table-scroll">
+            <table class="data-table" id="table-location-cat-k" data-default-sort="count" data-default-dir="desc">
+              <thead><tr><th data-key="category">Kat. wiek</th><th data-key="count">Ilość</th><th data-key="avg_time">Śr. czas</th><th data-key="best_display">Najlepszy wynik</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+        <div class="table-card">
+          <h3>Kategorie wiekowe all-time — mężczyźni</h3>
+          <div class="table-scroll">
+            <table class="data-table" id="table-location-cat-m" data-default-sort="count" data-default-dir="desc">
+              <thead><tr><th data-key="category">Kat. wiek</th><th data-key="count">Ilość</th><th data-key="avg_time">Śr. czas</th><th data-key="best_display">Najlepszy wynik</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>Dane pochodzą z publicznych wyników parkrun.pl, zebranych i zagregowanych lokalnie.</p>
+  </div>
+</footer>
+
+<script src="../../../assets/js/vendor/chart.umd.min.js"></script>
+<script src="../../../assets/js/vendor/chartjs-plugin-annotation.min.js"></script>
+<script src="../../../assets/js/month-report.js"></script>
+</body>
+</html>
