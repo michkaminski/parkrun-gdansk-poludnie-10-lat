@@ -571,9 +571,12 @@
     const opts = options || {};
     const showCoeff = opts.showCoefficient;
     const hideTitle = opts.hideTitle;
-    const head = showCoeff
-      ? "<tr><th>Msc</th><th>Uczestnik</th><th>Kat.</th><th>Czas</th><th>Wsp.</th></tr>"
-      : "<tr><th>Msc</th><th>Uczestnik</th><th>Kat.</th><th>Czas</th></tr>";
+    const showDate = opts.showDate;
+    let head = showCoeff
+      ? "<tr><th>Msc</th><th>Uczestnik</th><th>Kat.</th>"
+      : "<tr><th>Msc</th><th>Uczestnik</th><th>Kat.</th>";
+    if (showDate) head += "<th>Edycja</th>";
+    head += showCoeff ? "<th>Czas</th><th>Wsp.</th></tr>" : "<th>Czas</th></tr>";
     const titleHtml = title && !hideTitle ? `<h4>${escapeHtml(title)}</h4>` : "";
     if (!rows || !rows.length) {
       return `<div class="table-card table-card-nested">${titleHtml}<p class="chart-caption">Brak wyników.</p></div>`;
@@ -581,10 +584,12 @@
     const body = rows
       .map((row) => {
         const coeffCell = showCoeff ? `<td>${orDash(row.coefficient != null ? row.coefficient.toFixed(2) : null)}</td>` : "";
+        const dateCell = showDate ? `<td>${dateFmt(row.date)}</td>` : "";
         return `<tr>
           <td>${row.place}</td>
           <td class="cell-name">${escapeHtml(row.name)}</td>
           <td>${escapeHtml(orDash(row.category))}</td>
+          ${dateCell}
           <td>${escapeHtml(orDash(row.time))}</td>
           ${coeffCell}
         </tr>`;
@@ -592,6 +597,59 @@
       .join("");
     return `<div class="table-card table-card-nested">${titleHtml}
       <div class="table-scroll"><table class="data-table podium-table"><thead>${head}</thead><tbody>${body}</tbody></table></div></div>`;
+  }
+
+  function rankingPodiumBlockHtml(block, options) {
+    const opts = options || {};
+    const showDate = !!opts.showDate;
+    const tableOpts = { showDate };
+    const times = `<div class="edition-ranking-subsection">
+          <h4 class="edition-ranking-subtitle">Pierwsza trójka — czasy</h4>
+          <div class="edition-ranking-pair">
+            ${podiumTableHtml("Kobiety", block.top_women, tableOpts)}
+            ${podiumTableHtml("Mężczyźni", block.top_men, tableOpts)}
+          </div>
+        </div>`;
+    const ag = `<div class="edition-ranking-subsection edition-ranking-ag-table">
+          <h4 class="edition-ranking-subtitle">Pierwsza trójka — współczynnik wieku</h4>
+          ${podiumTableHtml("", block.top_age_graded, { showCoefficient: true, hideTitle: true, showDate })}
+        </div>`;
+    const categories = block.categories || [];
+    let categoriesBlock = "";
+    if (categories.length) {
+      const catSummary = opts.monthCategoriesSummary || "Kategorie wiekowe — pierwsze trójki (wg czasu)";
+      categoriesBlock = `<details class="record-category-standings edition-ranking-subsection edition-ranking-categories">
+            <summary>${escapeHtml(catSummary)}</summary>
+            <div class="edition-ranking-categories-stack">
+              ${editionCategoriesMatrixHtml(block, "K", "Kobiety")}
+              ${editionCategoriesMatrixHtml(block, "M", "Mężczyźni")}
+            </div>
+          </details>`;
+    }
+    return `${times}${ag}${categoriesBlock}`;
+  }
+
+  function editionRankingCardHtml(block, cardOpts) {
+    const isMonth = cardOpts && cardOpts.isMonth;
+    const cardClass = isMonth ? "edition-ranking-card edition-ranking-card--month" : "edition-ranking-card";
+    let head;
+    if (isMonth) {
+      head = `<div class="edition-ranking-head">
+        <span class="edition-ranking-badge edition-ranking-badge--month">Cały miesiąc</span>
+        <h3>${escapeHtml(cardOpts.title || "Podsumowanie miesiąca")}</h3>
+        ${cardOpts.lede ? `<p class="edition-ranking-lede">${escapeHtml(cardOpts.lede)}</p>` : ""}
+      </div>`;
+    } else {
+      head = `<div class="edition-ranking-head">
+        <span class="edition-ranking-badge">Edycja #${block.edition_number}</span>
+        <h3>${dateFmt(block.date)}</h3>
+      </div>`;
+    }
+    const body = rankingPodiumBlockHtml(block, {
+      showDate: isMonth,
+      monthCategoriesSummary: cardOpts && cardOpts.monthCategoriesSummary,
+    });
+    return `<article class="${cardClass}">${head}<div class="edition-ranking-card-body">${body}</div></article>`;
   }
 
   function renderEditionRankings(editionRankings, meta) {
@@ -606,44 +664,33 @@
       return;
     }
 
-    root.innerHTML = editions
-      .map((edition) => {
-        const head = `<div class="edition-ranking-head"><h3>Edycja #${edition.edition_number} · ${dateFmt(edition.date)}</h3></div>`;
-        const times = `<div class="edition-ranking-subsection">
-          <h4 class="edition-ranking-subtitle">Pierwsza trójka — czasy</h4>
-          <div class="edition-ranking-pair">
-            ${podiumTableHtml("Kobiety", edition.top_women)}
-            ${podiumTableHtml("Mężczyźni", edition.top_men)}
-          </div>
-        </div>`;
-        const ag = `<div class="edition-ranking-subsection edition-ranking-ag-table">
-          <h4 class="edition-ranking-subtitle">Pierwsza trójka — współczynnik wieku</h4>
-          ${podiumTableHtml("", edition.top_age_graded, { showCoefficient: true, hideTitle: true })}
-        </div>`;
-        const categories = edition.categories || [];
-        let categoriesBlock = "";
-        if (categories.length) {
-          categoriesBlock = `<details class="record-category-standings edition-ranking-subsection edition-ranking-categories">
-            <summary>Kategorie wiekowe — pierwsze trójki (wg czasu)</summary>
-            <div class="edition-ranking-categories-stack">
-              ${editionCategoriesMatrixHtml(edition, "K", "Kobiety")}
-              ${editionCategoriesMatrixHtml(edition, "M", "Mężczyźni")}
-            </div>
-          </details>`;
-        }
-        return `<article class="edition-ranking-block">${head}${times}${ag}${categoriesBlock}</article>`;
-      })
-      .join("");
+    const monthName = meta ? monthNameFromMeta(meta) : "";
+    const editionsHtml = editions.map((edition) => editionRankingCardHtml(edition, { isMonth: false })).join("");
+
+    let monthHtml = "";
+    const monthBlock = editionRankings && editionRankings.month;
+    if (monthBlock) {
+      monthHtml = `<div class="edition-rankings-month-wrap">
+        ${editionRankingCardHtml(monthBlock, {
+          isMonth: true,
+          title: `Podsumowanie — ${monthName}`,
+          lede: "Jeden najlepszy wynik na zawodnika w miesiącu. W kategoriach wiekowych — najlepszy czas danej osoby w tej kategorii.",
+          monthCategoriesSummary: "Kategorie wiekowe — pierwsze trójki w miesiącu (najlepszy czas w kategorii)",
+        })}
+      </div>`;
+    }
+
+    root.innerHTML = `<div class="edition-rankings-editions">${editionsHtml}</div>${monthHtml}`;
   }
 
   function renderRankingiHeadings(meta) {
     if (document.body.dataset.page !== "rankingi") return;
     const monthName = monthNameFromMeta(meta);
     const monthLocative = MONTH_IN_MONTH_LOCATIVE[meta.month] || monthName.toLowerCase();
-    setText("edition-rankings-title", `Rankingi na edycjach — ${monthName}`);
+    setText("edition-rankings-title", `Rankingi — ${monthName}`);
     setText(
       "edition-rankings-desc",
-      `Każda edycja ${monthLocative}: czasy K/M, współczynnik wieku, potem pierwsze trójki w kategoriach (liczba w nawiasie).`
+      `Każda edycja ${monthLocative} w osobnej karcie; na dole podsumowanie miesiąca (jeden wynik na zawodnika).`
     );
   }
 
