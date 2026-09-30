@@ -5293,19 +5293,22 @@
             "place": 1,
             "name": "Jakub KISIELIŃSKI",
             "category": "SM25-29",
-            "time": "17:28"
+            "time": "17:28",
+            "date": "2026-09-05"
           },
           {
             "place": 2,
             "name": "Tomasz BAGIŃSKI",
             "category": "VM45-49",
-            "time": "17:44"
+            "time": "17:44",
+            "date": "2026-09-05"
           },
           {
             "place": 3,
             "name": "Wiktor Jan KOZŁOWSKI",
             "category": "VM35-39",
-            "time": "18:23"
+            "time": "18:23",
+            "date": "2026-09-05"
           }
         ],
         "top_women": [
@@ -5313,19 +5316,22 @@
             "place": 1,
             "name": "Anna KWIATKOWSKA",
             "category": "VW45-49",
-            "time": "24:14"
+            "time": "24:14",
+            "date": "2026-09-05"
           },
           {
             "place": 2,
             "name": "Ewelina SZAJDZIUK",
             "category": "VW45-49",
-            "time": "24:48"
+            "time": "24:48",
+            "date": "2026-09-05"
           },
           {
             "place": 3,
             "name": "Małgorzata FOLWARSKA",
             "category": "VW40-44",
-            "time": "25:17"
+            "time": "25:17",
+            "date": "2026-09-05"
           }
         ],
         "top_age_graded": [
@@ -5334,6 +5340,7 @@
             "name": "Tomasz BAGIŃSKI",
             "category": "VM45-49",
             "time": "17:44",
+            "date": "2026-09-05",
             "coefficient": 80.55
           },
           {
@@ -5341,6 +5348,7 @@
             "name": "Michał TWAROWSKI",
             "category": "VM50-54",
             "time": "20:03",
+            "date": "2026-09-05",
             "coefficient": 74.73
           },
           {
@@ -5348,6 +5356,7 @@
             "name": "Jakub KISIELIŃSKI",
             "category": "SM25-29",
             "time": "17:28",
+            "date": "2026-09-05",
             "coefficient": 73.85
           }
         ],
@@ -5361,19 +5370,22 @@
                 "place": 1,
                 "name": "Stanisław RÓŻYCKI",
                 "category": "JM10",
-                "time": "28:00"
+                "time": "28:00",
+                "date": "2026-09-05"
               },
               {
                 "place": 2,
                 "name": "Krystian WRÓBEL",
                 "category": "JM10",
-                "time": "33:25"
+                "time": "33:25",
+                "date": "2026-09-05"
               },
               {
                 "place": 3,
                 "name": "Piotr KŁOSOWSKI",
                 "category": "JM10",
-                "time": "42:16"
+                "time": "42:16",
+                "date": "2026-09-05"
               }
             ]
           },
@@ -5386,19 +5398,22 @@
                 "place": 1,
                 "name": "Szymon DAWIDOWSKI",
                 "category": "JM11-14",
-                "time": "25:10"
+                "time": "25:10",
+                "date": "2026-09-05"
               },
               {
                 "place": 2,
                 "name": "Filip GŁADKI",
                 "category": "JM11-14",
-                "time": "27:41"
+                "time": "27:41",
+                "date": "2026-09-05"
               },
               {
                 "place": 3,
                 "name": "Szymon DYMARSKI",
                 "category": "JM11-14",
-                "time": "28:52"
+                "time": "28:52",
+                "date": "2026-09-05"
               }
             ]
           },
@@ -5411,19 +5426,22 @@
                 "place": 1,
                 "name": "Aliaksei DZIATLAU",
                 "category": "JM15-17",
-                "time": "25:24"
+                "time": "25:24",
+                "date": "2026-09-05"
               },
               {
                 "place": 2,
                 "name": "Mateusz ŚMIGELSKI",
                 "category": "JM15-17",
-                "time": "29:27"
+                "time": "29:27",
+                "date": "2026-09-05"
               },
               {
                 "place": 3,
                 "name": "Artur KURYLONEK",
                 "category": "JM15-17",
-                "time": "30:03"
+                "time": "30:03",
+                "date": "2026-09-05"
               }
             ]
           },
@@ -5436,19 +5454,22 @@
                 "place": 1,
                 "name": "Barbara DOBRZYŃSKA",
                 "category": "JW10",
-                "time": "48:13"
+                "time": "48:13",
+                "date": "2026-09-05"
               },
               {
                 "place": 2,
                 "name": "Kornelia DOBRZYŃSKA",
                 "category": "JW10",
-                "time": "48:13"
+                "time": "48:13",
+                "date": "2026-09-05"
               },
               {
                 "place": 3,
                 "name": "Lidia DOBRZYŃSKA",
                 "category": "JW10",
-                "time": "49:42"
+                "time": "49:42",
+                "date": "2026-09-05"
               }
             ]
           },
@@ -5461,19 +5482,22 @@
                 "place": 1,
                 "name": "Iga MANKIEWICZ",
                 "category": "JW11-14",
-                "time": "31:24"
+                "time": "31:24",
+                "date": "2026-09-05"
               },
               {
                 "place": 2,
                 "name": "Alicja PIOTROWSKA",
                 "category": "JW11-14",
-                "time": "33:21"
+                "time": "33:21",
+                "date": "2026-09-05"
               },
               {
                 "place": 3,
                 "name": "Patrycja PIOTROWSKA",
                 "category": "JW11-14",
-                "time": "41:23"
+                "time": "41:23",
+                "date": "2026-09-05"
               }
             ]
           },
@@ -5486,13 +5510,15 @@
                 "place": 1,
                 "name": "Maciej JABŁONOWSKI",
                 "category": "SM20-24",
-                "time": "26:24"
+                "time": "26:24",
+                "date": "2026-09-05"
               },
               {
                 "place": 2,
                 "name": "Filip PATUŁA",
                 "category": "SM20-24",
-                "time": "29:49"
+                "time": "29:49",
+                "date": "2026-09-05"
               }
             ]
           },
@@ -5505,19 +5531,22 @@
                 "place": 1,
                 "name": "Jakub KISIELIŃSKI",
                 "category": "SM25-29",
-                "time": "17:28"
+                "time": "17:28",
+                "date": "2026-09-05"
               },
               {
                 "place": 2,
                 "name": "Oskar Franciszek ŁAWRYNIUK",
                 "category": "SM25-29",
-                "time": "23:01"
+                "time": "23:01",
+                "date": "2026-09-05"
               },
               {
                 "place": 3,
                 "name": "Rhys EVANS",
                 "category": "SM25-29",
-                "time": "33:27"
+                "time": "33:27",
+                "date": "2026-09-05"
               }
             ]
           },
@@ -5530,19 +5559,22 @@
                 "place": 1,
                 "name": "James COX",
                 "category": "SM30-34",
-                "time": "23:24"
+                "time": "23:24",
+                "date": "2026-09-05"
               },
               {
                 "place": 2,
                 "name": "Rafał KUJAWSKI",
                 "category": "SM30-34",
-                "time": "24:30"
+                "time": "24:30",
+                "date": "2026-09-05"
               },
               {
                 "place": 3,
                 "name": "Rafał NGUYEN VAN",
                 "category": "SM30-34",
-                "time": "24:56"
+                "time": "24:56",
+                "date": "2026-09-05"
               }
             ]
           },
@@ -5555,19 +5587,22 @@
                 "place": 1,
                 "name": "Magdalena SZOPIŃSKA",
                 "category": "SW30-34",
-                "time": "26:43"
+                "time": "26:43",
+                "date": "2026-09-05"
               },
               {
                 "place": 2,
                 "name": "Sandra ZYGIEL",
                 "category": "SW30-34",
-                "time": "28:41"
+                "time": "28:41",
+                "date": "2026-09-05"
               },
               {
                 "place": 3,
                 "name": "Ewelina DOBRZYŃSKA",
                 "category": "SW30-34",
-                "time": "48:14"
+                "time": "48:14",
+                "date": "2026-09-05"
               }
             ]
           },
@@ -5580,19 +5615,22 @@
                 "place": 1,
                 "name": "Wiktor Jan KOZŁOWSKI",
                 "category": "VM35-39",
-                "time": "18:23"
+                "time": "18:23",
+                "date": "2026-09-05"
               },
               {
                 "place": 2,
                 "name": "Tomasz SZCZYKUTOWICZ",
                 "category": "VM35-39",
-                "time": "18:27"
+                "time": "18:27",
+                "date": "2026-09-05"
               },
               {
                 "place": 3,
                 "name": "Maciej DUTKIEWICZ",
                 "category": "VM35-39",
-                "time": "18:48"
+                "time": "18:48",
+                "date": "2026-09-05"
               }
             ]
           },
@@ -5605,19 +5643,22 @@
                 "place": 1,
                 "name": "Paweł RÓŻYCKI",
                 "category": "VM40-44",
-                "time": "21:02"
+                "time": "21:02",
+                "date": "2026-09-05"
               },
               {
                 "place": 2,
                 "name": "Krzysztof SZUTOWICZ",
                 "category": "VM40-44",
-                "time": "22:26"
+                "time": "22:26",
+                "date": "2026-09-05"
               },
               {
                 "place": 3,
                 "name": "Dariusz JANOWICZ",
                 "category": "VM40-44",
-                "time": "22:40"
+                "time": "22:40",
+                "date": "2026-09-05"
               }
             ]
           },
@@ -5630,19 +5671,22 @@
                 "place": 1,
                 "name": "Tomasz BAGIŃSKI",
                 "category": "VM45-49",
-                "time": "17:44"
+                "time": "17:44",
+                "date": "2026-09-05"
               },
               {
                 "place": 2,
                 "name": "Jakub KALISZEWSKI",
                 "category": "VM45-49",
-                "time": "20:48"
+                "time": "20:48",
+                "date": "2026-09-05"
               },
               {
                 "place": 3,
                 "name": "Damian DINO",
                 "category": "VM45-49",
-                "time": "21:01"
+                "time": "21:01",
+                "date": "2026-09-05"
               }
             ]
           },
@@ -5655,19 +5699,22 @@
                 "place": 1,
                 "name": "Michał TWAROWSKI",
                 "category": "VM50-54",
-                "time": "20:03"
+                "time": "20:03",
+                "date": "2026-09-05"
               },
               {
                 "place": 2,
                 "name": "Dariusz HAJDUK",
                 "category": "VM50-54",
-                "time": "23:48"
+                "time": "23:48",
+                "date": "2026-09-05"
               },
               {
                 "place": 3,
                 "name": "Piotr Krzysztof SZAJDZIUK",
                 "category": "VM50-54",
-                "time": "24:00"
+                "time": "24:00",
+                "date": "2026-09-05"
               }
             ]
           },
@@ -5680,19 +5727,22 @@
                 "place": 1,
                 "name": "Tomasz ROJEK",
                 "category": "VM55-59",
-                "time": "26:24"
+                "time": "26:24",
+                "date": "2026-09-05"
               },
               {
                 "place": 2,
                 "name": "Leszek DULKO",
                 "category": "VM55-59",
-                "time": "28:11"
+                "time": "28:11",
+                "date": "2026-09-05"
               },
               {
                 "place": 3,
                 "name": "Stanisław SKWIOT",
                 "category": "VM55-59",
-                "time": "28:16"
+                "time": "28:16",
+                "date": "2026-09-05"
               }
             ]
           },
@@ -5705,13 +5755,15 @@
                 "place": 1,
                 "name": "Wojciech BLEW",
                 "category": "VM60-64",
-                "time": "28:03"
+                "time": "28:03",
+                "date": "2026-09-05"
               },
               {
                 "place": 2,
                 "name": "Piotr JĘDRZEJEWSKI",
                 "category": "VM60-64",
-                "time": "30:07"
+                "time": "30:07",
+                "date": "2026-09-05"
               }
             ]
           },
@@ -5724,13 +5776,15 @@
                 "place": 1,
                 "name": "Henryk RATKOWSKI",
                 "category": "VM65-69",
-                "time": "24:46"
+                "time": "24:46",
+                "date": "2026-09-05"
               },
               {
                 "place": 2,
                 "name": "Zbigniew MAŁKOWSKI",
                 "category": "VM65-69",
-                "time": "34:41"
+                "time": "34:41",
+                "date": "2026-09-05"
               }
             ]
           },
@@ -5743,7 +5797,8 @@
                 "place": 1,
                 "name": "Adam POLINCEUSZ",
                 "category": "VM70-74",
-                "time": "31:52"
+                "time": "31:52",
+                "date": "2026-09-05"
               }
             ]
           },
@@ -5756,13 +5811,15 @@
                 "place": 1,
                 "name": "Ila PO",
                 "category": "VW35-39",
-                "time": "26:46"
+                "time": "26:46",
+                "date": "2026-09-05"
               },
               {
                 "place": 2,
                 "name": "Angelika SZAFRAN",
                 "category": "VW35-39",
-                "time": "28:16"
+                "time": "28:16",
+                "date": "2026-09-05"
               }
             ]
           },
@@ -5775,19 +5832,22 @@
                 "place": 1,
                 "name": "Małgorzata FOLWARSKA",
                 "category": "VW40-44",
-                "time": "25:17"
+                "time": "25:17",
+                "date": "2026-09-05"
               },
               {
                 "place": 2,
                 "name": "Anna TOMASZEWSKA",
                 "category": "VW40-44",
-                "time": "28:34"
+                "time": "28:34",
+                "date": "2026-09-05"
               },
               {
                 "place": 3,
                 "name": "Monika SKOTARCZAK",
                 "category": "VW40-44",
-                "time": "28:41"
+                "time": "28:41",
+                "date": "2026-09-05"
               }
             ]
           },
@@ -5800,19 +5860,22 @@
                 "place": 1,
                 "name": "Anna KWIATKOWSKA",
                 "category": "VW45-49",
-                "time": "24:14"
+                "time": "24:14",
+                "date": "2026-09-05"
               },
               {
                 "place": 2,
                 "name": "Ewelina SZAJDZIUK",
                 "category": "VW45-49",
-                "time": "24:48"
+                "time": "24:48",
+                "date": "2026-09-05"
               },
               {
                 "place": 3,
                 "name": "Katarzyna KOBYLIŃSKA",
                 "category": "VW45-49",
-                "time": "25:31"
+                "time": "25:31",
+                "date": "2026-09-05"
               }
             ]
           },
@@ -5825,19 +5888,22 @@
                 "place": 1,
                 "name": "Małgorzata STRZELECKA",
                 "category": "VW50-54",
-                "time": "27:37"
+                "time": "27:37",
+                "date": "2026-09-05"
               },
               {
                 "place": 2,
                 "name": "Alina BARANOWSKA",
                 "category": "VW50-54",
-                "time": "31:24"
+                "time": "31:24",
+                "date": "2026-09-05"
               },
               {
                 "place": 3,
                 "name": "Magdalena KLAP",
                 "category": "VW50-54",
-                "time": "34:07"
+                "time": "34:07",
+                "date": "2026-09-05"
               }
             ]
           },
@@ -5850,13 +5916,15 @@
                 "place": 1,
                 "name": "Joanna SAWCZUK",
                 "category": "VW55-59",
-                "time": "30:17"
+                "time": "30:17",
+                "date": "2026-09-05"
               },
               {
                 "place": 2,
                 "name": "Małgorzata KWAPISIEWICZ",
                 "category": "VW55-59",
-                "time": "32:03"
+                "time": "32:03",
+                "date": "2026-09-05"
               }
             ]
           },
@@ -5869,7 +5937,8 @@
                 "place": 1,
                 "name": "Grażyna CZEKAJ",
                 "category": "VW65-69",
-                "time": "30:20"
+                "time": "30:20",
+                "date": "2026-09-05"
               }
             ]
           },
@@ -5882,7 +5951,8 @@
                 "place": 1,
                 "name": "Małgorzata POLINCEUSZ",
                 "category": "VW70-74",
-                "time": "49:44"
+                "time": "49:44",
+                "date": "2026-09-05"
               }
             ]
           }
@@ -5896,19 +5966,22 @@
             "place": 1,
             "name": "Tomasz BAGIŃSKI",
             "category": "VM45-49",
-            "time": "17:34"
+            "time": "17:34",
+            "date": "2026-09-12"
           },
           {
             "place": 2,
             "name": "Adam ALAMA",
             "category": "VM45-49",
-            "time": "18:54"
+            "time": "18:54",
+            "date": "2026-09-12"
           },
           {
             "place": 3,
             "name": "Kornel BREŃKACZ",
             "category": "SM30-34",
-            "time": "19:02"
+            "time": "19:02",
+            "date": "2026-09-12"
           }
         ],
         "top_women": [
@@ -5916,19 +5989,22 @@
             "place": 1,
             "name": "Dorota ŻMUDA-TRZEBIATOWSKA",
             "category": "VW40-44",
-            "time": "20:33"
+            "time": "20:33",
+            "date": "2026-09-12"
           },
           {
             "place": 2,
             "name": "Monika GUZOWSKA",
             "category": "SW20-24",
-            "time": "23:39"
+            "time": "23:39",
+            "date": "2026-09-12"
           },
           {
             "place": 3,
             "name": "Małgorzata FOLWARSKA",
             "category": "VW40-44",
-            "time": "24:15"
+            "time": "24:15",
+            "date": "2026-09-12"
           }
         ],
         "top_age_graded": [
@@ -5937,6 +6013,7 @@
             "name": "Tomasz BAGIŃSKI",
             "category": "VM45-49",
             "time": "17:34",
+            "date": "2026-09-12",
             "coefficient": 81.31
           },
           {
@@ -5944,6 +6021,7 @@
             "name": "Leszek BEHOUNEK",
             "category": "VM65-69",
             "time": "21:01",
+            "date": "2026-09-12",
             "coefficient": 81.28
           },
           {
@@ -5951,6 +6029,7 @@
             "name": "Małgorzata POLINCEUSZ",
             "category": "VW70-74",
             "time": "29:16",
+            "date": "2026-09-12",
             "coefficient": 78.64
           }
         ],
@@ -5964,7 +6043,8 @@
                 "place": 1,
                 "name": "Filip KANIA",
                 "category": "JM10",
-                "time": "37:51"
+                "time": "37:51",
+                "date": "2026-09-12"
               }
             ]
           },
@@ -5977,19 +6057,22 @@
                 "place": 1,
                 "name": "Borys SOWIŃSKI",
                 "category": "JM11-14",
-                "time": "23:07"
+                "time": "23:07",
+                "date": "2026-09-12"
               },
               {
                 "place": 2,
                 "name": "Filip GŁADKI",
                 "category": "JM11-14",
-                "time": "26:01"
+                "time": "26:01",
+                "date": "2026-09-12"
               },
               {
                 "place": 3,
                 "name": "Szymon DYMARSKI",
                 "category": "JM11-14",
-                "time": "29:18"
+                "time": "29:18",
+                "date": "2026-09-12"
               }
             ]
           },
@@ -6002,19 +6085,22 @@
                 "place": 1,
                 "name": "Karol ŻMUDA-TRZEBIATOWSKI",
                 "category": "JM15-17",
-                "time": "19:05"
+                "time": "19:05",
+                "date": "2026-09-12"
               },
               {
                 "place": 2,
                 "name": "Maciek KANIA",
                 "category": "JM15-17",
-                "time": "22:38"
+                "time": "22:38",
+                "date": "2026-09-12"
               },
               {
                 "place": 3,
                 "name": "Szczo DRO",
                 "category": "JM15-17",
-                "time": "27:58"
+                "time": "27:58",
+                "date": "2026-09-12"
               }
             ]
           },
@@ -6027,19 +6113,22 @@
                 "place": 1,
                 "name": "Barbara DOBRZYŃSKA",
                 "category": "JW10",
-                "time": "48:25"
+                "time": "48:25",
+                "date": "2026-09-12"
               },
               {
                 "place": 2,
                 "name": "Kornelia DOBRZYŃSKA",
                 "category": "JW10",
-                "time": "48:26"
+                "time": "48:26",
+                "date": "2026-09-12"
               },
               {
                 "place": 3,
                 "name": "Lidia DOBRZYŃSKA",
                 "category": "JW10",
-                "time": "50:56"
+                "time": "50:56",
+                "date": "2026-09-12"
               }
             ]
           },
@@ -6052,19 +6141,22 @@
                 "place": 1,
                 "name": "Iga MANKIEWICZ",
                 "category": "JW11-14",
-                "time": "30:17"
+                "time": "30:17",
+                "date": "2026-09-12"
               },
               {
                 "place": 2,
                 "name": "Alicja PIOTROWSKA",
                 "category": "JW11-14",
-                "time": "34:03"
+                "time": "34:03",
+                "date": "2026-09-12"
               },
               {
                 "place": 3,
                 "name": "Ewelina S",
                 "category": "JW11-14",
-                "time": "35:35"
+                "time": "35:35",
+                "date": "2026-09-12"
               }
             ]
           },
@@ -6077,19 +6169,22 @@
                 "place": 1,
                 "name": "Krzysztof SITA",
                 "category": "SM18-19",
-                "time": "19:48"
+                "time": "19:48",
+                "date": "2026-09-12"
               },
               {
                 "place": 2,
                 "name": "Marek KAMIŃSKI",
                 "category": "SM18-19",
-                "time": "29:35"
+                "time": "29:35",
+                "date": "2026-09-12"
               },
               {
                 "place": 3,
                 "name": "Cyprian LEHMANN",
                 "category": "SM18-19",
-                "time": "35:03"
+                "time": "35:03",
+                "date": "2026-09-12"
               }
             ]
           },
@@ -6102,13 +6197,15 @@
                 "place": 1,
                 "name": "Wojciech ŻYROMSKI",
                 "category": "SM20-24",
-                "time": "21:39"
+                "time": "21:39",
+                "date": "2026-09-12"
               },
               {
                 "place": 2,
                 "name": "Karol FINGAJSKI",
                 "category": "SM20-24",
-                "time": "37:22"
+                "time": "37:22",
+                "date": "2026-09-12"
               }
             ]
           },
@@ -6121,7 +6218,8 @@
                 "place": 1,
                 "name": "Dominik PITUŁA",
                 "category": "SM25-29",
-                "time": "51:20"
+                "time": "51:20",
+                "date": "2026-09-12"
               }
             ]
           },
@@ -6134,19 +6232,22 @@
                 "place": 1,
                 "name": "Kornel BREŃKACZ",
                 "category": "SM30-34",
-                "time": "19:02"
+                "time": "19:02",
+                "date": "2026-09-12"
               },
               {
                 "place": 2,
                 "name": "Marcin SKIRŁO",
                 "category": "SM30-34",
-                "time": "19:39"
+                "time": "19:39",
+                "date": "2026-09-12"
               },
               {
                 "place": 3,
                 "name": "Adam BRZOSKOWSKI",
                 "category": "SM30-34",
-                "time": "22:26"
+                "time": "22:26",
+                "date": "2026-09-12"
               }
             ]
           },
@@ -6159,13 +6260,15 @@
                 "place": 1,
                 "name": "Monika GUZOWSKA",
                 "category": "SW20-24",
-                "time": "23:39"
+                "time": "23:39",
+                "date": "2026-09-12"
               },
               {
                 "place": 2,
                 "name": "Kornelia Anna FRANKIEWICZ",
                 "category": "SW20-24",
-                "time": "45:04"
+                "time": "45:04",
+                "date": "2026-09-12"
               }
             ]
           },
@@ -6178,19 +6281,22 @@
                 "place": 1,
                 "name": "Weronika BAJOR",
                 "category": "SW25-29",
-                "time": "28:30"
+                "time": "28:30",
+                "date": "2026-09-12"
               },
               {
                 "place": 2,
                 "name": "Liwia LESZCZYŃSKA",
                 "category": "SW25-29",
-                "time": "30:28"
+                "time": "30:28",
+                "date": "2026-09-12"
               },
               {
                 "place": 3,
                 "name": "Maja SOBOCKA",
                 "category": "SW25-29",
-                "time": "37:48"
+                "time": "37:48",
+                "date": "2026-09-12"
               }
             ]
           },
@@ -6203,19 +6309,22 @@
                 "place": 1,
                 "name": "Sandra ZYGIEL",
                 "category": "SW30-34",
-                "time": "28:26"
+                "time": "28:26",
+                "date": "2026-09-12"
               },
               {
                 "place": 2,
                 "name": "Paulina GAŁECKA",
                 "category": "SW30-34",
-                "time": "30:30"
+                "time": "30:30",
+                "date": "2026-09-12"
               },
               {
                 "place": 3,
                 "name": "Kaja WEGNER",
                 "category": "SW30-34",
-                "time": "35:38"
+                "time": "35:38",
+                "date": "2026-09-12"
               }
             ]
           },
@@ -6228,19 +6337,22 @@
                 "place": 1,
                 "name": "Ariel KRYSZTOFIAK",
                 "category": "VM35-39",
-                "time": "19:33"
+                "time": "19:33",
+                "date": "2026-09-12"
               },
               {
                 "place": 2,
                 "name": "Łukasz SZAJDZIUK",
                 "category": "VM35-39",
-                "time": "19:45"
+                "time": "19:45",
+                "date": "2026-09-12"
               },
               {
                 "place": 3,
                 "name": "Roman WALDOWSKI",
                 "category": "VM35-39",
-                "time": "21:04"
+                "time": "21:04",
+                "date": "2026-09-12"
               }
             ]
           },
@@ -6253,19 +6365,22 @@
                 "place": 1,
                 "name": "Zbigniew KOŁTUNIAK",
                 "category": "VM40-44",
-                "time": "20:17"
+                "time": "20:17",
+                "date": "2026-09-12"
               },
               {
                 "place": 2,
                 "name": "Piotr MAKSYMIUK",
                 "category": "VM40-44",
-                "time": "20:58"
+                "time": "20:58",
+                "date": "2026-09-12"
               },
               {
                 "place": 3,
                 "name": "Krzysztof SZUTOWICZ",
                 "category": "VM40-44",
-                "time": "21:47"
+                "time": "21:47",
+                "date": "2026-09-12"
               }
             ]
           },
@@ -6278,19 +6393,22 @@
                 "place": 1,
                 "name": "Tomasz BAGIŃSKI",
                 "category": "VM45-49",
-                "time": "17:34"
+                "time": "17:34",
+                "date": "2026-09-12"
               },
               {
                 "place": 2,
                 "name": "Adam ALAMA",
                 "category": "VM45-49",
-                "time": "18:54"
+                "time": "18:54",
+                "date": "2026-09-12"
               },
               {
                 "place": 3,
                 "name": "Tomasz HINC",
                 "category": "VM45-49",
-                "time": "19:50"
+                "time": "19:50",
+                "date": "2026-09-12"
               }
             ]
           },
@@ -6303,19 +6421,22 @@
                 "place": 1,
                 "name": "Wojciech GIERSZEWSKI",
                 "category": "VM50-54",
-                "time": "19:44"
+                "time": "19:44",
+                "date": "2026-09-12"
               },
               {
                 "place": 2,
                 "name": "Piotr Krzysztof SZAJDZIUK",
                 "category": "VM50-54",
-                "time": "22:00"
+                "time": "22:00",
+                "date": "2026-09-12"
               },
               {
                 "place": 3,
                 "name": "Rajmund STECZEŃ",
                 "category": "VM50-54",
-                "time": "22:17"
+                "time": "22:17",
+                "date": "2026-09-12"
               }
             ]
           },
@@ -6328,19 +6449,22 @@
                 "place": 1,
                 "name": "Jacek KĘDZIERSKI",
                 "category": "VM55-59",
-                "time": "23:33"
+                "time": "23:33",
+                "date": "2026-09-12"
               },
               {
                 "place": 2,
                 "name": "Paul DODSON",
                 "category": "VM55-59",
-                "time": "25:00"
+                "time": "25:00",
+                "date": "2026-09-12"
               },
               {
                 "place": 3,
                 "name": "Robert SOBOCKI",
                 "category": "VM55-59",
-                "time": "25:48"
+                "time": "25:48",
+                "date": "2026-09-12"
               }
             ]
           },
@@ -6353,13 +6477,15 @@
                 "place": 1,
                 "name": "Paul BARNSTAPLE",
                 "category": "VM60-64",
-                "time": "24:37"
+                "time": "24:37",
+                "date": "2026-09-12"
               },
               {
                 "place": 2,
                 "name": "Mirosław KAMOLA",
                 "category": "VM60-64",
-                "time": "26:13"
+                "time": "26:13",
+                "date": "2026-09-12"
               }
             ]
           },
@@ -6372,19 +6498,22 @@
                 "place": 1,
                 "name": "Leszek BEHOUNEK",
                 "category": "VM65-69",
-                "time": "21:01"
+                "time": "21:01",
+                "date": "2026-09-12"
               },
               {
                 "place": 2,
                 "name": "Zbigniew MAŁKOWSKI",
                 "category": "VM65-69",
-                "time": "28:56"
+                "time": "28:56",
+                "date": "2026-09-12"
               },
               {
                 "place": 3,
                 "name": "Ryszard LENKIEWICZ",
                 "category": "VM65-69",
-                "time": "32:30"
+                "time": "32:30",
+                "date": "2026-09-12"
               }
             ]
           },
@@ -6397,19 +6526,22 @@
                 "place": 1,
                 "name": "Ho Ming CHAN",
                 "category": "VM70-74",
-                "time": "28:29"
+                "time": "28:29",
+                "date": "2026-09-12"
               },
               {
                 "place": 2,
                 "name": "Jacek WIELIŃSKI",
                 "category": "VM70-74",
-                "time": "29:47"
+                "time": "29:47",
+                "date": "2026-09-12"
               },
               {
                 "place": 3,
                 "name": "Zbigniew WITKOWSKI",
                 "category": "VM70-74",
-                "time": "31:59"
+                "time": "31:59",
+                "date": "2026-09-12"
               }
             ]
           },
@@ -6422,7 +6554,8 @@
                 "place": 1,
                 "name": "Andrzej KIK",
                 "category": "VM75-79",
-                "time": "26:29"
+                "time": "26:29",
+                "date": "2026-09-12"
               }
             ]
           },
@@ -6435,19 +6568,22 @@
                 "place": 1,
                 "name": "Ila PO",
                 "category": "VW35-39",
-                "time": "27:33"
+                "time": "27:33",
+                "date": "2026-09-12"
               },
               {
                 "place": 2,
                 "name": "Anna KOSMACZEWSKA-LEMAŃSKA",
                 "category": "VW35-39",
-                "time": "35:07"
+                "time": "35:07",
+                "date": "2026-09-12"
               },
               {
                 "place": 3,
                 "name": "Ewelina DYMARSKA",
                 "category": "VW35-39",
-                "time": "51:18"
+                "time": "51:18",
+                "date": "2026-09-12"
               }
             ]
           },
@@ -6460,19 +6596,22 @@
                 "place": 1,
                 "name": "Dorota ŻMUDA-TRZEBIATOWSKA",
                 "category": "VW40-44",
-                "time": "20:33"
+                "time": "20:33",
+                "date": "2026-09-12"
               },
               {
                 "place": 2,
                 "name": "Małgorzata FOLWARSKA",
                 "category": "VW40-44",
-                "time": "24:15"
+                "time": "24:15",
+                "date": "2026-09-12"
               },
               {
                 "place": 3,
                 "name": "Katarzyna CHWAZIK",
                 "category": "VW40-44",
-                "time": "28:00"
+                "time": "28:00",
+                "date": "2026-09-12"
               }
             ]
           },
@@ -6485,19 +6624,22 @@
                 "place": 1,
                 "name": "Ewelina SZAJDZIUK",
                 "category": "VW45-49",
-                "time": "24:21"
+                "time": "24:21",
+                "date": "2026-09-12"
               },
               {
                 "place": 2,
                 "name": "Agnieszka WITKOWSKA",
                 "category": "VW45-49",
-                "time": "27:17"
+                "time": "27:17",
+                "date": "2026-09-12"
               },
               {
                 "place": 3,
                 "name": "Agnieszka STECZEŃ",
                 "category": "VW45-49",
-                "time": "28:02"
+                "time": "28:02",
+                "date": "2026-09-12"
               }
             ]
           },
@@ -6510,19 +6652,22 @@
                 "place": 1,
                 "name": "Sylwia ŁUDCZAK",
                 "category": "VW50-54",
-                "time": "27:33"
+                "time": "27:33",
+                "date": "2026-09-12"
               },
               {
                 "place": 2,
                 "name": "Laura RADCLIFFE",
                 "category": "VW50-54",
-                "time": "30:08"
+                "time": "30:08",
+                "date": "2026-09-12"
               },
               {
                 "place": 3,
                 "name": "Olga SUROWIAK",
                 "category": "VW50-54",
-                "time": "45:02"
+                "time": "45:02",
+                "date": "2026-09-12"
               }
             ]
           },
@@ -6535,19 +6680,22 @@
                 "place": 1,
                 "name": "Barbara ŁUKASZEWICZ",
                 "category": "VW55-59",
-                "time": "28:35"
+                "time": "28:35",
+                "date": "2026-09-12"
               },
               {
                 "place": 2,
                 "name": "Joanna SAWCZUK",
                 "category": "VW55-59",
-                "time": "31:58"
+                "time": "31:58",
+                "date": "2026-09-12"
               },
               {
                 "place": 3,
                 "name": "Dagmara BEGER",
                 "category": "VW55-59",
-                "time": "51:09"
+                "time": "51:09",
+                "date": "2026-09-12"
               }
             ]
           },
@@ -6560,7 +6708,8 @@
                 "place": 1,
                 "name": "Małgorzata BEHOUNEK",
                 "category": "VW60-64",
-                "time": "30:42"
+                "time": "30:42",
+                "date": "2026-09-12"
               }
             ]
           },
@@ -6573,7 +6722,8 @@
                 "place": 1,
                 "name": "Grażyna CZEKAJ",
                 "category": "VW65-69",
-                "time": "29:54"
+                "time": "29:54",
+                "date": "2026-09-12"
               }
             ]
           },
@@ -6586,7 +6736,8 @@
                 "place": 1,
                 "name": "Małgorzata POLINCEUSZ",
                 "category": "VW70-74",
-                "time": "29:16"
+                "time": "29:16",
+                "date": "2026-09-12"
               }
             ]
           }
@@ -6600,19 +6751,22 @@
             "place": 1,
             "name": "Damian DINO",
             "category": "VM45-49",
-            "time": "17:44"
+            "time": "17:44",
+            "date": "2026-09-19"
           },
           {
             "place": 2,
             "name": "Maksim KAVALEUSKI",
             "category": "VM35-39",
-            "time": "17:53"
+            "time": "17:53",
+            "date": "2026-09-19"
           },
           {
             "place": 3,
             "name": "Daniel ŻYWICKI",
             "category": "VM40-44",
-            "time": "18:15"
+            "time": "18:15",
+            "date": "2026-09-19"
           }
         ],
         "top_women": [
@@ -6620,19 +6774,22 @@
             "place": 1,
             "name": "Dorota ŻMUDA-TRZEBIATOWSKA",
             "category": "VW40-44",
-            "time": "20:34"
+            "time": "20:34",
+            "date": "2026-09-19"
           },
           {
             "place": 2,
             "name": "Barbara DĄBEK-RYCHTER",
             "category": "SW30-34",
-            "time": "22:59"
+            "time": "22:59",
+            "date": "2026-09-19"
           },
           {
             "place": 3,
             "name": "Justyna DOMŻALSKA",
             "category": "VW40-44",
-            "time": "23:26"
+            "time": "23:26",
+            "date": "2026-09-19"
           }
         ],
         "top_age_graded": [
@@ -6641,6 +6798,7 @@
             "name": "Damian DINO",
             "category": "VM45-49",
             "time": "17:44",
+            "date": "2026-09-19",
             "coefficient": 81.86
           },
           {
@@ -6648,6 +6806,7 @@
             "name": "Dorota ŻMUDA-TRZEBIATOWSKA",
             "category": "VW40-44",
             "time": "20:34",
+            "date": "2026-09-19",
             "coefficient": 75.93
           },
           {
@@ -6655,6 +6814,7 @@
             "name": "Andrzej KIK",
             "category": "VM75-79",
             "time": "27:23",
+            "date": "2026-09-19",
             "coefficient": 74.98
           }
         ],
@@ -6668,19 +6828,22 @@
                 "place": 1,
                 "name": "Bartosz SZALIK",
                 "category": "JM10",
-                "time": "31:50"
+                "time": "31:50",
+                "date": "2026-09-19"
               },
               {
                 "place": 2,
                 "name": "Piotr KŁOSOWSKI",
                 "category": "JM10",
-                "time": "34:46"
+                "time": "34:46",
+                "date": "2026-09-19"
               },
               {
                 "place": 3,
                 "name": "Władysław SZMIGIEL",
                 "category": "JM10",
-                "time": "37:27"
+                "time": "37:27",
+                "date": "2026-09-19"
               }
             ]
           },
@@ -6693,13 +6856,15 @@
                 "place": 1,
                 "name": "Szymon DAWIDOWSKI",
                 "category": "JM11-14",
-                "time": "25:31"
+                "time": "25:31",
+                "date": "2026-09-19"
               },
               {
                 "place": 2,
                 "name": "Michał JURKIEWICZ",
                 "category": "JM11-14",
-                "time": "50:14"
+                "time": "50:14",
+                "date": "2026-09-19"
               }
             ]
           },
@@ -6712,19 +6877,22 @@
                 "place": 1,
                 "name": "Szczo DRO",
                 "category": "JM15-17",
-                "time": "23:08"
+                "time": "23:08",
+                "date": "2026-09-19"
               },
               {
                 "place": 2,
                 "name": "Damian OLICHWIER",
                 "category": "JM15-17",
-                "time": "27:34"
+                "time": "27:34",
+                "date": "2026-09-19"
               },
               {
                 "place": 3,
                 "name": "Benjamin JAKUBOWSKI",
                 "category": "JM15-17",
-                "time": "33:22"
+                "time": "33:22",
+                "date": "2026-09-19"
               }
             ]
           },
@@ -6737,13 +6905,15 @@
                 "place": 1,
                 "name": "Julia CZUCHA",
                 "category": "JW11-14",
-                "time": "24:51"
+                "time": "24:51",
+                "date": "2026-09-19"
               },
               {
                 "place": 2,
                 "name": "Iga MANKIEWICZ",
                 "category": "JW11-14",
-                "time": "31:03"
+                "time": "31:03",
+                "date": "2026-09-19"
               }
             ]
           },
@@ -6756,19 +6926,22 @@
                 "place": 1,
                 "name": "Nikodem OLICHWIER",
                 "category": "SM18-19",
-                "time": "24:28"
+                "time": "24:28",
+                "date": "2026-09-19"
               },
               {
                 "place": 2,
                 "name": "Marek KAMIŃSKI",
                 "category": "SM18-19",
-                "time": "25:05"
+                "time": "25:05",
+                "date": "2026-09-19"
               },
               {
                 "place": 3,
                 "name": "Cyprian LEHMANN",
                 "category": "SM18-19",
-                "time": "35:12"
+                "time": "35:12",
+                "date": "2026-09-19"
               }
             ]
           },
@@ -6781,19 +6954,22 @@
                 "place": 1,
                 "name": "Krzysztof ORŁOWSKI",
                 "category": "SM25-29",
-                "time": "21:16"
+                "time": "21:16",
+                "date": "2026-09-19"
               },
               {
                 "place": 2,
                 "name": "Piotr FIC",
                 "category": "SM25-29",
-                "time": "21:43"
+                "time": "21:43",
+                "date": "2026-09-19"
               },
               {
                 "place": 3,
                 "name": "Oskar Franciszek ŁAWRYNIUK",
                 "category": "SM25-29",
-                "time": "21:56"
+                "time": "21:56",
+                "date": "2026-09-19"
               }
             ]
           },
@@ -6806,19 +6982,22 @@
                 "place": 1,
                 "name": "Dzmitry CHAMIAREUSKI",
                 "category": "SM30-34",
-                "time": "18:50"
+                "time": "18:50",
+                "date": "2026-09-19"
               },
               {
                 "place": 2,
                 "name": "Kornel BREŃKACZ",
                 "category": "SM30-34",
-                "time": "19:20"
+                "time": "19:20",
+                "date": "2026-09-19"
               },
               {
                 "place": 3,
                 "name": "Jakub REGLIŃSKI",
                 "category": "SM30-34",
-                "time": "19:30"
+                "time": "19:30",
+                "date": "2026-09-19"
               }
             ]
           },
@@ -6831,19 +7010,22 @@
                 "place": 1,
                 "name": "Magdalena KRYCZKA",
                 "category": "SW25-29",
-                "time": "27:24"
+                "time": "27:24",
+                "date": "2026-09-19"
               },
               {
                 "place": 2,
                 "name": "Dominika SZLAGA",
                 "category": "SW25-29",
-                "time": "29:29"
+                "time": "29:29",
+                "date": "2026-09-19"
               },
               {
                 "place": 3,
                 "name": "Maja SOBOCKA",
                 "category": "SW25-29",
-                "time": "36:31"
+                "time": "36:31",
+                "date": "2026-09-19"
               }
             ]
           },
@@ -6856,19 +7038,22 @@
                 "place": 1,
                 "name": "Barbara DĄBEK-RYCHTER",
                 "category": "SW30-34",
-                "time": "22:59"
+                "time": "22:59",
+                "date": "2026-09-19"
               },
               {
                 "place": 2,
                 "name": "Karolina PAETKE",
                 "category": "SW30-34",
-                "time": "27:51"
+                "time": "27:51",
+                "date": "2026-09-19"
               },
               {
                 "place": 3,
                 "name": "Sandra ZYGIEL",
                 "category": "SW30-34",
-                "time": "28:31"
+                "time": "28:31",
+                "date": "2026-09-19"
               }
             ]
           },
@@ -6881,19 +7066,22 @@
                 "place": 1,
                 "name": "Maksim KAVALEUSKI",
                 "category": "VM35-39",
-                "time": "17:53"
+                "time": "17:53",
+                "date": "2026-09-19"
               },
               {
                 "place": 2,
                 "name": "Łukasz SZAJDZIUK",
                 "category": "VM35-39",
-                "time": "20:03"
+                "time": "20:03",
+                "date": "2026-09-19"
               },
               {
                 "place": 3,
                 "name": "Mateusz BURNICKI",
                 "category": "VM35-39",
-                "time": "20:26"
+                "time": "20:26",
+                "date": "2026-09-19"
               }
             ]
           },
@@ -6906,19 +7094,22 @@
                 "place": 1,
                 "name": "Daniel ŻYWICKI",
                 "category": "VM40-44",
-                "time": "18:15"
+                "time": "18:15",
+                "date": "2026-09-19"
               },
               {
                 "place": 2,
                 "name": "Dariusz WYRWA",
                 "category": "VM40-44",
-                "time": "19:19"
+                "time": "19:19",
+                "date": "2026-09-19"
               },
               {
                 "place": 3,
                 "name": "Damian PIWOROWICZ",
                 "category": "VM40-44",
-                "time": "20:29"
+                "time": "20:29",
+                "date": "2026-09-19"
               }
             ]
           },
@@ -6931,19 +7122,22 @@
                 "place": 1,
                 "name": "Damian DINO",
                 "category": "VM45-49",
-                "time": "17:44"
+                "time": "17:44",
+                "date": "2026-09-19"
               },
               {
                 "place": 2,
                 "name": "Jakub KALISZEWSKI",
                 "category": "VM45-49",
-                "time": "19:34"
+                "time": "19:34",
+                "date": "2026-09-19"
               },
               {
                 "place": 3,
                 "name": "Krystian LORYCH",
                 "category": "VM45-49",
-                "time": "19:49"
+                "time": "19:49",
+                "date": "2026-09-19"
               }
             ]
           },
@@ -6956,19 +7150,22 @@
                 "place": 1,
                 "name": "Bogdan MODZELEWSKI",
                 "category": "VM50-54",
-                "time": "22:10"
+                "time": "22:10",
+                "date": "2026-09-19"
               },
               {
                 "place": 2,
                 "name": "Dariusz HAJDUK",
                 "category": "VM50-54",
-                "time": "22:49"
+                "time": "22:49",
+                "date": "2026-09-19"
               },
               {
                 "place": 3,
                 "name": "Rafał KASYNA",
                 "category": "VM50-54",
-                "time": "23:46"
+                "time": "23:46",
+                "date": "2026-09-19"
               }
             ]
           },
@@ -6981,19 +7178,22 @@
                 "place": 1,
                 "name": "Jacek KĘDZIERSKI",
                 "category": "VM55-59",
-                "time": "24:11"
+                "time": "24:11",
+                "date": "2026-09-19"
               },
               {
                 "place": 2,
                 "name": "Tomasz ROJEK",
                 "category": "VM55-59",
-                "time": "25:08"
+                "time": "25:08",
+                "date": "2026-09-19"
               },
               {
                 "place": 3,
                 "name": "Adam WRÓBLEWSKI",
                 "category": "VM55-59",
-                "time": "25:36"
+                "time": "25:36",
+                "date": "2026-09-19"
               }
             ]
           },
@@ -7006,19 +7206,22 @@
                 "place": 1,
                 "name": "Wojciech BLEW",
                 "category": "VM60-64",
-                "time": "27:29"
+                "time": "27:29",
+                "date": "2026-09-19"
               },
               {
                 "place": 2,
                 "name": "Zdzisław KOPEĆ",
                 "category": "VM60-64",
-                "time": "29:54"
+                "time": "29:54",
+                "date": "2026-09-19"
               },
               {
                 "place": 3,
                 "name": "Richard CARTER",
                 "category": "VM60-64",
-                "time": "38:15"
+                "time": "38:15",
+                "date": "2026-09-19"
               }
             ]
           },
@@ -7031,19 +7234,22 @@
                 "place": 1,
                 "name": "Andrzej BORN",
                 "category": "VM65-69",
-                "time": "23:16"
+                "time": "23:16",
+                "date": "2026-09-19"
               },
               {
                 "place": 2,
                 "name": "Andrzej GOLAŃSKI",
                 "category": "VM65-69",
-                "time": "28:28"
+                "time": "28:28",
+                "date": "2026-09-19"
               },
               {
                 "place": 3,
                 "name": "Jan KULAS",
                 "category": "VM65-69",
-                "time": "29:33"
+                "time": "29:33",
+                "date": "2026-09-19"
               }
             ]
           },
@@ -7056,7 +7262,8 @@
                 "place": 1,
                 "name": "Jacek WIELIŃSKI",
                 "category": "VM70-74",
-                "time": "31:38"
+                "time": "31:38",
+                "date": "2026-09-19"
               }
             ]
           },
@@ -7069,7 +7276,8 @@
                 "place": 1,
                 "name": "Andrzej KIK",
                 "category": "VM75-79",
-                "time": "27:23"
+                "time": "27:23",
+                "date": "2026-09-19"
               }
             ]
           },
@@ -7082,19 +7290,22 @@
                 "place": 1,
                 "name": "Anna HOŁOWNIA",
                 "category": "VW35-39",
-                "time": "23:59"
+                "time": "23:59",
+                "date": "2026-09-19"
               },
               {
                 "place": 2,
                 "name": "Ila PO",
                 "category": "VW35-39",
-                "time": "25:49"
+                "time": "25:49",
+                "date": "2026-09-19"
               },
               {
                 "place": 3,
                 "name": "Kasia SZUTOWICZ",
                 "category": "VW35-39",
-                "time": "25:51"
+                "time": "25:51",
+                "date": "2026-09-19"
               }
             ]
           },
@@ -7107,19 +7318,22 @@
                 "place": 1,
                 "name": "Dorota ŻMUDA-TRZEBIATOWSKA",
                 "category": "VW40-44",
-                "time": "20:34"
+                "time": "20:34",
+                "date": "2026-09-19"
               },
               {
                 "place": 2,
                 "name": "Justyna DOMŻALSKA",
                 "category": "VW40-44",
-                "time": "23:26"
+                "time": "23:26",
+                "date": "2026-09-19"
               },
               {
                 "place": 3,
                 "name": "Katarzyna CHWAZIK",
                 "category": "VW40-44",
-                "time": "23:47"
+                "time": "23:47",
+                "date": "2026-09-19"
               }
             ]
           },
@@ -7132,19 +7346,22 @@
                 "place": 1,
                 "name": "Lidia KULESZA",
                 "category": "VW45-49",
-                "time": "23:28"
+                "time": "23:28",
+                "date": "2026-09-19"
               },
               {
                 "place": 2,
                 "name": "Joanna SZUBARCZYK",
                 "category": "VW45-49",
-                "time": "25:30"
+                "time": "25:30",
+                "date": "2026-09-19"
               },
               {
                 "place": 3,
                 "name": "Sylwia AMBROZIAK",
                 "category": "VW45-49",
-                "time": "29:17"
+                "time": "29:17",
+                "date": "2026-09-19"
               }
             ]
           },
@@ -7157,13 +7374,15 @@
                 "place": 1,
                 "name": "Aleksandra DE VIRION",
                 "category": "VW50-54",
-                "time": "25:03"
+                "time": "25:03",
+                "date": "2026-09-19"
               },
               {
                 "place": 2,
                 "name": "Agnieszka ARENDT",
                 "category": "VW50-54",
-                "time": "30:47"
+                "time": "30:47",
+                "date": "2026-09-19"
               }
             ]
           },
@@ -7176,7 +7395,8 @@
                 "place": 1,
                 "name": "Marzena GRABOWSKA",
                 "category": "VW55-59",
-                "time": "28:29"
+                "time": "28:29",
+                "date": "2026-09-19"
               }
             ]
           },
@@ -7189,19 +7409,22 @@
                 "place": 1,
                 "name": "Grażyna CZEKAJ",
                 "category": "VW65-69",
-                "time": "29:23"
+                "time": "29:23",
+                "date": "2026-09-19"
               },
               {
                 "place": 2,
                 "name": "Alicja Teresa WRZOSEK",
                 "category": "VW65-69",
-                "time": "42:18"
+                "time": "42:18",
+                "date": "2026-09-19"
               },
               {
                 "place": 3,
                 "name": "Jadwiga GÓRECZNA",
                 "category": "VW65-69",
-                "time": "50:11"
+                "time": "50:11",
+                "date": "2026-09-19"
               }
             ]
           }
@@ -7215,19 +7438,22 @@
             "place": 1,
             "name": "Damian DINO",
             "category": "VM45-49",
-            "time": "17:36"
+            "time": "17:36",
+            "date": "2026-09-26"
           },
           {
             "place": 2,
             "name": "Jakub KALISZEWSKI",
             "category": "VM45-49",
-            "time": "19:39"
+            "time": "19:39",
+            "date": "2026-09-26"
           },
           {
             "place": 3,
             "name": "Krzysztof SITA",
             "category": "SM18-19",
-            "time": "19:48"
+            "time": "19:48",
+            "date": "2026-09-26"
           }
         ],
         "top_women": [
@@ -7235,19 +7461,22 @@
             "place": 1,
             "name": "Dorota ŻMUDA-TRZEBIATOWSKA",
             "category": "VW40-44",
-            "time": "20:05"
+            "time": "20:05",
+            "date": "2026-09-26"
           },
           {
             "place": 2,
             "name": "Debbie CROSS",
             "category": "VW40-44",
-            "time": "24:12"
+            "time": "24:12",
+            "date": "2026-09-26"
           },
           {
             "place": 3,
             "name": "Aleksandra Ewa GRABIAS",
             "category": "VW35-39",
-            "time": "24:20"
+            "time": "24:20",
+            "date": "2026-09-26"
           }
         ],
         "top_age_graded": [
@@ -7256,6 +7485,7 @@
             "name": "Andrzej BALICKI",
             "category": "VM75-79",
             "time": "22:40",
+            "date": "2026-09-26",
             "coefficient": 83.6
           },
           {
@@ -7263,6 +7493,7 @@
             "name": "Damian DINO",
             "category": "VM45-49",
             "time": "17:36",
+            "date": "2026-09-26",
             "coefficient": 82.48
           },
           {
@@ -7270,6 +7501,7 @@
             "name": "Małgorzata POLINCEUSZ",
             "category": "VW70-74",
             "time": "28:49",
+            "date": "2026-09-26",
             "coefficient": 79.87
           }
         ],
@@ -7283,13 +7515,15 @@
                 "place": 1,
                 "name": "Piotr BITTEL",
                 "category": "JM10",
-                "time": "39:06"
+                "time": "39:06",
+                "date": "2026-09-26"
               },
               {
                 "place": 2,
                 "name": "Piotr KŁOSOWSKI",
                 "category": "JM10",
-                "time": "41:40"
+                "time": "41:40",
+                "date": "2026-09-26"
               }
             ]
           },
@@ -7302,19 +7536,22 @@
                 "place": 1,
                 "name": "Szymon DYMARSKI",
                 "category": "JM11-14",
-                "time": "29:05"
+                "time": "29:05",
+                "date": "2026-09-26"
               },
               {
                 "place": 2,
                 "name": "Otto BALK",
                 "category": "JM11-14",
-                "time": "39:48"
+                "time": "39:48",
+                "date": "2026-09-26"
               },
               {
                 "place": 3,
                 "name": "Filip GŁADKI",
                 "category": "JM11-14",
-                "time": "52:03"
+                "time": "52:03",
+                "date": "2026-09-26"
               }
             ]
           },
@@ -7327,13 +7564,15 @@
                 "place": 1,
                 "name": "Szymon ELLWART",
                 "category": "JM15-17",
-                "time": "23:37"
+                "time": "23:37",
+                "date": "2026-09-26"
               },
               {
                 "place": 2,
                 "name": "Krzysztof KOZŁOWSKI",
                 "category": "JM15-17",
-                "time": "26:29"
+                "time": "26:29",
+                "date": "2026-09-26"
               }
             ]
           },
@@ -7346,13 +7585,15 @@
                 "place": 1,
                 "name": "Iga MANKIEWICZ",
                 "category": "JW11-14",
-                "time": "29:32"
+                "time": "29:32",
+                "date": "2026-09-26"
               },
               {
                 "place": 2,
                 "name": "Alicja PIOTROWSKA",
                 "category": "JW11-14",
-                "time": "33:44"
+                "time": "33:44",
+                "date": "2026-09-26"
               }
             ]
           },
@@ -7365,13 +7606,15 @@
                 "place": 1,
                 "name": "Krzysztof SITA",
                 "category": "SM18-19",
-                "time": "19:48"
+                "time": "19:48",
+                "date": "2026-09-26"
               },
               {
                 "place": 2,
                 "name": "Mateusz KMERA",
                 "category": "SM18-19",
-                "time": "29:02"
+                "time": "29:02",
+                "date": "2026-09-26"
               }
             ]
           },
@@ -7384,19 +7627,22 @@
                 "place": 1,
                 "name": "Wojciech ŻYROMSKI",
                 "category": "SM20-24",
-                "time": "22:41"
+                "time": "22:41",
+                "date": "2026-09-26"
               },
               {
                 "place": 2,
                 "name": "Maciej JABŁONOWSKI",
                 "category": "SM20-24",
-                "time": "25:44"
+                "time": "25:44",
+                "date": "2026-09-26"
               },
               {
                 "place": 3,
                 "name": "Krzysztof DĄBROWSKI",
                 "category": "SM20-24",
-                "time": "28:07"
+                "time": "28:07",
+                "date": "2026-09-26"
               }
             ]
           },
@@ -7409,19 +7655,22 @@
                 "place": 1,
                 "name": "Oskar Franciszek ŁAWRYNIUK",
                 "category": "SM25-29",
-                "time": "23:11"
+                "time": "23:11",
+                "date": "2026-09-26"
               },
               {
                 "place": 2,
                 "name": "Kacper JURCZYK",
                 "category": "SM25-29",
-                "time": "27:00"
+                "time": "27:00",
+                "date": "2026-09-26"
               },
               {
                 "place": 3,
                 "name": "Marek POPIOŁEK",
                 "category": "SM25-29",
-                "time": "27:13"
+                "time": "27:13",
+                "date": "2026-09-26"
               }
             ]
           },
@@ -7434,19 +7683,22 @@
                 "place": 1,
                 "name": "Marcin SKIRŁO",
                 "category": "SM30-34",
-                "time": "22:07"
+                "time": "22:07",
+                "date": "2026-09-26"
               },
               {
                 "place": 2,
                 "name": "Harry HANCE",
                 "category": "SM30-34",
-                "time": "23:33"
+                "time": "23:33",
+                "date": "2026-09-26"
               },
               {
                 "place": 3,
                 "name": "Mateusz MIŚ",
                 "category": "SM30-34",
-                "time": "25:05"
+                "time": "25:05",
+                "date": "2026-09-26"
               }
             ]
           },
@@ -7459,7 +7711,8 @@
                 "place": 1,
                 "name": "Miłochna ŚWIDER",
                 "category": "SW20-24",
-                "time": "33:25"
+                "time": "33:25",
+                "date": "2026-09-26"
               }
             ]
           },
@@ -7472,19 +7725,22 @@
                 "place": 1,
                 "name": "Weronika BAJOR",
                 "category": "SW25-29",
-                "time": "27:42"
+                "time": "27:42",
+                "date": "2026-09-26"
               },
               {
                 "place": 2,
                 "name": "Magdalena KOCHALSKA",
                 "category": "SW25-29",
-                "time": "31:18"
+                "time": "31:18",
+                "date": "2026-09-26"
               },
               {
                 "place": 3,
                 "name": "Dominika SZLAGA",
                 "category": "SW25-29",
-                "time": "32:17"
+                "time": "32:17",
+                "date": "2026-09-26"
               }
             ]
           },
@@ -7497,13 +7753,15 @@
                 "place": 1,
                 "name": "Sandra ZYGIEL",
                 "category": "SW30-34",
-                "time": "33:16"
+                "time": "33:16",
+                "date": "2026-09-26"
               },
               {
                 "place": 2,
                 "name": "Ewa MAŁECKA",
                 "category": "SW30-34",
-                "time": "39:03"
+                "time": "39:03",
+                "date": "2026-09-26"
               }
             ]
           },
@@ -7516,19 +7774,22 @@
                 "place": 1,
                 "name": "Kamil SZABŁOWSKI",
                 "category": "VM35-39",
-                "time": "21:19"
+                "time": "21:19",
+                "date": "2026-09-26"
               },
               {
                 "place": 2,
                 "name": "Gniewomir MILLER",
                 "category": "VM35-39",
-                "time": "21:28"
+                "time": "21:28",
+                "date": "2026-09-26"
               },
               {
                 "place": 3,
                 "name": "Tomasz LICBARSKI",
                 "category": "VM35-39",
-                "time": "21:45"
+                "time": "21:45",
+                "date": "2026-09-26"
               }
             ]
           },
@@ -7541,19 +7802,22 @@
                 "place": 1,
                 "name": "Tomasz BANACH",
                 "category": "VM40-44",
-                "time": "19:53"
+                "time": "19:53",
+                "date": "2026-09-26"
               },
               {
                 "place": 2,
                 "name": "Damian PIWOROWICZ",
                 "category": "VM40-44",
-                "time": "20:33"
+                "time": "20:33",
+                "date": "2026-09-26"
               },
               {
                 "place": 3,
                 "name": "Daniel ŻYWICKI",
                 "category": "VM40-44",
-                "time": "22:34"
+                "time": "22:34",
+                "date": "2026-09-26"
               }
             ]
           },
@@ -7566,19 +7830,22 @@
                 "place": 1,
                 "name": "Damian DINO",
                 "category": "VM45-49",
-                "time": "17:36"
+                "time": "17:36",
+                "date": "2026-09-26"
               },
               {
                 "place": 2,
                 "name": "Jakub KALISZEWSKI",
                 "category": "VM45-49",
-                "time": "19:39"
+                "time": "19:39",
+                "date": "2026-09-26"
               },
               {
                 "place": 3,
                 "name": "Michał KAMIŃSKI",
                 "category": "VM45-49",
-                "time": "21:12"
+                "time": "21:12",
+                "date": "2026-09-26"
               }
             ]
           },
@@ -7591,19 +7858,22 @@
                 "place": 1,
                 "name": "Wojciech GIERSZEWSKI",
                 "category": "VM50-54",
-                "time": "19:57"
+                "time": "19:57",
+                "date": "2026-09-26"
               },
               {
                 "place": 2,
                 "name": "Mariusz NAWROCKI",
                 "category": "VM50-54",
-                "time": "21:28"
+                "time": "21:28",
+                "date": "2026-09-26"
               },
               {
                 "place": 3,
                 "name": "Jon Kåre OLSEN",
                 "category": "VM50-54",
-                "time": "21:29"
+                "time": "21:29",
+                "date": "2026-09-26"
               }
             ]
           },
@@ -7616,19 +7886,22 @@
                 "place": 1,
                 "name": "Marcin GAŁKOWSKI",
                 "category": "VM55-59",
-                "time": "21:07"
+                "time": "21:07",
+                "date": "2026-09-26"
               },
               {
                 "place": 2,
                 "name": "Jacek KĘDZIERSKI",
                 "category": "VM55-59",
-                "time": "23:27"
+                "time": "23:27",
+                "date": "2026-09-26"
               },
               {
                 "place": 3,
                 "name": "Robert SOBOCKI",
                 "category": "VM55-59",
-                "time": "25:29"
+                "time": "25:29",
+                "date": "2026-09-26"
               }
             ]
           },
@@ -7641,19 +7914,22 @@
                 "place": 1,
                 "name": "Mirosław KAMOLA",
                 "category": "VM60-64",
-                "time": "25:27"
+                "time": "25:27",
+                "date": "2026-09-26"
               },
               {
                 "place": 2,
                 "name": "Wojciech BLEW",
                 "category": "VM60-64",
-                "time": "28:09"
+                "time": "28:09",
+                "date": "2026-09-26"
               },
               {
                 "place": 3,
                 "name": "Grzegorz LITAK",
                 "category": "VM60-64",
-                "time": "29:13"
+                "time": "29:13",
+                "date": "2026-09-26"
               }
             ]
           },
@@ -7666,19 +7942,22 @@
                 "place": 1,
                 "name": "Henryk RATKOWSKI",
                 "category": "VM65-69",
-                "time": "25:20"
+                "time": "25:20",
+                "date": "2026-09-26"
               },
               {
                 "place": 2,
                 "name": "Zbigniew MAŁKOWSKI",
                 "category": "VM65-69",
-                "time": "28:58"
+                "time": "28:58",
+                "date": "2026-09-26"
               },
               {
                 "place": 3,
                 "name": "Ryszard LENKIEWICZ",
                 "category": "VM65-69",
-                "time": "32:32"
+                "time": "32:32",
+                "date": "2026-09-26"
               }
             ]
           },
@@ -7691,19 +7970,22 @@
                 "place": 1,
                 "name": "Jacek WIELIŃSKI",
                 "category": "VM70-74",
-                "time": "30:18"
+                "time": "30:18",
+                "date": "2026-09-26"
               },
               {
                 "place": 2,
                 "name": "Adam POLINCEUSZ",
                 "category": "VM70-74",
-                "time": "30:32"
+                "time": "30:32",
+                "date": "2026-09-26"
               },
               {
                 "place": 3,
                 "name": "Zbigniew WITKOWSKI",
                 "category": "VM70-74",
-                "time": "32:10"
+                "time": "32:10",
+                "date": "2026-09-26"
               }
             ]
           },
@@ -7716,19 +7998,22 @@
                 "place": 1,
                 "name": "Andrzej BALICKI",
                 "category": "VM75-79",
-                "time": "22:40"
+                "time": "22:40",
+                "date": "2026-09-26"
               },
               {
                 "place": 2,
                 "name": "Andrzej KIK",
                 "category": "VM75-79",
-                "time": "27:02"
+                "time": "27:02",
+                "date": "2026-09-26"
               },
               {
                 "place": 3,
                 "name": "Henryk Piotr WITT",
                 "category": "VM75-79",
-                "time": "42:19"
+                "time": "42:19",
+                "date": "2026-09-26"
               }
             ]
           },
@@ -7741,19 +8026,22 @@
                 "place": 1,
                 "name": "Aleksandra Ewa GRABIAS",
                 "category": "VW35-39",
-                "time": "24:20"
+                "time": "24:20",
+                "date": "2026-09-26"
               },
               {
                 "place": 2,
                 "name": "Sylwia RYCHARSKA",
                 "category": "VW35-39",
-                "time": "26:53"
+                "time": "26:53",
+                "date": "2026-09-26"
               },
               {
                 "place": 3,
                 "name": "Magdalena WRÓBLEWSKA",
                 "category": "VW35-39",
-                "time": "29:28"
+                "time": "29:28",
+                "date": "2026-09-26"
               }
             ]
           },
@@ -7766,19 +8054,22 @@
                 "place": 1,
                 "name": "Dorota ŻMUDA-TRZEBIATOWSKA",
                 "category": "VW40-44",
-                "time": "20:05"
+                "time": "20:05",
+                "date": "2026-09-26"
               },
               {
                 "place": 2,
                 "name": "Debbie CROSS",
                 "category": "VW40-44",
-                "time": "24:12"
+                "time": "24:12",
+                "date": "2026-09-26"
               },
               {
                 "place": 3,
                 "name": "Lucyna SZYSZKA",
                 "category": "VW40-44",
-                "time": "25:42"
+                "time": "25:42",
+                "date": "2026-09-26"
               }
             ]
           },
@@ -7791,19 +8082,22 @@
                 "place": 1,
                 "name": "Katarzyna KOBYLIŃSKA",
                 "category": "VW45-49",
-                "time": "24:48"
+                "time": "24:48",
+                "date": "2026-09-26"
               },
               {
                 "place": 2,
                 "name": "Ewelina SZAJDZIUK",
                 "category": "VW45-49",
-                "time": "25:02"
+                "time": "25:02",
+                "date": "2026-09-26"
               },
               {
                 "place": 3,
                 "name": "Agnieszka STECZEŃ",
                 "category": "VW45-49",
-                "time": "28:25"
+                "time": "28:25",
+                "date": "2026-09-26"
               }
             ]
           },
@@ -7816,19 +8110,22 @@
                 "place": 1,
                 "name": "Aleksandra DE VIRION",
                 "category": "VW50-54",
-                "time": "24:49"
+                "time": "24:49",
+                "date": "2026-09-26"
               },
               {
                 "place": 2,
                 "name": "Ewa KREFT",
                 "category": "VW50-54",
-                "time": "26:53"
+                "time": "26:53",
+                "date": "2026-09-26"
               },
               {
                 "place": 3,
                 "name": "Iwona SZWAJA",
                 "category": "VW50-54",
-                "time": "30:11"
+                "time": "30:11",
+                "date": "2026-09-26"
               }
             ]
           },
@@ -7841,13 +8138,15 @@
                 "place": 1,
                 "name": "Barbara ŁUKASZEWICZ",
                 "category": "VW55-59",
-                "time": "28:43"
+                "time": "28:43",
+                "date": "2026-09-26"
               },
               {
                 "place": 2,
                 "name": "Joanna SAWCZUK",
                 "category": "VW55-59",
-                "time": "32:03"
+                "time": "32:03",
+                "date": "2026-09-26"
               }
             ]
           },
@@ -7860,13 +8159,15 @@
                 "place": 1,
                 "name": "Elżbieta ROSOŁEK",
                 "category": "VW60-64",
-                "time": "33:11"
+                "time": "33:11",
+                "date": "2026-09-26"
               },
               {
                 "place": 2,
                 "name": "Małgorzata GIERSZEWSKA",
                 "category": "VW60-64",
-                "time": "35:12"
+                "time": "35:12",
+                "date": "2026-09-26"
               }
             ]
           },
@@ -7879,13 +8180,15 @@
                 "place": 1,
                 "name": "Grażyna CZEKAJ",
                 "category": "VW65-69",
-                "time": "28:55"
+                "time": "28:55",
+                "date": "2026-09-26"
               },
               {
                 "place": 2,
                 "name": "Mariola GOLAŃSKA",
                 "category": "VW65-69",
-                "time": "51:29"
+                "time": "51:29",
+                "date": "2026-09-26"
               }
             ]
           },
@@ -7898,13 +8201,888 @@
                 "place": 1,
                 "name": "Małgorzata POLINCEUSZ",
                 "category": "VW70-74",
-                "time": "28:49"
+                "time": "28:49",
+                "date": "2026-09-26"
               }
             ]
           }
         ]
       }
-    ]
+    ],
+    "month": {
+      "top_women": [
+        {
+          "place": 1,
+          "name": "Dorota ŻMUDA-TRZEBIATOWSKA",
+          "category": "VW40-44",
+          "time": "20:05",
+          "date": "2026-09-26"
+        },
+        {
+          "place": 2,
+          "name": "Barbara DĄBEK-RYCHTER",
+          "category": "SW30-34",
+          "time": "22:59",
+          "date": "2026-09-19"
+        },
+        {
+          "place": 3,
+          "name": "Justyna DOMŻALSKA",
+          "category": "VW40-44",
+          "time": "23:26",
+          "date": "2026-09-19"
+        }
+      ],
+      "top_men": [
+        {
+          "place": 1,
+          "name": "Jakub KISIELIŃSKI",
+          "category": "SM25-29",
+          "time": "17:28",
+          "date": "2026-09-05"
+        },
+        {
+          "place": 2,
+          "name": "Tomasz BAGIŃSKI",
+          "category": "VM45-49",
+          "time": "17:34",
+          "date": "2026-09-12"
+        },
+        {
+          "place": 3,
+          "name": "Damian DINO",
+          "category": "VM45-49",
+          "time": "17:36",
+          "date": "2026-09-26"
+        }
+      ],
+      "top_age_graded": [
+        {
+          "place": 1,
+          "name": "Andrzej BALICKI",
+          "category": "VM75-79",
+          "time": "22:40",
+          "date": "2026-09-26",
+          "coefficient": 83.6
+        },
+        {
+          "place": 2,
+          "name": "Damian DINO",
+          "category": "VM45-49",
+          "time": "17:36",
+          "date": "2026-09-26",
+          "coefficient": 82.48
+        },
+        {
+          "place": 3,
+          "name": "Tomasz BAGIŃSKI",
+          "category": "VM45-49",
+          "time": "17:34",
+          "date": "2026-09-12",
+          "coefficient": 81.31
+        }
+      ],
+      "categories": [
+        {
+          "category": "JM10",
+          "gender": "M",
+          "participants_count": 7,
+          "top": [
+            {
+              "place": 1,
+              "name": "Stanisław RÓŻYCKI",
+              "category": "JM10",
+              "time": "28:00",
+              "date": "2026-09-05"
+            },
+            {
+              "place": 2,
+              "name": "Bartosz SZALIK",
+              "category": "JM10",
+              "time": "31:50",
+              "date": "2026-09-19"
+            },
+            {
+              "place": 3,
+              "name": "Krystian WRÓBEL",
+              "category": "JM10",
+              "time": "33:25",
+              "date": "2026-09-05"
+            }
+          ]
+        },
+        {
+          "category": "JM11-14",
+          "gender": "M",
+          "participants_count": 7,
+          "top": [
+            {
+              "place": 1,
+              "name": "Borys SOWIŃSKI",
+              "category": "JM11-14",
+              "time": "23:07",
+              "date": "2026-09-12"
+            },
+            {
+              "place": 2,
+              "name": "Szymon DAWIDOWSKI",
+              "category": "JM11-14",
+              "time": "25:10",
+              "date": "2026-09-05"
+            },
+            {
+              "place": 3,
+              "name": "Filip GŁADKI",
+              "category": "JM11-14",
+              "time": "26:01",
+              "date": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "category": "JM15-17",
+          "gender": "M",
+          "participants_count": 10,
+          "top": [
+            {
+              "place": 1,
+              "name": "Karol ŻMUDA-TRZEBIATOWSKI",
+              "category": "JM15-17",
+              "time": "19:05",
+              "date": "2026-09-12"
+            },
+            {
+              "place": 2,
+              "name": "Maciek KANIA",
+              "category": "JM15-17",
+              "time": "22:38",
+              "date": "2026-09-12"
+            },
+            {
+              "place": 3,
+              "name": "Szczo DRO",
+              "category": "JM15-17",
+              "time": "23:08",
+              "date": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "category": "JW10",
+          "gender": "K",
+          "participants_count": 3,
+          "top": [
+            {
+              "place": 1,
+              "name": "Barbara DOBRZYŃSKA",
+              "category": "JW10",
+              "time": "48:13",
+              "date": "2026-09-05"
+            },
+            {
+              "place": 2,
+              "name": "Kornelia DOBRZYŃSKA",
+              "category": "JW10",
+              "time": "48:13",
+              "date": "2026-09-05"
+            },
+            {
+              "place": 3,
+              "name": "Lidia DOBRZYŃSKA",
+              "category": "JW10",
+              "time": "49:42",
+              "date": "2026-09-05"
+            }
+          ]
+        },
+        {
+          "category": "JW11-14",
+          "gender": "K",
+          "participants_count": 6,
+          "top": [
+            {
+              "place": 1,
+              "name": "Julia CZUCHA",
+              "category": "JW11-14",
+              "time": "24:51",
+              "date": "2026-09-19"
+            },
+            {
+              "place": 2,
+              "name": "Iga MANKIEWICZ",
+              "category": "JW11-14",
+              "time": "29:32",
+              "date": "2026-09-26"
+            },
+            {
+              "place": 3,
+              "name": "Alicja PIOTROWSKA",
+              "category": "JW11-14",
+              "time": "33:21",
+              "date": "2026-09-05"
+            }
+          ]
+        },
+        {
+          "category": "SM18-19",
+          "gender": "M",
+          "participants_count": 5,
+          "top": [
+            {
+              "place": 1,
+              "name": "Krzysztof SITA",
+              "category": "SM18-19",
+              "time": "19:48",
+              "date": "2026-09-26"
+            },
+            {
+              "place": 2,
+              "name": "Nikodem OLICHWIER",
+              "category": "SM18-19",
+              "time": "24:28",
+              "date": "2026-09-19"
+            },
+            {
+              "place": 3,
+              "name": "Marek KAMIŃSKI",
+              "category": "SM18-19",
+              "time": "25:05",
+              "date": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "category": "SM20-24",
+          "gender": "M",
+          "participants_count": 5,
+          "top": [
+            {
+              "place": 1,
+              "name": "Wojciech ŻYROMSKI",
+              "category": "SM20-24",
+              "time": "21:39",
+              "date": "2026-09-12"
+            },
+            {
+              "place": 2,
+              "name": "Maciej JABŁONOWSKI",
+              "category": "SM20-24",
+              "time": "25:44",
+              "date": "2026-09-26"
+            },
+            {
+              "place": 3,
+              "name": "Krzysztof DĄBROWSKI",
+              "category": "SM20-24",
+              "time": "28:07",
+              "date": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "category": "SM25-29",
+          "gender": "M",
+          "participants_count": 12,
+          "top": [
+            {
+              "place": 1,
+              "name": "Jakub KISIELIŃSKI",
+              "category": "SM25-29",
+              "time": "17:28",
+              "date": "2026-09-05"
+            },
+            {
+              "place": 2,
+              "name": "Krzysztof ORŁOWSKI",
+              "category": "SM25-29",
+              "time": "21:16",
+              "date": "2026-09-19"
+            },
+            {
+              "place": 3,
+              "name": "Piotr FIC",
+              "category": "SM25-29",
+              "time": "21:43",
+              "date": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "category": "SM30-34",
+          "gender": "M",
+          "participants_count": 22,
+          "top": [
+            {
+              "place": 1,
+              "name": "Dzmitry CHAMIAREUSKI",
+              "category": "SM30-34",
+              "time": "18:50",
+              "date": "2026-09-19"
+            },
+            {
+              "place": 2,
+              "name": "Kornel BREŃKACZ",
+              "category": "SM30-34",
+              "time": "19:02",
+              "date": "2026-09-12"
+            },
+            {
+              "place": 3,
+              "name": "Jakub REGLIŃSKI",
+              "category": "SM30-34",
+              "time": "19:30",
+              "date": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "category": "SW20-24",
+          "gender": "K",
+          "participants_count": 3,
+          "top": [
+            {
+              "place": 1,
+              "name": "Monika GUZOWSKA",
+              "category": "SW20-24",
+              "time": "23:39",
+              "date": "2026-09-12"
+            },
+            {
+              "place": 2,
+              "name": "Miłochna ŚWIDER",
+              "category": "SW20-24",
+              "time": "33:25",
+              "date": "2026-09-26"
+            },
+            {
+              "place": 3,
+              "name": "Kornelia Anna FRANKIEWICZ",
+              "category": "SW20-24",
+              "time": "45:04",
+              "date": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "category": "SW25-29",
+          "gender": "K",
+          "participants_count": 8,
+          "top": [
+            {
+              "place": 1,
+              "name": "Magdalena KRYCZKA",
+              "category": "SW25-29",
+              "time": "27:24",
+              "date": "2026-09-19"
+            },
+            {
+              "place": 2,
+              "name": "Weronika BAJOR",
+              "category": "SW25-29",
+              "time": "27:42",
+              "date": "2026-09-26"
+            },
+            {
+              "place": 3,
+              "name": "Dominika SZLAGA",
+              "category": "SW25-29",
+              "time": "29:29",
+              "date": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "category": "SW30-34",
+          "gender": "K",
+          "participants_count": 10,
+          "top": [
+            {
+              "place": 1,
+              "name": "Barbara DĄBEK-RYCHTER",
+              "category": "SW30-34",
+              "time": "22:59",
+              "date": "2026-09-19"
+            },
+            {
+              "place": 2,
+              "name": "Magdalena SZOPIŃSKA",
+              "category": "SW30-34",
+              "time": "26:43",
+              "date": "2026-09-05"
+            },
+            {
+              "place": 3,
+              "name": "Karolina PAETKE",
+              "category": "SW30-34",
+              "time": "27:51",
+              "date": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "category": "VM35-39",
+          "gender": "M",
+          "participants_count": 43,
+          "top": [
+            {
+              "place": 1,
+              "name": "Maksim KAVALEUSKI",
+              "category": "VM35-39",
+              "time": "17:53",
+              "date": "2026-09-19"
+            },
+            {
+              "place": 2,
+              "name": "Wiktor Jan KOZŁOWSKI",
+              "category": "VM35-39",
+              "time": "18:23",
+              "date": "2026-09-05"
+            },
+            {
+              "place": 3,
+              "name": "Tomasz SZCZYKUTOWICZ",
+              "category": "VM35-39",
+              "time": "18:27",
+              "date": "2026-09-05"
+            }
+          ]
+        },
+        {
+          "category": "VM40-44",
+          "gender": "M",
+          "participants_count": 40,
+          "top": [
+            {
+              "place": 1,
+              "name": "Daniel ŻYWICKI",
+              "category": "VM40-44",
+              "time": "18:15",
+              "date": "2026-09-19"
+            },
+            {
+              "place": 2,
+              "name": "Dariusz WYRWA",
+              "category": "VM40-44",
+              "time": "19:19",
+              "date": "2026-09-19"
+            },
+            {
+              "place": 3,
+              "name": "Tomasz BANACH",
+              "category": "VM40-44",
+              "time": "19:53",
+              "date": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "category": "VM45-49",
+          "gender": "M",
+          "participants_count": 48,
+          "top": [
+            {
+              "place": 1,
+              "name": "Tomasz BAGIŃSKI",
+              "category": "VM45-49",
+              "time": "17:34",
+              "date": "2026-09-12"
+            },
+            {
+              "place": 2,
+              "name": "Damian DINO",
+              "category": "VM45-49",
+              "time": "17:36",
+              "date": "2026-09-26"
+            },
+            {
+              "place": 3,
+              "name": "Adam ALAMA",
+              "category": "VM45-49",
+              "time": "18:54",
+              "date": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "category": "VM50-54",
+          "gender": "M",
+          "participants_count": 30,
+          "top": [
+            {
+              "place": 1,
+              "name": "Wojciech GIERSZEWSKI",
+              "category": "VM50-54",
+              "time": "19:44",
+              "date": "2026-09-12"
+            },
+            {
+              "place": 2,
+              "name": "Michał TWAROWSKI",
+              "category": "VM50-54",
+              "time": "20:03",
+              "date": "2026-09-05"
+            },
+            {
+              "place": 3,
+              "name": "Mariusz NAWROCKI",
+              "category": "VM50-54",
+              "time": "21:28",
+              "date": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "category": "VM55-59",
+          "gender": "M",
+          "participants_count": 12,
+          "top": [
+            {
+              "place": 1,
+              "name": "Marcin GAŁKOWSKI",
+              "category": "VM55-59",
+              "time": "21:07",
+              "date": "2026-09-26"
+            },
+            {
+              "place": 2,
+              "name": "Jacek KĘDZIERSKI",
+              "category": "VM55-59",
+              "time": "23:27",
+              "date": "2026-09-26"
+            },
+            {
+              "place": 3,
+              "name": "Paul DODSON",
+              "category": "VM55-59",
+              "time": "25:00",
+              "date": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "category": "VM60-64",
+          "gender": "M",
+          "participants_count": 8,
+          "top": [
+            {
+              "place": 1,
+              "name": "Paul BARNSTAPLE",
+              "category": "VM60-64",
+              "time": "24:37",
+              "date": "2026-09-12"
+            },
+            {
+              "place": 2,
+              "name": "Mirosław KAMOLA",
+              "category": "VM60-64",
+              "time": "25:27",
+              "date": "2026-09-26"
+            },
+            {
+              "place": 3,
+              "name": "Wojciech BLEW",
+              "category": "VM60-64",
+              "time": "27:29",
+              "date": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "category": "VM65-69",
+          "gender": "M",
+          "participants_count": 7,
+          "top": [
+            {
+              "place": 1,
+              "name": "Leszek BEHOUNEK",
+              "category": "VM65-69",
+              "time": "21:01",
+              "date": "2026-09-12"
+            },
+            {
+              "place": 2,
+              "name": "Andrzej BORN",
+              "category": "VM65-69",
+              "time": "23:16",
+              "date": "2026-09-19"
+            },
+            {
+              "place": 3,
+              "name": "Henryk RATKOWSKI",
+              "category": "VM65-69",
+              "time": "24:46",
+              "date": "2026-09-05"
+            }
+          ]
+        },
+        {
+          "category": "VM70-74",
+          "gender": "M",
+          "participants_count": 5,
+          "top": [
+            {
+              "place": 1,
+              "name": "Ho Ming CHAN",
+              "category": "VM70-74",
+              "time": "28:29",
+              "date": "2026-09-12"
+            },
+            {
+              "place": 2,
+              "name": "Jacek WIELIŃSKI",
+              "category": "VM70-74",
+              "time": "29:47",
+              "date": "2026-09-12"
+            },
+            {
+              "place": 3,
+              "name": "Adam POLINCEUSZ",
+              "category": "VM70-74",
+              "time": "30:32",
+              "date": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "category": "VM75-79",
+          "gender": "M",
+          "participants_count": 3,
+          "top": [
+            {
+              "place": 1,
+              "name": "Andrzej BALICKI",
+              "category": "VM75-79",
+              "time": "22:40",
+              "date": "2026-09-26"
+            },
+            {
+              "place": 2,
+              "name": "Andrzej KIK",
+              "category": "VM75-79",
+              "time": "26:29",
+              "date": "2026-09-12"
+            },
+            {
+              "place": 3,
+              "name": "Henryk Piotr WITT",
+              "category": "VM75-79",
+              "time": "42:19",
+              "date": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "category": "VW35-39",
+          "gender": "K",
+          "participants_count": 12,
+          "top": [
+            {
+              "place": 1,
+              "name": "Anna HOŁOWNIA",
+              "category": "VW35-39",
+              "time": "23:59",
+              "date": "2026-09-19"
+            },
+            {
+              "place": 2,
+              "name": "Aleksandra Ewa GRABIAS",
+              "category": "VW35-39",
+              "time": "24:20",
+              "date": "2026-09-26"
+            },
+            {
+              "place": 3,
+              "name": "Ila PO",
+              "category": "VW35-39",
+              "time": "25:49",
+              "date": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "category": "VW40-44",
+          "gender": "K",
+          "participants_count": 24,
+          "top": [
+            {
+              "place": 1,
+              "name": "Dorota ŻMUDA-TRZEBIATOWSKA",
+              "category": "VW40-44",
+              "time": "20:05",
+              "date": "2026-09-26"
+            },
+            {
+              "place": 2,
+              "name": "Justyna DOMŻALSKA",
+              "category": "VW40-44",
+              "time": "23:26",
+              "date": "2026-09-19"
+            },
+            {
+              "place": 3,
+              "name": "Katarzyna CHWAZIK",
+              "category": "VW40-44",
+              "time": "23:47",
+              "date": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "category": "VW45-49",
+          "gender": "K",
+          "participants_count": 21,
+          "top": [
+            {
+              "place": 1,
+              "name": "Lidia KULESZA",
+              "category": "VW45-49",
+              "time": "23:28",
+              "date": "2026-09-19"
+            },
+            {
+              "place": 2,
+              "name": "Anna KWIATKOWSKA",
+              "category": "VW45-49",
+              "time": "24:14",
+              "date": "2026-09-05"
+            },
+            {
+              "place": 3,
+              "name": "Ewelina SZAJDZIUK",
+              "category": "VW45-49",
+              "time": "24:21",
+              "date": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "category": "VW50-54",
+          "gender": "K",
+          "participants_count": 14,
+          "top": [
+            {
+              "place": 1,
+              "name": "Aleksandra DE VIRION",
+              "category": "VW50-54",
+              "time": "24:49",
+              "date": "2026-09-26"
+            },
+            {
+              "place": 2,
+              "name": "Ewa KREFT",
+              "category": "VW50-54",
+              "time": "26:53",
+              "date": "2026-09-26"
+            },
+            {
+              "place": 3,
+              "name": "Sylwia ŁUDCZAK",
+              "category": "VW50-54",
+              "time": "27:33",
+              "date": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "category": "VW55-59",
+          "gender": "K",
+          "participants_count": 5,
+          "top": [
+            {
+              "place": 1,
+              "name": "Marzena GRABOWSKA",
+              "category": "VW55-59",
+              "time": "28:29",
+              "date": "2026-09-19"
+            },
+            {
+              "place": 2,
+              "name": "Barbara ŁUKASZEWICZ",
+              "category": "VW55-59",
+              "time": "28:35",
+              "date": "2026-09-12"
+            },
+            {
+              "place": 3,
+              "name": "Joanna SAWCZUK",
+              "category": "VW55-59",
+              "time": "30:17",
+              "date": "2026-09-05"
+            }
+          ]
+        },
+        {
+          "category": "VW60-64",
+          "gender": "K",
+          "participants_count": 3,
+          "top": [
+            {
+              "place": 1,
+              "name": "Małgorzata BEHOUNEK",
+              "category": "VW60-64",
+              "time": "30:42",
+              "date": "2026-09-12"
+            },
+            {
+              "place": 2,
+              "name": "Elżbieta ROSOŁEK",
+              "category": "VW60-64",
+              "time": "33:11",
+              "date": "2026-09-26"
+            },
+            {
+              "place": 3,
+              "name": "Małgorzata GIERSZEWSKA",
+              "category": "VW60-64",
+              "time": "35:12",
+              "date": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "category": "VW65-69",
+          "gender": "K",
+          "participants_count": 4,
+          "top": [
+            {
+              "place": 1,
+              "name": "Grażyna CZEKAJ",
+              "category": "VW65-69",
+              "time": "28:55",
+              "date": "2026-09-26"
+            },
+            {
+              "place": 2,
+              "name": "Alicja Teresa WRZOSEK",
+              "category": "VW65-69",
+              "time": "42:18",
+              "date": "2026-09-19"
+            },
+            {
+              "place": 3,
+              "name": "Jadwiga GÓRECZNA",
+              "category": "VW65-69",
+              "time": "50:11",
+              "date": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "category": "VW70-74",
+          "gender": "K",
+          "participants_count": 1,
+          "top": [
+            {
+              "place": 1,
+              "name": "Małgorzata POLINCEUSZ",
+              "category": "VW70-74",
+              "time": "28:49",
+              "date": "2026-09-26"
+            }
+          ]
+        }
+      ]
+    }
   },
   "records": {
     "overall": {
