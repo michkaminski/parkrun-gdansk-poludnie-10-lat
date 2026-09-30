@@ -1,7 +1,7 @@
 /*
  * Renderowanie raportu miesiecznego (doc_months) - wspolny plik JS laczony
- * przez wszystkie 7 podstron jednego miesiaca (index/frekwencja/demografia/
- * hall-of-fame/wolontariusze/rekordy/historia), dokladnie jak main.js w
+ * przez wszystkie 8 podstron jednego miesiaca (index/frekwencja/demografia/
+ * hall-of-fame/rankingi/wolontariusze/rekordy/historia), dokladnie jak main.js w
  * doc_subweb: kazda funkcja renderujaca jest bezpieczna do wywolania na
  * stronie, ktora nie ma jej elementow - po prostu nic wtedy nie robi.
  * Wszystkie dane pochodza z jednego lokalnego data.json (w tym
@@ -23,6 +23,14 @@
     return `${d}.${m}.${y}`;
   };
   const orDash = (v) => (v === null || v === undefined || v === "" ? "–" : v);
+
+  function escapeHtml(value) {
+    return String(value ?? "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
+  }
 
   function setText(id, text) {
     const el = document.getElementById(id);
@@ -338,6 +346,12 @@
     return `${entry.best_time} — ${entry.best_name}`;
   }
 
+  function ageCategoryDisplayAllYears(entry) {
+    if (!entry.best_time) return "–";
+    const yearPart = entry.best_year ? ` (${entry.best_year})` : "";
+    return `${entry.best_time} — ${entry.best_name}${yearPart}`;
+  }
+
   function ageCategoryColumns() {
     return [
       { key: "category" },
@@ -347,11 +361,111 @@
     ];
   }
 
+  function ageCategoryColumnsAllYears() {
+    return [
+      { key: "category" },
+      { key: "count" },
+      { key: "avg_time" },
+      { key: "best_display", render: ageCategoryDisplayAllYears },
+    ];
+  }
+
+  const MONTH_EDITIONS_ADJECTIVE = {
+    1: "styczniowych",
+    2: "lutowych",
+    3: "marcowych",
+    4: "kwietniowych",
+    5: "majowych",
+    6: "czerwcowych",
+    7: "lipcowych",
+    8: "sierpniowych",
+    9: "wrześniowych",
+    10: "październikowych",
+    11: "listopadowych",
+    12: "grudniowych",
+  };
+
+  const MONTH_IN_MONTH_LOCATIVE = {
+    1: "styczniu",
+    2: "lutym",
+    3: "marcu",
+    4: "kwietniu",
+    5: "maju",
+    6: "czerwcu",
+    7: "lipcu",
+    8: "sierpniu",
+    9: "wrześniu",
+    10: "październiku",
+    11: "listopadzie",
+    12: "grudniu",
+  };
+
+  const MONTH_GENITIVE = {
+    1: "stycznia",
+    2: "lutego",
+    3: "marca",
+    4: "kwietnia",
+    5: "maja",
+    6: "czerwca",
+    7: "lipca",
+    8: "sierpnia",
+    9: "września",
+    10: "października",
+    11: "listopada",
+    12: "grudnia",
+  };
+
+  function monthNameFromMeta(meta) {
+    return (meta.month_label || "").split(" ")[0] || "Miesiąc";
+  }
+
+  function renderFrekwencjaHeadings(meta) {
+    if (document.body.dataset.page !== "frekwencja") return;
+    const monthName = monthNameFromMeta(meta);
+    const monthNum = meta.month;
+    const monthGenitive = MONTH_GENITIVE[monthNum] || monthName.toLowerCase();
+    const monthLocative = MONTH_IN_MONTH_LOCATIVE[monthNum] || monthName.toLowerCase();
+
+    setText("yoy-section-kicker", `${monthName}, rok po roku`);
+    setText("yoy-compare-title", `Porównanie ${monthGenitive} z poprzednimi latami`);
+    setText(
+      "yoy-compare-desc",
+      `${monthName} w każdym roku historii tej lokalizacji (ten sam miesiąc kalendarzowy).`
+    );
+    setText("yoy-chart-total-title", `Frekwencja ${monthGenitive} na przestrzeni lat`);
+    setText("yoy-chart-avg-title", `Średnia frekwencja na edycję w ${monthLocative}`);
+  }
+
+  function renderDemografiaHeadings(meta) {
+    if (document.body.dataset.page !== "demografia") return;
+    const monthLabel = meta.month_label;
+    const monthName = monthNameFromMeta(meta);
+    const monthNum = meta.month;
+    const editionsAdj = MONTH_EDITIONS_ADJECTIVE[monthNum] || `${monthName.toLowerCase()}ych`;
+    const monthLocative = MONTH_IN_MONTH_LOCATIVE[monthNum] || monthName.toLowerCase();
+    const genderMonth = (gender) => `${gender} — ${monthLabel}`;
+
+    setText("age-cat-year-title", monthLabel);
+    setText("age-cat-year-chart-k-title", genderMonth("Kobiety"));
+    setText("age-cat-year-chart-m-title", genderMonth("Mężczyźni"));
+    setText("age-cat-year-table-k-title", genderMonth("Kobiety"));
+    setText("age-cat-year-table-m-title", genderMonth("Mężczyźni"));
+
+    setText("age-cat-all-years-title", `${monthName} — wszystkie lata`);
+    setText(
+      "age-cat-all-years-desc",
+      `Porównanie wyłącznie ${editionsAdj} edycji ze wszystkich lat historii parkrun ${meta.location_name}. Zestawienie obejmuje frekwencję, liczbę uczestników, średnie czasy oraz najlepsze wyniki w kategoriach wiekowych osiągnięte w miesiącu ${monthLocative} w poszczególnych latach.`
+    );
+    const genderAllYears = (gender) => `${gender} — ${monthName.toLowerCase()} (wszystkie lata)`;
+    setText("age-cat-all-table-k-title", genderAllYears("Kobiety"));
+    setText("age-cat-all-table-m-title", genderAllYears("Mężczyźni"));
+  }
+
   function renderAgeCategoryTables(ageCategoriesThisYear, ageCategoriesAllYears, locationAgeCategories) {
     makeSortableTable("table-age-cat-year-k", ageCategoriesThisYear.women, ageCategoryColumns());
     makeSortableTable("table-age-cat-year-m", ageCategoriesThisYear.men, ageCategoryColumns());
-    makeSortableTable("table-age-cat-all-k", ageCategoriesAllYears.women, ageCategoryColumns());
-    makeSortableTable("table-age-cat-all-m", ageCategoriesAllYears.men, ageCategoryColumns());
+    makeSortableTable("table-age-cat-all-k", ageCategoriesAllYears.women, ageCategoryColumnsAllYears());
+    makeSortableTable("table-age-cat-all-m", ageCategoriesAllYears.men, ageCategoryColumnsAllYears());
     if (locationAgeCategories) {
       makeSortableTable("table-location-cat-k", locationAgeCategories.women, ageCategoryColumns(), { collapseAfter: 8 });
       makeSortableTable("table-location-cat-m", locationAgeCategories.men, ageCategoryColumns(), { collapseAfter: 8 });
@@ -390,19 +504,181 @@
     );
   }
 
-  function renderAgeGradedTable(rows) {
-    makeSortableTable(
-      "table-age-graded",
-      rows,
-      [
-        { key: "rank" },
-        { key: "name" },
-        { key: "category" },
-        { key: "time" },
-        { key: "coefficient", render: (r) => r.coefficient.toFixed(2) },
-      ],
-      { collapseAfter: 50 }
+  function categoryAgeSortKey(category) {
+    const match = String(category || "").match(/(\d+)/);
+    return match ? parseInt(match[1], 10) : 9999;
+  }
+
+  function podiumPlaceCell(entry) {
+    if (!entry) {
+      return '<td class="podium-place-cell"><span class="podium-empty">–</span></td>';
+    }
+    return `<td class="podium-place-cell">
+      <span class="podium-inline">
+        <span class="podium-name cell-name">${escapeHtml(entry.name)}</span>
+        <span class="podium-time">${escapeHtml(orDash(entry.time))}</span>
+      </span>
+    </td>`;
+  }
+
+  function podiumAtPlace(top, place) {
+    if (!top || !top.length) return null;
+    return top.find((row) => row.place === place) || top[place - 1] || null;
+  }
+
+  function categoryEntryGender(cat) {
+    if (cat.gender === "K" || cat.gender === "M") return cat.gender;
+    const code = cat.category || "";
+    if (code.length >= 2 && code.charAt(1) === "W") return "K";
+    if (code.length >= 2 && code.charAt(1) === "M") return "M";
+    return null;
+  }
+
+  function categoryLabelHtml(cat) {
+    const count =
+      cat.participants_count != null
+        ? `<span class="category-count">${numberFmt.format(cat.participants_count)}</span>`
+        : "";
+    return `<span class="category-code">${escapeHtml(cat.category)}</span>${count}`;
+  }
+
+  function editionCategoriesMatrixHtml(edition, gender, title) {
+    const rows = (edition.categories || [])
+      .filter((cat) => categoryEntryGender(cat) === gender)
+      .sort((a, b) => categoryAgeSortKey(a.category) - categoryAgeSortKey(b.category));
+    if (!rows.length) {
+      return `<div class="table-card table-card-nested"><h4>${escapeHtml(title)}</h4><p class="chart-caption">Brak wyników w kategoriach.</p></div>`;
+    }
+    const head = "<tr><th>Kat. wiek.</th><th>1. miejsce</th><th>2. miejsce</th><th>3. miejsce</th></tr>";
+    const body = rows
+      .map((cat) => {
+        const top = cat.top || [];
+        return `<tr>
+          <td class="category-with-count">${categoryLabelHtml(cat)}</td>
+          ${podiumPlaceCell(podiumAtPlace(top, 1))}
+          ${podiumPlaceCell(podiumAtPlace(top, 2))}
+          ${podiumPlaceCell(podiumAtPlace(top, 3))}
+        </tr>`;
+      })
+      .join("");
+    return `<div class="table-card table-card-nested edition-categories-table-wrap">
+      <h4>${escapeHtml(title)}</h4>
+      <div class="table-scroll"><table class="data-table edition-categories-matrix"><thead>${head}</thead><tbody>${body}</tbody></table></div>
+    </div>`;
+  }
+
+  function podiumTableHtml(title, rows, options) {
+    const opts = options || {};
+    const showCoeff = opts.showCoefficient;
+    const hideTitle = opts.hideTitle;
+    const head = showCoeff
+      ? "<tr><th>Msc</th><th>Uczestnik</th><th>Kat.</th><th>Czas</th><th>Wsp.</th></tr>"
+      : "<tr><th>Msc</th><th>Uczestnik</th><th>Kat.</th><th>Czas</th></tr>";
+    const titleHtml = title && !hideTitle ? `<h4>${escapeHtml(title)}</h4>` : "";
+    if (!rows || !rows.length) {
+      return `<div class="table-card table-card-nested">${titleHtml}<p class="chart-caption">Brak wyników.</p></div>`;
+    }
+    const body = rows
+      .map((row) => {
+        const coeffCell = showCoeff ? `<td>${orDash(row.coefficient != null ? row.coefficient.toFixed(2) : null)}</td>` : "";
+        return `<tr>
+          <td>${row.place}</td>
+          <td class="cell-name">${escapeHtml(row.name)}</td>
+          <td>${escapeHtml(orDash(row.category))}</td>
+          <td>${escapeHtml(orDash(row.time))}</td>
+          ${coeffCell}
+        </tr>`;
+      })
+      .join("");
+    return `<div class="table-card table-card-nested">${titleHtml}
+      <div class="table-scroll"><table class="data-table podium-table"><thead>${head}</thead><tbody>${body}</tbody></table></div></div>`;
+  }
+
+  function renderEditionRankings(editionRankings, meta) {
+    const root =
+      document.getElementById("edition-rankings-root") ||
+      document.getElementById("edition-podium-times-root") ||
+      document.getElementById("edition-podium-ag-root");
+    if (!root) return;
+    const editions = (editionRankings && editionRankings.editions) || [];
+    if (!editions.length) {
+      root.innerHTML = "<p class=\"chart-caption\">Brak edycji w tym miesiącu.</p>";
+      return;
+    }
+
+    root.innerHTML = editions
+      .map((edition) => {
+        const head = `<div class="edition-ranking-head"><h3>Edycja #${edition.edition_number} · ${dateFmt(edition.date)}</h3></div>`;
+        const times = `<div class="edition-ranking-subsection">
+          <h4 class="edition-ranking-subtitle">Pierwsza trójka — czasy</h4>
+          <div class="edition-ranking-pair">
+            ${podiumTableHtml("Kobiety", edition.top_women)}
+            ${podiumTableHtml("Mężczyźni", edition.top_men)}
+          </div>
+        </div>`;
+        const ag = `<div class="edition-ranking-subsection edition-ranking-ag-table">
+          <h4 class="edition-ranking-subtitle">Pierwsza trójka — współczynnik wieku</h4>
+          ${podiumTableHtml("", edition.top_age_graded, { showCoefficient: true, hideTitle: true })}
+        </div>`;
+        const categories = edition.categories || [];
+        let categoriesBlock = "";
+        if (categories.length) {
+          categoriesBlock = `<details class="record-category-standings edition-ranking-subsection edition-ranking-categories">
+            <summary>Kategorie wiekowe — pierwsze trójki (wg czasu)</summary>
+            <div class="edition-ranking-categories-stack">
+              ${editionCategoriesMatrixHtml(edition, "K", "Kobiety")}
+              ${editionCategoriesMatrixHtml(edition, "M", "Mężczyźni")}
+            </div>
+          </details>`;
+        }
+        return `<article class="edition-ranking-block">${head}${times}${ag}${categoriesBlock}</article>`;
+      })
+      .join("");
+  }
+
+  function renderRankingiHeadings(meta) {
+    if (document.body.dataset.page !== "rankingi") return;
+    const monthName = monthNameFromMeta(meta);
+    const monthLocative = MONTH_IN_MONTH_LOCATIVE[meta.month] || monthName.toLowerCase();
+    setText("edition-rankings-title", `Rankingi na edycjach — ${monthName}`);
+    setText(
+      "edition-rankings-desc",
+      `Każda edycja ${monthLocative}: czasy K/M, współczynnik wieku, potem pierwsze trójki w kategoriach (liczba w nawiasie).`
     );
+  }
+
+  function ageGradedStatusLabel(status) {
+    if (status === "new") return "NEW";
+    if (status === "tied") return "Wyrównany";
+    return "–";
+  }
+
+  function ageGradedColumns(withRecordScope) {
+    const cols = [
+      { key: "rank" },
+      { key: "name" },
+      { key: "category" },
+      { key: "time" },
+      { key: "coefficient", render: (r) => r.coefficient.toFixed(2) },
+      { key: "date", render: (r) => dateFmt(r.date) },
+    ];
+    if (withRecordScope) {
+      cols.push({ key: "record_status", render: (r) => ageGradedStatusLabel(r.record_status) });
+    }
+    return cols;
+  }
+
+  function renderAgeGradedScope(detailsId, captionId, tableId, rows, captionText) {
+    const details = document.getElementById(detailsId);
+    const table = document.getElementById(tableId);
+    if (!details || !table) return;
+    if (!rows || !rows.length) {
+      details.hidden = true;
+      return;
+    }
+    details.hidden = false;
+    if (captionId) setText(captionId, captionText);
+    makeSortableTable(tableId, rows, ageGradedColumns(true), { collapseAfter: 50 });
   }
 
   function kpiGrid(id, tiles) {
@@ -451,18 +727,20 @@
   }
 
   function renderLocationContext(summary) {
-    if (!summary || !document.getElementById("location-context-strip")) return;
+    if (!summary || !document.getElementById("location-context-kpi-grid")) return;
     setText("location-context-title", `Cała historia ${summary.location_name}`);
-    setHtml(
-      "location-context-strip",
-      `<strong>${numberFmt.format(summary.total_editions)}</strong> edycji ·
-      <strong>${numberFmt.format(summary.total_starts)}</strong> startów ·
-      średnio <strong>${summary.avg_participants_per_edition}</strong> os./edycję ·
-      najlepszy czas M <strong>${orDash(summary.best_time_m)}</strong>,
-      K <strong>${orDash(summary.best_time_f)}</strong> ·
-      mediana <strong>${orDash(summary.median_time)}</strong> ·
-      najlepszy wsp. wieku <strong>${orDash(summary.best_age_coefficient)}</strong>
-      (${dateFmt(summary.first_edition_date)} – ${dateFmt(summary.last_edition_date)})`
+    kpiGrid("location-context-kpi-grid", [
+      { label: "Edycji", value: numberFmt.format(summary.total_editions) },
+      { label: "Startów", value: numberFmt.format(summary.total_starts) },
+      { label: "Średnio na edycję", value: summary.avg_participants_per_edition },
+      { label: "Najlepszy czas M", value: orDash(summary.best_time_m) },
+      { label: "Najlepszy czas K", value: orDash(summary.best_time_f) },
+      { label: "Mediana czasu", value: orDash(summary.median_time) },
+      { label: "Najlepszy wsp. wieku", value: orDash(summary.best_age_coefficient) },
+    ]);
+    setText(
+      "location-context-range",
+      `Okres: ${dateFmt(summary.first_edition_date)} – ${dateFmt(summary.last_edition_date)}`
     );
   }
 
@@ -490,7 +768,7 @@
     return `${numberFmt.format(entry.value)}<span class="record-who">edycja #${entry.edition_number} · ${dateFmt(entry.date)}</span>`;
   }
   function fmtAttendanceCompact(entry) {
-    if (!entry) return "brak wcześniejszych danych";
+    if (!entry) return "–";
     return `${numberFmt.format(entry.value)} osób (edycja #${entry.edition_number}, ${dateFmt(entry.date)})`;
   }
   function fmtTimeBig(entry) {
@@ -498,7 +776,7 @@
     return `${entry.value}<span class="record-who">${entry.name} · ${dateFmt(entry.date)}</span>`;
   }
   function fmtTimeCompact(entry) {
-    if (!entry) return "brak wcześniejszych danych";
+    if (!entry) return "–";
     return `${entry.value} — ${entry.name} (${dateFmt(entry.date)})`;
   }
   function fmtCoefficientBig(entry) {
@@ -506,10 +784,9 @@
     return `${entry.value.toFixed(2)}<span class="record-who">${entry.name}, ${entry.category} · ${dateFmt(entry.date)}</span>`;
   }
   function fmtCoefficientCompact(entry) {
-    if (!entry) return "brak wcześniejszych danych";
+    if (!entry) return "–";
     return `${entry.value.toFixed(2)} — ${entry.name}, ${entry.category} (${dateFmt(entry.date)})`;
   }
-
   // Trzy stany: pobity (broken, zloty), wyrownany (tied, morski), bez zmian
   // (szary) - patrz PROJEKT_DOC_MONTHS.md, uwaga o wyrownaniach rekordu.
   function recordStatus(comparison) {
@@ -518,20 +795,56 @@
     return "none";
   }
 
-  function recordBadgeLabel(status) {
-    if (status === "broken") return "🎉 Nowy rekord!";
-    if (status === "tied") return "🤝 Wyrównany rekord!";
-    return "Bez zmian";
+  function recordMonthBest(comparison) {
+    return comparison.month_best != null ? comparison.month_best : comparison.current;
+  }
+
+  function recordStanding(comparison) {
+    if (comparison.standing_record != null) return comparison.standing_record;
+    if (comparison.broken) return recordMonthBest(comparison);
+    return comparison.previous || recordMonthBest(comparison);
+  }
+
+  function recordChangeBadge(status) {
+    if (status === "broken") return `<span class="record-change-tag is-new">NEW</span>`;
+    if (status === "tied") return `<span class="record-change-tag is-tied">Wyrównany</span>`;
+    return "";
+  }
+
+  function recordCardCompareLine(status, comparison, compactFmt) {
+    const monthBest = recordMonthBest(comparison);
+    const prior = comparison.previous;
+    if (status === "broken") {
+      if (prior) return `Poprzedni rekord: ${compactFmt(prior)}`;
+      return "Pierwszy rekord w tym zakresie.";
+    }
+    if (status === "tied" && prior) {
+      return `Wyrównano wcześniejszy rekord: ${compactFmt(prior)}`;
+    }
+    if (status === "none" && monthBest && prior) {
+      return `W tym miesiącu najlepiej: ${compactFmt(monthBest)} — rekord nie pobity`;
+    }
+    if (status === "none" && monthBest && !prior) {
+      return "Pierwszy wynik w tym zakresie w historii raportu.";
+    }
+    return "";
   }
 
   function recordCard(title, comparison, bigFmt, compactFmt) {
     const status = recordStatus(comparison);
-    const cls = status === "broken" ? "is-broken" : status === "tied" ? "is-tied" : "";
+    const cls =
+      status === "broken" ? "is-broken" : status === "tied" ? "is-tied" : status === "none" ? "is-unchanged" : "";
+    const mainEntry = status === "broken" ? recordMonthBest(comparison) : recordStanding(comparison);
+    const compareLine = recordCardCompareLine(status, comparison, compactFmt);
+    const compareHtml = compareLine ? `<div class="record-compare">${compareLine}</div>` : "";
+
     return `<div class="record-card ${cls}">
-      <span class="record-badge">${recordBadgeLabel(status)}</span>
-      <h4>${title}</h4>
-      <div class="record-current">${bigFmt(comparison.current)}</div>
-      <div class="record-previous">Poprzedni rekord: ${compactFmt(comparison.previous)}</div>
+      <div class="record-card-head">
+        <h4>${title}</h4>
+        ${recordChangeBadge(status)}
+      </div>
+      <div class="record-current">${bigFmt(mainEntry)}</div>
+      ${compareHtml}
     </div>`;
   }
 
@@ -542,6 +855,33 @@
       recordCard("Najlepszy czas — kobiety", scope.time_f, fmtTimeBig, fmtTimeCompact),
       recordCard("Współczynnik wieku", scope.age_coefficient, fmtCoefficientBig, fmtCoefficientCompact),
     ].join(""));
+  }
+
+  function categoryStandingColumns() {
+    return [
+      { key: "category" },
+      { key: "time" },
+      { key: "name" },
+      { key: "date", render: (row) => dateFmt(row.date) },
+    ];
+  }
+
+  function renderCategoryStandings(detailsId, tableKId, tableMId, standings) {
+    const details = document.getElementById(detailsId);
+    if (!details) return;
+    if (!standings) {
+      details.hidden = true;
+      return;
+    }
+    const women = standings.women || [];
+    const men = standings.men || [];
+    if (!women.length && !men.length) {
+      details.hidden = true;
+      return;
+    }
+    details.hidden = false;
+    makeSortableTable(tableKId, women, categoryStandingColumns());
+    makeSortableTable(tableMId, men, categoryStandingColumns());
   }
 
   function renderCategoryRecordsTable(tableId, emptyId, categoryRecords) {
@@ -604,10 +944,14 @@
     renderScopeGrid("records-overall-grid", records.overall);
     renderScopeGrid("records-year-grid", records.year);
     renderScopeGrid("records-month-grid", records.same_month_all_years);
-    setText("records-year-title", `Rekord roku ${meta.year}`);
-    setText("records-month-title", `Rekord miesiąca (na przestrzeni lat) — ${meta.month_label.split(" ")[0]}`);
+    setText("records-overall-title", "Rekordy ogólne");
+    setText("records-year-title", `Rekordy roku ${meta.year}`);
+    setText("records-month-title", `Rekordy miesiąca (na przestrzeni lat) — ${monthNameFromMeta(meta)}`);
     setText("records-category-year-title", `Rekordy kategorii wiekowych — rok ${meta.year}`);
-    setText("records-category-month-title", `Rekordy kategorii wiekowych — ${meta.month_label.split(" ")[0]} na przestrzeni lat`);
+    setText(
+      "records-category-month-title",
+      `Rekordy kategorii wiekowych — miesiąca ${monthNameFromMeta(meta).toLowerCase()} na przestrzeni lat`
+    );
 
     renderCategoryRecordsTable("table-category-records-overall", "records-category-overall-empty", records.category_records_overall);
     renderCategoryRecordsTable("table-category-records-year", "records-category-year-empty", records.category_records_year);
@@ -615,6 +959,48 @@
       "table-category-records-month",
       "records-category-month-empty",
       records.category_records_same_month_all_years
+    );
+
+    renderCategoryStandings(
+      "category-standings-overall",
+      "table-category-standings-overall-k",
+      "table-category-standings-overall-m",
+      records.category_standings_overall
+    );
+    renderCategoryStandings(
+      "category-standings-year",
+      "table-category-standings-year-k",
+      "table-category-standings-year-m",
+      records.category_standings_year
+    );
+    renderCategoryStandings(
+      "category-standings-month",
+      "table-category-standings-month-k",
+      "table-category-standings-month-m",
+      records.category_standings_same_month_all_years
+    );
+
+    const monthName = monthNameFromMeta(meta).toLowerCase();
+    renderAgeGradedScope(
+      "age-graded-overall",
+      "age-graded-overall-caption",
+      "table-age-graded-overall",
+      records.age_graded_overall,
+      "Ranking uczestników według najlepszego współczynnika wieku w całej historii lokalizacji (stan na koniec raportowanego miesiąca)."
+    );
+    renderAgeGradedScope(
+      "age-graded-year",
+      "age-graded-year-caption",
+      "table-age-graded-year",
+      records.age_graded_year,
+      `Ranking według najlepszego współczynnika w roku ${meta.year} (do końca ${meta.month_label}).`
+    );
+    renderAgeGradedScope(
+      "age-graded-month",
+      "age-graded-month-caption",
+      "table-age-graded-month",
+      records.age_graded_same_month_all_years,
+      `Ranking według najlepszego współczynnika w edycjach miesiąca ${monthName} ze wszystkich lat historii.`
     );
   }
 
@@ -631,6 +1017,9 @@
     // jest juz w hero) - element moze nie istniec na danej stronie,
     // setText bezpiecznie nic wtedy nie robi.
     setText("month-banner-label", `Statystyki — ${meta.month_label}`);
+    renderFrekwencjaHeadings(meta);
+    renderDemografiaHeadings(meta);
+    renderRankingiHeadings(meta);
   }
 
   function render(data) {
@@ -646,10 +1035,10 @@
     renderAgeCategoryCharts(data.age_categories_this_year);
     renderAgeCategoryTables(data.age_categories_this_year, data.age_categories_all_years, locationContext && locationContext.age_categories);
     renderRunnerRankings(data);
+    renderEditionRankings(data.edition_rankings, data.meta);
     renderVolunteerRankings(data);
     renderYearSummary(data.year_summary, data.meta);
     if (monthlyCumulative) renderCumulativeChart(monthlyCumulative, data.meta);
-    renderAgeGradedTable(data.age_graded_ranking);
     renderRecords(data.records, data.meta);
     renderLocationContext(locationContext);
   }
