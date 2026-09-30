@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title id="page-title">Historia — raport miesiąca</title>
-<meta name="description" content="Kontekst lokalizacji: rok do tego miesiąca, średnia krocząca, statystyki all-time.">
+<title id="page-title">Statystyki ogólne — raport miesiąca</title>
+<meta name="description" content="Statystyki ogólne: rok do tego miesiąca, średnia krocząca, statystyki all-time.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%85%3C/text%3E%3C/svg%3E">
-<link rel="stylesheet" href="../../../assets/css/style.css">
+<link rel="stylesheet" href="../../../assets/css/style.css?v=22">
 </head>
-<body data-page="historia" data-section-label="Historia">
+<body data-page="historia" data-section-label="Statystyki ogólne">
 
 <header class="site-header">
   <div class="container">
@@ -17,12 +17,13 @@
       <span id="brand-label">parkrun</span>
     </a>
     <nav class="site-nav">
-      <a href="frekwencja.html">Frekwencja</a>
-      <a href="demografia.html">Demografia</a>
-      <a href="hall-of-fame.html">Hall of Fame</a>
+      <a href="historia.html">Statystyki ogólne</a>
+      <a href="frekwencja.html">Edycje</a>
+      <a href="demografia.html">Kategorie wiekowe</a>
+      <a href="hall-of-fame.html">Ranking frekwencji</a>
+      <a href="rankingi.html">Rankingi</a>
       <a href="wolontariusze.html">Wolontariusze</a>
       <a href="rekordy.html">Rekordy</a>
-      <a href="historia.html">Historia</a>
       <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Przełącz motyw jasny/ciemny">🌙</button>
     </nav>
   </div>
@@ -61,10 +62,11 @@
   <section class="page-section" id="location-context">
     <div class="container">
       <div class="section-head">
-        <span class="section-kicker">Kontekst lokalizacji</span>
+        <span class="section-kicker">Statystyki ogólne</span>
         <h2 id="location-context-title">Cała historia</h2>
       </div>
-      <p class="context-strip" id="location-context-strip"></p>
+      <div class="kpi-grid" id="location-context-kpi-grid"></div>
+      <p class="chart-caption" id="location-context-range"></p>
 
       <div class="tables-grid-pair" style="margin-top: var(--space-4);">
         <div class="table-card">
@@ -98,6 +100,6 @@
 
 <script src="../../../assets/js/vendor/chart.umd.min.js"></script>
 <script src="../../../assets/js/vendor/chartjs-plugin-annotation.min.js"></script>
-<script src="../../../assets/js/month-report.js"></script>
+<script src="../../../assets/js/month-report.js?v=22"></script>
 </body>
 </html>

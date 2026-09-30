@@ -6,7 +6,7 @@
 <title id="page-title">Rekordy — raport miesiąca</title>
 <meta name="description" content="Czy w tym miesiącu padł jakiś rekord: ogólny, roku, tego miesiąca na przestrzeni lat, kategorii wiekowej.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%85%3C/text%3E%3C/svg%3E">
-<link rel="stylesheet" href="../../../assets/css/style.css">
+<link rel="stylesheet" href="../../../assets/css/style.css?v=22">
 </head>
 <body data-page="rekordy" data-section-label="Rekordy" class="page-wide">
 
@@ -17,12 +17,13 @@
       <span id="brand-label">parkrun</span>
     </a>
     <nav class="site-nav">
-      <a href="frekwencja.html">Frekwencja</a>
-      <a href="demografia.html">Demografia</a>
-      <a href="hall-of-fame.html">Hall of Fame</a>
+      <a href="historia.html">Statystyki ogólne</a>
+      <a href="frekwencja.html">Edycje</a>
+      <a href="demografia.html">Kategorie wiekowe</a>
+      <a href="hall-of-fame.html">Ranking frekwencji</a>
+      <a href="rankingi.html">Rankingi</a>
       <a href="wolontariusze.html">Wolontariusze</a>
       <a href="rekordy.html">Rekordy</a>
-      <a href="historia.html">Historia</a>
       <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Przełącz motyw jasny/ciemny">🌙</button>
     </nav>
   </div>
@@ -49,7 +50,7 @@
     <div class="container">
       <div class="section-head">
         <span class="section-kicker">Cała historia</span>
-        <h2>Rekord ogólny</h2>
+        <h2 id="records-overall-title">Rekordy ogólne</h2>
         <p>Porównanie z najlepszym wynikiem z całej dotychczasowej historii tej lokalizacji.</p>
       </div>
       <div class="record-scope-grid" id="records-overall-grid"></div>
@@ -69,6 +70,49 @@
           </table>
         </div>
         <p class="chart-caption" id="records-category-overall-empty" hidden>Żadna kategoria wiekowa nie dostała nowego rekordu all-time w tym miesiącu.</p>
+        <details class="record-category-standings" id="category-standings-overall">
+          <summary>Wszystkie rekordy kategorii wiekowych</summary>
+          <div class="tables-grid-pair record-category-standings-grid">
+            <div class="table-card table-card-nested">
+              <h4>Kobiety</h4>
+              <div class="table-scroll">
+                <table class="data-table" id="table-category-standings-overall-k" data-default-sort="category" data-default-dir="asc">
+                  <thead><tr><th data-key="category">Kategoria</th><th data-key="time">Czas</th><th data-key="name">Kto</th><th data-key="date">Data</th></tr></thead>
+                  <tbody></tbody>
+                </table>
+              </div>
+            </div>
+            <div class="table-card table-card-nested">
+              <h4>Mężczyźni</h4>
+              <div class="table-scroll">
+                <table class="data-table" id="table-category-standings-overall-m" data-default-sort="category" data-default-dir="asc">
+                  <thead><tr><th data-key="category">Kategoria</th><th data-key="time">Czas</th><th data-key="name">Kto</th><th data-key="date">Data</th></tr></thead>
+                  <tbody></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </details>
+        <details class="record-category-standings record-age-graded" id="age-graded-overall">
+          <summary>Klasyfikacja wg współczynnika wieku</summary>
+          <p class="chart-caption" id="age-graded-overall-caption"></p>
+          <div class="table-card table-card-nested">
+            <div class="table-scroll">
+              <table class="data-table" id="table-age-graded-overall" data-default-sort="coefficient" data-default-dir="desc">
+                <thead><tr>
+                  <th data-key="rank">Msc</th>
+                  <th data-key="name">Uczestnik</th>
+                  <th data-key="category">Kat. wiekowa</th>
+                  <th data-key="time">Czas</th>
+                  <th data-key="coefficient">Wsp. wieku</th>
+                  <th data-key="date">Data rekordu</th>
+                  <th data-key="record_status">Rekord</th>
+                </tr></thead>
+                <tbody></tbody>
+              </table>
+            </div>
+          </div>
+        </details>
       </div>
     </div>
   </section>
@@ -77,7 +121,7 @@
     <div class="container">
       <div class="section-head">
         <span class="section-kicker">Ten rok</span>
-        <h2 id="records-year-title">Rekord roku</h2>
+        <h2 id="records-year-title">Rekordy roku</h2>
         <p>Porównanie z najlepszym wynikiem w tym roku kalendarzowym, sprzed tego miesiąca.</p>
       </div>
       <div class="record-scope-grid" id="records-year-grid"></div>
@@ -97,6 +141,49 @@
           </table>
         </div>
         <p class="chart-caption" id="records-category-year-empty" hidden>Żadna kategoria wiekowa nie dostała nowego rekordu roku w tym miesiącu.</p>
+        <details class="record-category-standings" id="category-standings-year">
+          <summary>Wszystkie rekordy kategorii wiekowych</summary>
+          <div class="tables-grid-pair record-category-standings-grid">
+            <div class="table-card table-card-nested">
+              <h4>Kobiety</h4>
+              <div class="table-scroll">
+                <table class="data-table" id="table-category-standings-year-k" data-default-sort="category" data-default-dir="asc">
+                  <thead><tr><th data-key="category">Kategoria</th><th data-key="time">Czas</th><th data-key="name">Kto</th><th data-key="date">Data</th></tr></thead>
+                  <tbody></tbody>
+                </table>
+              </div>
+            </div>
+            <div class="table-card table-card-nested">
+              <h4>Mężczyźni</h4>
+              <div class="table-scroll">
+                <table class="data-table" id="table-category-standings-year-m" data-default-sort="category" data-default-dir="asc">
+                  <thead><tr><th data-key="category">Kategoria</th><th data-key="time">Czas</th><th data-key="name">Kto</th><th data-key="date">Data</th></tr></thead>
+                  <tbody></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </details>
+        <details class="record-category-standings record-age-graded" id="age-graded-year">
+          <summary>Klasyfikacja wg współczynnika wieku</summary>
+          <p class="chart-caption" id="age-graded-year-caption"></p>
+          <div class="table-card table-card-nested">
+            <div class="table-scroll">
+              <table class="data-table" id="table-age-graded-year" data-default-sort="coefficient" data-default-dir="desc">
+                <thead><tr>
+                  <th data-key="rank">Msc</th>
+                  <th data-key="name">Uczestnik</th>
+                  <th data-key="category">Kat. wiekowa</th>
+                  <th data-key="time">Czas</th>
+                  <th data-key="coefficient">Wsp. wieku</th>
+                  <th data-key="date">Data rekordu</th>
+                  <th data-key="record_status">Rekord</th>
+                </tr></thead>
+                <tbody></tbody>
+              </table>
+            </div>
+          </div>
+        </details>
       </div>
     </div>
   </section>
@@ -105,13 +192,13 @@
     <div class="container">
       <div class="section-head">
         <span class="section-kicker">Ten miesiąc, wszystkie lata</span>
-        <h2 id="records-month-title">Rekord miesiąca</h2>
+        <h2 id="records-month-title">Rekordy miesiąca</h2>
         <p>Porównanie z najlepszym wynikiem osiągniętym w tym samym miesiącu kalendarzowym w poprzednich latach.</p>
       </div>
       <div class="record-scope-grid" id="records-month-grid"></div>
 
       <div class="table-card" style="margin-top: var(--space-4);">
-        <h3 id="records-category-month-title">Rekordy kategorii wiekowych — ten miesiąc na przestrzeni lat</h3>
+        <h3 id="records-category-month-title">Rekordy kategorii wiekowych — miesiąca … na przestrzeni lat</h3>
         <div class="table-scroll">
           <table class="data-table" id="table-category-records-month" data-default-sort="category" data-default-dir="asc">
             <thead><tr>
@@ -125,6 +212,49 @@
           </table>
         </div>
         <p class="chart-caption" id="records-category-month-empty" hidden>Żadna kategoria wiekowa nie dostała nowego rekordu tego miesiąca (na przestrzeni lat) w tym roku.</p>
+        <details class="record-category-standings" id="category-standings-month">
+          <summary>Wszystkie rekordy kategorii wiekowych</summary>
+          <div class="tables-grid-pair record-category-standings-grid">
+            <div class="table-card table-card-nested">
+              <h4>Kobiety</h4>
+              <div class="table-scroll">
+                <table class="data-table" id="table-category-standings-month-k" data-default-sort="category" data-default-dir="asc">
+                  <thead><tr><th data-key="category">Kategoria</th><th data-key="time">Czas</th><th data-key="name">Kto</th><th data-key="date">Data</th></tr></thead>
+                  <tbody></tbody>
+                </table>
+              </div>
+            </div>
+            <div class="table-card table-card-nested">
+              <h4>Mężczyźni</h4>
+              <div class="table-scroll">
+                <table class="data-table" id="table-category-standings-month-m" data-default-sort="category" data-default-dir="asc">
+                  <thead><tr><th data-key="category">Kategoria</th><th data-key="time">Czas</th><th data-key="name">Kto</th><th data-key="date">Data</th></tr></thead>
+                  <tbody></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </details>
+        <details class="record-category-standings record-age-graded" id="age-graded-month">
+          <summary>Klasyfikacja wg współczynnika wieku</summary>
+          <p class="chart-caption" id="age-graded-month-caption"></p>
+          <div class="table-card table-card-nested">
+            <div class="table-scroll">
+              <table class="data-table" id="table-age-graded-month" data-default-sort="coefficient" data-default-dir="desc">
+                <thead><tr>
+                  <th data-key="rank">Msc</th>
+                  <th data-key="name">Uczestnik</th>
+                  <th data-key="category">Kat. wiekowa</th>
+                  <th data-key="time">Czas</th>
+                  <th data-key="coefficient">Wsp. wieku</th>
+                  <th data-key="date">Data rekordu</th>
+                  <th data-key="record_status">Rekord</th>
+                </tr></thead>
+                <tbody></tbody>
+              </table>
+            </div>
+          </div>
+        </details>
       </div>
     </div>
   </section>
@@ -138,6 +268,6 @@
 
 <script src="../../../assets/js/vendor/chart.umd.min.js"></script>
 <script src="../../../assets/js/vendor/chartjs-plugin-annotation.min.js"></script>
-<script src="../../../assets/js/month-report.js"></script>
+<script src="../../../assets/js/month-report.js?v=22"></script>
 </body>
 </html>
