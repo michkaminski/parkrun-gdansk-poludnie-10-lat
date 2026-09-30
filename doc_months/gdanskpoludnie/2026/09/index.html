@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title id="page-title">Raport miesiąca — parkrun</title>
+<meta name="description" content="Comiesięczne statystyki parkrun: edycje, rekordy, kategorie wiekowe, rankingi biegaczy i wolontariuszy.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%85%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../../../assets/css/style.css">
+</head>
+<body data-page="index">
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html">
+      <span class="brand-badge">📅</span>
+      <span id="brand-label">parkrun</span>
+    </a>
+    <nav class="site-nav">
+      <a href="frekwencja.html">Frekwencja</a>
+      <a href="demografia.html">Demografia</a>
+      <a href="hall-of-fame.html">Hall of Fame</a>
+      <a href="wolontariusze.html">Wolontariusze</a>
+      <a href="rekordy.html">Rekordy</a>
+      <a href="historia.html">Historia</a>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Przełącz motyw jasny/ciemny">🌙</button>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="hero-confetti" aria-hidden="true"></div>
+    <div class="container hero-content">
+      <span class="hero-eyebrow" id="hero-eyebrow">…</span>
+      <h1 id="month-title">Statystyki miesiąca</h1>
+      <p class="lede" id="month-subtitle"></p>
+    </div>
+  </section>
+
+  <section class="page-section" id="month-summary">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-kicker">Podsumowanie</span>
+        <h2>Ten miesiąc w liczbach</h2>
+      </div>
+      <div class="kpi-grid" id="month-summary-kpi-grid"></div>
+    </div>
+  </section>
+
+  <section class="page-section" id="hub">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-kicker">Zobacz szczegóły</span>
+        <h2>Pełny raport w sześciu działach</h2>
+      </div>
+      <div class="hub-grid">
+        <a class="hub-card" href="frekwencja.html">
+          <span class="hub-kicker">Frekwencja</span>
+          <h3>Edycje tego miesiąca</h3>
+          <p>Każda edycja z osobna i porównanie z poprzednimi latami.</p>
+          <span class="hub-arrow">Zobacz →</span>
+        </a>
+        <a class="hub-card" href="demografia.html">
+          <span class="hub-kicker">Demografia</span>
+          <h3>Kategorie wiekowe</h3>
+          <p>Ten miesiąc w tym roku i zsumowane po wszystkich latach.</p>
+          <span class="hub-arrow">Zobacz →</span>
+        </a>
+        <a class="hub-card" href="hall-of-fame.html">
+          <span class="hub-kicker">Hall of Fame</span>
+          <h3>Rankingi biegaczy</h3>
+          <p>Komplet edycji, top w roku, top w historii, age-grading.</p>
+          <span class="hub-arrow">Zobacz →</span>
+        </a>
+        <a class="hub-card" href="wolontariusze.html">
+          <span class="hub-kicker">Wolontariusze</span>
+          <h3>Kto pomagał w tym miesiącu</h3>
+          <p>Komplet edycji, top w roku, top w historii.</p>
+          <span class="hub-arrow">Zobacz →</span>
+        </a>
+        <a class="hub-card" href="rekordy.html">
+          <span class="hub-kicker">Rekordy</span>
+          <h3>Czy padł jakiś rekord?</h3>
+          <p>Rekord ogólny, roku, tego miesiąca i kategorii wiekowych.</p>
+          <span class="hub-arrow">Zobacz →</span>
+        </a>
+        <a class="hub-card" href="historia.html">
+          <span class="hub-kicker">Historia</span>
+          <h3>Kontekst lokalizacji</h3>
+          <p>Rok do tego miesiąca, średnia krocząca, statystyki all-time.</p>
+          <span class="hub-arrow">Zobacz →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>Dane pochodzą z publicznych wyników parkrun.pl, zebranych i zagregowanych lokalnie.</p>
+  </div>
+</footer>
+
+<script src="../../../assets/js/vendor/chart.umd.min.js"></script>
+<script src="../../../assets/js/vendor/chartjs-plugin-annotation.min.js"></script>
+<script src="../../../assets/js/month-report.js"></script>
+</body>
+</html>
